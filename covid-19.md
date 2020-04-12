@@ -1,3 +1,8 @@
+---
+layout: page
+title: COVID-19
+---
+
 # COVID-19
 
 ### - [COVID-19 in China](https://fudab.github.io/covid-19/china)
