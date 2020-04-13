@@ -50,7 +50,7 @@
 <center>
  <table class="tg">
   <tr>
-    <th class="tg-cly1"></th>
+    <th class="tg-cly1"><img width="500" src="./figures_us/China_IF.png" ></th>
   </tr>
   <tr>
     <td class="tg-cly1">(a) The nationwide internal-flow ratio in China.</td>
@@ -71,6 +71,8 @@
 </center>
 
 > Figure 2: The internal-flow ratios on three different levels in China. The time period for calculating the first average plateau value is from January 1, 2020 to January 21, 2020 and that for calculating the second value is from February 1, 2020 to February 21, 2020. The percentage in the title of every panel indicates the after-to-before ratio.
+
+
 
 ### Method
 
