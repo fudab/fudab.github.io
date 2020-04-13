@@ -1,8 +1,8 @@
-# Fu Lab
+# Fu Lab <img src="./images/Logo.png" alt="" width="100">
 
-> Mathematical Humanity Lab at Dartmouth College
+> Mathematical Humanity Lab
 
-<img src="./images/Logo.png" alt="" width="200">
+
 
 ## This GitHub page is used to host ongoing projects from the [Fu Lab](https://www.dartmouth.edu/~fengfu/) at [Dartmouth College](https://home.dartmouth.edu).
 
