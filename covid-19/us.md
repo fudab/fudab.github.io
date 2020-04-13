@@ -27,11 +27,13 @@
 #### Data Processing
 
 <p align="center">
-  <img width="800" src="./figures_us/US_rose_2020-04-11.png">
+  <img width="600" src="./figures_us/US_rose_2020-04-11.png">
 </p>
+
 > Figure 1: the state level of reported cases as of April 11, 2020 since the ﬁrst reported case in United States in Jan 21, 2020.
+
 <p align="center">
-  <img width="800" src="./figures_us/US_map.png">
+  <img width="600" src="./figures_us/US_map.png">
 </p>
 
 
