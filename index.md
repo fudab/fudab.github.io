@@ -10,6 +10,6 @@
 
 ### [COVID-19 projects](./covid-19.md)
 
-#### [China](./covid-19/china.md)
+- #### [China](./covid-19/china.md)
 
-#### [US](./covid-19/us.md)
+- #### [US](./covid-19/us.md)
