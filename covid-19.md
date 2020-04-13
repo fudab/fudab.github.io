@@ -3,7 +3,7 @@
 ## COVID-19
 
 <p align="center">
-<img src="./images/covid-19.jpg" alt="" width="200">
+<img src="./images/covid-19.png" alt="" width="400">
 </p>
 
 ### About
