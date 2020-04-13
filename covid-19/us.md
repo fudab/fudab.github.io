@@ -85,14 +85,14 @@ categories: github jekyll
 We consider an SEIR model in a population structure for every state. The systems of ODEs describe the dynnamics in continuous time t, that is, days since the outbreak of the disease:
 
 <div class="math">
- $$
+ \begin{equation}
   \begin{cases}
   \displaystyle \frac{dS_i(t)}{dt} =  -\beta_i(t) S_i(t) \frac{I_i(t)}{N_i}, \\
   \displaystyle \frac{dE_i(t)}{dt} =  \beta_i(t) S_i(t)  \frac{I_i(t)}{N_i} - \sigma_i(t) E_i(t), \\
   \displaystyle \frac{dI_i(t)}{dt} =  \sigma_i(t) E_i(t) - \gamma_i(t) I_i(t), \\
   \displaystyle \frac{dR_i(t)}{dt} =  \gamma_i(t) I_i(t). \\
 \end{cases}
- $$
+ \end{equation}
 </div>
 
 Here, the subscript $i$ refers to the $i$th compartment on the state level (in other words, the $i$th state) and $N_i(t) = S_i(t) + E_i(t) + I_i(t) + R_i(t)$ is the population size of compartment $i$. 
@@ -126,7 +126,7 @@ We turncate the date to `April 5`, which is one week after `March 29`.
 
 To obtain a satisfactory estimation of the epidemic parameters for the $i$th state, we apply the `dual annealing` algorithm to perform a nonlinear least square fitting of the variable $R_i(t)$ and find the global minimum value of the residual. The table below shows an ordered dictionary of all the parameter objects required.
 
-<table align="center" margin-left: auto;margin-right: auto>
+<table align="center">
   <tr>
     <th>name</th>
     <th>initial value</th>
