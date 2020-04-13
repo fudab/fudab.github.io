@@ -1,4 +1,4 @@
-# [Fu Lab](https://fudab.github.io/index.md) <img src="https://fudab.github.io/images/Logo.png" align = "right" alt="" width="50">
+# [Fu Lab](https://fudab.github.io) <img src="https://fudab.github.io/images/Logo.png" align = "right" alt="" width="50">
 ## [COVID-19](https://fudab.github.io/covid-19.md)
 
 ## When and how will the COVID-19 pandemic end in the United States?
