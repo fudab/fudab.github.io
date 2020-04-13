@@ -76,8 +76,8 @@
 
 #### SEIR Model
 We consider an SEIR model in a population structure for every state. The systems of ODEs describe the dynnamics in continuous time t, that is, days since the outbreak of the disease:
-```
+
 $\frac{dS_i(t)}{dt}  =  -\beta_i(t) S_i(t) \frac{I_i(t)}{N_i}$
 
-```
+
 
