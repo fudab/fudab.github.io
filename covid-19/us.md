@@ -49,19 +49,19 @@
 
  <table align="center">
   <tr>
-    <th><img width="700" src="./figures_us/China_IF.png" ></th>
+    <th><img width="800" src="./figures_us/China_IF.png" ></th>
   </tr>
   <tr>
     <td>(a) The nationwide internal-flow ratio in China.</td>
   </tr>
   <tr>
-    <td><img width="700" src="./figures_us/Hubei_IF.png" ></td>
+    <td><img width="800" src="./figures_us/Hubei_IF.png" ></td>
   </tr>
   <tr>
     <td>(b) The province level internal-flow ratio in Hubei Province.</td>
   </tr>
   <tr>
-    <td><img width="700" src="./figures_us/Wuhan_IF.png" ></td>
+    <td><img width="800" src="./figures_us/Wuhan_IF.png" ></td>
   </tr>
   <tr>
     <td>(c) The city level inter-flow ratio in Wuhan City.</td>
@@ -80,11 +80,11 @@ We consider an SEIR model in a population structure for every state. The systems
 
 <div class="math">
 \begin{equation}
-  \int_0^\infty \frac{x^3}{e^x-1}\,dx = \frac{\pi^4}{15}  
+  \begin{cases}
+  \displaystyle \frac{dS_i(t)}{dt} =  -\beta_i(t) S_i(t) \frac{I_i(t)}{N_i}, \\
+  \displaystyle \frac{dE_i(t)}{dt} =  \beta_i(t) S_i(t)  \frac{I_i(t)}{N_i} - \sigma_i(t) E_i(t), \\
+  \displaystyle \frac{dI_i(t)}{dt} =  \sigma_i(t) E_i(t) - \gamma_i(t) I_i(t), \\
+  \displaystyle \frac{dR_i(t)}{dt} =  \gamma_i(t) I_i(t). \\
+\end{cases}
 \end{equation}
 </div>
-
-$$\frac{dS_i(t)}{dt} =  -\beta_i(t) S_i(t) \frac{I_i(t)}{N_i};$$
-$$\frac{dE_i(t)}{dt} =  \beta_i(t) S_i(t)  \frac{I_i(t)}{N_i} - \sigma_i(t) E_i(t);$$
-$$\frac{dI_i(t)}{dt} =  \sigma_i(t) E_i(t) - \gamma_i(t) I_i(t);$$
-$$\frac{dR_i(t)}{dt} =  \gamma_i(t) I_i(t).$$
