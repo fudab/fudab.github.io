@@ -2,8 +2,8 @@
 
 ## COVID-19
 
-<p align="center">
-<img src="./images/covid-19.png" alt="" width="400">
+<p align="left">
+<img src="./images/covid-19.png" alt="" width="200">
 </p>
 
 ### About
