@@ -101,3 +101,23 @@ In general, all three parameters can be time dependent, due to containment effor
 \end{equation}
 </div>
 
+#### Exponential and Power Growth
+
+Apart from the above compartmental model, we also experiment with two popular curve fitting models: exponential and power growth. For these kind of least square regression methods, we restrict ourselves to the national cases and start the fitting from `March 9` (a week before the first breaking point chosen above) to fix the error in the early states of testing in every state.
+
+More concretely, we assume that the general expressions are:
+<div class="math">
+\begin{equation}
+ f(t) = ae^{bt} + c, \qquad f(t) = at^b + c,
+\end{equation}
+ </div>
+
+### Parameter Estimation
+
+To obtain a satisfactory estimation of the epidemic parameters for the $i$th state, we apply the `dual annealing` algorithm to perform a nonlinear least square fitting of the variable $R_i(t)$ and find the global minimum value of the residual. The table below shows an ordered dictionary of all the parameter objects required.
+
+
+
+
+
+
