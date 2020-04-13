@@ -89,3 +89,15 @@ We consider an SEIR model in a population structure for every state. The systems
 
 Here, the subscript $i$ refers to the $i$th compartment on the state level (in other words, the $i$th state) and $N_i(t) = S_i(t) + E_i(t) + I_i(t) + R_i(t)$ is the population size of compartment $i$. 
 
+In general, all three parameters can be time dependent, due to containment efforts (social distancing). Since time $t$ is discrete in practice, we treat these parameters as piecewise functions, of which every piece is a constant. To simplify the problem, we only pick two important dates as breaking points of the piecewise functions: `March 15` (since when quarantine was executed) and `March 29` (2 weeks after March 15 and since when more severe actions were taken). As a result, the function $\beta_i(t)$ is split into three piece, same for $\sigma_i(t)$ and $\gamma_i(t)$:
+
+<div class="math">
+\begin{equation}
+  \begin{cases}
+  \displaystyle \beta_{i1}, & \text{before and on March 15} \\
+  \displaystyle \beta_{i2}, & \text{from March 16 to March 29} \\
+  \displaystyle \beta_{i3}. &  \text{after and on March 30} \\
+\end{cases}
+\end{equation}
+</div>
+
