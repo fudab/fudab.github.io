@@ -1,4 +1,4 @@
-# Fu Lab <img src="./images/Logo.png" alt="" width="100">
+# Fu Lab <img src="./images/Logo.png" alt="" width="50">
 
 > Mathematical Humanity Lab
 
