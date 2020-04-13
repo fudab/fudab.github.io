@@ -33,8 +33,8 @@ Figure 1 (a): the state level of reported cases as of April 11, 2020 since the ï
 
 <table class="tg">
   <tr>
-    <th class="tg-0lax"></th>
-    <th class="tg-0lax"></th>
+    <th class="tg-0lax"><img height="300" src="./figures_us/US_rose_2020-04-11.png" > </th>
+    <th class="tg-0lax"><img height="300" src="./figures_us/US_map.png" ></th>
   </tr>
   <tr>
     <td class="tg-0lax">Fig: 1a</td>
