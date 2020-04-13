@@ -13,8 +13,17 @@
 
 ## Projects
 
+### Future
+
 ### Current
 
 #### - [Effectiveness of Massive Travel Restrictions on Mitigating Outbreaks of COVID-19 in China.](https://fudab.github.io/covid-19/china)
 
 #### - [When and how will the COVID-19 pandemic end in the United States?](https://fudab.github.io/covid-19/us)
+
+## Galleries
+
+### China
+### US
+
+
