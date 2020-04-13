@@ -27,5 +27,6 @@
   
 #### Data Processing
 
+<img src="https://fudab.github.io/covid-19/figures_us/US_conf.pdf" align = "right" alt="" width="800">
 
 
