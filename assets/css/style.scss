@@ -6,20 +6,3 @@
 header {
   display: none;
 }
-
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:5px;}
-.tg td{padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg th{padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-cly1{text-align:left;vertical-align:middle}
-</style>
-.box {
-    width:300px;
-    height:300px;
-    background-color:#d9d9d9;
-    position:fixed;
-    margin-left:-150px; /* half of width */
-    margin-top:-150px;  /* half of height */
-    top:50%;
-    left:50%;
-}
