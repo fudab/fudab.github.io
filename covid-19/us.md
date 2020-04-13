@@ -26,6 +26,12 @@
   
 #### Data Processing
 
+<div id="fig:subfigures" class="subfigures" data-caption="Caption for figure">
+![Caption for subfigure (a).](./figures_us/US_rose_2020-04-11.png)
+
+![Caption for subfigure (b).](/figures_us/US_map.pngg)
+</div>
+
 <img height="355" src="./figures_us/US_rose_2020-04-11.png" align = "left">
 
 <img height="355" src="./figures_us/US_map.png" align = "right">
