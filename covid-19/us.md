@@ -228,7 +228,26 @@ We can compare the SEIR model with the least square regression methods.
 
 We first work on four discrete threshold values of contact rate reduction: `100% (status quo)`, `50%`, `25%` and `0 (complete lockdown)`.
 
-
+<table align="center">
+  <tr>
+    <th><img width="300" src="./figures_us/US_map_status_quo_0405.png"></th>
+    <th>img width="300" src="./figures_us/US_map_weak_0405.png"></th>
+  </tr>
+  <tr>
+    <td>(a) Status quo contact rate as a result of social distancing.</td>
+    <td>(b) 25% reduction.</td>
+  </tr>
+  <tr>
+    <td align="center">img width="300" src="./figures_us/US_map_moderate_0405.png"></td>
+    <td align="center">img width="300" src="./figures_us/US_map_strong_0405.png"></td>
+  </tr>
+  <tr>
+    <td>(c) 50% reduction.</td>
+    <td>(d) zero contract.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Figure 4: The spatiotemporal spread of predicted COVID-19 with different scenarios of contact reductions due to control measures instituted in each State and by the federal government</td>
+  </tr>
 
 #### Discrete variation
 
