@@ -50,9 +50,9 @@
 
 
 
- <table width="80%" style="margin: 0 auto; border:1px solid;text-align:center">
+ <table align="center">
   <tr>
-    <t ><img width="700" src="./figures_us/China_IF.png" ></th>
+    <th><img width="700" src="./figures_us/China_IF.png" ></th>
   </tr>
   <tr>
     <td>(a) The nationwide internal-flow ratio in China.</td>
