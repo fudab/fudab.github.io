@@ -7,11 +7,13 @@
 </p>
 
 ## About
-> An outbreak of respiratory illness caused by a novel (new) coronavirus was first identified in Wuhan, Hubei Province, China. > Cases of COVID-19 also are being reported in a growing number of countries internationally, including the United States. > There are ongoing investigations to learn more.
+> An outbreak of respiratory illness caused by a novel (new) coronavirus. 
+> Massive travel restrictions.
+> Ongoing investigations.
 
 ## Projects
 
-### Ongoing
+### Current
 
 #### - [Effectiveness of Massive Travel Restrictions on Mitigating Outbreaks of COVID-19 in China.](./covid-19/china.md)
 
