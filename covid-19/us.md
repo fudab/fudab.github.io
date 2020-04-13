@@ -26,19 +26,14 @@
   
 #### Data Processing
 
-<img height="300" src="./figures_us/US_rose_2020-04-11.png" > | <img height="300" src="./figures_us/US_map.png" >
---- | --- 
-Figure 1 (a): the state level of reported cases as of April 11, 2020 since the ﬁrst reported case in United States in Jan 21, 2020. | Figure 1 (b): the spacial spread of COVID-19 by April 11, 2020. The number of infected is displayed on a logarithmic scale.
-
-
 <table class="tg">
   <tr>
-    <th class="tg-0lax"><img height="300" src="./figures_us/US_rose_2020-04-11.png" > </th>
-    <th class="tg-0lax"><img height="300" src="./figures_us/US_map.png" ></th>
+    <th class="tg-0lax"><img height="350" src="./figures_us/US_rose_2020-04-11.png" > </th>
+    <th class="tg-0lax"><img height="350" src="./figures_us/US_map.png" ></th>
   </tr>
   <tr>
-    <td class="tg-0lax">Fig: 1a</td>
-    <td class="tg-0lax">Fig: 1b</td>
+    <td class="tg-0lax">Figure 1 (a): the state level of reported cases as of April 11, 2020 since the ﬁrst reported case in United States in Jan 21, 2020.</td>
+    <td class="tg-0lax">Figure 1 (b): the spacial spread of COVID-19 by April 11, 2020. The number of infected is displayed on a logarithmic scale.</td>
   </tr>
   <tr>
     <td class="tg-0lax" colspan="2"></td>
