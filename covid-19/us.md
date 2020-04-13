@@ -1,5 +1,5 @@
 # [Fu Lab](https://fudab.github.io) <img src="https://fudab.github.io/images/Logo.png" align = "right" alt="" width="50">
-## [COVID-19](https://fudab.github.io/covid-19.md)
+## [COVID-19](https://fudab.github.io/covid-19.html)
 
 ## When and how will the COVID-19 pandemic end in the United States?
 ### Xingru Chen and Feng Fu
@@ -39,7 +39,7 @@
   </tr>
   <tr>
     <td class="tg-cly1">(b) The spacial spread of COVID-19 by April 12, 2020. The number of infected is displayed on a logarithmic scale.</td>
-    <td class="tg-cly1">(c) The state level growth of confirmed cases. The curve in a panel repre- sents the number of cumulative infected people in the state and the histogram indicates the number of new infected people everyday.</td>
+    <td class="tg-cly1">(c) The state level growth of confirmed cases. The curve in a panel represents the number of cumulative infected people in the state and the histogram indicates the number of new infected people everyday.</td>
   </tr>
   <tr>
     <td colspan="2">Figure 1: Summary of the COVID-19 information by April 12, 2020. The color code in (a) and (c) corresponds to the partisan voting index (PVI) by each state.</td>
@@ -188,7 +188,33 @@ To obtain a satisfactory estimation of the epidemic parameters for the $i$th sta
   </tr>
 </table>
 
-Meanwhile, we can compare the SEIR model with the least square regression methods. 
+After obtaining the prior estimation of the parameters for every province, we can further calculate the covariance matrix $\text{cov}(\hat{x})$ and therefore an error bar of the fitting. The covariance matrix contains complete information about the uncertainty of the parameter estimators. The method we apply here to obtain it is to use a linear approximation method through estimation of the Jacobian matrix $F$ of the parameter estimation problem:
+
+<div class="math">
+\begin{equation}
+ \text{cov}(\hat{x}) = s^2(F'F)^{-1}, \qquad \text{with}\, F = \left. \frac{\partial f(x)}{\partial x}\right|_{x = \hat{x}}.
+\end{equation}
+</div>
+Here $s^2$ is the unbiased estimation of the variance $\sigma^2$ obtained from the residuals of the parameter estimation:
+<div class="math">
+\begin{equation}
+ s^2 = \frac{S_\text{min}(r, \hat{x})}{(n - p)N},
+\end{equation}
+</div>
+where $n$ is the total number of measurements, $p$ is the number of estimated parameters, $n - p$ is the degrees of freedom, and $N$ is the size of the population. Meanwhile, $S_\text{min}(r, \hat{x}) = \displaystyle\sum(r - R(\hat{x}))$ is just the minimum objective function value.
+
+To obtain an error bar, we apply the Monte Carlo sampling method to generate a sample set of parameters, feed them into the ODE equations and produce enough outputs where we choose the '0.005' and the '0.995' quantiles as the lower and upper bound.
+
+<table>
+  <tr>
+    <th></th>
+  </tr>
+  <tr>
+    <td></td>
+  </tr>
+</table>
+
+We can compare the SEIR model with the least square regression methods. 
 <table align="center">
   <tr>
     <th align="center"><img width="600" src="./figures_us/US_R_fitting_0405.png"></th>
@@ -205,6 +231,8 @@ We first work on four discrete threshold values of contact rate reduction: `100%
 
 
 #### Discrete variation
+
+
 
 #### Continuous variation
 
