@@ -3,7 +3,7 @@
 
 ## When and how will the COVID-19 pandemic end in the United States?
 ### Xingru Chen and Feng Fu
-#### `12 April 2020`
+#### `April 11, 2020`
 #### `This report provides preliminary results and is work in progress`
 
 ### Abstract
@@ -27,7 +27,11 @@
 #### Data Processing
 
 <p align="center">
-  <img width="800" src="./figures_us/US_conf.png">
+  <img width="800" src="./figures_us/US_rose_2020-04-11.png">
+</p>
+> Figure 1: the state level of reported cases as of April 11, 2020 since the ﬁrst reported case in United States in Jan 21, 2020.
+<p align="center">
+  <img width="800" src="./figures_us/US_map.png">
 </p>
 
 
