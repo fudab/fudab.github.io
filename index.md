@@ -6,6 +6,3 @@
 
 ### [COVID-19 projects](https://fudab.github.io/covid-19)
 
-- #### [China](https://fudab.github.io/covid-19/china)
-
-- #### [US](https://fudab.github.io/covid-19/us)
