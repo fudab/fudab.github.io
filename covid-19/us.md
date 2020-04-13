@@ -231,18 +231,18 @@ We first work on four discrete threshold values of contact rate reduction: `100%
 <table align="center">
   <tr>
     <th><img width="300" src="./figures_us/US_map_status_quo_0405.png"></th>
-    <th>img width="300" src="./figures_us/US_map_weak_0405.png"></th>
+    <th><img width="300" src="./figures_us/US_map_weak_0405.png"></th>
   </tr>
   <tr>
     <td>(a) Status quo contact rate as a result of social distancing.</td>
-    <td>(b) 25% reduction.</td>
+    <td>(b) 50% reduction.</td>
   </tr>
   <tr>
-    <td align="center">img width="300" src="./figures_us/US_map_moderate_0405.png"></td>
-    <td align="center">img width="300" src="./figures_us/US_map_strong_0405.png"></td>
+    <td align="center"><img width="300" src="./figures_us/US_map_moderate_0405.png"></td>
+    <td align="center"><img width="300" src="./figures_us/US_map_strong_0405.png"></td>
   </tr>
   <tr>
-    <td>(c) 50% reduction.</td>
+    <td>(c) 75% reduction.</td>
     <td>(d) zero contract.</td>
   </tr>
   <tr>
