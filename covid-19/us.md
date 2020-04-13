@@ -1,4 +1,4 @@
-# [Fu Lab](./index.md) <img src="./images/Logo.png" align = "right" alt="" width="50">
+# [Fu Lab](https://fudab.github.io/index.md) <img src="https://fudab.github.io/images/Logo.png" align = "right" alt="" width="50">
 
 ## COVID-19
 
