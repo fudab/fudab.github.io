@@ -50,19 +50,19 @@
 
  <table align="center">
   <tr>
-    <th align="center"><img width="850" src="./figures_us/China_IF.png" ></th>
+    <th align="center"><img width="700" src="./figures_us/China_IF.png" ></th>
   </tr>
   <tr>
     <td>(a) The nationwide internal-flow ratio in China.</td>
   </tr>
   <tr>
-    <td align="center"><img width="850" src="./figures_us/Hubei_IF.png" ></td>
+    <td align="center"><img width="700" src="./figures_us/Hubei_IF.png" ></td>
   </tr>
   <tr>
     <td>(b) The province level internal-flow ratio in Hubei Province.</td>
   </tr>
   <tr>
-    <td align="center"><img width="850" src="./figures_us/Wuhan_IF.png" ></td>
+    <td align="center"><img width="700" src="./figures_us/Wuhan_IF.png" ></td>
   </tr>
   <tr>
     <td>(c) The city level inter-flow ratio in Wuhan City.</td>
@@ -189,11 +189,14 @@ To obtain a satisfactory estimation of the epidemic parameters for the $i$th sta
 </table>
 
 Meanwhile, we can compare the SEIR model with the least square regression methods. 
-
-<p align="center">
-  <img width="600" src="./figures_us/US_R_fitting_0405.png">
-</p>
-> Figure 3: All three fitting models: SEIR, exponential growth and power growth.
+<table align="center">
+  <tr>
+    <th align="center"><img width="600" src="./figures_us/US_R_fitting_0405.png"></th>
+  </tr>
+  <tr>
+    <td>Figure 3: All three fitting models: SEIR, exponential growth and power growth.</td>
+  </tr>
+</table>
 
 ### Discussion on Contact Rate
 
