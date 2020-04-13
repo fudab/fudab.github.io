@@ -2,7 +2,9 @@
 
 ## COVID-19
 
-<img src="./images/covid-19.jpg" align = "center" alt="" width="200">
+<p align="center">
+<img src="./images/covid-19.jpg" alt="" width="200">
+</p>
 
 ### About
 > 
