@@ -194,11 +194,15 @@ Meanwhile, we can compare the SEIR model with the least square regression method
     <th align="center"><img width="600" src="./figures_us/US_R_fitting_0405.png"></th>
   </tr>
   <tr>
-    <td>Figure 3: All three fitting models: SEIR, exponential growth and power growth.</td>
+    <td>Figure 3: All three models: SEIR, exponential growth and power growth. Scatters indicate the actual number of infected people and the curves are the corresponding results of least square fitting.</td>
   </tr>
 </table>
 
 ### Discussion on Contact Rate
+
+We first work on four discrete threshold values of contact rate reduction: `100% (status quo)`, `50%`, `25%` and `0 (complete lockdown)`.
+
+
 
 #### Discrete variation
 
