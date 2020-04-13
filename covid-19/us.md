@@ -38,8 +38,8 @@
     <td class="tg-cly1"><img width="300" src="./figures_us/US_map.png" ></td>
   </tr>
   <tr>
-    <td class="tg-cly1">fFigure 1 (b): the spacial spread of COVID-19 by April 12, 2020. The number of infected is displayed on a logarithmic scale.</td>
-    <td class="tg-cly1">Fig: 1 (c): The state level growth of confirmed cases. The curve in a panel repre- sents the number of cumulative infected people in the state and the histogram indicates the number of new infected people everyday.</td>
+    <td class="tg-cly1">Figure 1 (b): the spacial spread of COVID-19 by April 12, 2020. The number of infected is displayed on a logarithmic scale.</td>
+    <td class="tg-cly1">Figure 1 (c): The state level growth of confirmed cases. The curve in a panel repre- sents the number of cumulative infected people in the state and the histogram indicates the number of new infected people everyday.</td>
   </tr>
  </table>
 </center>
