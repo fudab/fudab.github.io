@@ -26,10 +26,13 @@
   
 #### Data Processing
 
-<div id="fig:subfigures" class="subfigures" data-caption="Caption for figure">
-![Caption for subfigure (a).](./figures_us/US_rose_2020-04-11.png)
+<div id="fig:summary">
+![Cool horse](./figures_us/US_rose_2020-04-11.png){width=50%}
 
-![Caption for subfigure (b).](/figures_us/US_map.pngg)
+![Book horse](./figures_us/US_map.png){width=30%}\hfill
+![Pink horse](./figures_us/US_map.png){width=30%}
+
+Look at my tiny horses!
 </div>
 
 <img height="355" src="./figures_us/US_rose_2020-04-11.png" align = "left">
