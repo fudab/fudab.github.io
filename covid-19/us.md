@@ -44,6 +44,29 @@
 </table>
 </center>
 
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-cly1{text-align:left;vertical-align:middle}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-cly1"><th class="tg-baqh"><img height="350" src="./figures_us/US_rose_2020-04-12.png" ></th>
+    <th class="tg-cly1" rowspan="2"></th>
+  </tr>
+  <tr>
+    <td class="tg-cly1">fig 1 (a)</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"></td>
+    <td class="tg-cly1" rowspan="2">fig 1 (c)</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">fig 1 (b)</td>
+  </tr>
+</table>
+
 > Figure 1: summary of the COVID-19 information by April 11, 2020. The color code in (a) and (c) corresponds to the partisan voting index (PVI) by each state.
 
 
