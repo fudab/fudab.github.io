@@ -26,9 +26,9 @@
   
 #### Data Processing
 
-![look at me](./figures_us/US_rose_2020-04-11.png){#sealA width=50%}\
-![and also me](./figures_us/US_rose_2020-04-11.png){#sealB width=30%}
-![](./figures_us/US_rose_2020-04-11.png){#sealC width=same}
+<img height="200" src="./figures_us/US_rose_2020-04-11.png" > | <img height="200" src="./figures_us/US_map.png" >
+--- | --- 
+Figure 1: the state level of reported cases as of April 11, 2020 since the ﬁrst reported case in United States in Jan 21, 2020. | Figure 1: the state level of reported cases as of April 11, 2020 since the ﬁrst reported case in United States in Jan 21, 2020.
 
 <img height="355" src="./figures_us/US_rose_2020-04-11.png" align = "left">
 
