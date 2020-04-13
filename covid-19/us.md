@@ -50,7 +50,7 @@
 
 
 
- <table class="tg" align-self: center>
+ <table width="80%" style="margin: 0 auto; border:1px solid;text-align:center">
   <tr>
     <th class="tg-cly1"><img width="700" src="./figures_us/China_IF.png" ></th>
   </tr>
