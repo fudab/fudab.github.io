@@ -25,24 +25,6 @@
   * census: [China Census Bureau](http://www.chamiji.com)
   
 #### Data Processing
-<center>
-<table class="tg">
-  <tr>
-    <th class="tg-baqh"><img height="350" src="./figures_us/US_rose_2020-04-12.png" ></th>
-    <th class="tg-baqh"><img height="350" src="./figures_us/US_map.png" ></th>
-  </tr>
-  <tr>
-    <td class="tg-0lax">Figure 1 (a): the state level of reported cases as of April 12, 2020 since the ﬁrst reported case in United States in Jan 21, 2020.</td>
-    <td class="tg-0lax">Figure 1 (b): the spacial spread of COVID-19 by April 12, 2020. The number of infected is displayed on a logarithmic scale.</td>
-  </tr>
-  <tr>
-    <td class="tg-baqh" colspan="2"><img height="600" src="./figures_us/US_conf.png" ></td>
-  </tr>
-  <tr>
-    <td class="tg-0lax" colspan="2">Fig: 1 (c): The state level growth of confirmed cases. The curve in a panel repre- sents the number of cumulative infected people in the state and the histogram indicates the number of new infected people everyday. </td>
-  </tr>
-</table>
-</center>
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -50,22 +32,24 @@
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg .tg-cly1{text-align:left;vertical-align:middle}
 </style>
+<center>
 <table class="tg">
   <tr>
-    <th class="tg-cly1"><img height="350" src="./figures_us/US_rose_2020-04-12.png" ></th>
+    <th class="tg-cly1"><img height="300" src="./figures_us/US_rose_2020-04-12.png" ></th>
     <th class="tg-cly1" rowspan="2"><img height="600" src="./figures_us/US_conf.png" ></th>
   </tr>
   <tr>
-    <td class="tg-cly1">fig 1 (a)</td>
+    <td class="tg-cly1">Figure 1 (a): the state level of reported cases as of April 12, 2020 since the ﬁrst reported case in United States in Jan 21, 2020.</td>
   </tr>
   <tr>
-    <td class="tg-cly1"><img height="350" src="./figures_us/US_map.png" ></td>
-    <td class="tg-cly1" rowspan="2">fig 1 (c)</td>
+    <td class="tg-cly1"><img height="300" src="./figures_us/US_map.png" ></td>
+    <td class="tg-cly1" rowspan="2">Fig: 1 (c): The state level growth of confirmed cases. The curve in a panel repre- sents the number of cumulative infected people in the state and the histogram indicates the number of new infected people everyday. </td>
   </tr>
   <tr>
-    <td class="tg-cly1">fig 1 (b)</td>
+    <td class="tg-cly1">Figure 1 (b): the spacial spread of COVID-19 by April 12, 2020. The number of infected is displayed on a logarithmic scale.</td>
   </tr>
 </table>
+<\center>
 
 > Figure 1: summary of the COVID-19 information by April 11, 2020. The color code in (a) and (c) corresponds to the partisan voting index (PVI) by each state.
 
