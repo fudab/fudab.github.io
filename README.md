@@ -1,8 +1,11 @@
 # fudab.github.io
+<p align = "center" >
+<img src="./images/undraw_hacker_mind_6y85.png" alt="" width="800">
+</p>
 
 # [Link to the Github Pages site of Fu Lab](https://fudab.github.io) <img src="./images/Logo.png" align = "right" alt="" width="50">
 
-<img src="./images/undraw_hacker_mind_6y85.png" align = "center" alt="" width="800">
+
 
 > Mathematical Humanity Lab
 
