@@ -1,6 +1,6 @@
 # fudab.github.io
 <p align = "center" >
-<img src="./images/undraw_hacker_mind_6y85.png" alt="" width="800">
+<img src="./images/undraw_status_update_jjgk.png" alt="" width="800">
 </p>
 
 # [Link to the Github Pages site of Fu Lab](https://fudab.github.io) <img src="./images/Logo.png" align = "right" alt="" width="50">
