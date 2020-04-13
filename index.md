@@ -1,6 +1,6 @@
 # Fu Lab
 
-![Image of Logo](./images/Logo.png)
+![Image of Logo](./images/Logo.png | width = 100)
 
 ## This GitHub page is used to host ongoing projects from the [Fu Lab](https://www.dartmouth.edu/~fengfu/) at [Dartmouth College](https://home.dartmouth.edu).
 
