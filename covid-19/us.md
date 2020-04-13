@@ -26,16 +26,11 @@
   
 #### Data Processing
 
-<img height="200" src="./figures_us/US_rose_2020-04-11.png" > | <img height="200" src="./figures_us/US_map.png" >
+<img height="300" src="./figures_us/US_rose_2020-04-11.png" > | <img height="300" src="./figures_us/US_map.png" >
 --- | --- 
-Figure 1: the state level of reported cases as of April 11, 2020 since the ﬁrst reported case in United States in Jan 21, 2020. | Figure 1: the state level of reported cases as of April 11, 2020 since the ﬁrst reported case in United States in Jan 21, 2020.
+Figure 1 (a): the state level of reported cases as of April 11, 2020 since the ﬁrst reported case in United States in Jan 21, 2020. | Figure 1 (b): the spacial spread of COVID-19 by April 11, 2020. The number of infected is displayed on a logarithmic scale.
 
-<img height="355" src="./figures_us/US_rose_2020-04-11.png" align = "left">
-
-<img height="355" src="./figures_us/US_map.png" align = "right">
-
-
-> Figure 1: the state level of reported cases as of April 11, 2020 since the ﬁrst reported case in United States in Jan 21, 2020.
+> Figure 1: summary of the COVID-19 information by April 11, 2020.
 
 
 
