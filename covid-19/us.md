@@ -116,7 +116,7 @@ More concretely, we assume that the general expressions are:
 
 To obtain a satisfactory estimation of the epidemic parameters for the $i$th state, we apply the `dual annealing` algorithm to perform a nonlinear least square fitting of the variable $R_i(t)$ and find the global minimum value of the residual. The table below shows an ordered dictionary of all the parameter objects required.
 
-<table align="center">
+<table align="center" margin-left: auto;margin-right: auto>
   <tr>
     <th>name</th>
     <th>initial value</th>
@@ -125,56 +125,56 @@ To obtain a satisfactory estimation of the epidemic parameters for the $i$th sta
     <th>expression</th>
   </tr>
   <tr>
-    <td>$N_i$</td>
+    <td align="center">$N_i$</td>
     <td align="center">$n_i$</td>
     <td align="center"></td>
     <td align="center"></td>
     <td align="center"></td>
   </tr>
   <tr>
-    <td>$S_i(0)$</td>
+    <td align="center">$S_i(0)$</td>
     <td align="center"></td>
     <td align="center"></td>
     <td align="center"></td>
     <td align="center">$N_i - E_i(0) - I_i(0) - R_i(0)$</td>
   </tr>
   <tr>
-    <td>$E_i(0)$</td>
+    <td align="center">$E_i(0)$</td>
     <td align="center">50</td>
     <td align="center">0</td>
     <td align="center">1000</td>
     <td align="center"></td>
   </tr>
   <tr>
-    <td>$I_i(0)$</td>
+    <td align="center">$I_i(0)$</td>
     <td align="center">50</td>
     <td align="center">0</td>
     <td align="center">500</td>
     <td align="center"></td>
   </tr>
   <tr>
-    <td>$R_i(0)$</td>
+    <td align="center">$R_i(0)$</td>
     <td align="center">0</td>
     <td align="center">0</td>
     <td align="center">100</td>
     <td align="center"></td>
   </tr>
   <tr>
-    <td>$\beta_{ij}$</td>
+    <td align="center">$\beta_{ij}$</td>
     <td align="center">0.5</td>
     <td align="center">0.01</td>
     <td align="center">3</td>
     <td align="center"></td>
   </tr>
   <tr>
-    <td>$\sigma_{ij}$</td>
+    <td align="center">$\sigma_{ij}$</td>
     <td align="center">0.5</td>
     <td align="center">0.02</td>
     <td align="center">1</td>
     <td align="center"></td>
   </tr>
   <tr>
-    <td>$\gamma_{ij}$</td>
+    <td align="center">$\gamma_{ij}$</td>
     <td align="center">0.5</td>
     <td align="center">0.02</td>
     <td align="center">1</td>
