@@ -1,5 +1,4 @@
 # [Fu Lab](https://fudab.github.io/index.md) <img src="https://fudab.github.io/images/Logo.png" align = "right" alt="" width="50">
-
 ## [COVID-19](https://fudab.github.io/covid-19.md)
 
 ## When and how will the COVID-19 pandemic end in the United States?
@@ -27,6 +26,6 @@
   
 #### Data Processing
 
-<img src="./figures_us/US_conf.pdf" align = "left" alt="" width="800">
+<img src="./figures_us/US_conf.eps" align = "left" alt="" width="800">
 
 
