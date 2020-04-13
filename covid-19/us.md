@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="https://fudab.github.io/asset/css/style.css">
+<link rel="stylesheet" href="https://fudab.github.io/assets/css/style.css">
 
 # [Fu Lab](https://fudab.github.io) <img src="https://fudab.github.io/images/Logo.png" align = "right" alt="" width="50">
 ## [COVID-19](https://fudab.github.io/covid-19.md)
@@ -50,7 +50,7 @@
 
 
 
- <table align="center">
+ <table class="tg" align="center">
   <tr>
     <th><img width="700" src="./figures_us/China_IF.png" ></th>
   </tr>
