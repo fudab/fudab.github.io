@@ -30,6 +30,28 @@
 --- | --- 
 Figure 1 (a): the state level of reported cases as of April 11, 2020 since the ﬁrst reported case in United States in Jan 21, 2020. | Figure 1 (b): the spacial spread of COVID-19 by April 11, 2020. The number of infected is displayed on a logarithmic scale.
 
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border:none;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-0lax"></th>
+    <th class="tg-0lax"></th>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Fig: 1a</td>
+    <td class="tg-0lax">Fig: 1b</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax" colspan="2"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax" colspan="2">Fig: 1c</td>
+  </tr>
+</table>
+
 > Figure 1: summary of the COVID-19 information by April 11, 2020.
 
 
