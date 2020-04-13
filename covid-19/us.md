@@ -116,7 +116,71 @@ More concretely, we assume that the general expressions are:
 
 To obtain a satisfactory estimation of the epidemic parameters for the $i$th state, we apply the `dual annealing` algorithm to perform a nonlinear least square fitting of the variable $R_i(t)$ and find the global minimum value of the residual. The table below shows an ordered dictionary of all the parameter objects required.
 
-
+<table align="center">
+  <tr>
+    <th>name</th>
+    <th>initial value</th>
+    <th>lower bound</th>
+    <th>upper bound</th>
+    <th>expression</th>
+  </tr>
+  <tr>
+    <td>$N_i$</td>
+    <td>$n_i$</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>$S_i(0)$</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>$N_i - E_i(0) - I_i(0) - R_i(0)$</td>
+  </tr>
+  <tr>
+    <td>$E_i(0)$</td>
+    <td>50</td>
+    <td>0</td>
+    <td>1000</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>$I_i(0)$</td>
+    <td>50</td>
+    <td>0</td>
+    <td>500</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>$R_i(0)$</td>
+    <td>0</td>
+    <td>0</td>
+    <td>100</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>$\beta_{ij}$</td>
+    <td>0.5</td>
+    <td>0.01</td>
+    <td>3</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>$\sigma_{ij}$</td>
+    <td>0.5</td>
+    <td>0.02</td>
+    <td>1</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>$\gamma_{ij}$</td>
+    <td>0.5</td>
+    <td>0.02</td>
+    <td>1</td>
+    <td></td>
+  </tr>
+</table>
 
 
 
