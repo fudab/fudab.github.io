@@ -28,23 +28,26 @@
 <center>
  <table class="tg">
   <tr>
-    <th class="tg-cly1"><img width="300" src="./figures_us/US_rose_2020-04-12.png" ></th>
-    <th class="tg-cly1" rowspan="3"><img width="400" src="./figures_us/US_conf.png" ></th>
+    <th align="center"><img width="300" src="./figures_us/US_rose_2020-04-12.png" ></th>
+    <th align="center" rowspan="3"><img width="400" src="./figures_us/US_conf.png" ></th>
   </tr>
   <tr>
     <td class="tg-cly1">(a) The state level of reported cases as of April 12, 2020 since the ﬁrst reported case in United States in Jan 21, 2020.</td>
   </tr>
   <tr>
-    <td class="tg-cly1"><img width="300" src="./figures_us/US_map.png" ></td>
+    <td align="center"><img width="300" src="./figures_us/US_map.png" ></td>
   </tr>
   <tr>
     <td class="tg-cly1">(b) The spacial spread of COVID-19 by April 12, 2020. The number of infected is displayed on a logarithmic scale.</td>
     <td class="tg-cly1">(c) The state level growth of confirmed cases. The curve in a panel repre- sents the number of cumulative infected people in the state and the histogram indicates the number of new infected people everyday.</td>
   </tr>
+  <tr>
+    <td colspan="2">Figure 1: Summary of the COVID-19 information by April 12, 2020. The color code in (a) and (c) corresponds to the partisan voting index (PVI) by each state.</td>
+  </tr>
  </table>
 </center>
 
-> Figure 1: Summary of the COVID-19 information by April 12, 2020. The color code in (a) and (c) corresponds to the partisan voting index (PVI) by each state.
+Figure 1: Summary of the COVID-19 information by April 12, 2020. The color code in (a) and (c) corresponds to the partisan voting index (PVI) by each state.
 
 
  <table align="center">
