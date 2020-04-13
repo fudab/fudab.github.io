@@ -47,8 +47,7 @@
 > Figure 1: Summary of the COVID-19 information by April 12, 2020. The color code in (a) and (c) corresponds to the partisan voting index (PVI) by each state.
 
 
-
- <table class="center" align="center">
+ <table align="center">
   <tr>
     <th><img width="700" src="./figures_us/China_IF.png" ></th>
   </tr>
