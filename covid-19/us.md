@@ -77,7 +77,7 @@
 #### SEIR Model
 We consider an SEIR model in a population structure for every state. The systems of ODEs describe the dynnamics in continuous time t, that is, days since the outbreak of the disease:
 
-$$\frac{dS_i(t)}{dt} & =  -\beta_i(t) S_i(t) \frac{I_i(t)}{N_i};$$
+$$\frac{dS_i(t)}{dt} =  -\beta_i(t) S_i(t) \frac{I_i(t)}{N_i};$$
 <center>
 <img src="https://latex.codecogs.com/gif.latex?\begin{aligned}&space;\frac{dS_i(t)}{dt}&space;&&space;=&space;-\beta_i(t)&space;S_i(t)&space;\frac{I_i(t)}{N_i};&space;\\&space;\frac{dE_i(t)}{dt}&space;&&space;=&space;\beta_i(t)&space;S_i(t)&space;\frac{I_i(t)}{N_i}&space;-&space;\sigma_i(t)&space;E_i(t);&space;\\&space;\frac{dI_i(t)}{dt}&space;&&space;=&space;\sigma_i(t)&space;E_i(t)&space;-&space;\gamma_i(t)&space;I_i(t);&space;\\&space;\frac{dR_i(t)}{dt}&space;&&space;=&space;\gamma_i(t)&space;I_i(t).&space;\end{aligned}" title="\begin{aligned} \frac{dS_i(t)}{dt} & = -\beta_i(t) S_i(t) \frac{I_i(t)}{N_i}; \\ \frac{dE_i(t)}{dt} & = \beta_i(t) S_i(t) \frac{I_i(t)}{N_i} - \sigma_i(t) E_i(t); \\ \frac{dI_i(t)}{dt} & = \sigma_i(t) E_i(t) - \gamma_i(t) I_i(t); \\ \frac{dR_i(t)}{dt} & = \gamma_i(t) I_i(t). \end{aligned}" />
 </center>
