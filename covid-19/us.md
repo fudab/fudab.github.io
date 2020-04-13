@@ -28,22 +28,22 @@
 
 <table class="tg">
   <tr>
-    <th class="tg-0lax"><img height="350" src="./figures_us/US_rose_2020-04-11.png" > </th>
+    <th class="tg-0lax"><img height="350" src="./figures_us/US_rose_2020-04-12.png" > </th>
     <th class="tg-0lax"><img height="350" src="./figures_us/US_map.png" ></th>
   </tr>
   <tr>
-    <td class="tg-0lax">Figure 1 (a): the state level of reported cases as of April 11, 2020 since the ﬁrst reported case in United States in Jan 21, 2020.</td>
-    <td class="tg-0lax">Figure 1 (b): the spacial spread of COVID-19 by April 11, 2020. The number of infected is displayed on a logarithmic scale.</td>
+    <td class="tg-0lax">Figure 1 (a): the state level of reported cases as of April 12, 2020 since the ﬁrst reported case in United States in Jan 21, 2020.</td>
+    <td class="tg-0lax">Figure 1 (b): the spacial spread of COVID-19 by April 12, 2020. The number of infected is displayed on a logarithmic scale.</td>
   </tr>
   <tr>
-    <td class="tg-0lax" colspan="2"></td>
+    <td class="tg-0lax" colspan="2"><img height="600" src="./figures_us/US_conf.png" ></td>
   </tr>
   <tr>
-    <td class="tg-0lax" colspan="2">Fig: 1c</td>
+    <td class="tg-0lax" colspan="2">Fig: 1 (c): The state level growth of confirmed cases. The curve in a panel repre- sents the number of cumulative infected people in the state and the histogram indicates the number of new infected people everyday. </td>
   </tr>
 </table>
 
-> Figure 1: summary of the COVID-19 information by April 11, 2020.
+> Figure 1: summary of the COVID-19 information by April 11, 2020. The color code in (a) and (c) corresponds to the partisan voting index (PVI) by each state.
 
 
 
