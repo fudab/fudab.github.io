@@ -5,4 +5,4 @@
 ### When and how will the COVID-19 pandemic end in the United States?
 #### Xingru Chen and Feng Fu
 
-#### '12 April 2020'
+#### `12 April 2020`
