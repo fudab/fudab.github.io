@@ -28,15 +28,15 @@
 
 <table class="tg">
   <tr>
-    <th class="tg-0lax"><img height="350" src="./figures_us/US_rose_2020-04-12.png" > </th>
-    <th class="tg-0lax"><img height="350" src="./figures_us/US_map.png" ></th>
+    <th class="tg-baqh"><img height="350" src="./figures_us/US_rose_2020-04-12.png" > </th>
+    <th class="tg-baqh"><img height="350" src="./figures_us/US_map.png" ></th>
   </tr>
   <tr>
     <td class="tg-0lax">Figure 1 (a): the state level of reported cases as of April 12, 2020 since the ﬁrst reported case in United States in Jan 21, 2020.</td>
     <td class="tg-0lax">Figure 1 (b): the spacial spread of COVID-19 by April 12, 2020. The number of infected is displayed on a logarithmic scale.</td>
   </tr>
   <tr>
-    <td class="tg-0lax" colspan="2"><img height="600" src="./figures_us/US_conf.png" ></td>
+    <td class="tg-baqh" colspan="2"><img height="600" src="./figures_us/US_conf.png" ></td>
   </tr>
   <tr>
     <td class="tg-0lax" colspan="2">Fig: 1 (c): The state level growth of confirmed cases. The curve in a panel repre- sents the number of cumulative infected people in the state and the histogram indicates the number of new infected people everyday. </td>
