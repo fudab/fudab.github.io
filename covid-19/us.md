@@ -1,4 +1,4 @@
-
+<link rel="stylesheet" href="https://fudab.github.io/asset/css/style.css">
 
 # [Fu Lab](https://fudab.github.io) <img src="https://fudab.github.io/images/Logo.png" align = "right" alt="" width="50">
 ## [COVID-19](https://fudab.github.io/covid-19.md)
