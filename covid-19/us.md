@@ -26,13 +26,15 @@
   
 #### Data Processing
 
-<div id="fig:summary">
-![Cool horse](./figures_us/US_rose_2020-04-11.png){width=50%}
-![Book horse](./figures_us/US_map.png){width=20%}
-![Pink horse](./figures_us/US_map.png){width=20%}
+<div id="fig:fig1">
+![Cool horse]./figures_us/US_map.png){width=50%}
+
+![Book horse](./figures_us/US_rose_2020-04-11.png){width=30%}
+![Pink horse](./figures_us/US_map.png){width=30%}
 
 Look at my tiny horses!
 </div>
+
 
 <img height="355" src="./figures_us/US_rose_2020-04-11.png" align = "left">
 
