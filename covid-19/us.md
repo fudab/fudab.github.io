@@ -25,7 +25,7 @@
   * census: [China Census Bureau](http://www.chamiji.com)
   
 #### Data Processing
-
+<center>
 <table class="tg">
   <tr>
     <th class="tg-baqh"><img height="350" src="./figures_us/US_rose_2020-04-12.png" > </th>
@@ -42,7 +42,7 @@
     <td class="tg-0lax" colspan="2">Fig: 1 (c): The state level growth of confirmed cases. The curve in a panel repre- sents the number of cumulative infected people in the state and the histogram indicates the number of new infected people everyday. </td>
   </tr>
 </table>
-
+</center>
 > Figure 1: summary of the COVID-19 information by April 11, 2020. The color code in (a) and (c) corresponds to the partisan voting index (PVI) by each state.
 
 
