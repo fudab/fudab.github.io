@@ -4,8 +4,8 @@
 
 > This GitHub page is used to host ongoing projects from the [Fu Lab](https://www.dartmouth.edu/~fengfu/) at [Dartmouth College](https://home.dartmouth.edu).
 
-### [COVID-19 projects](https://fudab.github.io/covid-19.md)
+### [COVID-19 projects](https://fudab.github.io/covid-19.html)
 
-- #### [China](https://fudab.github.io/covid-19/china.md)
+- #### [China](https://fudab.github.io/covid-19/china.html)
 
-- #### [US](https://fudab.github.io/covid-19/us.md)
+- #### [US](https://fudab.github.io/covid-19/us.html)
