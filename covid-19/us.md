@@ -125,7 +125,7 @@ To obtain a satisfactory estimation of the epidemic parameters for the $i$th sta
     <th>expression</th>
   </tr>
   <tr>
-    <td>$N_i$</td>
+    <td align="center">$N_i$</td>
     <td>$n_i$</td>
     <td></td>
     <td></td>
