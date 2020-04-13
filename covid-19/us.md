@@ -1,10 +1,4 @@
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-cly1{text-align:left;vertical-align:middle}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
+
 
 # [Fu Lab](https://fudab.github.io) <img src="https://fudab.github.io/images/Logo.png" align = "right" alt="" width="50">
 ## [COVID-19](https://fudab.github.io/covid-19.md)
@@ -55,8 +49,8 @@
 > Figure 1: Summary of the COVID-19 information by April 12, 2020. The color code in (a) and (c) corresponds to the partisan voting index (PVI) by each state.
 
 
-<tb align="center"> 
- <table class="tg" >
+
+ <table class="tg" align-self: center>
   <tr>
     <th class="tg-cly1"><img width="700" src="./figures_us/China_IF.png" ></th>
   </tr>
@@ -76,7 +70,7 @@
     <td class="tg-0lax">(c) The city level inter-flow ratio in Wuhan City.</td>
   </tr>
  </table>
-</tb>
+
 
 
 > Figure 2: The internal-flow ratios on three different levels in China. The time period for calculating the first average plateau value is from January 1, 2020 to January 21, 2020 and that for calculating the second value is from February 1, 2020 to February 21, 2020. The percentage in the title of every panel indicates the after-to-before ratio.
