@@ -3,7 +3,7 @@
 
 ## When and how will the COVID-19 pandemic end in the United States?
 ### Xingru Chen and Feng Fu
-#### `April 11, 2020`
+#### `April 12, 2020`
 #### `This report provides preliminary results and is work in progress`
 
 ### Abstract
@@ -114,6 +114,8 @@ More concretely, we assume that the general expressions are:
 
 ### Parameter Estimation
 
+We turncate the date to `April 5`, which is one week after `March 29`.
+
 To obtain a satisfactory estimation of the epidemic parameters for the $i$th state, we apply the `dual annealing` algorithm to perform a nonlinear least square fitting of the variable $R_i(t)$ and find the global minimum value of the residual. The table below shows an ordered dictionary of all the parameter objects required.
 
 <table align="center" margin-left: auto;margin-right: auto>
@@ -185,6 +187,17 @@ To obtain a satisfactory estimation of the epidemic parameters for the $i$th sta
   </tr>
 </table>
 
+Meanwhile, we can compare the SEIR model with the least square regression methods. 
 
+<p align="center">
+  <img width="600" src="./figures_us/US_R_fitting_0405.png">
+</p>
+> Figure 3: All three fitting models: SEIR, exponential growth and power growth.
+
+### Discussion on Contact Rate
+
+#### Discrete variation
+
+#### Continuous variation
 
 
