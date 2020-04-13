@@ -48,7 +48,7 @@
 
 
 <center>
- <table class="box" >
+ <table class="tg" >
   <tr>
     <th class="tg-cly1"><img width="700" src="./figures_us/China_IF.png" ></th>
   </tr>
