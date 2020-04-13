@@ -7,9 +7,9 @@
 </p>
 
 ## About
-> An outbreak of respiratory illness caused by a novel (new) coronavirus. 
-> Massive travel restrictions.
-> Ongoing investigations.
+> * An outbreak of respiratory illness caused by a novel (new) coronavirus. 
+> * Massive travel restrictions.
+> * Ongoing investigations.
 
 ## Projects
 
