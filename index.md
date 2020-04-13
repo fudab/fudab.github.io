@@ -1,4 +1,4 @@
-# Fu Lab <img src="./images/Logo.png" align = "right" alt="" width="50">
+# [Fu Lab](https://fudab.github.io) <img src="./images/Logo.png" align = "right" alt="" width="50">
 
 > Mathematical Humanity Lab
 
