@@ -1,4 +1,4 @@
-# [Fu Lab](./index.md) <img src="./images/Logo.png" align = "right" alt="" width="50">
+# [Fu Lab](./index) <img src="./images/Logo.png" align = "right" alt="" width="50">
 
 # COVID-19
 
@@ -15,6 +15,6 @@
 
 ### Current
 
-#### - [Effectiveness of Massive Travel Restrictions on Mitigating Outbreaks of COVID-19 in China.](./covid-19/china.md)
+#### - [Effectiveness of Massive Travel Restrictions on Mitigating Outbreaks of COVID-19 in China.](./covid-19/china)
 
-#### - [When and how will the COVID-19 pandemic end in the United States?](./covid-19/us.md)
+#### - [When and how will the COVID-19 pandemic end in the United States?](./covid-19/us)
