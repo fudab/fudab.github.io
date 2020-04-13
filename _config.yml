@@ -1,4 +1,4 @@
 name: Fu Dab
 title: null
-
+markdown: kramdown
 theme: jekyll-theme-cayman
