@@ -28,7 +28,7 @@
 <center>
 <table class="tg">
   <tr>
-    <th class="tg-baqh"><img height="350" src="./figures_us/US_rose_2020-04-12.png" > </th>
+    <th class="tg-baqh"><img height="350" src="./figures_us/US_rose_2020-04-12.png" ></th>
     <th class="tg-baqh"><img height="350" src="./figures_us/US_map.png" ></th>
   </tr>
   <tr>
@@ -52,14 +52,14 @@
 </style>
 <table class="tg">
   <tr>
-    <th class="tg-cly1"><th class="tg-baqh"><img height="350" src="./figures_us/US_rose_2020-04-12.png" ></th>
-    <th class="tg-cly1" rowspan="2"></th>
+    <th class="tg-cly1"><img height="350" src="./figures_us/US_rose_2020-04-12.png" ></th>
+    <th class="tg-cly1" rowspan="2"><img height="600" src="./figures_us/US_conf.png" ></th>
   </tr>
   <tr>
     <td class="tg-cly1">fig 1 (a)</td>
   </tr>
   <tr>
-    <td class="tg-cly1"></td>
+    <td class="tg-cly1"><img height="350" src="./figures_us/US_map.png" ></td>
     <td class="tg-cly1" rowspan="2">fig 1 (c)</td>
   </tr>
   <tr>
