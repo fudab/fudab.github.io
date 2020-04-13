@@ -233,6 +233,10 @@ We can compare the SEIR model with the least square regression methods.
 
 ### Discussion on Contact Rate
 
+The experience of China has already shown that strict quarantine can reduce the contact rate and hence suppress the epidemic. To perform some predictions with the case in the US, we can consider different compliance levels of social distancing.
+
+#### Discrete variation
+
 We first work on four discrete threshold values of contact rate reduction: `100% (status quo)`, `50%`, `25%` and `0 (complete lockdown)`.
 
 <table align="center">
@@ -255,11 +259,30 @@ We first work on four discrete threshold values of contact rate reduction: `100%
   <tr>
     <td colspan="2">Figure 4: The spatiotemporal spread of predicted COVID-19 with different scenarios of contact reductions due to control measures instituted in each State and by the federal government</td>
   </tr>
+ </table>
+ 
+To what extend the contact rate was suppressed in China with three different scales (national, provincial, city) provide even more references to us. We further estimate the number of people infected (dead) under these contact rate reductions.
 
-#### Discrete variation
-
-
+<table align="center">
+  <tr>
+    <th><img width="300" src="./figures_us/US_total_reference_0405.png"></th>
+  </tr>
+  <tr>
+    <td align="center">Number of people infected in the end. If we let the outbreaks continue its current trajectory without any eﬀective measures, the total infections can reach around 100 million. With 50% reduction rate, 38 million infection, and with 75% reductions, 19 million people would get infected. Even for the zero contact zero, 730 thousand cases.</td>
+  </tr>
+  <tr>
+    <td align="center"><img width="300" src="./figures_us/US_dead_total_reference_0405.png"></td>
+  </tr>
+  <tr>
+    <td align="center">Number of people dead in the end. If we let the outbreaks continue its current trajectory without any eﬀective measures, the total deaths can reach around 2 million. With 50% reduction rate, 900 thousand deaths, and with 75% reductions, 500 thousand people would be dead. Even for the zero contact zero, 20 thousand deaths.</td>
+  </tr>
+  <tr>
+    <td align="center">Figure 6: Mitigation eﬀects by the numbers. </td>
+  </tr>
+</table>
 
 #### Continuous variation
+
+
 
 
