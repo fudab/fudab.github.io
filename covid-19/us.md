@@ -1,4 +1,3 @@
-<head>
 <style type="text/css">
  table.center {
     margin-left: auto;
@@ -8,7 +7,6 @@ html, body {
     width: 100%;
 }
 </style>
-</head>
 
 # [Fu Lab](https://fudab.github.io) <img src="https://fudab.github.io/images/Logo.png" align = "right" alt="" width="50">
 ## [COVID-19](https://fudab.github.io/covid-19.md)
