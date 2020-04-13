@@ -257,31 +257,53 @@ We first work on four discrete threshold values of contact rate reduction: `100%
     <td>(d) zero contract.</td>
   </tr>
   <tr>
-    <td colspan="2">Figure 4: The spatiotemporal spread of predicted COVID-19 with different scenarios of contact reductions due to control measures instituted in each State and by the federal government</td>
+    <td colspan="2">Figure 4: The spatiotemporal spread of predicted COVID-19 with different scenarios of contact reductions due to control measures instituted in each State and by the federal government.</td>
   </tr>
  </table>
+ 
+<table align="center">
+  <tr>
+    <th><img width="800" src="./figures_us/US_transition_0405.png"></th>
+  </tr>
+  <tr>
+    <td>Figure 7: When the infection point will come? We consider the distribution of the date on which a state will encounter the peak value of number of new infected.</td>
+  </tr>
+</table>
  
 To what extend the contact rate was suppressed in China with three different scales (national, provincial, city) provide even more references to us. We further estimate the number of people infected (dead) under these contact rate reductions.
 
 <table align="center">
   <tr>
-    <th><img width="300" src="./figures_us/US_total_reference_0405.png"></th>
+    <th><img width="700" src="./figures_us/US_total_reference_0405.png"></th>
   </tr>
   <tr>
-    <td align="center">Number of people infected in the end. If we let the outbreaks continue its current trajectory without any eﬀective measures, the total infections can reach around 100 million. With 50% reduction rate, 38 million infection, and with 75% reductions, 19 million people would get infected. Even for the zero contact zero, 730 thousand cases.</td>
+    <td align="center">Number of people infected in the end. If we let the outbreaks continue its current trajectory without any effective measures, the total infections can reach around 100 million. With 50% reduction rate, 38 million infection, and with 75% reductions, 19 million people would get infected. Even for the zero contact rate, 730 thousand cases.</td>
   </tr>
   <tr>
-    <td align="center"><img width="300" src="./figures_us/US_dead_total_reference_0405.png"></td>
+    <td align="center"><img width="700" src="./figures_us/US_dead_total_reference_0405.png"></td>
   </tr>
   <tr>
-    <td align="center">Number of people dead in the end. If we let the outbreaks continue its current trajectory without any eﬀective measures, the total deaths can reach around 2 million. With 50% reduction rate, 900 thousand deaths, and with 75% reductions, 500 thousand people would be dead. Even for the zero contact zero, 20 thousand deaths.</td>
+    <td align="center">Number of people dead in the end. If we let the outbreaks continue its current trajectory without any effective measures, the total deaths can reach around 2 million. With 50% reduction rate, 900 thousand deaths, and with 75% reductions, 500 thousand people would be dead. Even for the zero contact rate, 20 thousand deaths.</td>
   </tr>
   <tr>
-    <td align="center">Figure 6: Mitigation eﬀects by the numbers. </td>
+    <td align="center">Figure 8: Mitigation effects by the numbers. </td>
   </tr>
 </table>
 
+
+
+We can even 
+
 #### Continuous variation
+
+<table align="center">
+  <tr>
+    <th><img width="800" src="./figures_us/US_contact_rate_R_0405.png"></th>
+  </tr>
+  <tr>
+    <td>Figure 9: How far we need to push the quarantine? It may vary from state to state. The x axis indicates the contact rate, which is measured on a $[0, 1]$ scale. $0$ stands for zero contact while $1$ means statuo quo contact. The y axis is the final number of infected.</td>
+  </tr>
+</table>
 
 
 
