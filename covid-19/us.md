@@ -180,6 +180,9 @@ To obtain a satisfactory estimation of the epidemic parameters for the $i$th sta
     <td align="center">1</td>
     <td align="center"></td>
   </tr>
+ <tr>
+    <td colspan="5">Table 1: Implementation of parameters according to the sampling of the estimates for epidemic parameters. Here, $n_i$ is the population size of state $i$.</td>
+  </tr>
 </table>
 
 
