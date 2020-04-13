@@ -50,19 +50,19 @@
 <center>
  <table class="tg">
   <tr>
-    <th class="tg-cly1"><img width="500" src="./figures_us/China_IF.png" ></th>
+    <th class="tg-cly1"><img width="700" src="./figures_us/China_IF.png" ></th>
   </tr>
   <tr>
     <td class="tg-cly1">(a) The nationwide internal-flow ratio in China.</td>
   </tr>
   <tr>
-    <td class="tg-cly1"></td>
+    <td class="tg-cly1"><img width="700" src="./figures_us/Hubei_IF.png" ></td>
   </tr>
   <tr>
     <td class="tg-cly1">(b) The province level internal-flow ratio in Hubei Province.</td>
   </tr>
   <tr>
-    <td class="tg-0lax"></td>
+    <td class="tg-0lax"><img width="700" src="./figures_us/Wuhan_IF.png" ></td>
   </tr>
   <tr>
     <td class="tg-0lax">(c) The city level inter-flow ratio in Wuhan City.</td>
