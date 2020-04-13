@@ -1,3 +1,10 @@
+---
+layout: post
+mathjax: true
+comments: true
+categories: github jekyll
+---
+
 # [Fu Lab](https://fudab.github.io) <img src="https://fudab.github.io/images/Logo.png" align = "right" alt="" width="50">
 ## [COVID-19](https://fudab.github.io/covid-19)
 
