@@ -26,6 +26,6 @@
   
 #### Data Processing
 
-<img src="./figures_us/US_conf.png" align = "left" alt="" width="800">
+<img src="./figures_us/US_conf.png" align = "center" alt="" width="600">
 
 
