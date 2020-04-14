@@ -214,10 +214,10 @@ To obtain an error bar, we apply the Monte Carlo sampling method to generate a s
 
 <table align="center">
   <tr>
-    <th></th>
+    <th><img width="600" src="./figures_us/US_SEIR_R_0405.png"></th>
   </tr>
   <tr>
-    <td>Figure 3: Cumulative incidence of COVID-19 cases in each of 50 U.S. states  and projected increase and peak time based on real data (visualization plots cut off on April 12th for clarity). Our calibrated model ﬁts most of states very well, except for AL, AK, AZ, IA, KS, NV, OR, VT, WA where the two last data points on March 29, March 30 dip below, which suggests the eﬀectiveness of mitigation by social distancing that slows down the spread in these states. The trajectory of remaining states are remaining on track of typical exponential growth of early stage of epidemic spreading.</td>
+    <td>Figure 3: Cumulative incidence of COVID-19 cases in each of 50 U.S. states (D.C. is also included) as well as projected increase and peak time based on real data (visualization plots cut off on April 12th for clarity).</td>
   </tr>
 </table>
 
