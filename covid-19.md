@@ -21,7 +21,9 @@
 
 #### - [When and how will the COVID-19 pandemic end in the United States?](https://fudab.github.io/covid-19/us)
 
-## Galleries
+### Complete
+
+## Bag Ends
 
 ### China
 ### US
