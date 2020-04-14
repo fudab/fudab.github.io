@@ -271,7 +271,7 @@ We first work on four discrete threshold values of contact rate reduction: `100%
   </tr>
 </table>
 
-A detailed is given.
+A detailed result for every state is given below.
 
 <table align="center">
   <tr>
