@@ -55,7 +55,7 @@ categories: github jekyll
   </tr>
 </table>
 
-  *  ##### New Hampshire
+*  #### New Hampshire
 
 <table align="center">
   <tr>
