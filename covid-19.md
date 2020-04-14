@@ -37,7 +37,7 @@ categories: github jekyll
 #### [For China](https://fudab.github.io/covid-19/bag_end_china)
 #### [For US](https://fudab.github.io/covid-19/bag_end_us)
 > * A summary on the county level.
-> * Where it spread faster, urban areas or rural areas? 
+> * Where it spreads faster, urban areas or rural areas? 
 > * The current situation in New England.
 >   * `Dartmouth College` $\in$ `Hanover` $\in$ `Grafton` $\in$ `New Hampshire` $\in$ `New England`
 > * Correlations with stock market and mobility.
