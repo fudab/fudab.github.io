@@ -6,12 +6,12 @@ categories: github jekyll
 {% include mathjax.html %}
 
 # [Fu Lab](https://fudab.github.io) <img src="https://fudab.github.io/images/Logo.png" align = "right" alt="" width="50">
-## [COVID-19](https://fudab.github.io/covid-19/bag_end_us)
+## [COVID-19](https://fudab.github.io/covid-19)
 
 ## When and how will the COVID-19 pandemic end in the United States?
 ### Xingru Chen and Feng Fu
 ##### `This report provides preliminary results and is work in progress` `Last updated: April 12, 2020`
-##### More detailed results and figures are in the [Bag End](https://fudab.github.io/covid-19).
+##### More detailed results and figures are in the [Bag End](https://fudab.github.io/covid-19/bag_end_us).
 
 ### Abstract
 > The COVID-19 pandemic has upended everyone’s normal life, health crisis, lockdowns, and economic percussions in an unprecedented pace and scale. We will get over this pandemic but at what prices? Here we estimate the burden of COVID-19 in the United States, peak time, and total number of infections, in coming months.
