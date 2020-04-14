@@ -17,7 +17,7 @@ categories: github jekyll
 
 ### COVID-19 Information
 
-#### States and Counties
+* #### States and Counties
 
 <table align="center">
   <tr>
@@ -28,7 +28,7 @@ categories: github jekyll
   </tr>
 </table>
 
-#### Urban and Rural Areas
+* #### Urban and Rural Areas
 
 <table align="center">
   <tr>
@@ -44,7 +44,7 @@ categories: github jekyll
   </tr>
 </table>
 
-#### New England
+* #### New England
 
 <table align="center">
   <tr>
@@ -55,7 +55,7 @@ categories: github jekyll
   </tr>
 </table>
 
-##### New Hampshire
+  *  ##### New Hampshire
 
 <table align="center">
   <tr>
@@ -79,7 +79,7 @@ categories: github jekyll
 
 ### Correlation Between the Epidemic and the Stock Market
 
-#### S & P 500 Index
+* #### S & P 500 Index
 
 <table align="center">
   <tr>
@@ -90,7 +90,7 @@ categories: github jekyll
   </tr>
 </table>
 
-#### Fortune 500 Companies and Zoom Video Communications
+* #### Fortune 500 Companies and Zoom Video Communications
 
 <table align="center">
   <tr>
@@ -103,7 +103,7 @@ categories: github jekyll
 
 ### Correlation Between Mobility and the Stock Market
 
-#### S & P 500 Index
+* #### S & P 500 Index
 
 <table align="center">
   <tr>
@@ -114,7 +114,7 @@ categories: github jekyll
   </tr>
 </table>
 
-#### Fortune 500 Companies and Zoom Video Communications
+* #### Fortune 500 Companies and Zoom Video Communications
 
 <table align="center">
   <tr>
