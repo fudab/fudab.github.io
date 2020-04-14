@@ -57,19 +57,19 @@ categories: github jekyll
 
  <table align="center">
   <tr>
-    <th align="center"><img width="700" src="./figures_us/China_IF.png" ></th>
+    <th align="center"><img width="600" src="./figures_us/China_IF.png" ></th>
   </tr>
   <tr>
     <td>(a) The nationwide internal-flow ratio in China.</td>
   </tr>
   <tr>
-    <td align="center"><img width="700" src="./figures_us/Hubei_IF.png" ></td>
+    <td align="center"><img width="600" src="./figures_us/Hubei_IF.png" ></td>
   </tr>
   <tr>
     <td>(b) The province level internal-flow ratio in Hubei Province.</td>
   </tr>
   <tr>
-    <td align="center"><img width="700" src="./figures_us/Wuhan_IF.png" ></td>
+    <td align="center"><img width="600" src="./figures_us/Wuhan_IF.png" ></td>
   </tr>
   <tr>
     <td>(c) The city level inter-flow ratio in Wuhan City.</td>
@@ -212,12 +212,12 @@ where $n$ is the total number of measurements, $p$ is the number of estimated pa
 
 To obtain an error bar, we apply the Monte Carlo sampling method to generate a sample set of parameters, feed them into the ODE equations and produce enough outputs where we choose the '0.005' and the '0.995' quantiles as the lower and upper bound.
 
-<table>
+<table align="center">
   <tr>
     <th></th>
   </tr>
   <tr>
-    <td></td>
+    <td>Figure 3: Cumulative incidence of COVID-19 cases in each of 50 U.S. states  and projected increase and peak time based on real data (visualization plots cut off on April 12th for clarity). Our calibrated model ﬁts most of states very well, except for AL, AK, AZ, IA, KS, NV, OR, VT, WA where the two last data points on March 29, March 30 dip below, which suggests the eﬀectiveness of mitigation by social distancing that slows down the spread in these states. The trajectory of remaining states are remaining on track of typical exponential growth of early stage of epidemic spreading.</td>
   </tr>
 </table>
 
@@ -227,7 +227,7 @@ We can compare the SEIR model with the least square regression methods.
     <th align="center"><img width="600" src="./figures_us/US_R_fitting_0405.png"></th>
   </tr>
   <tr>
-    <td>Figure 3: All three models: SEIR, exponential growth and power growth. Scatters indicate the actual number of infected people and the curves are the corresponding results of least square fitting.</td>
+    <td>Figure 4: All three models: SEIR, exponential growth and power growth. Scatters indicate the actual number of infected people and the curves are the corresponding results of least square fitting.</td>
   </tr>
 </table>
 
@@ -257,16 +257,27 @@ We first work on four discrete threshold values of contact rate reduction: `100%
     <td>(d) zero contract.</td>
   </tr>
   <tr>
-    <td colspan="2">Figure 4: The spatiotemporal spread of predicted COVID-19 with different scenarios of contact reductions due to control measures instituted in each State and by the federal government.</td>
+    <td colspan="2">Figure 5: The spatiotemporal spread of predicted COVID-19 with different scenarios of contact reductions due to control measures instituted in each State and by the federal government.</td>
   </tr>
  </table>
  
 <table align="center">
   <tr>
-    <th><img width="800" src="./figures_us/US_transition_0405.png"></th>
+    <th><img width="600" src="./figures_us/US_transition_0405.png"></th>
   </tr>
   <tr>
-    <td>Figure 7: When the infection point will come? We consider the distribution of the date on which a state will encounter the peak value of number of new infected.</td>
+    <td>Figure 6: When the infection point will come? We consider the distribution of the date on which a state will encounter the peak value of number of new infected.</td>
+  </tr>
+</table>
+
+A detailed is given.
+
+<table align="center">
+  <tr>
+    <th><img width="800" src="./figures_us/US_SEIR_I_0405.png"></th>
+  </tr>
+  <tr>
+    <td>Figure 7: Flatten the curve under contact rate reductions for different compliance levels of social distancing. In the ﬁgure legend, we show when the outbreak of COVID-19 in each state will peak under different scenarios. Without any strong and eﬀective measure of contact reduction, the peak time in most states will peak April and May but ﬂatten the curve would delay the peak in each state with huge variance. The ideal scenario can be achieved by a drastic lockdown, if made immediately eﬀective on April 13, 2020, will cease and stall COVID-19 outbreaks in all states. The pandemic will immediately peak in the ﬁrst two weeks of April for most states and mid May the latest.</td>
   </tr>
 </table>
  
@@ -290,18 +301,16 @@ To what extend the contact rate was suppressed in China with three different sca
   </tr>
 </table>
 
-
-
-We can even 
-
 #### Continuous variation
+
+We can even consider any contact rate measured on a $[0, 1]$ scale. Here, $0$ stands for zero contact while $1$ means statuo quo contact.
 
 <table align="center">
   <tr>
     <th><img width="800" src="./figures_us/US_contact_rate_R_0405.png"></th>
   </tr>
   <tr>
-    <td>Figure 9: How far we need to push the quarantine? It may vary from state to state. The x axis indicates the contact rate, which is measured on a $[0, 1]$ scale. $0$ stands for zero contact while $1$ means statuo quo contact. The y axis is the final number of infected.</td>
+    <td>Figure 9: How far we need to push the quarantine? It may vary from state to state. The x axis indicates the contact rate and the y axis is the final number of infected.</td>
   </tr>
 </table>
 
