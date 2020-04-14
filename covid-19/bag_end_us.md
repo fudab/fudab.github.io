@@ -121,7 +121,7 @@ categories: github jekyll
     <th align="center"><img width="800" src="./figures_us_be/US_mcorrelation_sm.png"></th>
   </tr>
   <tr>
-    <td>Figure 9: Mobility and the stock prices. We consider the Top 15 companies in the Fortune 500 list and also this most popular cloud-based videotelephony service. It seems that e-commerce (e.g Amazon) and pharmaceutical giants (e.g. UnitedHealth Group) are those least harmed by, or even benefit from the travel restriction. The stock price of Zoom surged to a record high at the very start, which may due to the warming up of online activities (e.g. meeting, teaching). However, this pattern did last for very long given that more and more security issues have been disclosed. </td>
+    <td>Figure 9: Mobility and the stock prices. We consider the Top 15 companies in the Fortune 500 list and also this most popular cloud-based videotelephony service. It seems that e-commerce (e.g Amazon) and pharmaceutical giants (e.g. UnitedHealth Group) are those least harmed by, or even benefit from the travel restriction. The stock price of Zoom surged to a record high at the very start, which may due to the warming up of online activities (e.g. online meeting and online school). However, this pattern did not last for very long given that more and more security issues of the software have been disclosed. </td>
   </tr>
 </table>
 
