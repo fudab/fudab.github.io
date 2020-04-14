@@ -36,8 +36,8 @@ categories: github jekyll
     <th><img width="300" src="./figures_us_be/US_UR_conf_percentage.png"></th>
   </tr>
   <tr>
-    <td>(a) Number of infected people.</td>
-    <td>(b) Percentage of infected people.</td>
+    <td>(a) Number of people infected.</td>
+    <td>(b) Percentage of people infected.</td>
   </tr>
   <tr>
     <td colspan="2">Figure 2: Comparing the risk of being infected in urban and rural areas. The definitions of an urbanized area, an urban cluster and a rural area are given by the Department of Aagriculture.</td>
@@ -51,7 +51,7 @@ categories: github jekyll
     <th align="center"><img width="800" src="./figures_us_be/US_new_england_conf.png"></th>
   </tr>
   <tr>
-    <td>Figure 3: Number of people infected in the six states of New England. The number given in the title of every panel indicates the total number of confirmed cases in that state by the time we update the data. We only show the top 6 counties which have the highest confirmed numbers for every state and the reported cases marked as 'Unknown' are not counted here. </td>
+    <td>Figure 3: Number of people infected in the six states of New England. The number given in the title of every panel indicates the total number of confirmed cases in that state by the time we update the data. We only show the top 6 counties which have the highest confirmed numbers for every state. </td>
   </tr>
 </table>
 
