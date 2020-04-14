@@ -1,1 +1,4 @@
-
+The contact is on its way to [Fu Lab](https://fudab.github.io)!
+<p align="center">
+  <img width="600" src="https://fudab.github.io/images/undraw_page_not_found_su7k.png">
+</p>
