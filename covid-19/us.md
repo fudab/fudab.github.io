@@ -210,7 +210,7 @@ Here $s^2$ is the unbiased estimation of the variance $\sigma^2$ obtained from t
 </div>
 where $n$ is the total number of measurements, $p$ is the number of estimated parameters, $n - p$ is the degrees of freedom, and $N$ is the size of the population. Meanwhile, $S_\text{min}(r, \hat{x}) = \displaystyle\sum(r - R(\hat{x}))$ is just the minimum objective function value.
 
-To obtain an error bar, we apply the Monte Carlo sampling method to generate a sample set of parameters, feed them into the ODE equations and produce enough outputs where we choose the '0.005' and the '0.995' quantiles as the lower and upper bound.
+To obtain an error bar, we apply the Monte Carlo sampling method to generate a sample set of parameters, feed them into the ODE equations and produce enough outputs where we choose the `0.005` and the `0.995` quantiles as the lower and upper bound.
 
 <table align="center">
   <tr>
