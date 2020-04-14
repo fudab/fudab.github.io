@@ -22,7 +22,7 @@ categories: github jekyll
 
 ### Future
 
-#### When the second wave will come?
+#### When will the second wave come?
 
 ### Current
 
