@@ -230,7 +230,7 @@ We can compare the SEIR model with the least square regression methods.
 
 The experience of China has already shown that strict quarantine can reduce the contact rate and hence suppress the epidemic. To perform some predictions with the case in the US, we can consider different compliance levels of social distancing.
 
-#### Discrete variation
+#### Discrete Variation
 
 We first work on four discrete threshold values of contact rate reduction: `100% (status quo)`, `50%`, `25%` and `0 (complete lockdown)`.
 
@@ -302,7 +302,7 @@ To what extend the contact rate was suppressed in China with three different sca
   </tr>
 </table>
 
-#### Continuous variation
+#### Continuous Variation
 
 We can even consider any contact rate measured on a $[0, 1]$ scale. Here, $0$ stands for zero contact while $1$ means statuo quo contact.
 
