@@ -10,8 +10,9 @@ categories: github jekyll
 
 ## When and how will the COVID-19 pandemic end in the United States?
 ### Xingru Chen and Feng Fu
-#### `April 12, 2020`
-#### `This report provides preliminary results and is work in progress`
+##### `April 12, 2020`
+##### `This report provides preliminary results and is work in progress`
+##### `More detailed results and figures are in the [gallery](https://fudab.github.io/covid-19/gallery_us)`
 
 ### Abstract
 > The COVID-19 pandemic has upended everyone’s normal life, health crisis, lockdowns, and economic percussions in an unprecedented pace and scale. We will get over this pandemic but at what prices? Here we estimate the burden of COVID-19 in the United States, peak time, and total number of infections, in coming months.
@@ -256,8 +257,14 @@ We first work on four discrete threshold values of contact rate reduction: `100%
     <td>(c) 75% reduction.</td>
     <td>(d) zero contract.</td>
   </tr>
+ <tr>
+    <td colspan="2" align="center"><img width="600" src="./figures_us/US_R_0405.png"></td>
+  </tr>
+ <tr>
+    <td colspan="2">(e) When the curves will flat? </td>
+  </tr>
   <tr>
-    <td colspan="2">Figure 5: The spatiotemporal spread of predicted COVID-19 with different scenarios of contact reductions due to control measures instituted in each State and by the federal government.</td>
+    <td colspan="2">Figure 5: (a) to (d) present the spatiotemporal spread of predicted COVID-19 on May 1 with different scenarios of contact reductions due to control measures instituted in each State and by the federal government. (e) shows the growth pattern of the number of infected people. </td>
   </tr>
  </table>
  
@@ -266,7 +273,7 @@ We first work on four discrete threshold values of contact rate reduction: `100%
     <th><img width="600" src="./figures_us/US_transition_0405.png"></th>
   </tr>
   <tr>
-    <td>Figure 6: When the infection point will come? We consider the distribution of the date on which a state will encounter the peak value of number of new infected.</td>
+    <td>Figure 6: When the inflection point will come? We consider the distribution of the date on which a state will encounter the peak value of number of new infected.</td>
   </tr>
 </table>
 
