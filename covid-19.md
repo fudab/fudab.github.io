@@ -17,7 +17,7 @@ categories: github jekyll
 > * An outbreak of respiratory illness caused by a novel (new) coronavirus. 
 > * Massive travel restrictions.
 > * Ongoing investigations.
-> * We are, after all, all witnessing history.
+> * We are, after all, witnessing the history.
 
 ## Projects
 
