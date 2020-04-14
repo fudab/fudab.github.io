@@ -1,9 +1,16 @@
+---
+mathjax: true
+categories: github jekyll
+---
+
+{% include mathjax.html %}
+
 # [Fu Lab](https://fudab.github.io) <img src="./images/Logo.png" align = "right" alt="" width="50">
 
 # COVID-19
 
 <p align="left">
-<img src="./images/covid-19.png" alt="" width="200">
+<img src="./images/covid-19.png" alt="" width="300">
 </p>
 
 ## About
@@ -15,6 +22,8 @@
 
 ### Future
 
+#### When the second wave will come?
+
 ### Current
 
 #### - [Effectiveness of Massive Travel Restrictions on Mitigating Outbreaks of COVID-19 in China.](https://fudab.github.io/covid-19/china)
@@ -23,9 +32,14 @@
 
 ### Complete
 
-## Bag Ends
+### Bag Ends
 
-### [For China](https://fudab.github.io/covid-19/bag_end_china)
-### [For US](https://fudab.github.io/covid-19/bag_end_us)
+#### [For China](https://fudab.github.io/covid-19/bag_end_china)
+#### [For US](https://fudab.github.io/covid-19/bag_end_us)
+> * An summary on the county level.
+> * The spread in New England.
+>   * `Dartmouth College` $\in$ `Hanover` $\in$ `Grafton` $\in$ `New Hampshire` $\in$ `New England`
+> * Correlations with stock market and mobility.
+
 
 
