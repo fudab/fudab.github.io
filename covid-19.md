@@ -25,7 +25,7 @@
 
 ## Bag Ends
 
-### China
-### US
+### [For China](https://fudab.github.io/covid-19/bag_end_china)
+### [For US](https://fudab.github.io/covid-19/bag_end_us)
 
 
