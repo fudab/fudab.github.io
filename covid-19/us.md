@@ -6,7 +6,7 @@ categories: github jekyll
 {% include mathjax.html %}
 
 # [Fu Lab](https://fudab.github.io) <img src="https://fudab.github.io/images/Logo.png" align = "right" alt="" width="50">
-## [COVID-19](https://fudab.github.io/covid-19)
+## [COVID-19](https://fudab.github.io/covid-19/bag_end_us)
 
 ## When and how will the COVID-19 pandemic end in the United States?
 ### Xingru Chen and Feng Fu
