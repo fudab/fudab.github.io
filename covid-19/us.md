@@ -10,9 +10,10 @@ categories: github jekyll
 
 ## When and how will the COVID-19 pandemic end in the United States?
 ### Xingru Chen and Feng Fu
-##### `This report provides preliminary results and is work in progress` `Last updated: April 12, 2020`
+##### `This report provides preliminary results and is work in progress` `Last updated: April 14, 2020`
 ##### More detailed results and figures are in the [Bag End](https://fudab.github.io/covid-19/bag_end_us).
-##### Old results with different truncation dates for parameter estimation are in the archives: [April 5, 2020](https://fudab.github.io/covid-19/us_0405).
+##### Old results with different truncation dates for parameter estimation are in the archives.
+##### [April 5, 2020](https://fudab.github.io/covid-19/us_0405)
 
 ### Abstract
 > The COVID-19 pandemic has upended everyone’s normal life, health crisis, lockdowns, and economic percussions in an unprecedented pace and scale. We will get over this pandemic but at what prices? Here we estimate the burden of COVID-19 in the United States, peak time, and total number of infections, in coming months.
@@ -36,21 +37,21 @@ categories: github jekyll
 <center>
  <table class="tg">
   <tr>
-    <th align="center"><img width="300" src="./figures_us/US_rose_2020-04-12.png" ></th>
+    <th align="center"><img width="300" src="./figures_us/US_rose.png" ></th>
     <th align="center" rowspan="3"><img width="400" src="./figures_us/US_conf.png" ></th>
   </tr>
   <tr>
-    <td class="tg-cly1">(a) The state level of reported cases as of April 12, 2020 since the ﬁrst reported case in United States in Jan 21, 2020.</td>
+    <td class="tg-cly1">(a) The state level of reported cases since the ﬁrst reported case in United States in Jan 21, 2020.</td>
   </tr>
   <tr>
     <td align="center"><img width="300" src="./figures_us/US_map.png" ></td>
   </tr>
   <tr>
-    <td class="tg-cly1">(b) The spacial spread of COVID-19 by April 12, 2020. The number of infected is displayed on a logarithmic scale.</td>
+    <td class="tg-cly1">(b) The spacial spread of COVID-19. The number of infected is displayed on a logarithmic scale.</td>
     <td class="tg-cly1">(c) The state level growth of confirmed cases. The curve in a panel represents the number of cumulative infected people in the state and the histogram indicates the number of new infected people everyday.</td>
   </tr>
   <tr>
-    <td colspan="2">Figure 1: Summary of the COVID-19 information by April 12, 2020. The color code in (a) and (c) corresponds to the partisan voting index (PVI) by each state.</td>
+    <td colspan="2">Figure 1: Summary of the COVID-19 information as of April 14, 2020. The color code in (a) and (c) corresponds to the partisan voting index (PVI) by each state.</td>
   </tr>
  </table>
 </center>
@@ -210,7 +211,7 @@ To obtain an error bar, we apply the Monte Carlo sampling method to generate a s
 
 <table align="center">
   <tr>
-    <th><img width="600" src="./figures_us/US_SEIR_R_0405.png"></th>
+    <th><img width="600" src="./figures_us/US_SEIR_R_0412.png"></th>
   </tr>
   <tr>
     <td>Figure 3: Cumulative incidence of COVID-19 cases in each of 50 U.S. states (D.C. is also included) as well as projected increase and peak time based on real data (visualization plots cut off on April 12th for clarity).</td>
@@ -220,7 +221,7 @@ To obtain an error bar, we apply the Monte Carlo sampling method to generate a s
 We can compare the SEIR model with the least square regression methods. 
 <table align="center">
   <tr>
-    <th align="center"><img width="600" src="./figures_us/US_R_fitting_0405.png"></th>
+    <th align="center"><img width="600" src="./figures_us/US_R_fitting_0412.png"></th>
   </tr>
   <tr>
     <td>Figure 4: All three models: SEIR, exponential growth and power growth. Scatters indicate the actual number of infected people and the curves are the corresponding results of least square fitting.</td>
@@ -237,23 +238,23 @@ We first work on four discrete threshold values of contact rate reduction: `100%
 
 <table align="center">
   <tr>
-    <th><img width="300" src="./figures_us/US_map_status_quo_0405.png"></th>
-    <th><img width="300" src="./figures_us/US_map_weak_0405.png"></th>
+    <th><img width="300" src="./figures_us/US_map_status_quo_0412.png"></th>
+    <th><img width="300" src="./figures_us/US_map_weak_0412.png"></th>
   </tr>
   <tr>
     <td>(a) Status quo contact rate as a result of social distancing.</td>
     <td>(b) 50% reduction.</td>
   </tr>
   <tr>
-    <td align="center"><img width="300" src="./figures_us/US_map_moderate_0405.png"></td>
-    <td align="center"><img width="300" src="./figures_us/US_map_strong_0405.png"></td>
+    <td align="center"><img width="300" src="./figures_us/US_map_moderate_0412.png"></td>
+    <td align="center"><img width="300" src="./figures_us/US_map_strong_0412.png"></td>
   </tr>
   <tr>
     <td>(c) 75% reduction.</td>
     <td>(d) zero contract.</td>
   </tr>
  <tr>
-    <td colspan="2" align="center"><img width="600" src="./figures_us/US_R_0405.png"></td>
+    <td colspan="2" align="center"><img width="600" src="./figures_us/US_R_0412.png"></td>
   </tr>
  <tr>
     <td colspan="2">(e) When the curves will flat? </td>
@@ -265,7 +266,7 @@ We first work on four discrete threshold values of contact rate reduction: `100%
  
 <table align="center">
   <tr>
-    <th><img width="600" src="./figures_us/US_transition_0405.png"></th>
+    <th><img width="600" src="./figures_us/US_transition_0412.png"></th>
   </tr>
   <tr>
     <td>Figure 6: When the inflection point will come? We consider the distribution of the date on which a state will encounter the peak value of number of new infected.</td>
@@ -276,7 +277,7 @@ A detailed result for every state is given below.
 
 <table align="center">
   <tr>
-    <th><img width="800" src="./figures_us/US_SEIR_I_0405.png"></th>
+    <th><img width="800" src="./figures_us/US_SEIR_I_0412.png"></th>
   </tr>
   <tr>
     <td>Figure 7: Flatten the curve under contact rate reductions for different compliance levels of social distancing. In the ﬁgure legend, we show when the outbreak of COVID-19 in each state will peak under different scenarios. Without any strong and eﬀective measure of contact reduction, the peak time in most states will peak April and May but ﬂatten the curve would delay the peak in each state with huge variance. The ideal scenario can be achieved by a drastic lockdown, if made immediately eﬀective on April 13, 2020, will cease and stall COVID-19 outbreaks in all states. The pandemic will immediately peak in the ﬁrst two weeks of April for most states and mid May the latest.</td>
@@ -287,13 +288,13 @@ To what extend the contact rate was suppressed in China with three different sca
 
 <table align="center">
   <tr>
-    <th><img width="700" src="./figures_us/US_total_reference_0405.png"></th>
+    <th><img width="700" src="./figures_us/US_total_reference_0412.png"></th>
   </tr>
   <tr>
     <td>(a) Number of people infected in the end. If we let the outbreaks continue its current trajectory without any effective measures, the total infections can reach around 100 million. With 50% reduction rate, 38 million infection, and with 75% reductions, 19 million people would get infected. Even for the zero contact rate, 730 thousand cases.</td>
   </tr>
   <tr>
-    <td align="center"><img width="700" src="./figures_us/US_dead_total_reference_0405.png"></td>
+    <td align="center"><img width="700" src="./figures_us/US_dead_total_reference_0412.png"></td>
   </tr>
   <tr>
     <td>(b) Number of people dead in the end. If we let the outbreaks continue its current trajectory without any effective measures, the total deaths can reach around 2 million. With 50% reduction rate, 900 thousand deaths, and with 75% reductions, 500 thousand people would be dead. Even for the zero contact rate, 20 thousand deaths.</td>
@@ -309,7 +310,7 @@ We can even consider any contact rate measured on a $[0, 1]$ scale. Here, $0$ st
 
 <table align="center">
   <tr>
-    <th><img width="800" src="./figures_us/US_contact_rate_R_0405.png"></th>
+    <th><img width="800" src="./figures_us/US_contact_rate_R_0412.png"></th>
   </tr>
   <tr>
     <td>Figure 9: How far we need to push the quarantine? It may vary from state to state. The x axis indicates the contact rate and the y axis is the final number of infected.</td>
