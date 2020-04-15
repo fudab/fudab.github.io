@@ -43,7 +43,7 @@ categories: github jekyll
 >   * `Dartmouth College` $\in$ `Hanover` $\in$ `Grafton` $\in$ `New Hampshire` $\in$ `New England`
 > * Correlations with stock market and mobility.
 >   * S & P 500 index
->   * Fortune 500 companies
+>   * Fortune 500 companies: `e-commerce`, `pharmaceutical giants`, ...
 
 
 
