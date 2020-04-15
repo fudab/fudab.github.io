@@ -11,7 +11,8 @@ categories: github jekyll
 ## When and how will the COVID-19 pandemic end in the United States?
 ### Xingru Chen and Feng Fu
 ##### `This report provides preliminary results and is work in progress` `Last updated: April 12, 2020`
-##### More detailed results and figures are in the [Bag End](https://fudab.github.io/covid-19/bag_end_china).
+##### More detailed results and figures are in the [Bag End](https://fudab.github.io/covid-19/bag_end_us).
+##### Old results are in the archives: [April 5, 2020](https://fudab.github.io/covid-19/us_0405).
 
 ### Abstract
 > The COVID-19 pandemic has upended everyone’s normal life, health crisis, lockdowns, and economic percussions in an unprecedented pace and scale. We will get over this pandemic but at what prices? Here we estimate the burden of COVID-19 in the United States, peak time, and total number of infections, in coming months.
@@ -289,13 +290,13 @@ To what extend the contact rate was suppressed in China with three different sca
     <th><img width="700" src="./figures_us/US_total_reference_0405.png"></th>
   </tr>
   <tr>
-    <td align="center">Number of people infected in the end. If we let the outbreaks continue its current trajectory without any effective measures, the total infections can reach around 100 million. With 50% reduction rate, 38 million infection, and with 75% reductions, 19 million people would get infected. Even for the zero contact rate, 730 thousand cases.</td>
+    <td>(a) Number of people infected in the end. If we let the outbreaks continue its current trajectory without any effective measures, the total infections can reach around 100 million. With 50% reduction rate, 38 million infection, and with 75% reductions, 19 million people would get infected. Even for the zero contact rate, 730 thousand cases.</td>
   </tr>
   <tr>
     <td align="center"><img width="700" src="./figures_us/US_dead_total_reference_0405.png"></td>
   </tr>
   <tr>
-    <td align="center">Number of people dead in the end. If we let the outbreaks continue its current trajectory without any effective measures, the total deaths can reach around 2 million. With 50% reduction rate, 900 thousand deaths, and with 75% reductions, 500 thousand people would be dead. Even for the zero contact rate, 20 thousand deaths.</td>
+    <td>(b) Number of people dead in the end. If we let the outbreaks continue its current trajectory without any effective measures, the total deaths can reach around 2 million. With 50% reduction rate, 900 thousand deaths, and with 75% reductions, 500 thousand people would be dead. Even for the zero contact rate, 20 thousand deaths.</td>
   </tr>
   <tr>
     <td align="center">Figure 8: Mitigation effects by the numbers. </td>
