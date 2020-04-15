@@ -269,7 +269,7 @@ We first work on four discrete threshold values of contact rate reduction: `100%
     <th><img width="600" src="./figures_us/US_transition_0412.png"></th>
   </tr>
   <tr>
-    <td>Figure 6: When will the inflection point come? It may have arrived for certain states. We consider the distribution of the date on which a state will encounter the peak value of number of new infected.</td>
+    <td>Figure 6: When will the inflection point come? Or it may have arrived for certain states. We consider the distribution of the date on which a state will encounter the peak value of number of new infected.</td>
   </tr>
 </table>
 
