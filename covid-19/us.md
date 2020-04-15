@@ -214,7 +214,7 @@ To obtain an error bar, we apply the Monte Carlo sampling method to generate a s
     <th><img width="600" src="./figures_us/US_SEIR_R_0412.png"></th>
   </tr>
   <tr>
-    <td>Figure 3: Cumulative incidence of COVID-19 cases in each of 50 U.S. states (D.C. is also included) as well as projected increase and peak time based on real data (visualization plots cut off on April 12th for clarity).</td>
+    <td>Figure 3: Cumulative incidence of COVID-19 cases in every one of the 50 U.S. states (D.C. is also included) as well as projected increase and peak time based on real data. The error bar is also shown in every panel.</td>
   </tr>
 </table>
 
@@ -280,7 +280,7 @@ A detailed result for every state is given below.
     <th><img width="800" src="./figures_us/US_SEIR_I_0412.png"></th>
   </tr>
   <tr>
-    <td>Figure 7: Flatten the curve under contact rate reductions for different compliance levels of social distancing. In the ﬁgure legend, we show when the outbreak of COVID-19 in each state will peak under different scenarios. Without any strong and eﬀective measure of contact reduction, the peak time in most states will peak April and May but ﬂatten the curve would delay the peak in each state with huge variance. The ideal scenario can be achieved by a drastic lockdown, if made immediately eﬀective on April 13, 2020, will cease and stall COVID-19 outbreaks in all states. The pandemic will immediately peak in the ﬁrst two weeks of April for most states and mid May the latest.</td>
+    <td>Figure 7: Flatten the curve under contact rate reductions for different compliance levels of social distancing. In the ﬁgure legend, we show when the outbreak of COVID-19 in each state will peak under different scenarios. Without any strong and eﬀective measure of contact reduction, the peak time in most states will peak April and May but ﬂatten the curve would delay the peak in each state with huge variance. The ideal scenario can be achieved by a drastic lockdown, if made immediately eﬀective, will cease and stall COVID-19 outbreaks in all states. The pandemic will immediately peak in the ﬁrst two weeks of April for most states and mid May the latest.</td>
   </tr>
 </table>
  
