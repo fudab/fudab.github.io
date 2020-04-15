@@ -257,7 +257,7 @@ We first work on four discrete threshold values of contact rate reduction: `100%
     <td colspan="2" align="center"><img width="600" src="./figures_us/US_R_0412.png"></td>
   </tr>
  <tr>
-    <td colspan="2">(e) When the curves will flat? </td>
+    <td colspan="2">(e) When will the curve be flattened? </td>
   </tr>
   <tr>
     <td colspan="2">Figure 5: (a) to (d) present the spatiotemporal spread of predicted COVID-19 on May 1 with different scenarios of contact reductions due to control measures instituted in each State and by the federal government. (e) shows the growth pattern of the number of infected people. </td>
@@ -269,7 +269,7 @@ We first work on four discrete threshold values of contact rate reduction: `100%
     <th><img width="600" src="./figures_us/US_transition_0412.png"></th>
   </tr>
   <tr>
-    <td>Figure 6: When the inflection point will come? We consider the distribution of the date on which a state will encounter the peak value of number of new infected.</td>
+    <td>Figure 6: When will the inflection point come? It may have arrived for certain states. We consider the distribution of the date on which a state will encounter the peak value of number of new infected.</td>
   </tr>
 </table>
 
@@ -313,7 +313,7 @@ We can even consider any contact rate measured on a $[0, 1]$ scale. Here, $0$ st
     <th><img width="800" src="./figures_us/US_contact_rate_R_0412.png"></th>
   </tr>
   <tr>
-    <td>Figure 9: How far we need to push the quarantine? It may vary from state to state. The x axis indicates the contact rate and the y axis is the final number of infected.</td>
+    <td>Figure 9: How far do we need to push the quarantine? It may vary from state to state. The x axis indicates the contact rate and the y axis is the final number of infected.</td>
   </tr>
 </table>
 
