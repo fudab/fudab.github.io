@@ -226,7 +226,7 @@ We can compare the SEIR model with the least square regression methods.
     <th align="center"><img width="600" src="./figures_us/US_R_fitting_0419.png"></th>
   </tr>
   <tr>
-    <td>Figure 4: All three models: SEIR, exponential growth and power growth. Scatters indicate the actual number of infected people and the curves are the corresponding results of least square fitting.</td>
+    <td>Figure 4: All three models: SEIR, exponential growth and power growth. Scatters indicate the actual number of infected people and the curves are the corresponding results of least square fitting. The error bar is shown for R. </td>
   </tr>
 </table>
 
