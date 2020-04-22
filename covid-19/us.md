@@ -256,13 +256,14 @@ We first work on four discrete threshold values of contact rate reduction: `100%
     <td>(d) zero contract.</td>
   </tr>
  <tr>
-    <td colspan="2" align="center"><img width="600" src="./figures_us/US_R_0419.png"></td>
-  </tr>
- <tr>
-    <td colspan="2">(e) When will the curve be flattened? </td>
+    <td align="center"><img width="600" src="./figures_us/US_R_0419.png"></td>
+    <td align="center"><img width="600" src="./figures_us/US_R_0419.png"></td>
   </tr>
   <tr>
-    <td colspan="2">Figure 5: (a) to (d) present the spatiotemporal spread of predicted COVID-19 on June 1 with different scenarios of contact reductions due to control measures instituted in each State and by the federal government. (e) shows the growth pattern of the number of infected people. </td>
+    <td>(e) When will the inflection point come? </td>
+    <td>(f) When will the curve be flattened?</td>
+  </tr>
+    <td colspan="2">Figure 5: (a) to (d) present the spatiotemporal spread of predicted COVID-19 on June 1 with different scenarios of contact reductions due to control measures instituted in each State and by the federal government. (e) and (f) show the growth pattern of the number of infected people. </td>
   </tr>
  </table>
  
