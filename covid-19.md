@@ -27,15 +27,14 @@ categories: github jekyll
 
 ### Current
 
-#### - [Effectiveness of Massive Travel Restrictions on Mitigating Outbreaks of COVID-19 in China.](https://fudab.github.io/covid-19/china)
-
 #### - [When and how will the COVID-19 pandemic end in the United States?](https://fudab.github.io/covid-19/us)
+
+#### - [Effectiveness of Massive Travel Restrictions on Mitigating Outbreaks of COVID-19 in China.](https://fudab.github.io/covid-19/china)
 
 ### Complete
 
 ### Bag Ends
 
-#### [For China](https://fudab.github.io/covid-19/bag_end_china)
 #### [For US](https://fudab.github.io/covid-19/bag_end_us)
 > * A summary on the county level.
 > * Where it spreads faster, urban areas or rural areas? 
@@ -45,5 +44,5 @@ categories: github jekyll
 >   * S & P 500 index
 >   * Fortune 500 companies: `e-commerce`, `pharmaceutical giants`, ...
 
-
+#### [For China](https://fudab.github.io/covid-19/bag_end_china)
 
