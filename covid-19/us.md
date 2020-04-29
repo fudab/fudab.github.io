@@ -111,7 +111,7 @@ In general, all three parameters can be time dependent, due to containment effor
 
 #### Exponential and Power Growth
 
-Apart from the above compartmental model, we also experiment with two popular curve fitting models: exponential and power growth. For these kind of least square regression methods, we restrict ourselves to the national cases and start the fitting from `March 9` (a week before the first breaking point chosen above) to fix the error in the early states of testing in every state.
+Apart from the above compartmental model, we also experiment with two popular curve fitting models: exponential and power growth. For these kind of least square regression methods, we restrict ourselves to the national cases and start the fitting from `March 16` (right after the first breaking point chosen above) to fix the error in the early states of testing in every state.
 
 More concretely, we assume that the general expressions are:
 <div class="math">
@@ -227,7 +227,7 @@ We can compare the SEIR model with the least square regression methods.
     <th align="center"><img width="600" src="./figures_us/US_R_fitting_0426.png"></th>
   </tr>
   <tr>
-    <td>Figure 4: All three models: SEIR, exponential growth and power growth. Scatters indicate the actual number of infected people and the curves are the corresponding results of least square fitting. To avoid a sudden increase in the order of magnitude, we only give the estimated values of the first five weeks for the exponential function. The error bar is shown for R. </td>
+    <td>Figure 4: All three models: SEIR, exponential growth and power growth. Scatters indicate the actual number of infected people and the curves are the corresponding results of least square fitting. The error bar is shown for R. </td>
   </tr>
 </table>
 
