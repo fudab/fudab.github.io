@@ -38,7 +38,7 @@ categories: github jekyll
     <th align="center" rowspan="3"><img width="500" src="./figures_china/China_conf.png" ></th>
   </tr>
   <tr>
-    <td class="tg-cly1">(a) The national level of reported cases since the ﬁrst 41 reported cases in Hubei Province in Jan 15, 2020.</td>
+    <td class="tg-cly1">(a) The `national` level of reported cases since the ﬁrst 41 reported cases in Hubei Province in Jan 15, 2020.</td>
   </tr>
   <tr>
     <td align="center"><img width="400" src="./figures_china/China_heatmap.png" ></td>
@@ -99,7 +99,7 @@ categories: github jekyll
     <td>(b) Recursive migration traces involving the top 3 provinces with the greatest cumulative migration index from the departure provinces. </td>
   </tr>
   <tr>
-    <td colspan="2">Figure 3: Migration traces derived from the migration data. Daily migration index from `January 1` to `January 27` is added to obtain the cumulative index. And we use heatmap to indicate the number of infected people by `January 27`. For (b), the ﬁrst place of departure is Hubei, which points to the 3 destinations: Guangdong, Henan and Hunan. These 3 destinations are treated as the new places of departure and new destinations are added. We repeat this process until there is no new destination appears.</td>
+    <td colspan="2">Figure 3: Migration traces derived from the migration data. Daily migration index from January 1 to January 27 is added to obtain the cumulative index. And we use heatmap to indicate the number of infected people by January 27. For (b), the ﬁrst place of departure is Hubei, which points to the 3 destinations: Guangdong, Henan and Hunan. These 3 destinations are treated as the new places of departure and new destinations are added. We repeat this process until there is no new destination appears.</td>
   </tr>
 </table>
 
@@ -385,7 +385,7 @@ We find that there is no major changes of the parametric values in general, excp
     <td>(b) Recursive migration traces involving the top 3 provinces with the greatest cumulative migration index from the departure province. </td>
   </tr>
   <tr>
-    <td colspan="2">Figure 6: Migration traces derived from the migration data. Daily migration index from `January 1` to `January 27` is added to obtain the cumulative index. And we use heatmap to indicate the posterior incubation seed $E(0)$. For (b), how we get the places of departure and the destinations is the same as Figure 3.</td>
+    <td colspan="2">Figure 6: Migration traces derived from the migration data. Daily migration index from January 1 to January 27 is added to obtain the cumulative index. And we use heatmap to indicate the posterior incubation seed $E(0)$. For (b), how we get the places of departure and the destinations is the same as Figure 3.</td>
   </tr>
 </table>
 
@@ -397,7 +397,7 @@ We find that there is no major changes of the parametric values in general, excp
     <th><img width="800" src="./figures_china/China_beta.png"></th>
   </tr>
   <tr>
-    <td>Figure 7: How the infection rate $\beta$ changes before and after considering province to province migration. It is not hard to see that there is no significant change in the values. The sudden changes where prior estimation of $\beta$ is close to zero may due to the instability of the `Levenberg-Marquardt` algorithm. </td>
+    <td>Figure 7: How the infection rate $\beta$ changes before and after considering province to province migration. It is not hard to see that there is no significant change in the values. The sudden changes where prior estimation of $\beta$ is close to zero may due to the instability of the Levenberg-Marquardt algorithm. </td>
   </tr>
 </table>
 
@@ -419,7 +419,7 @@ We find that there is no major changes of the parametric values in general, excp
     <th><img width="600" src="./figures_china/China_correlation_2020-01-27.png"></th>
   </tr>
   <tr>
-    <td> Figure 9: The correlation between province to province migration and infection number. We consider migration from the epicenter Hubei to the other provinces. Each point represents a province. The x-axis is the cumulative migration index from `January 1` to `January 27` and the y-axis is the date on which the 10th patient appeared according to the estimated values of $R(t)$ in the SEIR model. The size of the ith point is linearly related to the number of cumulative confirmed cases at the corresponding province by `January 27`. </td>
+    <td> Figure 9: The correlation between province to province migration and infection number. We consider migration from the epicenter Hubei to the other provinces. Each point represents a province. The x-axis is the cumulative migration index from January 1 to January 27 and the y-axis is the date on which the 10th patient appeared according to the estimated values of $R(t)$ in the SEIR model. The size of the ith point is linearly related to the number of cumulative confirmed cases at the corresponding province by January 27. </td>
   </tr>
 </table>
 
