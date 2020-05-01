@@ -44,9 +44,9 @@ categories: github jekyll
 >   * S & P 500 index
 >   * Fortune 500 companies: `e-commerce`, `pharmaceutical giants`, ...
 > * Correlation with unemployment.
->  * Initial claims
->  * Continued claims (insured unemployment)
->  * Insured unemployment rate
+>   * Initial claims
+>   * Continued claims (insured unemployment)
+>   * Insured unemployment rate
 
 #### [For China](https://fudab.github.io/covid-19/bag_end_china)
 
