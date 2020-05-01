@@ -10,8 +10,8 @@ categories: github jekyll
 
 ## Effectiveness of Massive Travel Restrictions on Mitigating Outbreaks of COVID-19 in China.
 ### Xingru Chen, Xin Wang, Timmy Ma, Daniel Escudero and Feng Fu
-* This report provides preliminary results and is work in progress.
 `Last updated: April 30, 2020`
+* This report provides preliminary results and is work in progress.
 * More detailed results and figures are in the [Bag End](https://fudab.github.io/covid-19/bag_end_china).
 * Original code and data are in the [Github Repository](https://github.com/fudab/China-COVID-19-mobility).
 
