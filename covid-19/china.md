@@ -328,7 +328,7 @@ By letting $\alpha = 0.005$, we can obtain the $99.99\%$ confidence intervals of
     <td align="center"></td>
   </tr>
  <tr>
-    <td colspan="5">Table 2: Implementation of parameters according to the sampling of the estimates for epidemic parameters and the prior result. Here, $n_i$ is the population size of province $i$.</td>
+    <td colspan="5">Table 2: Implementation of parameters according to the sampling of the estimates for epidemic parameters and the prior result. Here, $n_i$ is the population size of province $i$. The superscripts 'prior' and 'upper' indicate the estimated value and the upper bound.</td>
   </tr>
 </table>
 
