@@ -238,3 +238,97 @@ To obtain a satisfactory estimation of the epidemic parameters for the $i$th pro
     <td colspan="5">Table 1: Implementation of parameters according to the sampling of the estimates for epidemic parameters. Here, $n_i$ is the population size of province $i$.</td>
   </tr>
 </table>
+
+After obtaining the prior estimation of the parameters for every province, we can further calculate the covariance matrix $\text{cov}(\hat{x})$ and therefore the lower and upper bounds of these estimated values of parameters. The covariance matrix contains complete information about the uncertainty of the parameter estimators. The method we apply here to obtain it is to use a linear approximation method through estimation of the Jacobian matrix $F$ of the parameter estimation problem:
+
+<div class="math">
+\begin{equation}
+ \text{cov}(\hat{x}) = s^2(F'F)^{-1}, \qquad \text{with}\, F = \left. \frac{\partial f(x)}{\partial x}\right|_{x = \hat{x}}.
+\end{equation}
+</div>
+Here $s^2$ is the unbiased estimation of the variance $\sigma^2$ obtained from the residuals of the parameter estimation:
+<div class="math">
+\begin{equation}
+ s^2 = \frac{S_\text{min}(r, \hat{x})}{(n - p)N},
+\end{equation}
+</div>
+where $n$ is the total number of measurements, $p$ is the number of estimated parameters, $n - p$ is the degrees of freedom, and $N$ is the size of the population. Meanwhile, $S_\text{min}(r, \hat{x}) = \displaystyle\sum(r - R(\hat{x}))$ is just the minimum objective function value.
+
+The covariance matrix is a square matrix with $p\times p$ dimensions. In particular, the diagonal elements are the variances of the corresponding ordered parameters (namely, the square root of the $k$th diagonal element is the standard error of the $k$th parameter). Following a student $t$-distribution, the confidence interval at $(1 - 2\alpha)$ significance is:
+<div class="math">
+\begin{equation}
+\hat{x}_{1 - 2\alpha} = \hat{x} \pm t_{n - p}^{\alpha}\sqrt{\text{diag}\,\text{cov}(\hat{x})}.
+\end{equation}
+</div>
+
+By letting $\alpha = 0.005$, we can obtain the $99.99\%$ confidence intervals of the parameters for every province. Still, we would like to guarantee that the lower and upper bounds of the epidemic parameters are consistent with the sampling of estimations and also the lower bounds of $E_i(0)$, $I_i(0)$ as well as $R_i(0)$ are non-negative. Combining the above restrictions, we get the updated bounds for the parameters, which are ready for the simulation with migration where a giant system of equations is in operation.
+
+<table align="center">
+  <tr>
+    <th>name</th>
+    <th>initial value</th>
+    <th>lower bound</th>
+    <th>upper bound</th>
+    <th>expression</th>
+  </tr>
+  <tr>
+    <td align="center">$N_i(0)$</td>
+    <td align="center">$n_i$</td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td align="center">$S_i(0)$</td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center">$N_i - E_i(0) - I_i(0) - R_i(0)$</td>
+  </tr>
+  <tr>
+    <td align="center">$E_i(0)$</td>
+    <td align="center">$E_i^{\text{prior}}(0)$</td>
+    <td align="center">0</td>
+    <td align="center">$\max(500, E_i^{\text{upper}}(0))$</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td align="center">$I_i(0)$</td>
+    <td align="center">50</td>
+    <td align="center">0</td>
+    <td align="center">200</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td align="center">$R_i(0)$</td>
+    <td align="center">0</td>
+    <td align="center">0</td>
+    <td align="center">100</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td align="center">$\beta_{ij}$</td>
+    <td align="center">0.5</td>
+    <td align="center">0.01</td>
+    <td align="center">1</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td align="center">$\sigma_{ij}$</td>
+    <td align="center">0.5</td>
+    <td align="center">0.05</td>
+    <td align="center">0.5</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td align="center">$\gamma_{ij}$</td>
+    <td align="center">0.5</td>
+    <td align="center">0.05</td>
+    <td align="center">0.5</td>
+    <td align="center"></td>
+  </tr>
+ <tr>
+    <td colspan="5">Table 2: Implementation of parameters according to the sampling of the estimates for epidemic parameters and the prior result. Here, $n_i$ is the population size of province $i$.</td>
+  </tr>
+</table>
+
