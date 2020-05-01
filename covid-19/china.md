@@ -336,6 +336,13 @@ By letting $\alpha = 0.005$, we can obtain the $99.99\%$ confidence intervals of
 
 Given that even local optimization methods will be rather time consuming under the current situation where we need to solve a giant system of equations, not to mention any global optimization methods, we repeatly apply the `` algorithm, performing the same nonlinear least square fitting of the variable $R_i(t)$ and finding the local minimum value of the residual. Every time we select a different province and only allow its parameters to be changable until we have passed all the provinces. To imporve the accuracy of our result, we run this cycling process multiple times.
 
-
+<table align="center">
+  <tr>
+    <th><img width="600" src="./figures_china/China_conf_mseir_40.png"></th>
+  </tr>
+  <tr>
+    <td>Figure 3: Cumulative incidence of COVID-19 cases in every one of the 30 compartments (26 provinces and 4 municipalities) as well as prior estimation (without migration) and posterior estimation (with migration) based on real data.</td>
+  </tr>
+</table>
 
 
