@@ -95,11 +95,11 @@ categories: github jekyll
     <th><img width="450" src="./figures_china/China_heatmap_migration_c_2020-01-27.png" ></th>
   </tr>
   <tr>
-    <td>(a) Migration traces involving the top 10 provinces with the greatest cumulative migration index from Hubei.</td>
-    <td>(b) Recursive migration traces involving the top 3 provinces with the greatest cumulative migration index from the departure province. The ﬁrst place of departure is Hubei, which points to the 3 destinations: Guangdong, Henan and Hunan. These 3 destinations are treated as the new places of departure and new destinations are added. We repeat this process until there is no new destination appears.</td>
+    <td>(a) Migration traces involving the top 10 provinces with the greatest cumulative migration index from the epicenter, Hubei Province.</td>
+    <td>(b) Recursive migration traces involving the top 3 provinces with the greatest cumulative migration index from the departure province. </td>
   </tr>
   <tr>
-    <td colspan="2">Figure 3: Migration traces derived from the migration data. Daily migration index from `January 1` to `January 27` is added to obtain the cumulative index. And we use heatmap to indicate the number of infected people by `January 27`.</td>
+    <td colspan="2">Figure 3: Migration traces derived from the migration data. Daily migration index from `January 1` to `January 27` is added to obtain the cumulative index. And we use heatmap to indicate the number of infected people by `January 27`. For (b), the ﬁrst place of departure is Hubei, which points to the 3 destinations: Guangdong, Henan and Hunan. These 3 destinations are treated as the new places of departure and new destinations are added. We repeat this process until there is no new destination appears.</td>
   </tr>
 </table>
 
