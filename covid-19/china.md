@@ -378,7 +378,7 @@ We find that there is no major changes of the parametric values in general, excp
 <table align="center">
   <tr>
     <th><img width="450" src="./figures_china/China_heatmap_migration_incubation_2020-01-27.png" ></th>
-    <th><img width="450" src="./figures_china/China_heatmap_migration_incubation_c_ 2020-01-27.png" ></th>
+    <th><img width="450" src="./figures_china/China_heatmap_migration_incubation_c_2020-01-27.png" ></th>
   </tr>
   <tr>
     <td>(a) Migration traces involving the top 10 provinces with the greatest cumulative migration index from the epicenter, Hubei Province.</td>
@@ -397,7 +397,9 @@ We find that there is no major changes of the parametric values in general, excp
     <th><img width="800" src="./figures_china/China_beta.png"></th>
   </tr>
   <tr>
-    <td>Figure 7: How the infection rate $\beta$ changes before and after considering province to province migration.</td>
+    <td>Figure 7: How the infection rate $\beta$ changes before and after considering province to province migration. It is not hard to see that there is no significant change in the values.  </td>
   </tr>
 </table>
+
+
 
