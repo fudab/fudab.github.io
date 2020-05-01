@@ -67,7 +67,7 @@ categories: github jekyll
     <td align="center"><img width="350" src="./figures_china/Hubei_IF.png" ></td>
   </tr>
   <tr>
-    <td>(b) The sum of province to province migration index in Hubei Province (destination). </td>
+    <td>(b) The sum of p2p migration index in Hubei Province (destination). </td>
     <td>(e) The province level normalized internal-flow ratio in Hubei Province. </td>
   </tr>
   <tr>
@@ -75,11 +75,11 @@ categories: github jekyll
     <td align="center"><img width="350" src="./figures_china/Wuhan_IF.png" ></td>
   </tr>
   <tr>
-    <td>(c) The sum of province to province migration index in Hubei Province (place of departure). </td>
+    <td>(c) The sum of p2p migration index in Hubei Province (place of departure). </td>
     <td>(f) The city level inter-flow ratio in Wuhan City. </td>
   </tr>
   <tr>
-    <td colspan="2"><img width="700" src="./figures_china/China_Province_IF.png" ></td>
+    <td colspan="2"><img width="800" src="./figures_china/China_Province_IF.png" ></td>
   </tr>
   <tr>
     <td colspan="2">(g) The province level normalized internal-flow ratios in China. The cruve of Hubei Province is highlighted with scatters.</td>
