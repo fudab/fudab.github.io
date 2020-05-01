@@ -95,8 +95,8 @@ categories: github jekyll
     <th><img width="450" src="./figures_china/China_heatmap_migration_c_2020-01-27.png" ></th>
   </tr>
   <tr>
-    <td>(a) Migration traces involving the top 10 provinces with the greatest cumulative migration index from the epicenter, Hubei Province.</td>
-    <td>(b) Recursive migration traces involving the top 3 provinces with the greatest cumulative migration index from the departure province. </td>
+    <td>(a) Migration traces involving the top 10 provinces with the greatest cumulative migration index from the epicenter Hubei.</td>
+    <td>(b) Recursive migration traces involving the top 3 provinces with the greatest cumulative migration index from the departure provinces. </td>
   </tr>
   <tr>
     <td colspan="2">Figure 3: Migration traces derived from the migration data. Daily migration index from `January 1` to `January 27` is added to obtain the cumulative index. And we use heatmap to indicate the number of infected people by `January 27`. For (b), the ﬁrst place of departure is Hubei, which points to the 3 destinations: Guangdong, Henan and Hunan. These 3 destinations are treated as the new places of departure and new destinations are added. We repeat this process until there is no new destination appears.</td>
@@ -406,7 +406,7 @@ We find that there is no major changes of the parametric values in general, excp
     <th><img width="800" src="./figures_china/China_beta_if.png"></th>
   </tr>
   <tr>
-    <td>Figure 8: The correlation between internal flow ratio and infection rate $\beta$. Considering the provincial internal flow ratio and $\beta$ as two time series, we calculate their cross correlations with different lags (unit: day) and figure out the maximum value of the correlation coefficent as well as the corresponding lag, both of which are given in the title of every panel. In accordance with the cuase-effect relation, we assume that the lag is positive, that is, people's travel behavior leads the spread of the disease. </td>
+    <td>Figure 8: The correlation between internal flow ratio and infection rate $\beta$. Regarding the provincial internal flow ratio and $\beta$ as two time series, we calculate their cross correlations with different lags (unit: day) and figure out the maximum value of the correlation coefficent as well as the corresponding lag, both of which are given in the title of every panel. In accordance with the cuase-effect relation where people's travel behavior leads the spread of the disease, we assume that the lag is positive. </td>
   </tr>
 </table>
 
@@ -419,7 +419,7 @@ We find that there is no major changes of the parametric values in general, excp
     <th><img width="600" src="./figures_china/China_correlation_2020-01-27.png"></th>
   </tr>
   <tr>
-    <td>Figure 9:  </td>
+    <td>Figure 9: The correlation between province to province migration and infection number. We consider migration from the epicenter Hubei to the other provinces. Each point represents a province. The x-axis is the cumulative migration index from `January 1` to `January 27` and the y-axis is the date on which the 10th patient appeared according to the estimated values of $R(t)$ in the SEIR model. The size of the ith point is linearly related to the number of cumulative confirmed cases at the corresponding province by `January 27`. </td>
   </tr>
 </table>
 
