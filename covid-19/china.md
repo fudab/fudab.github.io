@@ -89,4 +89,33 @@ categories: github jekyll
   </tr>
 </table>
 
+### Method
+
+#### SEIR Model
+We consider an SEIR model in a population structure for every province. The systems of ODEs describe the dynnamics in continuous time t, that is, days since the outbreak of the disease:
+
+<div class="math">
+ \begin{equation}
+  \begin{cases}
+  \displaystyle \frac{dS_i(t)}{dt} & =  -\beta_i(t) S_i(t) \frac{I_i(t)}{N_i(t)} - \sum_{j, j\neq i}\alpha_{ij}(t)S_i(t) + \sum_{j, j\neq i} \alpha_{ji}(t)S_j(t), \\
+  \displaystyle \frac{dE_i(t)}{dt} & =  \beta_i(t) S_i(t)  \frac{I_i(t)}{N_i(t)} - \sigma_i(t) E_i(t) - \sum_{j, j\neq i}\alpha_{ij}(t)E_i(t) + \sum_{j, j\neq i} \alpha_{ji}(t)E_j(t), \\
+  \displaystyle \frac{dI_i(t)}{dt} & =  \sigma_i(t) E_i(t) - \gamma_i(t) I_i(t), \\
+  \displaystyle \frac{dR_i(t)}{dt} & =  \gamma_i(t) I_i(t). \\
+\end{cases}
+ \end{equation}
+</div>
+
+Here, the subscript $i$ refers to the $i$th compartment on the provincial level (in other words, the $i$th province) and $N_i(t) = S_i(t) + E_i(t) + I_i(t) + R_i(t)$ is the population size of compartment $i$. 
+
+To parameterize migration flows between compartments, we use the real provincial level mobility data from `Baidu Qianxi`. Notice that the number of infected cases of the epidemic and the population size of a same province differ by at least three orders of magnitude. Hence $S_i(t) + E_i(t)$ is roughly $N_i(t)$ and we can assume the following two identities:
+<div class="math">
+\begin{equation}
+\begin{cases}
+\displaystyle\sum_{j, j\neq i}\alpha_{ij}(t) \left[S_i(t) + E_i(t) \right] &\approx \displaystyle\sum_{j, j\neq i}\alpha_{ij}(t)N_i(t) = \theta \displaystyle\sum_{j, j\neq i}m_{ij},
+\displaystyle\sum_{j, j\neq i} \alpha_{ji}(t) \left[S_j(t) + E_j(t) \right] & \approx \displaystyle\sum_{j, j\neq i} \alpha_{ji}(t)N_j(t) = \theta \displaystyle\sum_{j, j\neq i}m_{ji}.
+\end{cases}
+ \end{equation}
+</div>
+
+In general, all three parameters can be time dependent, due to containment efforts (social distancing). Since time $t$ is discrete in practice, we treat these parameters as piecewise functions, of which every piece is a constant. To simplify the problem, 
 
