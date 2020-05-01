@@ -419,7 +419,7 @@ We find that there is no major changes of the parametric values in general, excp
     <th><img width="600" src="./figures_china/China_correlation_2020-01-27.png"></th>
   </tr>
   <tr>
-    <td>Figure 9: The correlation between province to province migration and infection number. We consider migration from the epicenter Hubei to the other provinces. Each point represents a province. The x-axis is the cumulative migration index from `January 1` to `January 27` and the y-axis is the date on which the 10th patient appeared according to the estimated values of $R(t)$ in the SEIR model. The size of the ith point is linearly related to the number of cumulative confirmed cases at the corresponding province by `January 27`. </td>
+    <td> Figure 9: The correlation between province to province migration and infection number. We consider migration from the epicenter Hubei to the other provinces. Each point represents a province. The x-axis is the cumulative migration index from `January 1` to `January 27` and the y-axis is the date on which the 10th patient appeared according to the estimated values of $R(t)$ in the SEIR model. The size of the ith point is linearly related to the number of cumulative confirmed cases at the corresponding province by `January 27`. </td>
   </tr>
 </table>
 
