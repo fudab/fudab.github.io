@@ -370,7 +370,7 @@ We find that there is no major changes of the parametric values in general, excp
     <th><img width="800" src="./figures_china/China_E_0.png"></th>
   </tr>
   <tr>
-    <td>Figure 5: How the incubation seed $E(0) $changes before and after considering province to province migration. A horizontal bar is added for the ith province if $E_i(0)$ shrinks.</td>
+    <td>Figure 5: How the incubation seed $E(0)$ changes before and after considering province to province migration. A horizontal bar is added for the ith province if $E_i(0)$ shrinks. To better present the result, we round up the original values. </td>
   </tr>
 </table>
 
@@ -378,7 +378,7 @@ We find that there is no major changes of the parametric values in general, excp
 <table align="center">
   <tr>
     <th><img width="450" src="./figures_china/China_heatmap_migration_incubation_2020-01-27.png" ></th>
-    <th><img width="450" src="./figures_china/China_heatmap_migration_c_incubation_2020-01-27.png" ></th>
+    <th><img width="450" src="./figures_china/China_heatmap_migration_incubation_c_ 2020-01-27.png" ></th>
   </tr>
   <tr>
     <td>(a) Migration traces involving the top 10 provinces with the greatest cumulative migration index from the epicenter, Hubei Province.</td>
@@ -390,5 +390,14 @@ We find that there is no major changes of the parametric values in general, excp
 </table>
 
 
+#### Infection rate
 
+<table align="center">
+  <tr>
+    <th><img width="800" src="./figures_china/China_beta.png"></th>
+  </tr>
+  <tr>
+    <td>Figure 7: How the infection rate $\beta$ changes before and after considering province to province migration.</td>
+  </tr>
+</table>
 
