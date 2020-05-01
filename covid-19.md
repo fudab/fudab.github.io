@@ -29,9 +29,9 @@ categories: github jekyll
 
 #### - [When and how will the COVID-19 pandemic end in the United States?](https://fudab.github.io/covid-19/us)
 
-#### - [Effectiveness of Massive Travel Restrictions on Mitigating Outbreaks of COVID-19 in China.](https://fudab.github.io/covid-19/china)
-
 ### Complete
+
+#### - [Effectiveness of Massive Travel Restrictions on Mitigating Outbreaks of COVID-19 in China.](https://fudab.github.io/covid-19/china)
 
 ### Bag Ends
 
