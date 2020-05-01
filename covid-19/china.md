@@ -363,7 +363,7 @@ Given that even local optimization methods will be rather time consuming under t
 
 We find that there is no major changes of the parametric values in general, excpet for the incubation seed $E(0)$ at every province. In other words, the migraiton from province to province plays a key role in the outbreak in other provinces apart from Hubei. Moreover, correlation analysis between internal flow ratio and infection rate $\beta$ shows that the spread of the disease is in line with the intensity of residents' intra-city travel behavior.
 
-#### Incubation Seed $E(0)$
+#### Incubation Seed
 
 <table align="center">
   <tr>
@@ -374,6 +374,20 @@ We find that there is no major changes of the parametric values in general, excp
   </tr>
 </table>
 
+
+<table align="center">
+  <tr>
+    <th><img width="450" src="./figures_china/China_heatmap_migration_incubation_2020-01-27.png" ></th>
+    <th><img width="450" src="./figures_china/China_heatmap_migration_c_incubation_2020-01-27.png" ></th>
+  </tr>
+  <tr>
+    <td>(a) Migration traces involving the top 10 provinces with the greatest cumulative migration index from the epicenter, Hubei Province.</td>
+    <td>(b) Recursive migration traces involving the top 3 provinces with the greatest cumulative migration index from the departure province. </td>
+  </tr>
+  <tr>
+    <td colspan="2">Figure 6: Migration traces derived from the migration data. Daily migration index from `January 1` to `January 27` is added to obtain the cumulative index. And we use heatmap to indicate the posterior incubation seed $E(0)$. For (b), how we get the places of departure and the destinations is the same as Figure 3.</td>
+  </tr>
+</table>
 
 
 
