@@ -348,7 +348,7 @@ By letting $\alpha = 0.005$, we can obtain the $99.99\%$ confidence intervals of
   </tr>
 </table>
 
-Given that even local optimization methods will be rather time consuming under the current situation where we need to solve a giant system of equations, not to mention any global optimization methods, we repeatly apply the `` algorithm, performing the same nonlinear least square fitting of the variable $R_i(t)$ and finding the local minimum value of the residual. Every time we select a different province and only allow its parameters to be changable until we have passed all the provinces. To imporve the accuracy of our result, we run this loop multiple times.
+Given that even local optimization methods will be rather time consuming under the current situation where we need to solve a giant system of equations, not to mention any global optimization methods, we repeatly apply the `Levenberg-Marquardt` algorithm, performing the same nonlinear least square fitting of the variable $R_i(t)$ and finding the local minimum value of the residual. Every time we select a different province and only allow its parameters to be changable until we have passed all the provinces. To imporve the accuracy of our result, we run this loop multiple times.
 
 <table align="center">
   <tr>
@@ -359,7 +359,7 @@ Given that even local optimization methods will be rather time consuming under t
   </tr>
 </table>
 
-### Discussion on Parameters
+### Discussion on Parameters and Estimations
 
 We find that there is no major changes of the parametric values in general, excpet for the incubation seed $E(0)$ at every province. In other words, the migraiton from province to province plays a key role in the outbreak in other provinces apart from Hubei. Moreover, correlation analysis between internal flow ratio and infection rate $\beta$ shows that the spread of the disease is in line with the intensity of residents' intra-city travel behavior.
 
@@ -390,14 +390,36 @@ We find that there is no major changes of the parametric values in general, excp
 </table>
 
 
-#### Infection rate
+#### Infection Rate
 
 <table align="center">
   <tr>
     <th><img width="800" src="./figures_china/China_beta.png"></th>
   </tr>
   <tr>
-    <td>Figure 7: How the infection rate $\beta$ changes before and after considering province to province migration. It is not hard to see that there is no significant change in the values.  </td>
+    <td>Figure 7: How the infection rate $\beta$ changes before and after considering province to province migration. It is not hard to see that there is no significant change in the values. The sudden changes where prior estimation of $\beta$ is close to zero may due to the instability of the `Levenberg-Marquardt` algorithm. </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <th><img width="800" src="./figures_china/China_beta.png"></th>
+  </tr>
+  <tr>
+    <td>Figure 8: The correlation between internal flow ratio and infection rate. </td>
+  </tr>
+</table>
+
+
+
+#### Infection Number
+
+<table align="center">
+  <tr>
+    <th><img width="600" src="./figures_china/China_correlation_2020-01-27.png"></th>
+  </tr>
+  <tr>
+    <td>Figure 9:  </td>
   </tr>
 </table>
 
