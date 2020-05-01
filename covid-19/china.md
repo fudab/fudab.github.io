@@ -152,4 +152,89 @@ In general, all three parameters can be time dependent, due to containment effor
 \end{equation}
 </div>
 
+### Parameter Estimation
 
+#### Prior
+Before we include the migration from one compartment to another, we can ﬁrst consider the independent SEIR model without migration for every province:
+
+<div class="math">
+ \begin{equation}
+  \begin{cases}
+  \displaystyle \frac{dS_i(t)}{dt} =  -\beta_i(t) S_i(t) \frac{I_i(t)}{N_i}, \\
+  \displaystyle \frac{dE_i(t)}{dt} =  \beta_i(t) S_i(t)  \frac{I_i(t)}{N_i} - \sigma_i(t) E_i(t), \\
+  \displaystyle \frac{dI_i(t)}{dt} =  \sigma_i(t) E_i(t) - \gamma_i(t) I_i(t), \\
+  \displaystyle \frac{dR_i(t)}{dt} =  \gamma_i(t) I_i(t). \\
+\end{cases}
+ \end{equation}
+</div>
+
+To obtain a satisfactory estimation of the epidemic parameters for the $i$th province, we apply the `dual annealing` algorithm to perform a nonlinear least square fitting of the variable $R_i(t)$ and find the global minimum value of the residual. The table below shows an ordered dictionary of all the parameter objects required.
+
+<table align="center">
+  <tr>
+    <th>name</th>
+    <th>initial value</th>
+    <th>lower bound</th>
+    <th>upper bound</th>
+    <th>expression</th>
+  </tr>
+  <tr>
+    <td align="center">$N_i$</td>
+    <td align="center">$n_i$</td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td align="center">$S_i(0)$</td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center">$N_i - E_i(0) - I_i(0) - R_i(0)$</td>
+  </tr>
+  <tr>
+    <td align="center">$E_i(0)$</td>
+    <td align="center">50</td>
+    <td align="center">0</td>
+    <td align="center">500</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td align="center">$I_i(0)$</td>
+    <td align="center">50</td>
+    <td align="center">0</td>
+    <td align="center">200</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td align="center">$R_i(0)$</td>
+    <td align="center">0</td>
+    <td align="center">0</td>
+    <td align="center">100</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td align="center">$\beta_{ij}$</td>
+    <td align="center">0.5</td>
+    <td align="center">0.01</td>
+    <td align="center">1</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td align="center">$\sigma_{ij}$</td>
+    <td align="center">0.5</td>
+    <td align="center">0.05</td>
+    <td align="center">0.5</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td align="center">$\gamma_{ij}$</td>
+    <td align="center">0.5</td>
+    <td align="center">0.05</td>
+    <td align="center">0.5</td>
+    <td align="center"></td>
+  </tr>
+ <tr>
+    <td colspan="5">Table 1: Implementation of parameters according to the sampling of the estimates for epidemic parameters. Here, $n_i$ is the population size of province $i$.</td>
+  </tr>
+</table>
