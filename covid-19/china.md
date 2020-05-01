@@ -361,7 +361,7 @@ Given that even local optimization methods will be rather time consuming under t
 
 ### Discussion on Parameters
 
-We find that for these parameters there is no major changes of the values in general, excpet for the incubation seed $E_i(0)$ of every province.
+We find that there is no major changes of the parametric values in general, excpet for the incubation seed $E_i(0)$ at every province.
 
 
 
