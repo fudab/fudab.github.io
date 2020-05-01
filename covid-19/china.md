@@ -134,8 +134,8 @@ In general, all three parameters can be time dependent, due to containment effor
 <div class="math">
 \begin{equation}
   \begin{cases}
-  \displaystyle \beta_{ij}, & 3(j - 1) \leq t \leq 3j - 1, \qquad \text{for} \, 1 \leq j \leq  7\\ \\
-  \beta_{i(7 + j)}, & 21 + 7(j - 1) \leq t \leq 21 + 7j - 1, \qquad \text{for} \, 1 \leq j \leq 5 
+  \displaystyle \beta_{ij}, & 3(j - 1) \leq t \leq 3j - 1, \qquad \text{for} \,\,\, 1 \leq j \leq  7\\ \\
+  \beta_{i(7 + j)}, & 21 + 7(j - 1) \leq t \leq 21 + 7j - 1, \qquad \text{for} \,\,\, 1 \leq j \leq 5 
 \end{cases}
 \end{equation}
 </div>
