@@ -20,7 +20,7 @@ categories: github jekyll
 > In the very early stage of an unprecedented outbreak of COVID-19 started in the epicenter, Wuhan, Hubei Province, China, the Chinese government imposed by far the largest scale of strict travel restrictions on more than 11 million people (beyond) on January 23, 2020, amid the busiest period of the year for domestic travels (chunyun, travels made during the Lunar New Year). Such massive travel restrictions have caused dramatic reduction in travel volume, not only for the outflow from Wuhan (Hubei), but also nationwide. Control measures like this helps reduce the number of imported cases to other provinces, which can possibly slowdown the onset of epidemic outbreaks in other regions and potentially weaken the impact of the disease. Here, we are interested in estimating the effectiveness of such massive travel restrictions in the mitigation of disease impact using a data driven approach.
 
 ### Data
-> The data we use in our research consist of three parts: the COVID-19 infection information, the census, as well as the migration information in China. We consider the data in a provincial level where 26 provinces as well as four municipalities are treated as individual compartments. The start date is January 15, 2020.
+> The data we use in our research consist of three parts: the COVID-19 infection information, the census, as well as the migration information in China. We consider the data in a provincial level where 26 provinces as well as four municipalities are treated as individual compartments. The start date is `January 15, 2020` and the end date is `March 10, 2020`.
 
 #### Data Source
 * COVID-19 information: 
@@ -48,7 +48,7 @@ categories: github jekyll
     <td class="tg-cly1">(c) The provincial level growth of confirmed cases. The curve in a panel represents the number of cumulative infected people in the province and the histogram indicates the number of new infected people everyday.</td>
   </tr>
   <tr>
-    <td colspan="2">Figure 1: Summary of the COVID-19 information as of May 10, 2020. The color code in (c) corresponds to the severity of the epidemic.</td>
+    <td colspan="2">Figure 1: Summary of the COVID-19 information as of May 10, 2020. To reduce errors, we have removed all imported cases from other countries. The color code in (c) corresponds to the severity of the epidemic.</td>
   </tr>
  </table>
 </center>
@@ -130,5 +130,14 @@ With the above approximation, we can estimate $\alpha_{ij}(t)$ by $\frac{\theta 
 \end{equation}
 </div>
 
-In general, all three parameters can be time dependent, due to containment efforts (social distancing). Since time $t$ is discrete in practice, we treat these parameters as piecewise functions, of which every piece is a constant. To simplify the problem, 
+In general, all three parameters can be time dependent, due to containment efforts (social distancing). Since time $t$ is discrete in practice, we treat these parameters as piecewise functions, of which every piece is a constant. To simplify the problem, we unify the timeline for all provinces. As mentioned above, the record of the COVID-19 information starts from `January 15` and is truncated to `March 10`. Therefore, the variable $t$ in the ODE system satisfies $t \in [0, 55]$. In our model, we focus more on the infection rate and the function $\beta_i(t)$ is split into twelve pieces while $\sigma_i(t)$ and $\gamma_i(t)$ are split into three pieces:
+<div class="math">
+\begin{equation}
+  \begin{cases}
+  \displaystyle \beta_{ij}, & 3(j - 1) \leq t \leq 3j - 1, \qquad \text{for} \, 1 \leq j \leq  7\\ \\
+  \beta_{i(7 + j)}, & 21 + 7(j - 1) \leq t \leq 21 + 7j - 1, \qquad \text{for} \, 1 \leq j \leq 5 
+\end{cases}
+\end{equation}
+</div>
+
 
