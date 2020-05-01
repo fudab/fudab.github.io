@@ -352,7 +352,7 @@ Given that even local optimization methods will be rather time consuming under t
 
 <table align="center">
   <tr>
-    <th><img width="600" src="./figures_china/China_conf_mseir_40.png"></th>
+    <th><img width="800" src="./figures_china/China_conf_mseir_40.png"></th>
   </tr>
   <tr>
     <td>Figure 4: Cumulative incidence of COVID-19 cases in every one of the 30 compartments (26 provinces and 4 municipalities) as well as prior estimation (without migration) and posterior estimation (with migration) based on real data. The looping simulation is repeated for 40 times. </td>
@@ -361,7 +361,18 @@ Given that even local optimization methods will be rather time consuming under t
 
 ### Discussion on Parameters
 
-We find that there is no major changes of the parametric values in general, excpet for the incubation seed $E_i(0)$ at every province.
+We find that there is no major changes of the parametric values in general, excpet for the incubation seed $E(0)$ at every province. In other words, the migraiton from province to province plays a key role in the outbreak in other provinces apart from Hubei. Moreover, correlation analysis between internal flow ratio and infection rate $\beta$ shows that the spread of the disease is in line with the intensity of residents' intra-city travel behavior.
+
+#### Incubation Seed $E(0)$
+
+<table align="center">
+  <tr>
+    <th><img width="800" src="./figures_china/China_E_0.png"></th>
+  </tr>
+  <tr>
+    <td>Figure 5: How the incubation seed $E(0) $changes before and after considering province to province migration. A horizontal bar is added for the ith province if $E_i(0)$ shrinks.</td>
+  </tr>
+</table>
 
 
 
