@@ -55,37 +55,37 @@ categories: github jekyll
 
 <table align="center">
   <tr>
-    <th><img width="400" src="./figures_china/China_MI.png" ></th>
-    <th><img width="400" src="./figures_china/China_IF.png" ></th>
+    <th><img width="350" src="./figures_china/China_MI.png" ></th>
+    <th><img width="350" src="./figures_china/China_IF.png" ></th>
   </tr>
   <tr>
     <td>(a) The sum of province to province migration index in China.</td>
     <td>(d) The nationwide normalized internal-flow ratio in China.</td>
   </tr>
   <tr>
-    <td align="center"><img width="400" src="./figures_china/Hubei_move_in_MI.png" ></td>
-    <td align="center"><img width="400" src="./figures_china/Hubei_IF.png" ></td>
+    <td align="center"><img width="350" src="./figures_china/Hubei_move_in_MI.png" ></td>
+    <td align="center"><img width="350" src="./figures_china/Hubei_IF.png" ></td>
   </tr>
   <tr>
     <td>(b) The sum of province to province migration index in Hubei Province. Here, Hubei is the destination. </td>
     <td>(e) The province level normalized internal-flow ratio in Hubei Province.</td>
   </tr>
   <tr>
-    <td align="center"><img width="400" src="./figures_china/Hubei_move_out_MI.png" ></td>
-    <td align="center"><img width="400" src="./figures_china/Wuhan_IF.png" ></td>
+    <td align="center"><img width="350" src="./figures_china/Hubei_move_out_MI.png" ></td>
+    <td align="center"><img width="350" src="./figures_china/Wuhan_IF.png" ></td>
   </tr>
   <tr>
     <td>(c) The sum of province to province migration index in Hubei Province. Here, Hubei is the place of departure. </td>
     <td>(f) The city level inter-flow ratio in Wuhan City.</td>
   </tr>
   <tr>
-    <td colspan="2"><img width="400" src="./figures_china/China_Province_IF.png" ></td>
+    <td colspan="2"><img width="700" src="./figures_china/China_Province_IF.png" ></td>
   </tr>
   <tr>
-    <td colspan="2">(g) The province level normalized internal-flow ratios in China. </td>
+    <td colspan="2">(g) The province level normalized internal-flow ratios in China. The cruve of Hubei Province is highlighted with scatters.</td>
   </tr>
   <tr>
-    <td colspan="2">Figure 2: Summary of the migration infromation in China, Hubei province and Wuhan city. The time period for calculating the first average plateau value is from January 1, 2020 to January 21, 2020 and that for calculating the second value is from February 1, 2020 to February 21, 2020. The percentage in the title of every panel indicates the after-to-before ratio.</td>
+    <td colspan="2">Figure 2: Summary of the migration infromation in China, Hubei province and Wuhan city. The time period for calculating the first average plateau value is from January 1, 2020 to January 21, 2020 and that for calculating the second value is from February 1, 2020 to February 21, 2020. For panels (a) - (f), the percentage in the title indicates the after-to-before ratio.</td>
   </tr>
 </table>
 
