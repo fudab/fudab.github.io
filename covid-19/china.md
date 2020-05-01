@@ -133,11 +133,21 @@ With the above approximation, we can estimate $\alpha_{ij}(t)$ by $\frac{\theta 
 In general, all three parameters can be time dependent, due to containment efforts (social distancing). Since time $t$ is discrete in practice, we treat these parameters as piecewise functions, of which every piece is a constant. To simplify the problem, we unify the timeline for all provinces. As mentioned above, the record of the COVID-19 information starts from `January 15` and is truncated to `March 10`. Therefore, the variable $t$ in the ODE system satisfies $t \in [0, 55]$. In our model, we focus more on the infection rate and the function $\beta_i(t)$ is split into twelve pieces while $\sigma_i(t)$ and $\gamma_i(t)$ are split into three pieces:
 <div class="math">
 \begin{equation}
+\beta_i(t) = 
   \begin{cases}
-  \displaystyle \beta_{ij}, & 3(j - 1) \leq t \leq 3j - 1, \,\,\, \text{for} \,\,\, 1 \leq j \leq  7\\ \\
+  \displaystyle \beta_{ij}, & 3(j - 1) \leq t \leq 3j - 1, \,\,\, \text{for} \,\,\, 1 \leq j \leq  7 \\ 
   \beta_{i(7 + j)}, & 21 + 7(j - 1) \leq t \leq 21 + 7j - 1, \,\,\, \text{for} \,\,\, 1 \leq j \leq 5 
 \end{cases}
 \end{equation}
 </div>
 
-
+<div class="math">
+\begin{equation}
+\sigma_i(t) = 
+  \begin{cases}
+  \displaystyle \sigma_{i1}, & 0 \leq t \leq 5 \\
+  \displaystyle \sigma_{i2}, & 6 \leq t \leq 11 \\
+  \displaystyle \sigma_{i3}, & 12 \leq t \leq 55 
+\end{cases}
+\end{equation}
+</div>
