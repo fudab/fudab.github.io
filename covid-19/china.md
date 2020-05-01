@@ -403,10 +403,10 @@ We find that there is no major changes of the parametric values in general, excp
 
 <table align="center">
   <tr>
-    <th><img width="800" src="./figures_china/China_beta.png"></th>
+    <th><img width="800" src="./figures_china/China_beta_if.png"></th>
   </tr>
   <tr>
-    <td>Figure 8: The correlation between internal flow ratio and infection rate. </td>
+    <td>Figure 8: The correlation between internal flow ratio and infection rate $\beta$. Considering the provincial internal flow ratio and $\beta$ as two time series, we calculate their cross correlations with different lags (unit: day) and figure out the maximum value of the correlation coefficent as well as the corresponding lag, both of which are given in the title of every panel. In accordance with the cuase-effect relation, we assume that the lag is positive, that is, people's travel behavior leads the spread of the disease. </td>
   </tr>
 </table>
 
