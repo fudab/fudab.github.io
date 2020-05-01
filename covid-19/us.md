@@ -200,7 +200,7 @@ To obtain a satisfactory estimation of the epidemic parameters for the $i$th sta
   </tr>
 </table>
 
-After obtaining the prior estimation of the parameters for every province, we can further calculate the covariance matrix $\text{cov}(\hat{x})$ and therefore an error bar of the fitting. The covariance matrix contains complete information about the uncertainty of the parameter estimators. The method we apply here to obtain it is to use a linear approximation method through estimation of the Jacobian matrix $F$ of the parameter estimation problem:
+After obtaining the prior estimation of the parameters for every state, we can further calculate the covariance matrix $\text{cov}(\hat{x})$ and therefore an error bar of the fitting. The covariance matrix contains complete information about the uncertainty of the parameter estimators. The method we apply here to obtain it is to use a linear approximation method through estimation of the Jacobian matrix $F$ of the parameter estimation problem:
 
 <div class="math">
 \begin{equation}
