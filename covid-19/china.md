@@ -38,7 +38,7 @@ categories: github jekyll
     <th align="center" rowspan="3"><img width="500" src="./figures_china/China_conf.png" ></th>
   </tr>
   <tr>
-    <td class="tg-cly1">(a) The `national` level of reported cases since the ﬁrst 41 reported cases in Hubei Province in Jan 15, 2020.</td>
+    <td class="tg-cly1">(a) The national level of reported cases since the ﬁrst 41 reported cases in Hubei Province in Jan 15, 2020.</td>
   </tr>
   <tr>
     <td align="center"><img width="400" src="./figures_china/China_heatmap.png" ></td>
