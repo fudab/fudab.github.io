@@ -294,37 +294,37 @@ By letting $\alpha = 0.005$, we can obtain the $99.99\%$ confidence intervals of
   </tr>
   <tr>
     <td align="center">$I_i(0)$</td>
-    <td align="center">50</td>
+    <td align="center">$I_i^{\text{prior}}(0)$</td>
     <td align="center">0</td>
-    <td align="center">200</td>
+    <td align="center">$\max(200, I_i^{\text{upper}}(0))$</td>
     <td align="center"></td>
   </tr>
   <tr>
     <td align="center">$R_i(0)$</td>
+    <td align="center">$R_i^{\text{prior}}(0)$</td>
     <td align="center">0</td>
-    <td align="center">0</td>
-    <td align="center">100</td>
+    <td align="center">$\max(100, R_i^{\text{upper}}(0))$</td>
     <td align="center"></td>
   </tr>
   <tr>
     <td align="center">$\beta_{ij}$</td>
-    <td align="center">0.5</td>
+    <td align="center">$\beta_{ij}^{\text{prior}}$</td>
     <td align="center">0.01</td>
-    <td align="center">1</td>
+    <td align="center">$\min(1, \beta_{ij}^{\text{upper}})$</td>
     <td align="center"></td>
   </tr>
   <tr>
     <td align="center">$\sigma_{ij}$</td>
-    <td align="center">0.5</td>
+    <td align="center">$\sigma_{ij}^{\text{prior}}$</td>
     <td align="center">0.05</td>
-    <td align="center">0.5</td>
+    <td align="center">$\min(0.5, \sigma_{ij}^{\text{upper}})$</td>
     <td align="center"></td>
   </tr>
   <tr>
     <td align="center">$\gamma_{ij}$</td>
-    <td align="center">0.5</td>
+    <td align="center">$\gamma_{ij}^{\text{prior}}$</td>
     <td align="center">0.05</td>
-    <td align="center">0.5</td>
+    <td align="center">$\min(0.5, \gamma_{ij}^{\text{upper}})$</td>
     <td align="center"></td>
   </tr>
  <tr>
