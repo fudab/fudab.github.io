@@ -239,6 +239,8 @@ To obtain a satisfactory estimation of the epidemic parameters for the $i$th pro
   </tr>
 </table>
 
+#### Posterior
+
 After obtaining the prior estimation of the parameters for every province, we can further calculate the covariance matrix $\text{cov}(\hat{x})$ and therefore the lower and upper bounds of these estimated values of parameters. The covariance matrix contains complete information about the uncertainty of the parameter estimators. The method we apply here to obtain it is to use a linear approximation method through estimation of the Jacobian matrix $F$ of the parameter estimation problem:
 
 <div class="math">
@@ -261,7 +263,7 @@ The covariance matrix is a square matrix with $p\times p$ dimensions. In particu
 \end{equation}
 </div>
 
-By letting $\alpha = 0.005$, we can obtain the $99.99\%$ confidence intervals of the parameters for every province. Still, we would like to guarantee that the lower and upper bounds of the epidemic parameters are consistent with the sampling of estimations and also the lower bounds of $E_i(0)$, $I_i(0)$ as well as $R_i(0)$ are non-negative. Combining the above restrictions, we get the updated bounds for the parameters, which are ready for the simulation with migration where a giant system of equations is in operation.
+By letting $\alpha = 0.005$, we can obtain the $99.99\%$ confidence intervals of the parameters for every province. Still, we would like to guarantee that the lower and upper bounds of the epidemic parameters are consistent with the sampling of estimations and also the lower bounds of $E_i(0)$, $I_i(0)$ as well as $R_i(0)$ are non-negative. Combining the above restrictions, we get the updated bounds for the parameters, which are ready for the simulation with migration where a system of $30 \times 4$ equations will be in operation.
 
 <table align="center">
   <tr>
@@ -331,4 +333,9 @@ By letting $\alpha = 0.005$, we can obtain the $99.99\%$ confidence intervals of
     <td colspan="5">Table 2: Implementation of parameters according to the sampling of the estimates for epidemic parameters and the prior result. Here, $n_i$ is the population size of province $i$. The superscripts 'prior' and 'upper' indicate the estimated value and the upper bound.</td>
   </tr>
 </table>
+
+Given that even local optimization methods will be rather time consuming under the current situation where we need to solve a giant system of equations, not to mention any global optimization methods, we repeatly apply the `` algorithm, performing the same nonlinear least square fitting of the variable $R_i(t)$ and finding the local minimum value of the residual. Every time we select a different province and only allow its parameters to be changable until we have passed all the provinces. To imporve the accuracy of our result, we run this cycling process multiple times.
+
+
+
 
