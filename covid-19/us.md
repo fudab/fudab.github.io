@@ -27,7 +27,7 @@ categories: github jekyll
 * United States
   * COVID-19 information: [New York Times COVID-19 Warehouse](https://github.com/nytimes/covid-19-data)
   * census: [United States Census Bureau](https://simple.wikipedia.org/wiki/List_of_U.S._states_by_population)
-  * Rural-Urban Continuum Codes: [United States Department of Agriculture](https://www.ers.usda.gov/data-products/rural-urban-continuum-codes/)
+  * rural-urban continuum codes: [United States Department of Agriculture](https://www.ers.usda.gov/data-products/rural-urban-continuum-codes/)
   * migration information: [Descartes Labs](https://github.com/descarteslabs/DL-COVID-19)
   * stock market: [Yahoo Finance](https://finance.yahoo.com/)
   * voting information: [Cook Partisan Voting Index](https://en.wikipedia.org/wiki/Cook_Partisan_Voting_Index)
