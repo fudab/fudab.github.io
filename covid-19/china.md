@@ -107,7 +107,7 @@ We consider an SEIR model in a population structure for every province. The syst
 
 Here, the subscript $i$ refers to the $i$th compartment on the provincial level (in other words, the $i$th province) and $N_i(t) = S_i(t) + E_i(t) + I_i(t) + R_i(t)$ is the population size of compartment $i$. 
 
-To parameterize migration flows between compartments, we use the real provincial level mobility data from `Baidu Qianxi`. Notice that the number of infected cases of the epidemic and the population size of a same province differ by at least three orders of magnitude. Hence $S_i(t) + E_i(t)$ is roughly $N_i(t)$ and we can assume the following two identities:
+To parameterize migration flows between compartments, we use the real provincial level mobility data from `Baidu Qianxi`. Notice that the number of infected cases of the epidemic and the population size of a same province differ by at least three orders of magnitude (see [Bag End](https://fudab.github.io/covid-19/bag_end_china) for details). Hence $S_i(t) + E_i(t)$ is roughly $N_i(t)$ and we can assume the following two identities:
 <div class="math">
 \begin{equation}
 \begin{cases}
@@ -116,6 +116,6 @@ To parameterize migration flows between compartments, we use the real provincial
 \end{cases}
  \end{equation}
 </div>
-Here, $\theta$ is the unit of p2p2 migration index.
+Here, $\theta$ is the unit of p2p migration index.
 In general, all three parameters can be time dependent, due to containment efforts (social distancing). Since time $t$ is discrete in practice, we treat these parameters as piecewise functions, of which every piece is a constant. To simplify the problem, 
 
