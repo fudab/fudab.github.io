@@ -55,31 +55,31 @@ categories: github jekyll
 
 <table align="center">
   <tr>
-    <th><img width="350" src="./figures_china/China_MI.png" ></th>
-    <th><img width="350" src="./figures_china/China_IF.png" ></th>
+    <th><img width="450" src="./figures_china/China_MI.png" ></th>
+    <th><img width="450" src="./figures_china/China_IF.png" ></th>
   </tr>
   <tr>
     <td>(a) The sum of province to province migration index in China.</td>
     <td>(d) The nationwide normalized internal-flow ratio in China. </td>
   </tr>
   <tr>
-    <td align="center"><img width="350" src="./figures_china/Hubei_move_in_MI.png" ></td>
-    <td align="center"><img width="350" src="./figures_china/Hubei_IF.png" ></td>
+    <td align="center"><img width="450" src="./figures_china/Hubei_move_in_MI.png" ></td>
+    <td align="center"><img width="450" src="./figures_china/Hubei_IF.png" ></td>
   </tr>
   <tr>
     <td>(b) The sum of p2p migration index in Hubei Province (destination). </td>
     <td>(e) The province level normalized internal-flow ratio in Hubei Province. </td>
   </tr>
   <tr>
-    <td align="center"><img width="350" src="./figures_china/Hubei_move_out_MI.png" ></td>
-    <td align="center"><img width="350" src="./figures_china/Wuhan_IF.png" ></td>
+    <td align="center"><img width="450" src="./figures_china/Hubei_move_out_MI.png" ></td>
+    <td align="center"><img width="450" src="./figures_china/Wuhan_IF.png" ></td>
   </tr>
   <tr>
     <td>(c) The sum of p2p migration index in Hubei Province (place of departure). </td>
     <td>(f) The city level inter-flow ratio in Wuhan City. </td>
   </tr>
   <tr>
-    <td colspan="2"><img width="800" src="./figures_china/China_Province_IF.png" ></td>
+    <td colspan="2"><img width="900" src="./figures_china/China_Province_IF.png" ></td>
   </tr>
   <tr>
     <td colspan="2">(g) The province level normalized internal-flow ratios in China. The cruve of Hubei Province is highlighted with scatters.</td>
