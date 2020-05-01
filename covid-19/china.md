@@ -89,6 +89,20 @@ categories: github jekyll
   </tr>
 </table>
 
+<table align="center">
+  <tr>
+    <th><img width="450" src="./figures_china/China_heatmap_migration_2020-01-27.png" ></th>
+    <th><img width="450" src="./figures_china/China_heatmap_migration_c_2020-01-27.png" ></th>
+  </tr>
+  <tr>
+    <td>(a) Migration traces involving the top 10 provinces with the greatest cumulative migration index from Hubei.</td>
+    <td>(b) Recursive migration traces involving the top 3 provinces with the greatest cumulative migration index from the departure province. The ﬁrst place of departure is Hubei, which points to the 3 destinations: Guangdong, Henan and Hunan. These 3 destinations are treated as the new places of departure and new destinations are added. We repeat this process until there is no new destination appears.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Figure 3: Migration traces derived from the migration data. Daily migration index from `January 1` to `January 27` is added to obtain the cumulative index. And we use heatmap to indicate the number of infected people by `January 27`.</td>
+  </tr>
+</table>
+
 ### Method
 
 #### SEIR Model
@@ -334,15 +348,22 @@ By letting $\alpha = 0.005$, we can obtain the $99.99\%$ confidence intervals of
   </tr>
 </table>
 
-Given that even local optimization methods will be rather time consuming under the current situation where we need to solve a giant system of equations, not to mention any global optimization methods, we repeatly apply the `` algorithm, performing the same nonlinear least square fitting of the variable $R_i(t)$ and finding the local minimum value of the residual. Every time we select a different province and only allow its parameters to be changable until we have passed all the provinces. To imporve the accuracy of our result, we run this cycling process multiple times.
+Given that even local optimization methods will be rather time consuming under the current situation where we need to solve a giant system of equations, not to mention any global optimization methods, we repeatly apply the `` algorithm, performing the same nonlinear least square fitting of the variable $R_i(t)$ and finding the local minimum value of the residual. Every time we select a different province and only allow its parameters to be changable until we have passed all the provinces. To imporve the accuracy of our result, we run this loop multiple times.
 
 <table align="center">
   <tr>
     <th><img width="600" src="./figures_china/China_conf_mseir_40.png"></th>
   </tr>
   <tr>
-    <td>Figure 3: Cumulative incidence of COVID-19 cases in every one of the 30 compartments (26 provinces and 4 municipalities) as well as prior estimation (without migration) and posterior estimation (with migration) based on real data.</td>
+    <td>Figure 4: Cumulative incidence of COVID-19 cases in every one of the 30 compartments (26 provinces and 4 municipalities) as well as prior estimation (without migration) and posterior estimation (with migration) based on real data. The looping simulation is repeated for 40 times. </td>
   </tr>
 </table>
+
+### Discussion on Parameters
+
+We find that for these parameters there is no major changes of the values in general, excpet for the incubation seed $E_i(0)$ of every province.
+
+
+
 
 
