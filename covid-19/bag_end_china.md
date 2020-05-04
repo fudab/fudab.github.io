@@ -32,6 +32,6 @@ categories: github jekyll
     <td>(d) Number of people dead. </td>
   </tr>
   <tr>
-    <td colspan="2">Figure 1: The provincial level summary of COVID-19 by March 10, 2020 in China. There are 30 individuals in total, consisting of 26 provinces and four municipalities. We do not include imported cases in our data.</td>
+    <td colspan="2">Figure 1: The provincial level summary of COVID-19 by March 10, 2020 in China using bar charts. There are 30 individuals in total, consisting of 26 provinces and four municipalities. All corresponding numbers are marked at the end of the bars. We do not include imported cases in our data.</td>
   </tr>
 </table>
