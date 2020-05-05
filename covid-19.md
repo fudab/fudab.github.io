@@ -52,5 +52,5 @@ categories: github jekyll
 > * A summary on the provincial level.
 
 #### [World-wide](https://fudab.github.io/covid-19/bag_end_world)
-> * Correlations with rule of law.
+> * Correlation with rule of law.
 
