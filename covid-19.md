@@ -49,4 +49,8 @@ categories: github jekyll
 >   * Insured unemployment rate
 
 #### [For China](https://fudab.github.io/covid-19/bag_end_china)
+> * A summary on the provincial level.
+
+#### [World-wide](https://fudab.github.io/covid-19/bag_end_world)
+> * Correlations with rule of law.
 
