@@ -11,15 +11,15 @@ categories: github jekyll
 
 ## ATC
 ### Xingru Chen and Feng Fu
-##### `Last updated: May 4, 2020`
+##### `Last updated: May 5, 2020`
 
 * This report provides preliminary results and is work in progress.
 * Original code and data are in the [Github Repository](https://github.com/fudab/COVID-19-ATC).
 
-### Abstract
-> ATC stands for all things considered. The report provice you all sorts of knowledge about COVID-19 from different perspectives.
+### About
+> ATC stands for all things considered. The report offers all sorts of knowledge about COVID-19 from different perspectives.
 ### Data
-> The data we use in our research consist of three parts: the COVID-19 infection information, world population prospects and the rule of law survey results.
+> The data we use in our research consist of three parts: the COVID-19 infection information, world population prospects and other information.
 
 #### Data Source
 * COVID-19 information: [Johns Hopkins COVID-19 Warehouse](https://github.com/CSSEGISandData/COVID-19)
@@ -28,7 +28,12 @@ categories: github jekyll
 
 ### Data Processing
 
-The WJP Rule of Law Index data consist of the scores and rankings of eight factors and 44 sub-factors.
+* The JHU COVID-19 data include the number of confirmed, recovered and dead cases of more than 180 countries and regions.
+
+
+* The UN Population Dynamics data include the population sizes of more than 470 countries and regions.
+
+* The WJP Rule of Law Index data include the scores and rankings of more than 120 countries. There are eight factors and 44 sub-factors in total.
 
 <table>
   <tr>
@@ -232,6 +237,12 @@ The WJP Rule of Law Index data consist of the scores and rankings of eight facto
   </tr>
 </table>
 
+### Method
+
+### Discussion
+
+### Correlation between infection rate and rule of law
+> the degree to which a country is autocratic affects its ability to respond to the pandemic
 
 
 
