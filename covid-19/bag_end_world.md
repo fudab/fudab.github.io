@@ -11,7 +11,7 @@ categories: github jekyll
 
 ## ATC
 ### Xingru Chen and Feng Fu
-##### `Last updated: May 5, 2020`
+##### `Last updated: May 4, 2020`
 
 * This report provides preliminary results and is work in progress.
 * Original code and data are in the [Github Repository](https://github.com/fudab/COVID-19-ATC).
@@ -56,11 +56,18 @@ categories: github jekyll
     <td>(f) Daily new deaths. </td>
   </tr>
   <tr>
-    <td colspan="2">Figure 1: Summary of the world-wide COVID-19 information as of May 4, 2020. We only show the top 20 countries (regions) on every panel. </td>
+    <td colspan="2">Figure 1: Summary of the world-wide COVID-19 information as of the date updated. We only show the top 20 countries(regions) on every panel. </td>
   </tr>
 </table>
 
-
+<table align="center">
+  <tr>
+    <th><img width="600" src="./figures_rule_of_law/World_infection_rate.png" ></th>
+  </tr>
+  <tr>
+    <td>Figure 2: National infection rate as of the date updated. We only show the top 20 countries(regions) with the highest incidence rate. </td>
+  </tr>
+</table>
 
 * The UN Population Dynamics data include the population sizes of more than 470 countries and regions.
 
