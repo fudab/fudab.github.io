@@ -30,6 +30,37 @@ categories: github jekyll
 
 * The JHU COVID-19 data include the number of confirmed, recovered and dead cases of more than 180 countries and regions.
 
+<table align="center">
+  <tr>
+    <th><img width="400" src="./figures_rule_of_law/World_cum_confirmed.png" ></th>
+    <th><img width="400" src="./figures_rule_of_law/World_new_confirmed.png" ></th>
+  </tr>
+  <tr>
+    <td>(a) Cumulative number of confirmed cases. </td>
+    <td>(b) Daily new confirmed cases. </td>
+  </tr>
+  <tr>
+    <td align="center"><img width="400" src="./figures_rule_of_law/World_cum_recovered.png" ></td>
+    <td align="center"><img width="400" src="./figures_rule_of_law/World_new_recovered.png" ></td>
+  </tr>
+  <tr>
+    <td>(c) Cumulative number of recovered cases. </td>
+    <td>(d) Daily new recovered cases. </td>
+  </tr>
+  <tr>
+    <td><img width="400" src="./figures_rule_of_law/World_cum_dead.png" ></td>
+    <td><img width="400" src="./figures_rule_of_law/World_new_dead.png" ></td>
+  </tr>
+  <tr>
+    <td>(e) Cumulative deaths. </td>
+    <td>(f) Daily new deaths. </td>
+  </tr>
+  <tr>
+    <td colspan="2">Figure 1: Summary of the world-wide COVID-19 information as of May 4, 2020. We only show the top 20 countries (regions) on every panel. </td>
+  </tr>
+</table>
+
+
 
 * The UN Population Dynamics data include the population sizes of more than 470 countries and regions.
 
