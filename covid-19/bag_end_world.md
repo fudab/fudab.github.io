@@ -22,7 +22,7 @@ categories: github jekyll
 #### Data Source
 * COVID-19 information: [Johns Hopkins COVID-19 Warehouse](https://github.com/CSSEGISandData/COVID-19)
 * World population prospects:[United Nations Department of Economic and Social Affairs Population Dynamics](https://population.un.org/wpp/Download/Standard/CSV/)
-* Rule of law survey results: [https://worldjusticeproject.org/rule-of-law-index/factors/2020](https://simple.wikipedia.org/wiki/List_of_U.S._states_by_population)
+* Rule of law survey results: [World Justice Project Rule of Law Index](https://worldjusticeproject.org/rule-of-law-index/factors/2020)
 
 ### Data Processing
 
