@@ -71,7 +71,7 @@ categories: github jekyll
 
 <table align="center">
   <tr>
-    <th><div w3-include-html="./figures_rule_of_law/render.html"></div></th>
+    <th><!--#include virtual="./figures_rule_of_law/render.html" --></th>
   </tr>
   <tr>
     <td>Figure 3:  </td>
