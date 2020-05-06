@@ -10,7 +10,7 @@ categories: github jekyll
 
 ## When and how will the COVID-19 pandemic end in the United States?
 ### Xingru Chen and Feng Fu      
-`Last updated: May 4, 2020`
+`Last updated: May 5, 2020`
 
 * This report provides preliminary results and is work in progress. More detailed results and figures are in the [Bag End](https://fudab.github.io/covid-19/bag_end_us). 
 
@@ -20,7 +20,8 @@ categories: github jekyll
 - [x] [April 5, 2020](https://fudab.github.io/covid-19/us_0405)
 - [x] [April 12, 2020](https://fudab.github.io/covid-19/us_0412)
 - [x] [April 19, 2020](https://fudab.github.io/covid-19/us_0419) 
-- [ ] [April 26, 2020](https://fudab.github.io/covid-19/us_0426)
+- [x] [April 26, 2020](https://fudab.github.io/covid-19/us_0426)
+- [ ] [May 3, 2020](https://fudab.github.io/covid-19/us_0503)
 
 ### Abstract
 > The COVID-19 pandemic has upended everyone’s normal life, health crisis, lockdowns, and economic percussions in an unprecedented pace and scale. We will get over this pandemic but at what prices? Here we estimate the burden of COVID-19 in the United States, peak time, and total number of infections, in coming months.
