@@ -69,7 +69,10 @@ categories: github jekyll
   </tr>
 </table>
 
-<div w3-include-html="./figures_rule_of_law/render.html"></div> 
+
+<object data="./figures_rule_of_law/render.html"> 
+    Your browser doesn’t support the object tag. 
+</object>
 
 <table align="center">
   <tr>
