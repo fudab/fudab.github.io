@@ -69,7 +69,7 @@ categories: github jekyll
   </tr>
 </table>
 
-
+<iframe src="./figures_rule_of_law/render.html" width="300" height="200" style="float:right"></iframe>
 <object data="./figures_rule_of_law/render.html"> 
     Your browser doesn’t support the object tag. 
 </object>
