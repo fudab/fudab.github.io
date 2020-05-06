@@ -71,7 +71,7 @@ categories: github jekyll
 
 <table align="center">
   <tr>
-    <th><iframe src="https://fudab.github.io/covid-19/figures_rule_of_law/render.html" height="400px" width="500px"></iframe>
+    <th><iframe src="https://fudab.github.io/covid-19/figures_rule_of_law/render.html" width="500px" height="300px"></iframe>
 </th>
   </tr>
   <tr>
