@@ -69,9 +69,11 @@ categories: github jekyll
   </tr>
 </table>
 
+<object data="./figures_rule_of_law/render.html"></object>
+
 <table align="center">
   <tr>
-    <th><object data="./figures_rule_of_law/render.html"></object></th>
+    <th></th>
   </tr>
   <tr>
     <td>Figure 3:  </td>
