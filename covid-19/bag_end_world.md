@@ -3,6 +3,15 @@ mathjax: true
 categories: github jekyll
 ---
 
+<head> 
+    <script src="jquery.js"></script> 
+    <script> 
+    $(function(){
+      $("#test").load("./figures_rule_of_law/render.html"); 
+    });
+    </script> 
+  </head> 
+
 {% include mathjax.html %}
 
 # [Fu Lab](https://fudab.github.io) <img src="https://fudab.github.io/images/Logo.png" align = "right" alt="" width="50">
@@ -69,7 +78,7 @@ categories: github jekyll
   </tr>
 </table>
 
-<object data="./figures_rule_of_law/render.html"></object>
+<div id="test"></div>
 
 <table align="center">
   <tr>
