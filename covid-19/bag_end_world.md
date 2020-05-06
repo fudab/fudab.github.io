@@ -69,6 +69,15 @@ categories: github jekyll
   </tr>
 </table>
 
+<table align="center">
+  <tr>
+    <th><img width="600" src="./figures_rule_of_law/render.html" ></th>
+  </tr>
+  <tr>
+    <td>Figure 3:  </td>
+  </tr>
+</table>
+
 * The UN Population Dynamics data include the population sizes of more than 470 countries and regions.
 
 * The WJP Rule of Law Index data include the scores and rankings of more than 120 countries. There are eight factors and 44 sub-factors in total.
