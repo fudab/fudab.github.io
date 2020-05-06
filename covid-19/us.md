@@ -59,7 +59,7 @@ categories: github jekyll
     <td class="tg-cly1">(c) The state level growth of confirmed cases. The curve in a panel represents the number of cumulative infected people in the state and the histogram indicates the number of new infected people everyday.</td>
   </tr>
   <tr>
-    <td colspan="2">Figure 1: Summary of the COVID-19 information as of May 4, 2020. The color code in (a) and (c) corresponds to the partisan voting index (PVI) by each state.</td>
+    <td colspan="2">Figure 1: Summary of the COVID-19 information as of May 5, 2020. The color code in (a) and (c) corresponds to the partisan voting index (PVI) by each state.</td>
   </tr>
  </table>
 </center>
@@ -233,7 +233,7 @@ We can compare the SEIR model with the least square regression methods.
     <th align="center"><img width="600" src="./figures_us/US_R_fitting_0426.png"></th>
   </tr>
   <tr>
-    <td>Figure 4: All three models: SEIR, exponential growth and power growth. Scatters indicate the actual number of infected people and the curves are the corresponding results of least square fitting. The error bar is shown for R. </td>
+    <td>Figure 4: All three models: SEIR, exponential growth and power growth. The start date of the fitting is March 16, 2020. Scatters indicate the actual number of infected people and the curves are the corresponding results of least square fitting. The error bar is shown for R. </td>
   </tr>
 </table>
 
@@ -291,7 +291,7 @@ A detailed result for every state is given below.
     <th><img width="800" src="./figures_us/US_SEIR_I_0426.png"></th>
   </tr>
   <tr>
-    <td>Figure 7: Flatten the curve under contact rate reductions for different compliance levels of social distancing. In the ﬁgure legend, we show when the outbreak of COVID-19 in each state will peak under different scenarios. Without any strong and eﬀective measure of contact reduction, the peak time in most states will peak April and May but ﬂatten the curve would delay the peak in each state with huge variance. The ideal scenario can be achieved by a drastic lockdown, if made immediately effective, will cease and stall COVID-19 outbreaks in all states. The pandemic will immediately peak in the ﬁrst two weeks of April for most states and mid May the latest.</td>
+    <td>Figure 7: Flatten the curve under contact rate reductions for different compliance levels of social distancing. In the ﬁgure legend, we show when the outbreak of COVID-19 in each state will peak under different scenarios. Without any strong and effective measure of contact reduction, the peak time in most states will peak April and May but ﬂatten the curve would delay the peak in each state with huge variance.</td>
   </tr>
 </table>
  
