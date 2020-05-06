@@ -62,7 +62,7 @@ categories: github jekyll
 
 <table align="center">
   <tr>
-    <th><img width="600" src="./figures_rule_of_law/World_infection_rate.png" ></th>
+    <th><img width="600" src="./figures_rule_of_law/World_infection_rate.png"></th>
   </tr>
   <tr>
     <td>Figure 2: National infection rate as of the date updated. We only show the top 20 countries(regions) with the highest incidence rate. </td>
@@ -71,7 +71,7 @@ categories: github jekyll
 
 <table align="center">
   <tr>
-    <th><img width="600" src="./figures_rule_of_law/render.html" ></th>
+    <th><div w3-include-html="./figures_rule_of_law/render.html"></div></th>
   </tr>
   <tr>
     <td>Figure 3:  </td>
