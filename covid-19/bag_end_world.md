@@ -334,7 +334,7 @@ Further, we consider the multivariate linear regression with model function
 
 <div class="math">
  \begin{equation}
-  y = \displaystyle\sum_{i = 1}^m beta_i x_i + beta_0.
+  y = \displaystyle\sum_{i = 1}^m \beta_i x_i + \beta_0.
  \end{equation}
 </div> 
 
@@ -348,7 +348,27 @@ where $n$ is the size of the dataset. In our example, $n$ is the number of count
 
 ### Discussion
 
-### Correlation between infection rate and rule of law
+### Correlation between the rule of law index and infection rate
+
+* Simple linear regression
+
+<table align="center">
+  <tr>
+    <th><img width="450" src="./figures_rule_of_law/rol_overall.png"></th>
+    <th><img width="450" src="./figures_rule_of_law/rol_overall_top.png"></th>
+  </tr>
+  <tr>
+    <td>(a) Correlation between the overall score and the infection rate. </td>
+    <td>(b) Correlation between the overall score and the infection rate. We only take into account the 20 countires that have been most affected by the pandemic (with the greatest number of cumulative confirmed cases so far). The correlation coefficents are given for both cases. We use log scale for the y-axis. </td>
+  </tr>
+  <tr>
+    <td colspan="2"></td>
+  </tr>
+</table>
+
+* Multivariate linear regression
+
+
 
 
 
