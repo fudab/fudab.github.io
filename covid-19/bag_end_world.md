@@ -88,7 +88,7 @@ categories: github jekyll
 
 <table align="center">
   <tr>
-    <th align="center"><iframe src="https://fudab.github.io/covid-19/figures_rule_of_law/World_heatmap_population.html" width="600px" height="360px" scrolling="no"></iframe>
+    <th align="center"><iframe src="https://fudab.github.io/covid-19/figures_rule_of_law/World_heatmap_population.html" width="800px" height="480px" scrolling="no"></iframe>
 </th>
   </tr>
   <tr>
