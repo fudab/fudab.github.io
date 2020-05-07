@@ -366,7 +366,43 @@ where $n$ is the size of the dataset. In our example, $n$ is the number of count
   </tr>
 </table>
 
-
+<table align="center">
+  <tr>
+    <th><img width="450" src="./figures_rule_of_law/rol_factor_1.png"></th>
+    <th><img width="450" src="./figures_rule_of_law/rol_factor_2.png"></th>
+  </tr>
+  <tr>
+    <td>(a) Correlation between the score of the 1st factor and the infection rate. </td>
+    <td>(b) Correlation between the score of the 2nd factor and the infection rate.</td>
+  </tr>
+  <tr>
+    <td align="center><img width="450" src="./figures_rule_of_law/rol_factor_3.png"></td>
+    <td align="center><img width="450" src="./figures_rule_of_law/rol_factor_4.png"></td>
+  </tr>
+  <tr>
+    <td>(c) Correlation between the score of the 3rd factor and the infection rate.</td>
+    <td>(d) Correlation between the score of the 4th factor and the infection rate.</td>
+  </tr>
+  <tr>
+    <td align="center><img width="450" src="./figures_rule_of_law/rol_factor_5.png"></td>
+    <td align="center><img width="450" src="./figures_rule_of_law/rol_factor_6.png"></td>
+  </tr>
+  <tr>
+    <td>(e) Correlation between the score of the 5th factor and the infection rate.</td>
+    <td>(f) Correlation between the score of the 6th factor and the infection rate.</td>
+  </tr>
+  <tr>
+    <td align="center><img width="450" src="./figures_rule_of_law/rol_factor_7.png"></td>
+    <td align="center><img width="450" src="./figures_rule_of_law/rol_factor_8.png"></td>
+  </tr>
+  <tr>
+    <td>(g) Correlation between the score of the 7th factor and the infection rate.</td>
+    <td>(h) Correlation between the score of the 8th factor and the infection rate.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Figure 5: Correlation between the score of a single factor and the infection rate. We go through all 8 factors and the one with the highest correlation coeffecient is highlighted. </td>
+  </tr>
+</table>
 
 * Multivariate linear regression
 
