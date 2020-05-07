@@ -56,7 +56,7 @@ categories: github jekyll
     <td>(f) Daily new deaths. </td>
   </tr>
   <tr>
-    <td colspan="2">Figure 1: Summary of the world-wide COVID-19 information as of the date updated. We only show the top 20 countries(regions) on every panel. </td>
+    <td colspan="2">Figure 1: Summary of the world-wide COVID-19 information as of the date updated. We only show the top 20 countries or regions on every panel. </td>
   </tr>
 </table>
 
@@ -70,7 +70,7 @@ categories: github jekyll
     <td>(b) Spatial spread of COVID-19 (daily new).</td>
   </tr>
   <tr>
-    <td colspan="2">Figure 2: Geographical distribution of the epidemic. We consider both the cumulative number of confiremd cases and the daily new cases. </td>
+    <td colspan="2">Figure 2: Geographical distribution of the epidemic. Here, we consider both the cumulative number of confiremd cases and the daily new cases. </td>
   </tr>
 </table>
 
@@ -79,7 +79,7 @@ categories: github jekyll
     <th><img width="600" src="./figures_rule_of_law/World_infection_rate.png"></th>
   </tr>
   <tr>
-    <td>Figure 3: National infection rate as of the date updated. Here, We only show the top 20 countries(regions) with the highest incidence rate. </td>
+    <td>Figure 3: National infection rate as of the date updated. We only show the top 20 countries or regions with the highest incidence rate. </td>
   </tr>
 </table>
 
@@ -92,7 +92,7 @@ categories: github jekyll
 </th>
   </tr>
   <tr>
-    <td>Figure 3: Geographical distribution of world population. We round up the numbers to 2 decimal places for a clear presentation of the data.</td>
+    <td>Figure 3: Geographical distribution of world population. We round up the population sizes to 2 decimal places for a clear presentation of the data.</td>
   </tr>
 </table>
 
@@ -306,7 +306,7 @@ categories: github jekyll
 </th>
   </tr>
   <tr>
-    <td>Figure 4: Geographical distribution of the WJP Rule of Law Index (overall score). We round up the numbers to 2 decimal places for a clear presentation of the data.</td>
+    <td>Figure 4: Geographical distribution of the WJP Rule of Law Index (overall score). We round up the scores to 2 decimal places for a clear presentation of the data.</td>
   </tr>
 </table>
 
