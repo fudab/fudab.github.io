@@ -70,7 +70,7 @@ categories: github jekyll
     <td>(b) Spatial spread of COVID-19 (daily new).</td>
   </tr>
   <tr>
-    <td colspan="2">Figure 2: Geographical distribution of the epidemic. </td>
+    <td colspan="2">Figure 2: Geographical distribution of the epidemic. We consider both the cumulative number of confiremd cases and the daily new cases. </td>
   </tr>
 </table>
 
@@ -92,7 +92,7 @@ categories: github jekyll
 </th>
   </tr>
   <tr>
-    <td>Figure 3: Geographical distribution of world population. We round up the numbers to 2 decimal places for better presentation.</td>
+    <td>Figure 3: Geographical distribution of world population. We round up the numbers to 2 decimal places for a clear presentation of the data.</td>
   </tr>
 </table>
 
@@ -300,12 +300,26 @@ categories: github jekyll
   </tr>
 </table>
 
+<table align="center">
+  <tr>
+    <th align="center"><iframe src="https://fudab.github.io/covid-19/figures_rule_of_law/World_heatmap_overall.html" width="800px" height="480px" scrolling="no" frameBorder="0"></iframe>
+</th>
+  </tr>
+  <tr>
+    <td>Figure 4: Geographical distribution of the WJP Rule of Law Index (overall score). We round up the numbers to 2 decimal places for a clear presentation of the data.</td>
+  </tr>
+</table>
+
 ### Method
+
+To explore whether the degree to which a country is autocratic affects its ability to respond to the pandemic, we consider the correlation between infection rate of rule of law index.
+
+Given the number of people infected and the population size of every country, the infection rate is calculated as of the date we update the data for COVID-19.
+
 
 ### Discussion
 
 ### Correlation between infection rate and rule of law
-> the degree to which a country is autocratic affects its ability to respond to the pandemic
 
 
 
