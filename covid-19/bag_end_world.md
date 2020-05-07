@@ -36,10 +36,6 @@ categories: github jekyll
     <th><img width="400" src="./figures_rule_of_law/World_new_confirmed.png" ></th>
   </tr>
   <tr>
-    <td align="center"><iframe src="https://fudab.github.io/covid-19/figures_rule_of_law/World_heatmap_cum_confirmed.html" width="450px" height="270px"></iframe></td>
-    <td align="center"><iframe src="https://fudab.github.io/covid-19/figures_rule_of_law/World_heatmap_new_confirmed.html" width="450px" height="270px"></iframe></td>
-  </tr>
-  <tr>
   <tr>
     <td>(a) Cumulative number of confirmed cases. </td>
     <td>(b) Daily new confirmed cases. </td>
@@ -67,24 +63,39 @@ categories: github jekyll
 
 <table align="center">
   <tr>
-    <th><img width="600" src="./figures_rule_of_law/World_infection_rate.png"></th>
+    <th><iframe src="https://fudab.github.io/covid-19/figures_rule_of_law/World_heatmap_cum_confirmed.html" width="450px" height="270px"></iframe></th>
+    <th><iframe src="https://fudab.github.io/covid-19/figures_rule_of_law/World_heatmap_new_confirmed.html" width="450px" height="270px"></iframe></th>
   </tr>
   <tr>
-    <td>Figure 2: National infection rate as of the date updated. We only show the top 20 countries(regions) with the highest incidence rate. </td>
+    <td>(a) Spatial spread of COVID-19 (cumulative).</td>
+    <td>(b) Spatial spread of COVID-19 (daily new).</td>
+  </tr>
+  <tr>
+    <td colspan="2">Figure 2: Geographical distribution of the epidemic. </td>
   </tr>
 </table>
 
 <table align="center">
   <tr>
-    <th><iframe src="https://fudab.github.io/covid-19/figures_rule_of_law/render.html" width="500px" height="300px"></iframe>
-</th>
+    <th><img width="600" src="./figures_rule_of_law/World_infection_rate.png"></th>
   </tr>
   <tr>
-    <td>Figure 3:  </td>
+    <td>Figure 3: National infection rate as of the date updated. We only show the top 20 countries(regions) with the highest incidence rate. </td>
   </tr>
 </table>
 
+
 * The UN Population Dynamics data include the population sizes of more than 470 countries and regions.
+
+<table align="center">
+  <tr>
+    <th><iframe src="https://fudab.github.io/covid-19/figures_rule_of_law/World_heatmap_population.html" width="900px" height="540px"></iframe>
+</th>
+  </tr>
+  <tr>
+    <td>Figure 3: Geographical distribution of world population. </td>
+  </tr>
+</table>
 
 * The WJP Rule of Law Index data include the scores and rankings of more than 120 countries. There are eight factors and 44 sub-factors in total.
 
