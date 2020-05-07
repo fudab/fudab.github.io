@@ -36,7 +36,6 @@ categories: github jekyll
     <th><img width="400" src="./figures_rule_of_law/World_new_confirmed.png" ></th>
   </tr>
   <tr>
-  <tr>
     <td>(a) Cumulative number of confirmed cases. </td>
     <td>(b) Daily new confirmed cases. </td>
   </tr>
