@@ -314,7 +314,15 @@ categories: github jekyll
 
 To explore whether the degree to which a country is autocratic affects its ability to respond to the pandemic, we consider the correlation between infection rate of rule of law index.
 
-Given the number of people infected and the population size of every country, the infection rate is calculated as of the date we update the data for COVID-19.
+Given the number of people infected and the population size of every country, we can calculate the incidence rate as of the date we update the data of COVID-19. After that, we perform first the simple linear regression with model function
+
+<div class="math">
+ \begin{equation}
+  y = \beta x + \alpha.
+ \end{equation}
+</div>  
+
+
 
 
 ### Discussion
