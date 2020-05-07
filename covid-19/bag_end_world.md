@@ -358,13 +358,15 @@ where $n$ is the size of the dataset. In our example, $n$ is the number of count
     <th><img width="450" src="./figures_rule_of_law/rol_overall_top.png"></th>
   </tr>
   <tr>
-    <td>(a) Correlation between the overall score and the infection rate. </td>
-    <td>(b) Correlation between the overall score and the infection rate. We only take into account the 20 countires that have been most affected by the pandemic (with the greatest number of cumulative confirmed cases so far). The correlation coefficents are given for both cases. We use log scale for the y-axis. </td>
+    <td>(a) Correlation between the overall score and the infection rate (all countries). </td>
+    <td>(b) Correlation between the overall score and the infection rate（selected countries).  </td>
   </tr>
   <tr>
-    <td colspan="2"></td>
+    <td colspan="2">Figure 5: Correlation between the overall score and the infection rate. The Pearson coefficents are given for both (a) and (b). In (b), We only take into account the 20 countires that have been most affected by the pandemic (with the greatest number of cumulative confirmed cases so far). Among them, the top 10 countries are marked. We use log scale for the y-axis.</td>
   </tr>
 </table>
+
+
 
 * Multivariate linear regression
 
