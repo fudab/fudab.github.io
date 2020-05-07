@@ -79,7 +79,7 @@ categories: github jekyll
     <th><img width="600" src="./figures_rule_of_law/World_infection_rate.png"></th>
   </tr>
   <tr>
-    <td>Figure 3: National infection rate as of the date updated. We only show the top 20 countries(regions) with the highest incidence rate. </td>
+    <td>Figure 3: National infection rate as of the date updated. Here, We only show the top 20 countries(regions) with the highest incidence rate. </td>
   </tr>
 </table>
 
@@ -88,11 +88,11 @@ categories: github jekyll
 
 <table align="center">
   <tr>
-    <th align="center"><iframe src="https://fudab.github.io/covid-19/figures_rule_of_law/World_heatmap_population.html" width="900px" height="540px" scrolling="no"></iframe>
+    <th align="center"><iframe src="https://fudab.github.io/covid-19/figures_rule_of_law/World_heatmap_population.html" width="600px" height="360px" scrolling="no"></iframe>
 </th>
   </tr>
   <tr>
-    <td>Figure 3: Geographical distribution of world population. </td>
+    <td>Figure 3: Geographical distribution of world population. We round up the numbers to 2 decimal places for better presentation.</td>
   </tr>
 </table>
 
