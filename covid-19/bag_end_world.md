@@ -312,18 +312,39 @@ categories: github jekyll
 
 ### Method
 
-To explore whether the degree to which a country is autocratic affects its ability to respond to the pandemic, we consider the correlation between infection rate of rule of law index.
+To explore whether the degree to which a country is autocratic affects its ability to respond to the pandemic, we consider the correlation between infection rate and rule of law index.
 
-Given the number of people infected and the population size of every country, we can calculate the incidence rate as of the date we update the data of COVID-19. After that, we perform first the simple linear regression with model function
+Given the number of people infected and the population size of every country, we can calculate the incidence rate as of the date the data of COVID-19 is updated. Regarding it as the dependent variable, we perform first the simple linear regression with model function
 
 <div class="math">
  \begin{equation}
-  y = \beta x + \alpha.
+  y = \beta x + \alpha,
  \end{equation}
 </div>  
 
+where we take either the overall score or one of the 8 factors as our independent variable. And the `Pearson's correlation coefficient` is calculated:
 
+<div class="math">
+ \begin{equation}
+  \rho_{X, Y} = \frac{\text{cov}(X, Y)}{\sigma_X\sigma_Y}.
+ \end{equation}
+</div>  
 
+Further, we consider the multivariate linear regression with model function
+
+<div class="math">
+ \begin{equation}
+  y = \displaystyle\sum_{i = 1}^m beta_i x_i + beta_0.
+ \end{equation}
+</div> 
+
+Here, the dependent variables are either the 8 factors or the 44 subfactors altogether and hence $m = 8$ or $m = 44$. The `Root Mean Squared Error (RMSE)` is calculated:
+<div class="math">
+ \begin{equation}
+  \text{RMSE} = \sqrt{\frac{1}{n}\displaystyle\sum_{j = 1}^n(\hat{y}_j - y_j)^2},
+ \end{equation}
+</div> 
+where $n$ is the size of the dataset. In our example, $n$ is the number of countries and regions offered.
 
 ### Discussion
 
