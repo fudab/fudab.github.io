@@ -376,24 +376,24 @@ where $n$ is the size of the dataset. In our example, $n$ is the number of count
     <td>(b) Correlation between the score of the 2nd factor and the infection rate.</td>
   </tr>
   <tr>
-    <td align="center><img width="450" src="./figures_rule_of_law/rol_factor_3.png"></td>
-    <td align="center><img width="450" src="./figures_rule_of_law/rol_factor_4.png"></td>
+    <td align="center"><img width="450" src="./figures_rule_of_law/rol_factor_3.png"></td>
+    <td align="center"><img width="450" src="./figures_rule_of_law/rol_factor_4.png"></td>
   </tr>
   <tr>
     <td>(c) Correlation between the score of the 3rd factor and the infection rate.</td>
     <td>(d) Correlation between the score of the 4th factor and the infection rate.</td>
   </tr>
   <tr>
-    <td align="center><img width="450" src="./figures_rule_of_law/rol_factor_5.png"></td>
-    <td align="center><img width="450" src="./figures_rule_of_law/rol_factor_6.png"></td>
+    <td align="center"><img width="450" src="./figures_rule_of_law/rol_factor_5.png"></td>
+    <td align="center"><img width="450" src="./figures_rule_of_law/rol_factor_6.png"></td>
   </tr>
   <tr>
     <td>(e) Correlation between the score of the 5th factor and the infection rate.</td>
     <td>(f) Correlation between the score of the 6th factor and the infection rate.</td>
   </tr>
   <tr>
-    <td align="center><img width="450" src="./figures_rule_of_law/rol_factor_7.png"></td>
-    <td align="center><img width="450" src="./figures_rule_of_law/rol_factor_8.png"></td>
+    <td align="center"><img width="450" src="./figures_rule_of_law/rol_factor_7.png"></td>
+    <td align="center"><img width="450" src="./figures_rule_of_law/rol_factor_8.png"></td>
   </tr>
   <tr>
     <td>(g) Correlation between the score of the 7th factor and the infection rate.</td>
