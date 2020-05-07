@@ -63,8 +63,8 @@ categories: github jekyll
 
 <table align="center">
   <tr>
-    <th><iframe src="https://fudab.github.io/covid-19/figures_rule_of_law/World_heatmap_cum_confirmed.html" width="450px" height="270px"></iframe></th>
-    <th><iframe src="https://fudab.github.io/covid-19/figures_rule_of_law/World_heatmap_new_confirmed.html" width="450px" height="270px"></iframe></th>
+    <th><iframe src="https://fudab.github.io/covid-19/figures_rule_of_law/World_heatmap_cum_confirmed.html" width="450px" height="270px" scrolling="no"></iframe></th>
+    <th><iframe src="https://fudab.github.io/covid-19/figures_rule_of_law/World_heatmap_new_confirmed.html" width="450px" height="270px" scrolling="no"></iframe></th>
   </tr>
   <tr>
     <td>(a) Spatial spread of COVID-19 (cumulative).</td>
@@ -89,7 +89,7 @@ categories: github jekyll
 
 <table align="center">
   <tr>
-    <th><iframe src="https://fudab.github.io/covid-19/figures_rule_of_law/World_heatmap_population.html" width="900px" height="540px"></iframe>
+    <th align="center"><iframe src="https://fudab.github.io/covid-19/figures_rule_of_law/World_heatmap_population.html" width="900px" height="540px" scrolling="no"></iframe>
 </th>
   </tr>
   <tr>
