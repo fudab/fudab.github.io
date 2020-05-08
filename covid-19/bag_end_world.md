@@ -32,31 +32,27 @@ categories: github jekyll
 
 <table align="center">
   <tr>
-    <th><img width="400" src="./figures_rule_of_law/World_cum_confirmed.png" ></th>
-    <th><img width="400" src="./figures_rule_of_law/World_new_confirmed.png" ></th>
+    <th><img width="300" src="./figures_rule_of_law/World_cum_confirmed.png" ></th>
+    <th><img width="300" src="./figures_rule_of_law/World_cum_recovered.png" ></th>
+    <th><img width="300" src="./figures_rule_of_law/World_cum_dead.png" ></th>
   </tr>
   <tr>
     <td>(a) Cumulative number of confirmed cases. </td>
-    <td>(b) Daily new confirmed cases. </td>
+    <td>(b) Cumulative number of recovered cases. </td>
+    <td>(c) Cumulative deaths. </td>
   </tr>
   <tr>
-    <td align="center"><img width="400" src="./figures_rule_of_law/World_cum_recovered.png" ></td>
-    <td align="center"><img width="400" src="./figures_rule_of_law/World_new_recovered.png" ></td>
+    <td align="center"><img width="300" src="./figures_rule_of_law/World_new_confirmed.png" ></td>
+    <td align="center"><img width="300" src="./figures_rule_of_law/World_new_recovered.png" ></td>
+    <td align="center"><img width="300" src="./figures_rule_of_law/World_new_dead.png" ></td>
   </tr>
   <tr>
-    <td>(c) Cumulative number of recovered cases. </td>
-    <td>(d) Daily new recovered cases. </td>
-  </tr>
-  <tr>
-    <td><img width="400" src="./figures_rule_of_law/World_cum_dead.png" ></td>
-    <td><img width="400" src="./figures_rule_of_law/World_new_dead.png" ></td>
-  </tr>
-  <tr>
-    <td>(e) Cumulative deaths. </td>
+    <td>(d) Daily new confirmed cases. </td>
+    <td>(e) Daily new recovered cases. </td>
     <td>(f) Daily new deaths. </td>
   </tr>
   <tr>
-    <td colspan="2">Figure 1: Summary of the world-wide COVID-19 information as of the date updated. We only show the top 20 countries or regions on every panel. </td>
+    <td colspan="3">Figure 1: Summary of the world-wide COVID-19 information as of the date updated. We only show the top 20 countries or regions on every panel. </td>
   </tr>
 </table>
 
