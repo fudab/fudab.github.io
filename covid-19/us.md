@@ -66,21 +66,17 @@ categories: github jekyll
 
 <table align="center">
   <tr>
-    <th><img width="400" src="./figures_us/China_IF.png" ></th>
-    <th><img width="400" src="./figures_us/Hubei_IF.png" ></th>
+    <th><img width="350" src="./figures_us/China_IF.png" ></th>
+    <th><img width="350" src="./figures_us/Hubei_IF.png" ></th>
+    <th><img width="350" src="./figures_us/Wuhan_IF.png" ></th>
   </tr>
   <tr>
     <td>(a) The nationwide internal-flow ratio in China.</td>
     <td>(b) The province level internal-flow ratio in Hubei Province.</td>
+    <td>(c) The city level inter-flow ratio in Wuhan City.</td>
   </tr>
   <tr>
-    <td colspan="2" align="center"><img width="600" src="./figures_us/Wuhan_IF.png" ></td>
-  </tr>
-  <tr>
-    <td colspan="2">(c) The city level inter-flow ratio in Wuhan City.</td>
-  </tr>
-  <tr>
-    <td colspan="2">Figure 2: The internal-flow ratios on three different levels in China. The time period for calculating the first average plateau value is from January 1, 2020 to January 21, 2020 and that for calculating the second value is from February 1, 2020 to February 21, 2020. The percentage in the title of every panel indicates the after-to-before ratio.</td>
+    <td colspan="3">Figure 2: The internal-flow ratios on three different levels in China. The time period for calculating the first average plateau value is from January 1, 2020 to January 21, 2020 and that for calculating the second value is from February 1, 2020 to February 21, 2020. The percentage in the title of every panel indicates the after-to-before ratio.</td>
   </tr>
 </table>
 
