@@ -42,8 +42,7 @@ categories: github jekyll
   * census: [China Census Bureau](http://www.chamiji.com)
   
 #### Data Processing
-<center>
- 
+
  <table align="center">
   <tr>
     <th><img width="300" src="./figures_us/US_rose.png"></th>
