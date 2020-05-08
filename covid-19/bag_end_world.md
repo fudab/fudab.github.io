@@ -399,11 +399,11 @@ where $n$ is the size of the dataset. In our example, $n$ is the number of count
     <th colspan="2"><img width="900" src="./figures_rule_of_law/rol_mv_regression.png"></th>
   </tr>
   <tr>
-    <td>(a) Correlation between the scores of the 8 factors and the infection rate.</td>
-    <td>(b) Correlation between scores of the 44 subfactors and the infection rate.</td>
+    <td>(a) A linear combination of factors' scores and the infection rate.</td>
+    <td>(b) A linear combination of subfactors' score and the infection rate.</td>
   </tr>
   <tr>
-    <td colspan="2">Figure 6: Correlation between the scores of factors or subfactors and the infection rate. We mark the factors or subfactors with the highest coefficents. </td>
+    <td colspan="2">Figure 6: Correlation between the scores of factors or subfactors and the infection rate. We mark the four factors or subfactors with the highest coefficents. </td>
   </tr>
 </table>
 
