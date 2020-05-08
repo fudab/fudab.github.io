@@ -21,6 +21,7 @@ categories: github jekyll
 
 ## Information Platforms and Resources
 > * [Opportunity Insights Economic Tracker](https://tracker.opportunityinsights.org/)
+> * [SafeGraph Cellphone Location Information](https://www.safegraph.com/)
 
 ## Projects
 
