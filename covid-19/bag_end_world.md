@@ -72,7 +72,7 @@ categories: github jekyll
 
 <table align="center">
   <tr>
-    <th><img width="600" src="./figures_rule_of_law/World_infection_rate.png"></th>
+    <th><img width="500" src="./figures_rule_of_law/World_infection_rate.png"></th>
   </tr>
   <tr>
     <td>Figure 3: National infection rate as of the date updated. We only show the top 20 countries or regions with the highest incidence rate. </td>
@@ -350,8 +350,8 @@ where $n$ is the size of the dataset. In our example, $n$ is the number of count
 
 <table align="center">
   <tr>
-    <th><img width="450" src="./figures_rule_of_law/rol_overall.png"></th>
-    <th><img width="450" src="./figures_rule_of_law/rol_overall_top.png"></th>
+    <th><img width="300" src="./figures_rule_of_law/rol_overall.png"></th>
+    <th><img width="300" src="./figures_rule_of_law/rol_overall_top.png"></th>
   </tr>
   <tr>
     <td>(a) Correlation between the overall score and the infection rate (all countries). </td>
@@ -364,39 +364,31 @@ where $n$ is the size of the dataset. In our example, $n$ is the number of count
 
 <table align="center">
   <tr>
-    <th><img width="450" src="./figures_rule_of_law/rol_factor_1.png"></th>
-    <th><img width="450" src="./figures_rule_of_law/rol_factor_2.png"></th>
+    <th><img width="250" src="./figures_rule_of_law/rol_factor_1.png"></th>
+    <th><img width="250" src="./figures_rule_of_law/rol_factor_2.png"></th>
+    <th><img width="250" src="./figures_rule_of_law/rol_factor_3.png"></th>
+    <th><img width="250" src="./figures_rule_of_law/rol_factor_4.png"></th>
   </tr>
   <tr>
-    <td>(a) Correlation between the score of the 1st factor and the infection rate. </td>
-    <td>(b) Correlation between the score of the 2nd factor and the infection rate.</td>
+    <td>(a) The score of the 1st factor and the infection rate. </td>
+    <td>(b) The score of the 2nd factor and the infection rate.</td>
+    <td>(c) The score of the 3rd factor and the infection rate.</td>
+    <td>(d) The score of the 4th factor and the infection rate.</td>
   </tr>
   <tr>
-    <td align="center"><img width="450" src="./figures_rule_of_law/rol_factor_3.png"></td>
-    <td align="center"><img width="450" src="./figures_rule_of_law/rol_factor_4.png"></td>
+    <td align="center"><img width="250" src="./figures_rule_of_law/rol_factor_5.png"></td>
+    <td align="center"><img width="250" src="./figures_rule_of_law/rol_factor_6.png"></td>
+    <td align="center"><img width="250" src="./figures_rule_of_law/rol_factor_7.png"></td>
+    <td align="center"><img width="250" src="./figures_rule_of_law/rol_factor_8.png"></td>
   </tr>
   <tr>
-    <td>(c) Correlation between the score of the 3rd factor and the infection rate.</td>
-    <td>(d) Correlation between the score of the 4th factor and the infection rate.</td>
+    <td>(e) The score of the 5th factor and the infection rate.</td>
+    <td>(f) The score of the 6th factor and the infection rate.</td>
+    <td>(g) The score of the 7th factor and the infection rate.</td>
+    <td>(h) The score of the 8th factor and the infection rate.</td>
   </tr>
   <tr>
-    <td align="center"><img width="450" src="./figures_rule_of_law/rol_factor_5.png"></td>
-    <td align="center"><img width="450" src="./figures_rule_of_law/rol_factor_6.png"></td>
-  </tr>
-  <tr>
-    <td>(e) Correlation between the score of the 5th factor and the infection rate.</td>
-    <td>(f) Correlation between the score of the 6th factor and the infection rate.</td>
-  </tr>
-  <tr>
-    <td align="center"><img width="450" src="./figures_rule_of_law/rol_factor_7.png"></td>
-    <td align="center"><img width="450" src="./figures_rule_of_law/rol_factor_8.png"></td>
-  </tr>
-  <tr>
-    <td>(g) Correlation between the score of the 7th factor and the infection rate.</td>
-    <td>(h) Correlation between the score of the 8th factor and the infection rate.</td>
-  </tr>
-  <tr>
-    <td colspan="2">Figure 5: Correlation between the score of a single factor and the infection rate. We go through all 8 factors and the one with the highest correlation coeffecient is highlighted. </td>
+    <td colspan="4">Figure 5: Correlation between the score of a single factor and the infection rate. We go through all 8 factors and the one with the highest correlation coeffecient is highlighted. </td>
   </tr>
 </table>
 
