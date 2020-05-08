@@ -19,6 +19,9 @@ categories: github jekyll
 > * Ongoing investigations.
 > * We are, after all, witnessing the history.
 
+## Information Platforms and Resources
+> * [Opportunity Insights Economic Tracker](https://tracker.opportunityinsights.org/)
+
 ## Projects
 
 ### Future
