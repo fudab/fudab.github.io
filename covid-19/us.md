@@ -46,11 +46,11 @@ categories: github jekyll
  
  <table align="center">
   <tr>
-    <th><img width="300" src="./figures_us/US_rose.png" ></th>
+    <th><img width="300" src="./figures_us/US_rose.png"></th>
     <th><iframe src="https://fudab.github.io/covid-19/figures_us/US_map.html" width="600px" height="400px" scrolling="no" frameBorder="0"></iframe></th>
   </tr>
   <tr>
-    <td>(a) The state level of reported cases since the ﬁrst reported case in United States in Jan 21, 2020./td>
+    <td>(a) The state level of reported cases since the ﬁrst reported case in United States in Jan 21, 2020.</td>
     <td>(b) The spacial spread of COVID-19. The number of infected is displayed on a logarithmic scale.</td>
   </tr>
   <tr>
