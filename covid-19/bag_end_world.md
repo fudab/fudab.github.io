@@ -406,6 +406,19 @@ where $n$ is the size of the dataset. In our example, $n$ is the number of count
 
 * Multivariate linear regression
 
+<table>
+  <tr>
+    <th colspan="2"></th>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td colspan="2"></td>
+  </tr>
+</table>
+
 
 
 
