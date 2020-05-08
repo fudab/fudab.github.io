@@ -52,7 +52,7 @@ categories: github jekyll
     <td class="tg-cly1">(a) The state level of reported cases since the ﬁrst reported case in United States in Jan 21, 2020.</td>
   </tr>
   <tr>
-    <td align="center"><img width="300" src="./figures_us/US_map.png" ></td>
+    <td align="center"><iframe src="https://fudab.github.io/covid-19/figures_us/US_map.html" width="300px" scrolling="no" frameBorder="0"></iframe></td>
   </tr>
   <tr>
     <td class="tg-cly1">(b) The spacial spread of COVID-19. The number of infected is displayed on a logarithmic scale.</td>
