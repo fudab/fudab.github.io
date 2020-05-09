@@ -17,11 +17,11 @@ categories: github jekyll
 * Original code and data are in the [Github Repository](https://github.com/fudab/US-COVID-19-Impact-Assesements).
 
 * Old results with earlier truncation dates for parameter estimation are in the following archives:   
-- [x] [April 5, 2020](https://fudab.github.io/covid-19/us_0405)
-- [x] [April 12, 2020](https://fudab.github.io/covid-19/us_0412)
-- [x] [April 19, 2020](https://fudab.github.io/covid-19/us_0419) 
-- [x] [April 26, 2020](https://fudab.github.io/covid-19/us_0426)
-- [ ] [May 3, 2020](https://fudab.github.io/covid-19/us_0503)
+- [x]  [April 5, 2020](https://fudab.github.io/covid-19/us_0405)
+- [x]  [April 12, 2020](https://fudab.github.io/covid-19/us_0412)
+- [x]  [April 19, 2020](https://fudab.github.io/covid-19/us_0419) 
+- [x]  [April 26, 2020](https://fudab.github.io/covid-19/us_0426)
+- [ ]  [May 3, 2020](https://fudab.github.io/covid-19/us_0503)
 
 ### Abstract
 > The COVID-19 pandemic has upended everyone’s normal life, health crisis, lockdowns, and economic percussions in an unprecedented pace and scale. We will get over this pandemic but at what prices? Here we estimate the burden of COVID-19 in the United States, peak time, and total number of infections, in coming months.
