@@ -55,10 +55,10 @@ categories: github jekyll
   </tr>
   <tr>
     <td>(a) The state level of reported cases since the ﬁrst reported case in United States in Jan 21, 2020.</td>
-    <td>(c) The state level growth of confirmed cases. The curve in a panel represents the number of cumulative infected people in the state and the histogram indicates the number of new infected people everyday.</td>
+    <td>(c) The state level growth of confirmed cases.</td>
   </tr>
   <tr>
-    <td colspan="2">Figure 1: Summary of the COVID-19 information as of May 5, 2020. The color code in (a) and (c) corresponds to the partisan voting index (PVI) by each state.</td>
+    <td colspan="2">Figure 1: Summary of the COVID-19 information as of May 5, 2020. For (c), the curve in a panel represents the number of cumulative infected people in the state and the histogram indicates the number of new infected people everyday. The color code in (a) and (c) corresponds to the partisan voting index (PVI) by each state.</td>
   </tr>
 </table>
 
