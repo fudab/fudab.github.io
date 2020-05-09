@@ -44,8 +44,8 @@ categories: github jekyll
 #### Data Processing
 <table>
   <tr align="center">
-    <th rowspan="3"><iframe src="https://fudab.github.io/covid-19/figures_us/US_rose.html" width="500px" scrolling="no" frameBorder="0"></iframe></th>
-    <th><iframe src="https://fudab.github.io/covid-19/figures_us/US_map.html" width="500px" scrolling="no" frameBorder="0"></iframe></th>
+    <th rowspan="3"><iframe src="https://fudab.github.io/covid-19/figures_us/US_rose.html" width="500px" height="950px" scrolling="no" frameBorder="0"></iframe></th>
+    <th><iframe src="https://fudab.github.io/covid-19/figures_us/US_map.html" width="500px" height="300px" scrolling="no" frameBorder="0"></iframe></th>
   </tr>
   <tr>
     <td>(b) The spacial spread of COVID-19. The number of infected is displayed on a logarithmic scale.</td>
