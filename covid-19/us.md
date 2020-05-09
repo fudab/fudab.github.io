@@ -42,8 +42,8 @@ categories: github jekyll
   * census: [China Census Bureau](http://www.chamiji.com)
   
 #### Data Processing
-
-<tr align="center">
+<table>
+  <tr align="center">
     <th rowspan="3"><iframe src="https://fudab.github.io/covid-19/figures_us/US_rose.html" width="500px" height="950px" scrolling="no" frameBorder="0"></iframe></th>
     <th><iframe src="https://fudab.github.io/covid-19/figures_us/US_map.html" width="500px" height="400px" scrolling="no" frameBorder="0"></iframe></th>
   </tr>
