@@ -43,20 +43,19 @@ categories: github jekyll
   
 #### Data Processing
 
- <table align="center">
-  <tr>
-    <th><img width="400" src="./figures_us/US_rose.png"></th>
-    <th><iframe src="https://fudab.github.io/covid-19/figures_us/US_map.html" width="600px" height="400px" scrolling="no" frameBorder="0"></iframe></th>
+<tr align="center">
+    <th rowspan="3"><iframe src="https://fudab.github.io/covid-19/figures_us/US_rose.html" width="500px" height="950px" scrolling="no" frameBorder="0"></iframe></th>
+    <th><iframe src="https://fudab.github.io/covid-19/figures_us/US_map.html" width="500px" height="400px" scrolling="no" frameBorder="0"></iframe></th>
   </tr>
   <tr>
-    <td>(a) The state level of reported cases since the ﬁrst reported case in United States in Jan 21, 2020.</td>
     <td>(b) The spacial spread of COVID-19. The number of infected is displayed on a logarithmic scale.</td>
   </tr>
   <tr>
-    <td colspan="2" align="center"><img width="600" src="./figures_us/US_conf.png" ></td>
+    <td align="center"><img width="500" src="./figures_us/US_conf.png" ></td>
   </tr>
   <tr>
-    <td colspan="2">(c) The state level growth of confirmed cases. The curve in a panel represents the number of cumulative infected people in the state and the histogram indicates the number of new infected people everyday.</td>
+    <td>(a) The state level of reported cases since the ﬁrst reported case in United States in Jan 21, 2020.</td>
+    <td>(c) The state level growth of confirmed cases. The curve in a panel represents the number of cumulative infected people in the state and the histogram indicates the number of new infected people everyday.</td>
   </tr>
   <tr>
     <td colspan="2">Figure 1: Summary of the COVID-19 information as of May 5, 2020. The color code in (a) and (c) corresponds to the partisan voting index (PVI) by each state.</td>
