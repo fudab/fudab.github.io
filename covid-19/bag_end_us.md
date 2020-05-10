@@ -21,7 +21,7 @@ categories: github jekyll
 
 <table align="center">
   <tr>
-    <th align="center"><img width="600" src="./figures_us_be/US_map_state.png"></th>
+    <th align="center"><iframe src="https://fudab.github.io/covid-19/figures_us_be/US_map_state.html" width="900px" height="500px" scrolling="no" frameBorder="0"></iframe></th>
   </tr>
   <tr>
     <td>Figure 1: The spacial spread of COVID-19. We only include the 50 states as well as D.C. And those reported cases marked as 'Unknown' are not shown here.</td>
