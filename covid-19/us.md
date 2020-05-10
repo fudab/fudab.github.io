@@ -51,7 +51,7 @@ categories: github jekyll
     <td>(b) The spacial spread of COVID-19. The number of infected is displayed on a logarithmic scale.</td>
   </tr>
   <tr>
-    <td align="center"><img width="450" src="./figures_us/US_conf.png" ></td>
+    <td align="center"><img width="450px" src="./figures_us/US_conf.png" ></td>
   </tr>
   <tr>
     <td>(a) The state level of reported cases since the ﬁrst reported case in United States in Jan 21, 2020.</td>
