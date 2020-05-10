@@ -10,7 +10,7 @@ categories: github jekyll
 
 ## When and how will the COVID-19 pandemic end in the United States?
 ### Xingru Chen and Feng Fu      
-`Last updated: May 9, 2020`
+`Last updated: May 10, 2020`
 
 * This report provides preliminary results and is work in progress. More detailed results and figures are in the [Bag End](https://fudab.github.io/covid-19/bag_end_us). 
 
@@ -45,13 +45,13 @@ categories: github jekyll
 <table>
   <tr align="center">
     <th rowspan="3"><iframe src="https://fudab.github.io/covid-19/figures_us/US_rose.html" width="500px" height="950px" scrolling="no" frameBorder="0"></iframe></th>
-    <th><iframe src="https://fudab.github.io/covid-19/figures_us/US_map.html" width="500px" height="300px" scrolling="no" frameBorder="0"></iframe></th>
+    <th><iframe src="https://fudab.github.io/covid-19/figures_us/US_map.html" width="450px" height="300px" scrolling="no" frameBorder="0"></iframe></th>
   </tr>
   <tr>
     <td>(b) The spacial spread of COVID-19. The number of infected is displayed on a logarithmic scale.</td>
   </tr>
   <tr>
-    <td align="center"><img width="500" src="./figures_us/US_conf.png" ></td>
+    <td align="center"><img width="450" src="./figures_us/US_conf.png" ></td>
   </tr>
   <tr>
     <td>(a) The state level of reported cases since the ﬁrst reported case in United States in Jan 21, 2020.</td>
