@@ -68,11 +68,11 @@ categories: github jekyll
 
 ### Mobility
 
-<table>
+<table align = "center">
 <thead>
   <tr>
-    <th></th>
-    <th></th>
+    <th><iframe src="https://fudab.github.io/covid-19/figures_us_be/US_mobility.html" width="450px" height="300px" scrolling="no" frameBorder="0"></iframe></th>
+    <th><iframe src="https://fudab.github.io/covid-19/figures_us_be/US_mobility_index.html" width="450px" height="300px" scrolling="no" frameBorder="0"></th>
   </tr>
 </thead>
 <tbody>
@@ -81,8 +81,8 @@ categories: github jekyll
     <td>(b) State level mobility index.</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
+    <td align = "center"><iframe src="https://fudab.github.io/covid-19/figures_us_be/US_state_mobility.html" width="450px" height="300px" scrolling="no" frameBorder="0"></td>
+    <td align = "center"><iframe src="https://fudab.github.io/covid-19/figures_us_be/US_state_mobility_index.html" width="450px" height="300px" scrolling="no" frameBorder="0"></td>
   </tr>
   <tr>
     <td>(c) County level mobility.</td>
