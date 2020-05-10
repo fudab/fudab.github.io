@@ -19,10 +19,6 @@ categories: github jekyll
 > * Ongoing investigations.
 > * We are, after all, witnessing the history.
 
-## Information Platforms and Resources
-> * [Opportunity Insights Economic Tracker](https://tracker.opportunityinsights.org/)
-> * [SafeGraph Cellphone Location Information](https://www.safegraph.com/)
-
 ## Projects
 
 ### Future
@@ -57,4 +53,9 @@ categories: github jekyll
 
 #### [World-wide](https://fudab.github.io/covid-19/bag_end_world)
 > * Correlation with rule of law.
+
+## Information Platforms and Resources
+> * [Opportunity Insights Economic Tracker](https://tracker.opportunityinsights.org/)
+> * [SafeGraph Cellphone Location Information](https://www.safegraph.com/)
+
 
