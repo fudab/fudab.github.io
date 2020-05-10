@@ -69,13 +69,10 @@ categories: github jekyll
 ### Mobility
 
 <table align = "center">
-<thead>
   <tr>
     <th><iframe src="https://fudab.github.io/covid-19/figures_us_be/US_mobility.html" width="450px" height="300px" scrolling="no" frameBorder="0"></iframe></th>
     <th><iframe src="https://fudab.github.io/covid-19/figures_us_be/US_mobility_index.html" width="450px" height="300px" scrolling="no" frameBorder="0"></th>
   </tr>
-</thead>
-<tbody>
   <tr>
     <td>(a) State level mobility.</td>
     <td>(b) State level mobility index.</td>
@@ -91,7 +88,6 @@ categories: github jekyll
   <tr>
     <td colspan="2">Figure 5: Geographical distribution of mobility (real value) and mobility index (ratio to the base line). We use log scale for panel (c) and (d). </td>
   </tr>
-</tbody>
 </table>
 
 
