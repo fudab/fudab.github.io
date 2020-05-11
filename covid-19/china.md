@@ -69,10 +69,10 @@ categories: github jekyll
   </tr>
   <tr>
     <td class="tg-cly1">(b) The spacial spread of COVID-19. The five provinces with the highest number of infections are marked on the map. </td>
-    <td class="tg-cly1">(c) The provincial level growth of confirmed cases. The curve in a panel represents the number of cumulative infected people in the province and the histogram indicates the number of new infected people everyday.</td>
+    <td class="tg-cly1">(c) The provincial level growth of confirmed cases. </td>
   </tr>
   <tr>
-    <td colspan="2">Figure 1: Summary of the COVID-19 information as of May 10, 2020. To reduce errors, we have removed all imported cases from other countries. The color code in (c) corresponds to the severity of the epidemic.</td>
+    <td colspan="2">Figure 1: Summary of the COVID-19 information as of May 10, 2020. To reduce errors, we have removed all imported cases from other countries. The curve in every panel of (b) represents the number of cumulative infected people in the province and the histogram indicates the number of new infected people everyday. The color code in (c) corresponds to the severity of the epidemic.</td>
   </tr>
  </table>
 </center>
