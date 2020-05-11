@@ -241,16 +241,16 @@ We first work on four discrete threshold values of contact rate reduction: `100%
 
 <table align="center">
   <tr>
-    <th><img width="300" src="./figures_us/US_map_status_quo_0503.png"></th>
-    <th><img width="300" src="./figures_us/US_map_weak_0503.png"></th>
+    <th><iframe src="https://fudab.github.io/covid-19/figures_us/US_map_status_quo_0503.html" width="450px" height="300px" scrolling="no" frameBorder="0"></iframe></th>
+    <th><iframe src="https://fudab.github.io/covid-19/figures_us/US_map_weak_0503.html" width="450px" height="300px" scrolling="no" frameBorder="0"></iframe></th>
   </tr>
   <tr>
     <td>(a) Status quo contact rate as a result of social distancing.</td>
     <td>(b) 50% reduction.</td>
   </tr>
   <tr>
-    <td align="center"><img width="300" src="./figures_us/US_map_moderate_0503.png"></td>
-    <td align="center"><img width="300" src="./figures_us/US_map_strong_0503.png"></td>
+    <td align="center"><iframe src="https://fudab.github.io/covid-19/figures_us/US_map_moderate_0503.html" width="450px" height="300px" scrolling="no" frameBorder="0"></iframe></td>
+    <td align="center"><iframe src="https://fudab.github.io/covid-19/figures_us/US_map_strong_0503.html" width="450px" height="300px" scrolling="no" frameBorder="0"></iframe></td>
   </tr>
   <tr>
     <td>(c) 75% reduction.</td>
