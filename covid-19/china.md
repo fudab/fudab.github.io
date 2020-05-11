@@ -58,14 +58,14 @@ categories: github jekyll
 <center>
  <table class="tg">
   <tr>
-    <th align="center"><img width="400" src="./figures_china/China_conf_cured_dead.png" ></th>
-    <th align="center" rowspan="3"><img width="500" src="./figures_china/China_conf.png" ></th>
+    <th align="center"><img width="500" src="./figures_china/China_conf_cured_dead.png" ></th>
+    <th align="center" rowspan="3"><img width="450" src="./figures_china/China_conf.png" ></th>
   </tr>
   <tr>
     <td class="tg-cly1">(a) The national level of reported cases since the ﬁrst 41 reported cases in Hubei Province in Jan 15, 2020.</td>
   </tr>
   <tr>
-    <td align="center"><img width="400" src="./figures_china/China_heatmap.png" ></td>
+    <td align="center"><img width="500" src="./figures_china/China_heatmap.png" ></td>
   </tr>
   <tr>
     <td class="tg-cly1">(b) The spacial spread of COVID-19. The five provinces with the highest number of infections are marked on the map. </td>
