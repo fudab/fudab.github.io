@@ -10,7 +10,7 @@ categories: github jekyll
 
 ## Effectiveness of Massive Travel Restrictions on Mitigating Outbreaks of COVID-19 in China.
 ### Xingru Chen, Xin Wang, Timmy Ma, Daniel Escudero and Feng Fu
-`Last updated: May 4, 2020`
+`Last updated: May 11, 2020`
 
 ### COVID-19 Information
 
