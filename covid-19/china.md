@@ -41,7 +41,7 @@ categories: github jekyll
     <td class="tg-cly1">(a) The national level of reported cases since the ﬁrst 41 reported cases in Hubei Province in Jan 15, 2020.</td>
   </tr>
   <tr>
-    <td align="center"><iframe src="https://fudab.github.io/covid-19/figures_china/China_heatmap.html" width="300px" height="450px" scrolling="no" frameBorder="0"></iframe></td>
+    <td align="center"><iframe src="https://fudab.github.io/covid-19/figures_china/China_heatmap.html" width="450px" height="300px" scrolling="no" frameBorder="0"></iframe></td>
   </tr>
   <tr>
     <td class="tg-cly1">(b) The spacial spread of COVID-19. The five provinces with the highest number of infections are marked on the map. </td>
