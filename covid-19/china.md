@@ -31,41 +31,17 @@ categories: github jekyll
 
 #### Data Processing
 
-<table>
-<thead>
-  <tr>
-    <th><img width="400" src="./figures_china/China_conf_cured_dead.png" ></th>
-    <th><img width="500" src="./figures_china/China_conf.png" ></th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td>(a) The national level of reported cases since the ﬁrst 41 reported cases in Hubei Province in Jan 15, 2020.</td>
-    <td>(b) The provincial level growth of confirmed cases. The curve in a panel represents the number of cumulative infected people in the province and the histogram indicates the number of new infected people everyday.</td>
-  </tr>
-  <tr>
-    <td colspan="2"><iframe src="https://fudab.github.io/covid-19/figures_china/China_heatmap.html" width="600px" height="900px" scrolling="no" frameBorder="0"></iframe></td>
-  </tr>
-  <tr>
-    <td colspan="2">(c) The spacial spread of COVID-19. The five provinces with the highest number of infections are marked on the map. </td>
-  </tr>
-  <tr>
-    <td colspan="2">Figure 1: Summary of the COVID-19 information as of May 10, 2020. To reduce errors, we have removed all imported cases from other countries. The color code in (c) corresponds to the severity of the epidemic.</td>
-  </tr>
-</tbody>
-</table>
-
 <center>
  <table class="tg">
   <tr>
-    <th align="center"><img width="500" src="./figures_china/China_conf_cured_dead.png" ></th>
+    <th align="center"><img width="450" src="./figures_china/China_conf_cured_dead.png" ></th>
     <th align="center" rowspan="3"><img width="450" src="./figures_china/China_conf.png" ></th>
   </tr>
   <tr>
     <td class="tg-cly1">(a) The national level of reported cases since the ﬁrst 41 reported cases in Hubei Province in Jan 15, 2020.</td>
   </tr>
   <tr>
-    <td align="center"><img width="500" src="./figures_china/China_heatmap.png" ></td>
+    <td align="center"><iframe src="https://fudab.github.io/covid-19/figures_china/China_heatmap.html" width="300px" height="450px" scrolling="no" frameBorder="0"></iframe></td>
   </tr>
   <tr>
     <td class="tg-cly1">(b) The spacial spread of COVID-19. The five provinces with the highest number of infections are marked on the map. </td>
