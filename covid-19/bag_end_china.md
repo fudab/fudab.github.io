@@ -39,12 +39,9 @@ categories: github jekyll
 ### Migration Information
 
 <table align="center">
-<thead>
   <tr>
     <th><iframe src="https://fudab.github.io/covid-19/figures_china/China_heatmap_migration.html" width="900px" height="600px" scrolling="no" frameBorder="0"></iframe></th>
   </tr>
-</thead>
-<tbody>
   <tr>
     <td>(a) Migration traces involving the top 10 provinces with the greatest cumulative migration index from the epicenter Hubei Province.</td>
   </tr>
@@ -57,7 +54,6 @@ categories: github jekyll
   <tr>
     <td>Figure 2: Migration traces derived from the migration data. Daily migration index from January 1 to January 27 is added to obtain the cumulative index. And we use heatmap to indicate the number of infected people by January 27. For (b), the ﬁrst place of departure is Hubei, which points to the 3 destinations: Guangdong, Henan and Hunan. These 3 destinations are treated as the new places of departure and new destinations are added. We repeat this process until there is no new destination appears.</td>
   </tr>
-</tbody>
 </table>
 
 <table align="center">
