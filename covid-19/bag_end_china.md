@@ -57,12 +57,9 @@ categories: github jekyll
 </table>
 
 <table align="center">
-<thead>
   <tr>
     <th><iframe src="https://fudab.github.io/covid-19/figures_china/China_heatmap_migration_incubation.html" width="900px" height="600px" scrolling="no" frameBorder="0"></iframe></th>
   </tr>
-</thead>
-<tbody>
   <tr>
     <td>(a) Migration traces involving the top 10 provinces with the greatest cumulative migration index from the epicenter, Hubei Province.</td>
   </tr>
@@ -75,6 +72,5 @@ categories: github jekyll
   <tr>
     <td>Figure 3: Migration traces derived from the migration data. Daily migration index from January 1 to January 27 is added to obtain the cumulative index. And we use heatmap to indicate the posterior incubation seed $E(0)$. For (b), how we get the places of departure and the destinations is the same as Figure 2.</td>
   </tr>
-</tbody>
 </table>
 
