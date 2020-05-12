@@ -8,11 +8,11 @@
 
 </head>
 <body>
-    <div id="95d5cef58a0e4603b757fb5c19df2b89" class="chart-container" style="width:900px; height:600px;"></div>
+    <div id="165014e7395f4d33960867343ad0588a" class="chart-container" style="width:750px; height:500px;"></div>
     <script>
-        var chart_95d5cef58a0e4603b757fb5c19df2b89 = echarts.init(
-            document.getElementById('95d5cef58a0e4603b757fb5c19df2b89'), 'white', {renderer: 'canvas'});
-        var option_95d5cef58a0e4603b757fb5c19df2b89 = {
+        var chart_165014e7395f4d33960867343ad0588a = echarts.init(
+            document.getElementById('165014e7395f4d33960867343ad0588a'), 'white', {renderer: 'canvas'});
+        var option_165014e7395f4d33960867343ad0588a = {
     "backgroundColor": "#FFFFFF",
     "animation": true,
     "animationThreshold": 2000,
@@ -54,7 +54,7 @@
             "type": "scatter",
             "name": "number of infected",
             "coordinateSystem": "geo",
-            "symbolSize": 8,
+            "symbolSize": 6,
             "data": [
                 {
                     "name": "\u6e56\u5317",
@@ -302,7 +302,7 @@
                 "position": "top",
                 "color": "black",
                 "margin": 8,
-                "fontSize": 13,
+                "fontSize": 12,
                 "formatter":     function(params) {        if(params.name == '\u6e56\u5317')            return 'Hubei';        if(params.name == '\u5e7f\u4e1c')            return 'Guangdong';        if(params.name == '\u6cb3\u5357')            return 'Henan';        if(params.name == '\u6d59\u6c5f')            return 'Zhejiang';        if(params.name == '\u6e56\u5357')            return 'Hunan';        return '';    }    
             },
             "rippleEffect": {
@@ -565,7 +565,7 @@
                 "position": "top",
                 "color": "black",
                 "margin": 8,
-                "fontSize": 13,
+                "fontSize": 12,
                 "formatter":     function(params) {        if(params.name == '\u6e56\u5317')            return 'Hubei';        if(params.name == '\u5e7f\u4e1c')            return 'Guangdong';        if(params.name == '\u6cb3\u5357')            return 'Henan';        if(params.name == '\u6d59\u6c5f')            return 'Zhejiang';        if(params.name == '\u6e56\u5357')            return 'Hunan';        return '';    }    
             },
             "rippleEffect": {
@@ -588,10 +588,10 @@
             "show": true,
             "padding": 5,
             "itemGap": 10,
-            "itemWidth": 25,
-            "itemHeight": 14,
+            "itemWidth": 20,
+            "itemHeight": 10,
             "textStyle": {
-                "fontSize": 21
+                "fontSize": 15
             }
         }
     ],
@@ -615,10 +615,10 @@
             "padding": 5,
             "itemGap": 10,
             "textStyle": {
-                "fontSize": 26
+                "fontSize": 20
             },
             "subtextStyle": {
-                "fontSize": 21
+                "fontSize": 17
             }
         }
     ],
@@ -626,9 +626,9 @@
         "show": true,
         "type": "continuous",
         "min": 0,
-        "max": 800,
+        "max": 1000,
         "textStyle": {
-            "fontSize": 16
+            "fontSize": 15
         },
         "inRange": {
             "color": [
@@ -643,8 +643,8 @@
         "orient": "vertical",
         "top": "center",
         "showLabel": true,
-        "itemWidth": 20,
-        "itemHeight": 140,
+        "itemWidth": 12,
+        "itemHeight": 100,
         "borderWidth": 0
     },
     "geo": {
@@ -657,7 +657,7 @@
         "emphasis": {}
     }
 };
-        chart_95d5cef58a0e4603b757fb5c19df2b89.setOption(option_95d5cef58a0e4603b757fb5c19df2b89);
+        chart_165014e7395f4d33960867343ad0588a.setOption(option_165014e7395f4d33960867343ad0588a);
     </script>
 </body>
 </html>
