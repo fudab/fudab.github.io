@@ -34,21 +34,21 @@ categories: github jekyll
 <center>
  <table class="tg">
   <tr>
-    <th align="center"><img width="450" src="./figures_china/China_conf_cured_dead.png" ></th>
-    <th align="center" rowspan="3"><img width="450" src="./figures_china/China_conf.png" ></th>
+    <th align="center"><img width="400" src="./figures_china/China_conf_cured_dead.png" ></th>
+    <th align="center" rowspan="3"><img width="500" src="./figures_china/China_conf.png" ></th>
   </tr>
   <tr>
     <td class="tg-cly1">(a) The national level of reported cases since the ﬁrst 41 reported cases in Hubei Province in Jan 15, 2020.</td>
   </tr>
   <tr>
-    <td align="center"><img width="450" src="./figures_china/China_bar_confirmed_top.png" ></td>
+    <td align="center"><img width="400" src="./figures_china/China_bar_confirmed_top.png" ></td>
   </tr>
   <tr>
     <td class="tg-cly1">(b) The provincial confirmed cases of COVID-19 by March 10, 2020. We only show the 10 provinces or municipalities most affected by the epidemic.</td>
     <td class="tg-cly1">(c) The provincial level growth of confirmed cases. We consider both the cumulative cases and the dialy new cases. </td>
   </tr>
   <tr>
-    <td colspan="2" align = "center"><iframe src="https://fudab.github.io/covid-19/figures_china/China_heatmap.html" width="900px" height="600px" scrolling="no" frameBorder="0"></iframe></td>
+    <td colspan="2" align = "center"><iframe src="https://fudab.github.io/covid-19/figures_china/China_heatmap.html" width="750px" height="500px" scrolling="no" frameBorder="0"></iframe></td>
   </tr>
   <tr>
     <td colspan="2">(d) The spacial spread of COVID-19. The five provinces with the highest number of infections are marked on the map.</td>
