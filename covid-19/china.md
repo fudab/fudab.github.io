@@ -45,7 +45,7 @@ categories: github jekyll
   </tr>
   <tr>
     <td class="tg-cly1">(b) The provincial confirmed cases of COVID-19 by March 10, 2020. We only show the 10 provinces or municipalities most affected by the epidemic.</td>
-    <td class="tg-cly1">(c) The provincial level growth of confirmed cases. We consider both the cumulative cases and the dialy new cases. </td>
+    <td class="tg-cly1">(c) The provincial level growth of confirmed cases. The curve in every panel represents the number of cumulative infected people and the histogram indicates the number of daily new infected people. </td>
   </tr>
   <tr>
     <td colspan="2" align = "center"><iframe src="https://fudab.github.io/covid-19/figures_china/China_heatmap.html" width="750px" height="500px" scrolling="no" frameBorder="0"></iframe></td>
@@ -54,7 +54,7 @@ categories: github jekyll
     <td colspan="2">(d) The spacial spread of COVID-19. The five provinces with the highest number of infections are marked on the map.</td>
   </tr>
   <tr>
-    <td colspan="2">Figure 1: Summary of the COVID-19 information as of May 10, 2020. To reduce errors, we have removed all imported cases from other countries. The curve in every panel of (c) represents the number of cumulative infected people in the province and the histogram indicates the number of new infected people everyday and the color code corresponds to the severity of the epidemic.</td>
+    <td colspan="2">Figure 1: Summary of the COVID-19 information as of May 10, 2020. To reduce errors, we have removed all imported cases from other countries. The color code in (c) corresponds to the severity of the epidemic.</td>
   </tr>
  </table>
 </center>
