@@ -40,13 +40,13 @@ categories: github jekyll
 
 <table align="center">
   <tr>
-    <th><iframe src="https://fudab.github.io/covid-19/figures_china/China_heatmap_migration_2020-01-27.html" width="750px" height="500px" scrolling="no" frameBorder="0"></iframe></th>
+    <th><iframe src="https://fudab.github.io/covid-19/figures_china_be/China_heatmap_migration_2020-01-27.html" width="750px" height="500px" scrolling="no" frameBorder="0"></iframe></th>
   </tr>
   <tr>
     <td>(a) Migration traces involving the top 10 provinces with the greatest cumulative migration index from the epicenter Hubei Province.</td>
   </tr>
   <tr>
-    <td align="center"><iframe src="https://fudab.github.io/covid-19/figures_china/China_heatmap_migration_c_2020-01-27.html" width="750px" height="500px" scrolling="no" frameBorder="0"></iframe></td>
+    <td align="center"><iframe src="https://fudab.github.io/covid-19/figures_china_be/China_heatmap_migration_c_2020-01-27.html" width="750px" height="500px" scrolling="no" frameBorder="0"></iframe></td>
   </tr>
   <tr>
     <td>(b) Recursive migration traces involving the top 3 provinces with the greatest cumulative migration index from the departure provinces.</td>
@@ -58,13 +58,13 @@ categories: github jekyll
 
 <table align="center">
   <tr>
-    <th><iframe src="https://fudab.github.io/covid-19/figures_china/China_heatmap_migration_incubation_2020-01-27.html" width="750px" height="500px" scrolling="no" frameBorder="0"></iframe></th>
+    <th><iframe src="https://fudab.github.io/covid-19/figures_china_be/China_heatmap_migration_incubation_2020-01-27.html" width="750px" height="500px" scrolling="no" frameBorder="0"></iframe></th>
   </tr>
   <tr>
     <td>(a) Migration traces involving the top 10 provinces with the greatest cumulative migration index from the epicenter, Hubei Province.</td>
   </tr>
   <tr>
-    <td align="center"><iframe src="https://fudab.github.io/covid-19/figures_china/China_heatmap_migration_incubation_c_2020-01-27.html" width="750px" height="500px" scrolling="no" frameBorder="0"></iframe></td>
+    <td align="center"><iframe src="https://fudab.github.io/covid-19/figures_china_be/China_heatmap_migration_incubation_c_2020-01-27.html" width="750px" height="500px" scrolling="no" frameBorder="0"></iframe></td>
   </tr>
   <tr>
     <td>((b) Recursive migration traces involving the top 3 provinces with the greatest cumulative migration index from the departure province.</td>
