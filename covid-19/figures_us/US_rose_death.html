@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="7f1d30cd14e74166a6d721bd2c092670" class="chart-container" style="width:450px; height:850px;"></div>
+    <script>
+        var chart_7f1d30cd14e74166a6d721bd2c092670 = echarts.init(
+            document.getElementById('7f1d30cd14e74166a6d721bd2c092670'), 'white', {renderer: 'canvas'});
+        var option_7f1d30cd14e74166a6d721bd2c092670 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#4a98c9",
+        "#f14432",
+        "#4bb062",
+        "#87bddc",
+        "#9fcae1",
+        "#87bddc",
+        "#b7d4ea",
+        "#4bb062",
+        "#9fcae1",
+        "#a3cce3",
+        "#87bddc",
+        "#fb6c4c",
+        "#fcab8f",
+        "#87bddc",
+        "#fb7a5a",
+        "#fc9576",
+        "#fca486",
+        "#fc8060",
+        "#b7d4ea",
+        "#9fcae1",
+        "#b7d4ea",
+        "#b7d4ea",
+        "#fca486",
+        "#fc9576",
+        "#fb7a5a",
+        "#fb7a5a",
+        "#91c3de",
+        "#4bb062",
+        "#f5533b",
+        "#fc8060",
+        "#1764ab",
+        "#f34a36",
+        "#b7d4ea",
+        "#dc2924",
+        "#fca486",
+        "#f5533b",
+        "#a3cce3",
+        "#afd1e7",
+        "#f75b40",
+        "#4bb062",
+        "#a8cee4",
+        "#f5533b",
+        "#f34a36",
+        "#e22e27",
+        "#dc2924",
+        "#afd1e7",
+        "#e22e27",
+        "#79b5d9",
+        "#ee3a2c",
+        "#f5533b",
+        "#6aaed6",
+        "#fb6c4c",
+        "#fb7a5a",
+        "#bc141a"
+    ],
+    "series": [
+        {
+            "type": "pie",
+            "name": "national",
+            "clockwise": true,
+            "data": [
+                {
+                    "name": "Democratic: 62148",
+                    "value": 77.15
+                },
+                {
+                    "name": "Republican: 14021",
+                    "value": 17.41
+                },
+                {
+                    "name": "Even: 4388",
+                    "value": 5.45
+                }
+            ],
+            "radius": [
+                "35%",
+                "45%"
+            ],
+            "center": [
+                "58%",
+                "79%"
+            ],
+            "label": {
+                "show": true,
+                "position": "center",
+                "margin": 8,
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "verticalAlign": "top",
+                "formatter":         function(params) {            if(params.name.includes('Republican'))                return '\n\n\n' + params.name.substring(0, 10) + ' : ' + params.value + '%';            if(params.name.includes('Even'))                return '\n\n\n\n\n\n' + params.name.substring(0, 4) + ' : ' + params.value + '%';            if(params.name.includes('None'))                return '\n\n\n\n\n\n\n\n\n' + params.name.substring(0, 4) + ' : ' + params.value + '%';            return params.name.substring(0, 10) + ' : ' + params.value + '%';        }        
+            }
+        },
+        {
+            "type": "pie",
+            "name": "state",
+            "clockwise": true,
+            "data": [
+                {
+                    "name": "NY: 27003",
+                    "value": 27003
+                },
+                {
+                    "name": "NJ: 9310",
+                    "value": 9310
+                },
+                {
+                    "name": "MA: 5108",
+                    "value": 5108
+                },
+                {
+                    "name": "MI: 4584",
+                    "value": 4584
+                },
+                {
+                    "name": "PA: 3846",
+                    "value": 3846
+                },
+                {
+                    "name": "IL: 3480",
+                    "value": 3480
+                },
+                {
+                    "name": "CT: 3008",
+                    "value": 3008
+                },
+                {
+                    "name": "CA: 2820",
+                    "value": 2820
+                },
+                {
+                    "name": "LA: 2242",
+                    "value": 2242
+                },
+                {
+                    "name": "FL: 1734",
+                    "value": 1734
+                },
+                {
+                    "name": "MD: 1683",
+                    "value": 1683
+                },
+                {
+                    "name": "IN: 1540",
+                    "value": 1540
+                },
+                {
+                    "name": "GA: 1420",
+                    "value": 1420
+                },
+                {
+                    "name": "OH: 1357",
+                    "value": 1357
+                },
+                {
+                    "name": "TX: 1137",
+                    "value": 1137
+                },
+                {
+                    "name": "CO: 986",
+                    "value": 986
+                },
+                {
+                    "name": "WA: 957",
+                    "value": 957
+                },
+                {
+                    "name": "VA: 850",
+                    "value": 850
+                },
+                {
+                    "name": "MN: 591",
+                    "value": 591
+                },
+                {
+                    "name": "NC: 571",
+                    "value": 571
+                },
+                {
+                    "name": "AZ: 542",
+                    "value": 542
+                },
+                {
+                    "name": "MO: 512",
+                    "value": 512
+                },
+                {
+                    "name": "MS: 435",
+                    "value": 435
+                },
+                {
+                    "name": "RI: 430",
+                    "value": 430
+                },
+                {
+                    "name": "WI: 409",
+                    "value": 409
+                },
+                {
+                    "name": "AL: 403",
+                    "value": 403
+                },
+                {
+                    "name": "SC: 346",
+                    "value": 346
+                },
+                {
+                    "name": "DC: 328",
+                    "value": 328
+                },
+                {
+                    "name": "KY: 325",
+                    "value": 325
+                },
+                {
+                    "name": "NV: 312",
+                    "value": 312
+                },
+                {
+                    "name": "OK: 274",
+                    "value": 274
+                },
+                {
+                    "name": "IA: 271",
+                    "value": 271
+                },
+                {
+                    "name": "TN: 248",
+                    "value": 248
+                },
+                {
+                    "name": "DE: 225",
+                    "value": 225
+                },
+                {
+                    "name": "NM: 208",
+                    "value": 208
+                },
+                {
+                    "name": "KS: 174",
+                    "value": 174
+                },
+                {
+                    "name": "NH: 133",
+                    "value": 133
+                },
+                {
+                    "name": "OR: 130",
+                    "value": 130
+                },
+                {
+                    "name": "NE: 100",
+                    "value": 100
+                },
+                {
+                    "name": "AR: 94",
+                    "value": 94
+                },
+                {
+                    "name": "ID: 70",
+                    "value": 70
+                },
+                {
+                    "name": "UT: 68",
+                    "value": 68
+                },
+                {
+                    "name": "ME: 65",
+                    "value": 65
+                },
+                {
+                    "name": "WV: 57",
+                    "value": 57
+                },
+                {
+                    "name": "VT: 53",
+                    "value": 53
+                },
+                {
+                    "name": "ND: 36",
+                    "value": 36
+                },
+                {
+                    "name": "SD: 34",
+                    "value": 34
+                },
+                {
+                    "name": "HI: 17",
+                    "value": 17
+                },
+                {
+                    "name": "MT: 16",
+                    "value": 16
+                },
+                {
+                    "name": "AK: 8",
+                    "value": 8
+                },
+                {
+                    "name": "WY: 7",
+                    "value": 7
+                }
+            ],
+            "radius": [
+                "65%",
+                "275%"
+            ],
+            "center": [
+                "58%",
+                "79%"
+            ],
+            "roseType": "area",
+            "label": {
+                "show": true,
+                "position": "inside",
+                "margin": 8,
+                "fontSize": 10,
+                "fontWeight": "bold",
+                "verticalAlign": "bottom",
+                "formatter":         function(params) {            return params.name.substring(0, 2);        }        
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "Democratic: 62148",
+                "Republican: 14021",
+                "Even: 4388",
+                "NY: 27003",
+                "NJ: 9310",
+                "MA: 5108",
+                "MI: 4584",
+                "PA: 3846",
+                "IL: 3480",
+                "CT: 3008",
+                "CA: 2820",
+                "LA: 2242",
+                "FL: 1734",
+                "MD: 1683",
+                "IN: 1540",
+                "GA: 1420",
+                "OH: 1357",
+                "TX: 1137",
+                "CO: 986",
+                "WA: 957",
+                "VA: 850",
+                "MN: 591",
+                "NC: 571",
+                "AZ: 542",
+                "MO: 512",
+                "MS: 435",
+                "RI: 430",
+                "WI: 409",
+                "AL: 403",
+                "SC: 346",
+                "DC: 328",
+                "KY: 325",
+                "NV: 312",
+                "OK: 274",
+                "IA: 271",
+                "TN: 248",
+                "DE: 225",
+                "NM: 208",
+                "KS: 174",
+                "NH: 133",
+                "OR: 130",
+                "NE: 100",
+                "AR: 94",
+                "ID: 70",
+                "UT: 68",
+                "ME: 65",
+                "WV: 57",
+                "VT: 53",
+                "ND: 36",
+                "SD: 34",
+                "HI: 17",
+                "MT: 16",
+                "AK: 8",
+                "WY: 7"
+            ],
+            "selected": {},
+            "type": "plain",
+            "show": true,
+            "left": "1%",
+            "top": "8%",
+            "orient": "vertical",
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 20,
+            "itemHeight": 10,
+            "textStyle": {
+                "fontSize": 10
+            }
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "formatter": "{b}",
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "title": [
+        {
+            "text": "United States: death",
+            "subtext": "11 May, 2020",
+            "padding": 5,
+            "itemGap": 10,
+            "textStyle": {
+                "fontSize": 20
+            },
+            "subtextStyle": {
+                "fontSize": 18
+            }
+        }
+    ]
+};
+        chart_7f1d30cd14e74166a6d721bd2c092670.setOption(option_7f1d30cd14e74166a6d721bd2c092670);
+    </script>
+</body>
+</html>
