@@ -19,29 +19,29 @@ categories: github jekyll
 
 * #### States and Counties
 
-    * States
+`States`
   
 <table>
   <tr align="center">
-    <th rowspan="3"><iframe src="https://fudab.github.io/covid-19/figures_us/US_rose.html" width="460px" height="850px" scrolling="no" frameBorder="0"></iframe></th>
+    <th rowspan="3"><iframe src="https://fudab.github.io/covid-19/figures_us/US_rose_death.html" width="460px" height="850px" scrolling="no" frameBorder="0"></iframe></th>
     <th><iframe src="https://fudab.github.io/covid-19/figures_us/US_map.html" width="450px" height="300px" scrolling="no" frameBorder="0"></iframe></th>
   </tr>
   <tr>
-    <td>(b) The spacial spread of COVID-19. The number of infected is displayed on a logarithmic scale.</td>
+    <td>(b) The geographical distribution of deaths caused by COVID-19. The number of deaths is displayed on a logarithmic scale.</td>
   </tr>
   <tr>
-    <td align="center"><img width="450px" src="./figures_us/US_conf.png" ></td>
+    <td align="center"><img width="450px" src="./figures_us/US_death.png" ></td>
   </tr>
   <tr>
-    <td>(a) The state level of reported cases since the ﬁrst reported case in United States in Jan 21, 2020.</td>
-    <td>(c) The state level growth of confirmed cases.</td>
+    <td>(a) The state level of reported deaths since the ﬁrst reported death in United States in Jan 21, 2020.</td>
+    <td>(c) The state level growth of confirmed deaths.</td>
   </tr>
   <tr>
-    <td colspan="2">Figure 1: Summary of the COVID-19 information as of May 5, 2020. For (c), the curve in a panel represents the number of cumulative infected people in the state and the histogram indicates the number of new infected people everyday. The color code in (a) and (c) corresponds to the partisan voting index (PVI) by each state.</td>
+    <td colspan="2">Figure 1: Summary of the COVID-19 death information as of May 12, 2020. For (c), the curve in a panel represents the number of cumulative deaths in the state and the histogram indicates the number of new deaths everyday. The color code in (a) and (c) corresponds to the partisan voting index (PVI) by each state.</td>
   </tr>
 </table>
 
-   * Counties
+`Counties`
   
 <table align="center">
   <tr>
@@ -57,7 +57,7 @@ categories: github jekyll
     <td>(b) The county level deaths in the United States. </td>
   </tr>
   <tr>
-    <td>Figure 1: The spacial spread of COVID-19. We only include the 50 states as well as D.C. And those reported cases or deaths marked as from 'unknown' areas are not shown here.</td>
+    <td>Figure 2: The country level spacial spread of COVID-19. We only include the 50 states as well as D.C. And those reported cases or deaths marked as from 'unknown' areas are not shown here.</td>
   </tr>
 </table>
 
