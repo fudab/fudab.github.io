@@ -41,7 +41,7 @@ categories: github jekyll
   </tr>
 </table>
 
-    * Counties
+   * Counties
   
 <table align="center">
   <tr>
