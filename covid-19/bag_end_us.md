@@ -27,7 +27,7 @@ categories: github jekyll
     <th><iframe src="https://fudab.github.io/covid-19/figures_us/US_map.html" width="450px" height="300px" scrolling="no" frameBorder="0"></iframe></th>
   </tr>
   <tr>
-    <td>(b) The geographical distribution of deaths caused by COVID-19. The number of deaths is displayed on a logarithmic scale.</td>
+    <td>(b) The spatial casualty of COVID-19. The number of deaths is displayed on a logarithmic scale.</td>
   </tr>
   <tr>
     <td align="center"><img width="450px" src="./figures_us/US_death.png" ></td>
