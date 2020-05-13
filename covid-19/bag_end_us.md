@@ -24,7 +24,16 @@ categories: github jekyll
     <th align="center"><iframe src="https://fudab.github.io/covid-19/figures_us_be/US_map_state.html" width="900px" height="500px" scrolling="no" frameBorder="0"></iframe></th>
   </tr>
   <tr>
-    <td>Figure 1: The spacial spread of COVID-19. We only include the 50 states as well as D.C. And those reported cases marked as 'Unknown' are not shown here.</td>
+    <td>(a) The county level infections in the United States. </td>
+  </tr>
+  <tr>
+    <td align="center"><iframe src="https://fudab.github.io/covid-19/figures_us_be/US_map_state_death.html" width="900px" height="500px" scrolling="no" frameBorder="0"></iframe></td>
+  </tr>
+  <tr>
+    <td>(b) The county level deaths in the United States. </td>
+  </tr>
+  <tr>
+    <td>Figure 1: The spacial spread of COVID-19. We only include the 50 states as well as D.C. And those reported cases or deaths marked as from 'unknown' areas are not shown here.</td>
   </tr>
 </table>
 
