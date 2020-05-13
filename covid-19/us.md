@@ -22,7 +22,7 @@ categories: github jekyll
 - [x]  [April 19, 2020](https://fudab.github.io/covid-19/us_0419) 
 - [x]  [April 26, 2020](https://fudab.github.io/covid-19/us_0426)
 - [x]  [May 3, 2020](https://fudab.github.io/covid-19/us_0503)
-- [ ]  [May 3, 2020](https://fudab.github.io/covid-19/us_0510)
+- [ ]  [May 10, 2020](https://fudab.github.io/covid-19/us_0510)
 
 ### Abstract
 > The COVID-19 pandemic has upended everyone’s normal life, health crisis, lockdowns, and economic percussions in an unprecedented pace and scale. We will get over this pandemic but at what prices? Here we estimate the burden of COVID-19 in the United States, peak time, and total number of infections, in coming months.
