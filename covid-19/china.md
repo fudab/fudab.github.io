@@ -74,7 +74,7 @@ categories: github jekyll
   </tr>
   <tr>
     <td>(b) Province migration index of Hubei (as destination). </td>
-    <td>(e) Normalized internal-flow ratio in Hubei. </td>
+    <td>(e) Normalized internal-flow ratio of Hubei. </td>
   </tr>
   <tr>
     <td align="center"><img width="450" src="./figures_china/Hubei_move_out_MI.png" ></td>
@@ -82,7 +82,7 @@ categories: github jekyll
   </tr>
   <tr>
     <td>(c) Province migration index of Hubei (as place of departure). </td>
-    <td>(f) Internal-flow ratio in Wuhan. </td>
+    <td>(f) Internal-flow ratio of Wuhan. </td>
   </tr>
   <tr>
     <td colspan="2"><img width="900" src="./figures_china/China_Province_IF.png" ></td>
