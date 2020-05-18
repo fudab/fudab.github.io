@@ -65,24 +65,24 @@ categories: github jekyll
     <th><img width="450" src="./figures_china/China_IF.png" ></th>
   </tr>
   <tr>
-    <td>(a) The sum of province to province migration index in China.</td>
-    <td>(d) The nationwide normalized internal-flow ratio in China. </td>
+    <td>(a) Nationwide sum of province migration index.</td>
+    <td>(d) Nationwide normalized internal-flow ratio. </td>
   </tr>
   <tr>
     <td align="center"><img width="450" src="./figures_china/Hubei_move_in_MI.png" ></td>
     <td align="center"><img width="450" src="./figures_china/Hubei_IF.png" ></td>
   </tr>
   <tr>
-    <td>(b) The sum of p2p migration index in Hubei Province (destination). </td>
-    <td>(e) The province level normalized internal-flow ratio in Hubei Province. </td>
+    <td>(b) Province migration index of Hubei (as the destination). </td>
+    <td>(e) Province level normalized internal-flow ratio in Hubei. </td>
   </tr>
   <tr>
     <td align="center"><img width="450" src="./figures_china/Hubei_move_out_MI.png" ></td>
     <td align="center"><img width="450" src="./figures_china/Wuhan_IF.png" ></td>
   </tr>
   <tr>
-    <td>(c) The sum of p2p migration index in Hubei Province (place of departure). </td>
-    <td>(f) The city level inter-flow ratio in Wuhan City. </td>
+    <td>(c) Province migration index of Hubei (as the place of departure). </td>
+    <td>(f) City level inter-flow ratio in Wuhan. </td>
   </tr>
   <tr>
     <td colspan="2"><img width="900" src="./figures_china/China_Province_IF.png" ></td>
