@@ -112,7 +112,7 @@ categories: github jekyll
 ### Method
 
 #### SEIR Model
-We consider an SEIR model in a population structure for every province. The systems of ODEs describe the dynnamics in continuous time t, that is, days since the outbreak of the disease:
+We consider an SEIR model in a meta population structure with migration. The systems of ODEs describe the dynnamics in continuous time t, that is, days since the outbreak of the disease:
 
 <div class="math">
  \begin{equation}
