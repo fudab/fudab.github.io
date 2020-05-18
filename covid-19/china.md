@@ -88,7 +88,7 @@ categories: github jekyll
     <td colspan="2"><img width="900" src="./figures_china/China_Province_IF.png" ></td>
   </tr>
   <tr>
-    <td colspan="2">(g) Provincial level normalized internal-flow ratios. The curve of Hubei Province is highlighted with scatters.</td>
+    <td colspan="2">(g) Provincial level normalized internal-flow ratios. The curve of Hubei Province is highlighted with markers.</td>
   </tr>
   <tr>
     <td colspan="2">Figure 2: Summary of the migration infromation in China, Hubei province and Wuhan city. The time period for calculating the first average plateau value is from January 1, 2020 to January 21, 2020 and that for calculating the second value is from February 1, 2020 to February 21, 2020. For panels (a) - (f), the percentage in the title indicates the after-to-before ratio.</td>
