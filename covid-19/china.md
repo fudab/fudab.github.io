@@ -74,7 +74,7 @@ categories: github jekyll
   </tr>
   <tr>
     <td>(b) Province migration index of Hubei (as destination). </td>
-    <td>(e) Province level normalized internal-flow ratio in Hubei. </td>
+    <td>(e) Normalized internal-flow ratio in Hubei. </td>
   </tr>
   <tr>
     <td align="center"><img width="450" src="./figures_china/Hubei_move_out_MI.png" ></td>
@@ -82,13 +82,13 @@ categories: github jekyll
   </tr>
   <tr>
     <td>(c) Province migration index of Hubei (as place of departure). </td>
-    <td>(f) City level inter-flow ratio in Wuhan. </td>
+    <td>(f) Internal-flow ratio in Wuhan. </td>
   </tr>
   <tr>
     <td colspan="2"><img width="900" src="./figures_china/China_Province_IF.png" ></td>
   </tr>
   <tr>
-    <td colspan="2">(g) The province level normalized internal-flow ratios in China. The cruve of Hubei Province is highlighted with scatters.</td>
+    <td colspan="2">(g) Provincial level normalized internal-flow ratios. The curve of Hubei Province is highlighted with scatters.</td>
   </tr>
   <tr>
     <td colspan="2">Figure 2: Summary of the migration infromation in China, Hubei province and Wuhan city. The time period for calculating the first average plateau value is from January 1, 2020 to January 21, 2020 and that for calculating the second value is from February 1, 2020 to February 21, 2020. For panels (a) - (f), the percentage in the title indicates the after-to-before ratio.</td>
