@@ -297,7 +297,7 @@ It can be seen from the above calculations that $\text{cov}(\hat{x})$ is a $p\ti
 \end{equation}
 </div>
 
-In our model, we have $n = 56$, $p = 21$ and $n - p = 35$ (notice that $N_i$ and $S_i(0)$ are not free parameters). By letting $\alpha = 0.005$, we obtain the $99.99%$ confidence interval of every parameter and for every province. Still, we would like to guarantee that the lower and upper bounds of the epidemic parameters are consistent with the sampling of estimations and also the lower bounds of $E_i(0)$, $I_i(0)$ as well as $R_i(0)$ should be non-negative. Combining the above restrictions, we get the updated bounds for the parameters. 
+In our model, we have $n = 56$, $p = 21$ and $n - p = 35$ (notice that $N_i$ and $S_i(0)$ are not free parameters). By letting $\alpha = 0.005$, we obtain the $99.99$% confidence interval of every parameter and for every province. Still, we would like to guarantee that the lower and upper bounds of the epidemic parameters are consistent with the sampling of estimations and also the lower bounds of $E_i(0)$, $I_i(0)$ as well as $R_i(0)$ should be non-negative. Combining the above restrictions, we get the updated bounds for the parameters. 
 
 <table align="center">
   <tr>
