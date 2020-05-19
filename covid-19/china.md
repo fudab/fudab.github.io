@@ -364,7 +364,7 @@ In our model, we have $n = 56$, $p = 21$ and $n - p = 35$ (notice that $N_i$ and
     <td align="center"></td>
   </tr>
  <tr>
-    <td colspan="5">Table 2: Implementation of parameters according to the estimations for epidemic parameters and the results of prior estimation. Still, $n_i$ is the population size of province $i$. The superscripts 'prior' and 'upper' indicate the value and the upper bound from prior estimation.</td>
+    <td colspan="5">Table 2: Implementation of parameters according to the estimations for epidemic parameters and the results of prior estimation. Still, $n_i$ is the population size of province $i$. The superscripts 'prior' and 'upper' indicate the estimated value and the upper bound from prior estimation.</td>
   </tr>
 </table>
 
