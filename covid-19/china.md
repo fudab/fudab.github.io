@@ -379,7 +379,7 @@ Given that even local optimization methods will be rather time consuming under t
   </tr>
 </table>
 
-### Discussion on Parameters and Estimations
+### Discussion on Parameters
 
 We find that there is no major changes of the parametric values in general, excpet for the incubation seed $E(0)$ at every province. In other words, the migraiton from province to province plays a key role in the outbreak in other provinces apart from Hubei. Moreover, correlation analysis between internal flow ratio and infection rate $\beta$ shows that the spread of the disease is in line with the intensity of residents' intra-city travel behavior.
 
