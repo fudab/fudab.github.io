@@ -410,7 +410,7 @@ We find that there is no major changes of the parametric values in general, excp
 </table>
 
 
-#### Infection Rate
+#### Transmission Rate
 
 <table align="center">
   <tr>
