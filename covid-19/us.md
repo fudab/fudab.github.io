@@ -196,22 +196,22 @@ To obtain a satisfactory estimation of the epidemic parameters for the $i$th sta
   </tr>
 </table>
 
-After obtaining the prior estimation of the parameters for every state, we can further calculate the covariance matrix $\text{cov}(\hat{x})$ and therefore an error bar of the fitting. The covariance matrix contains complete information about the uncertainty of the parameter estimators. The method we apply here to obtain it is to use a linear approximation method through estimation of the Jacobian matrix $F$ of the parameter estimation problem:
+After obtaining the prior estimation of parameters for every province, we can further calculate the covariance matrix $\text{cov}(\hat{x})$ and hence the standard errors. The covariance matrix contains complete information about the uncertainty of parameter estimators. To get $\text{cov}(\hat{x})$, we use a linear approximation method through the Jacobian matrix $F$:
 
 <div class="math">
 \begin{equation}
  \text{cov}(\hat{x}) = s^2(F'F)^{-1}, \qquad \text{with}\, F = \left. \frac{\partial f(x)}{\partial x}\right|_{x = \hat{x}}.
 \end{equation}
 </div>
-Here $s^2$ is the unbiased estimation of the variance $\sigma^2$ obtained from the residuals of the parameter estimation:
+Here $s^2$ is the unbiased estimation of the variance $\sigma^2$ obtained from the least square residual:
 <div class="math">
 \begin{equation}
  s^2 = \frac{S_\text{min}(r, \hat{x})}{(n - p)N},
 \end{equation}
 </div>
-where $n$ is the total number of measurements, $p$ is the number of estimated parameters, $n - p$ is the degrees of freedom, and $N$ is the size of the population. Meanwhile, $S_\text{min}(r, \hat{x}) = \displaystyle\sum(r - R(\hat{x}))$ is just the minimum objective function value.
+with $n$ being the total number of measurements, $p$ the number of estimated parameters, $n - p$ the degrees of freedom, $N$ the population size and $S_\text{min}(r, \hat{x}) = \displaystyle\sum(r - R(\hat{x}))^2$ the minimum value of the objective function (that is, the least square residual).
 
-To obtain an error bar, we apply the Monte Carlo sampling method to generate a sample set of parameters, feed them into the ODE equations and produce enough outputs where we choose the `0.0005` and the `0.9995` quantiles as the lower and upper bounds.
+To get an error bar, we apply the Monte Carlo sampling method to generate a sample set of parameters, feed them into the ODE equations and produce enough outputs where we choose the `0.0005` and the `0.9995` quantiles as the lower and upper bounds.
 
 <table align="center">
   <tr>
