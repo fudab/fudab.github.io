@@ -112,7 +112,7 @@ categories: github jekyll
 ### Method
 
 #### SEIR Model
-We consider an SEIR model in a meta population structure with migration. The systems of ODEs describe the dynnamics in continuous time t, that is, days since the outbreak of the disease:
+We consider an SEIR model in a meta population structure with migration. The systems of ODEs describe the dynamics in continuous time $t$, that is, days since the outbreak of the disease:
 
 <div class="math">
  \begin{equation}
@@ -125,9 +125,21 @@ We consider an SEIR model in a meta population structure with migration. The sys
  \end{equation}
 </div>
 
-Here, the subscript $i$ refers to the $i$th compartment on the provincial level (in other words, the $i$th province) and $N_i(t) = S_i(t) + E_i(t) + I_i(t) + R_i(t)$ is the population size of compartment $i$. 
+Here, the subscript $1 \leq i \leq m$ refers to the $i$th compartment on the provincial level (in other words, the $i$th province). $N_i(t) = S_i(t) + E_i(t) + I_i(t) + R_i(t)$ is the total population size of compartment $i$ at time $t$. The total outflow from compartment $i$ to other compartments and the total inflow to compartment $i$ from other compartments are
+<div class="math">
+ \begin{equation}
+ \displaystyle\sum_{j, j\neq i}\alpha_{ij}(t) \left[S_i(t) + E_i(t) \right],
+ \end{equation}
+</div>
+and 
+<div class="math">
+ \begin{equation}
+ \displaystyle\sum_{j, j\neq i} \alpha_{ji}(t) \left[S_j(t) + E_j(t) \right],
+ \end{equation}
+</div>
+respectively.
 
-To parameterize migration flows between compartments, we use the real provincial level mobility data from [Baidu Qianxi](https://qianxi.baidu.com). Notice that the number of infected cases of the epidemic and the population size of a same province differ by at least three orders of magnitude (see [Bag End](https://fudab.github.io/covid-19/bag_end_china) for details). Hence $S_i(t) + E_i(t)$ is roughly $N_i(t)$ and we can assume the following two identities:
+To parameterize migration flows between compartments, we utilize the provincial level mobility data from [Baidu Qianxi](https://qianxi.baidu.com). Notice that the number of confirmed cases by March 10 and the population size of a province differ by at least three orders of magnitude (see the infection rates in the [Bag End](https://fudab.github.io/covid-19/bag_end_china)). Hence $S_i(t) + E_i(t)$ is roughly $N_i(t)$ and we can assume that the following two identities always hold:
 <div class="math">
 \begin{equation}
 \begin{cases}
@@ -136,9 +148,9 @@ To parameterize migration flows between compartments, we use the real provincial
 \end{cases}
  \end{equation}
 </div>
-Here, $\theta$ is the unit of p2p migration index.
+Here, $\theta = 100000$ is the unit of p2p migration index.
 
-With the above approximation, we can estimate $\alpha_{ij}(t)$ by $\frac{\theta m_{ij}(t)}{N_i(t)}$. A simplified version of the original system of equations is thus obtained:
+We further estimate $\alpha_{ij}(t)$ by $\frac{\theta m_{ij}(t)}{N_i(t)}$.  A simplified version of the original system of equations is thus obtained:
 <div class="math">
 \begin{equation}
 \begin{cases}
@@ -150,7 +162,7 @@ With the above approximation, we can estimate $\alpha_{ij}(t)$ by $\frac{\theta 
 \end{equation}
 </div>
 
-In general, all three parameters can be time dependent, due to containment efforts (social distancing). Since time $t$ is discrete in practice, we treat these parameters as piecewise functions, of which every piece is a constant. To simplify the problem, we unify the timeline for all provinces. As mentioned above, the record of the COVID-19 information starts from `January 15` and is truncated to `March 10`. Therefore, the variable $t$ in the ODE system satisfies $t \in [0, 55]$. In our model, we focus more on the infection rate and the function $\beta_i(t)$ is split into twelve pieces while $\sigma_i(t)$ is split into three pieces and same for $\gamma$:
+In general, all three parameters can be time dependent, due to containment efforts (social distancing). Since time $t$ is discrete in practice, we treat these parameters as piecewise functions, of which every piece is a constant. To simplify the problem, we unify the timeline for all provinces. As mentioned above, the record of the COVID-19 information starts from `January 15` and is truncated to `March 10`. Accordingly, the domain of $t$ in the ODE system can be considered to be $t \in [0, 55]$. In our study, we focus more on the infection rate. After weighing degrees of freedom and flexibility, we assume the following expression where $\beta_i(t)$ is split into twelve pieces, $\sigma_i(t)$ three pieces and the same for $\gamma$:
 <div class="math">
 \begin{equation}
 \beta_i(t) = 
