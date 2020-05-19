@@ -375,7 +375,7 @@ Given that even local optimization methods will be rather time consuming under t
     <th><img width="800" src="./figures_china/China_conf_mseir_40.png"></th>
   </tr>
   <tr>
-    <td>Figure 4: Cumulative incidence of COVID-19 cases in every one of the 30 compartments (provinces, autonomous regions and municipalities) as well as prior estimation (without migration) and posterior estimation (with migration) based on real data. The looping simulation is repeated for 40 times. </td>
+    <td>Figure 4: Comparison between real and estimated values of $R_i(t)$. The shaded region, the dashed curve and the solid curve correspond to real data, result of prior estimation without migration and that of posterior estimation with migration, respectively. For prior estimation, the maximal number of global search in the dual annealing algorithm is $20000$ and the initial temperature is $10000$. We use the default settings for the other arguments. As to posterior estimation, the iteration defined above is repeated $40$ times. </td>
   </tr>
 </table>
 
