@@ -187,7 +187,7 @@ In general, all three parameters can be time dependent, due to containment effor
 ### Parameter Estimation
 
 #### Prior
-Before we include the migration from one compartment to another, we can ﬁrst consider the independent SEIR model without migration for every province:
+Before we include the migration from one compartment to another, we first consider the original SEIR model for every province:
 
 <div class="math">
  \begin{equation}
@@ -200,7 +200,8 @@ Before we include the migration from one compartment to another, we can ﬁrst c
  \end{equation}
 </div>
 
-To obtain a satisfactory estimation of the epidemic parameters for the $i$th province, we apply the `dual annealing` algorithm to perform a nonlinear least square fitting of the variable $R_i(t)$ and find the global minimum value of the residual. The table below shows an ordered dictionary of all the parameter objects required.
+To obtain a prior estimation of the epidemic parameters for the $i$th province, we apply the `dual annealing` algorithm to perform a nonlinear `least square` fitting of the variable $R_i(t)$ and find the global minimum value of the residual. Table 1 shows an ordered dictionary of all the parameter objects required.
+
 
 <table align="center">
   <tr>
@@ -267,35 +268,36 @@ To obtain a satisfactory estimation of the epidemic parameters for the $i$th pro
     <td align="center"></td>
   </tr>
  <tr>
-    <td colspan="5">Table 1: Implementation of parameters according to the sampling of the estimates for epidemic parameters. Here, $n_i$ is the population size of province $i$.</td>
+    <td colspan="5">Table 1: Implementation of parameters with reference to the estimations for epidemic parameters. Here, $n_i$ is the population size of province $i$.</td>
   </tr>
 </table>
 
 #### Posterior
 
-After obtaining the prior estimation of the parameters for every province, we can further calculate the covariance matrix $\text{cov}(\hat{x})$ and therefore the lower and upper bounds of these estimated values of parameters. The covariance matrix contains complete information about the uncertainty of the parameter estimators. The method we apply here to obtain it is to use a linear approximation method through estimation of the Jacobian matrix $F$ of the parameter estimation problem:
+After obtaining the prior estimation of parameters for every province, we can further calculate the covariance matrix $\text{cov}(\hat{x})$ and hence the standard errors. The covariance matrix contains complete information about the uncertainty of parameter estimators. To get $\text{cov}(\hat{x})$, we use a linear approximation method through the Jacobian matrix $F$:
 
 <div class="math">
 \begin{equation}
  \text{cov}(\hat{x}) = s^2(F'F)^{-1}, \qquad \text{with}\, F = \left. \frac{\partial f(x)}{\partial x}\right|_{x = \hat{x}}.
 \end{equation}
 </div>
-Here $s^2$ is the unbiased estimation of the variance $\sigma^2$ obtained from the residuals of the parameter estimation:
+Here $s^2$ is the unbiased estimation of the variance $\sigma^2$ obtained from the least square residual:
 <div class="math">
 \begin{equation}
  s^2 = \frac{S_\text{min}(r, \hat{x})}{(n - p)N},
 \end{equation}
 </div>
-where $n$ is the total number of measurements, $p$ is the number of estimated parameters, $n - p$ is the degrees of freedom, and $N$ is the size of the population. Meanwhile, $S_\text{min}(r, \hat{x}) = \displaystyle\sum(r - R(\hat{x}))$ is just the minimum objective function value.
+with $n$ being the total number of measurements, $p$ the number of estimated parameters, $n - p$ the degrees of freedom, $N$ the population size and $S_\text{min}(r, \hat{x}) = \displaystyle\sum(r - R(\hat{x}))^2$ the minimum value of the objective function (that is, the least square residual).
 
-The covariance matrix is a square matrix with $p\times p$ dimensions. In particular, the diagonal elements are the variances of the corresponding ordered parameters (namely, the square root of the $k$th diagonal element is the standard error of the $k$th parameter). Following a student $t$-distribution, the confidence interval at $(1 - 2\alpha)$ significance is:
+It can be seen from the above calculations that $\text{cov}(\hat{x})$ is a $p\times p$ square matrix. In particular, the diagonal elements are simply the variances of the corresponding ordered parameters (namely, the square root of the $k$th diagonal element is the standard error of the $k$th parameter). Following a student $t$-distribution, we can get the confidence intervals at $(1 - 2\alpha)$ significance for all the parameters and thus their lower and upper bounds:
+
 <div class="math">
 \begin{equation}
 \hat{x}_{1 - 2\alpha} = \hat{x} \pm t_{n - p}^{\alpha}\sqrt{\text{diag}\,\text{cov}(\hat{x})}.
 \end{equation}
 </div>
 
-By letting $\alpha = 0.005$, we can obtain the $99.99\%$ confidence intervals of the parameters for every province. Still, we would like to guarantee that the lower and upper bounds of the epidemic parameters are consistent with the sampling of estimations and also the lower bounds of $E_i(0)$, $I_i(0)$ as well as $R_i(0)$ are non-negative. Combining the above restrictions, we get the updated bounds for the parameters, which are ready for the simulation with migration where a system of $30 \times 4$ equations will be in operation.
+In our model, we have $n = 56$, $p = 21$ and $n - p = 35$ (notice that $N_i$ and $S_i(0)$ are not free parameters). By letting $\alpha = 0.005$, we obtain the $99.99\%$ confidence interval of every parameter and for every province. Still, we would like to guarantee that the lower and upper bounds of the epidemic parameters are consistent with the sampling of estimations and also the lower bounds of $E_i(0)$, $I_i(0)$ as well as $R_i(0)$ should be non-negative. Combining the above restrictions, we get the updated bounds for the parameters. 
 
 <table align="center">
   <tr>
@@ -362,7 +364,7 @@ By letting $\alpha = 0.005$, we can obtain the $99.99\%$ confidence intervals of
     <td align="center"></td>
   </tr>
  <tr>
-    <td colspan="5">Table 2: Implementation of parameters according to the sampling of the estimates for epidemic parameters and the prior result. Here, $n_i$ is the population size of province $i$. The superscripts 'prior' and 'upper' indicate the estimated value and the upper bound.</td>
+    <td colspan="5">Table 2: Implementation of parameters according to the estimations for epidemic parameters and the results of prior estimation. Still, $n_i$ is the population size of province $i$. The superscripts 'prior' and 'upper' indicate the value from prior estimation and the upper bound.</td>
   </tr>
 </table>
 
