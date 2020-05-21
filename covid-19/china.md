@@ -381,16 +381,21 @@ Given that even local optimization methods will be rather time consuming under t
 
 ### Discussion on Parameters
 
-We find that there is no major changes of the parametric values in general, excpet for the incubation seed $E(0)$ at every province. In other words, the migraiton from province to province plays a key role in the outbreak in other provinces apart from Hubei. Moreover, correlation analysis between internal flow ratio and infection rate $\beta$ shows that the spread of the disease is in line with the intensity of residents' intra-city travel behavior.
+Now we have the COVID-19 information as well as the migration informa- tion in one pocket and the estimated parameters in the other pocket. It’s time for us to hold both hands out and try answering the cause-effect relationship between population movements and the spread of the virus.
+
+Before we begin our discussion, we would like to emphasize again that there are two aspects of migration: intra-provincial population movements and inter- provincial traffic. For the former, we look into the migration matrix. As to the latter, we refer to the normalized internal-flow ratio of a province. We will see soon enough that the intra-provincial migration is closely related to the numbers of initial asymptomatic carriers in provinces other than Hubei. On the other hand, the inter-provincial traffic is highly relevant to the contact rate of a province.
+
 
 #### Incubation Seed
+
+We first consider the incubation seed $E_i(0)$ of province $i$.  Here we calculate the cumulative migration index from the epicenter Hubei to any other province between January 1, 2020 (the earliest date for which migration data are accessible from \textbf{Baidu Qianxi}) and January 14 (right before the official record of confirmed cases became available).
 
 <table align="center">
   <tr>
     <th><img width="800" src="./figures_china/China_E_0.png"></th>
   </tr>
   <tr>
-    <td>Figure 5: How the incubation seed $E(0)$ changes before and after considering province to province migration. A horizontal bar is added for the ith province if $E_i(0)$ shrinks. To better present the result, we round up the original values. </td>
+    <td>Figure 5: How the incubation seed $E(0)$ changes before and after we include migration in the simulation. The provinces in the $y$-axis are ranked according to the severity of the epidemic by March 10, 2020 (the end of our study). and the size of a data point for any province other than Hubei is linearly related to the cumulative migration index. A horizontal bar is added for the $i$th province if $E_i(0)$ shrinks. Given that the number of people should always be an integer, we round up the original values. </td>
   </tr>
 </table>
 
@@ -405,19 +410,22 @@ We find that there is no major changes of the parametric values in general, excp
     <td>(b) Recursive migration traces involving the top 3 provinces with the greatest cumulative migration index from the departure province.</td>
   </tr>
   <tr>
-    <td colspan="2">Figure 6: Migration traces derived from the migration data. Daily migration index from January 1 to January 27 is added to obtain the cumulative index. And we use heatmap to indicate the posterior incubation seed $E(0)$. For (b), how we get the places of departure and the destinations is the same as Figure 3.</td>
+    <td colspan="2">Figure 6: Migration traces derived from the migration data. As above, daily migration index from January 1 to January 14 is added to obtain the cumulative index. And we use heatmap to indicate the incubation seed $E(0)$ from the posterior estimation. How we get the places of departure and the destinations in (b) is the same as Figure 3.</td>
   </tr>
 </table>
 
 
 #### Transmission Rate
 
+We then inspect the contact rate $\beta(t)$.
+
 <table align="center">
   <tr>
     <th><img width="800" src="./figures_china/China_beta.png"></th>
   </tr>
   <tr>
-    <td>Figure 7: How the infection rate $\beta$ changes before and after considering province to province migration. It is not hard to see that there is no significant change in the values. The sudden changes where prior estimation of $\beta$ is close to zero may due to the instability of the Levenberg-Marquardt algorithm. </td>
+    <td>Figure 7: Prior and posterior estimations of the contact rate. There is no significant difference before and after we include inter-provincial migration in the model. The sudden changes later in the timeline may result from the instability of the Levenberg-Marquardt algorithm.
+ </td>
   </tr>
 </table>
 
@@ -426,7 +434,7 @@ We find that there is no major changes of the parametric values in general, excp
     <th><img width="800" src="./figures_china/China_beta_if.png"></th>
   </tr>
   <tr>
-    <td>Figure 8: The correlation between internal flow ratio and infection rate $\beta$. Regarding the provincial internal flow ratio and $\beta$ as two time series, we calculate their cross correlations with different lags (unit: day) and figure out the maximum value of the correlation coefficent as well as the corresponding lag, both of which are given in the title of every panel. In accordance with the cuase-effect relation where people's travel behavior leads the spread of the disease, we assume that the lag is positive. </td>
+    <td>Figure 8: The cross correlation between provincial internal-flow ratio and contact rate. Regarding them as two time series, we calculate their cross correlations with different lags (unit: day) and figure out the maximum value of the correlation coefficient as well as the corresponding lag. Both the coefficient and the lag are given in the title of every panel. Due to the fact that people's travel behavior leads the spread of the disease, we assume that the lag is always positive.  </td>
   </tr>
 </table>
 
@@ -434,12 +442,14 @@ We find that there is no major changes of the parametric values in general, excp
 
 #### Infection Number
 
+The last part serves as an addition to the previous analysis. Still, we consider Hubei as the place of departure and calculate the cumulative migration index from January 1 to January 27 (right before the traffic control was in effect).
+
 <table align="center">
   <tr>
     <th><img width="600" src="./figures_china/China_correlation_2020-01-27.png"></th>
   </tr>
   <tr>
-    <td> Figure 9: The correlation between province to province migration and infection number. We consider migration from the epicenter Hubei to the other provinces. Each point represents a province. The x-axis is the cumulative migration index from January 1 to January 27 and the y-axis is the date on which the 10th patient appeared according to the estimated values of $R(t)$ in the SEIR model. The size of the ith point is linearly related to the number of cumulative confirmed cases at the corresponding province by January 27. </td>
+    <td> Figure 9: The correlation between province to province migration and infection. Every point stands for a province. The $x$-axis shows when the $10$th patient appeared, that is, at which date our estimated $R_i(t)$ was greater than or equal to $10$ for the first time in the $i$th province. And the $y$-axis represents the cumulative migration index from Hubei to another province. The size of a data point is a linear function of the number of confirmed cases on January 27. </td>
   </tr>
 </table>
 
