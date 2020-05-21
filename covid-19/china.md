@@ -388,7 +388,7 @@ Before we begin our discussion, we would like to emphasize again that there are 
 
 #### Incubation Seed
 
-We first consider the incubation seed $E_i(0)$ of province $i$.  Here we calculate the cumulative migration index from the epicenter Hubei to any other province between January 1, 2020 (the earliest date for which migration data are accessible from \textbf{Baidu Qianxi}) and January 14 (right before the official record of confirmed cases became available).
+We first consider the incubation seed $E(0)$. Here we calculate the cumulative migration index from the epicenter Hubei to any other province between January 1, 2020 (the earliest date for which migration data are accessible from \textbf{Baidu Qianxi}) and January 14 (right before the official record of confirmed cases became available).
 
 <table align="center">
   <tr>
@@ -402,8 +402,8 @@ We first consider the incubation seed $E_i(0)$ of province $i$.  Here we calcula
 
 <table align="center">
   <tr>
-    <th><img width="450" src="./figures_china/China_heatmap_migration_incubation_2020-01-27.png"></th>
-    <th><img width="450" src="./figures_china/China_heatmap_migration_incubation_c_2020-01-27.png"></th>
+    <th><img width="450" src="./figures_china/China_heatmap_migration_incubation_2020-01-14.png"></th>
+    <th><img width="450" src="./figures_china/China_heatmap_migration_incubation_c_2020-01-14.png"></th>
   </tr>
   <tr>
     <td>(a) Migration traces involving the top 10 provinces with the greatest cumulative migration index from the epicenter, Hubei Province.</td>
