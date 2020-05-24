@@ -11,7 +11,7 @@ categories: github jekyll
 
 ## How the pandemic is influencing our life from every aspect
 ### Xingru Chen and Feng Fu
-##### `Last updated: May 22, 2020`
+##### `Last updated: May 24, 2020`
 
 
 
