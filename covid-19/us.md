@@ -226,7 +226,7 @@ The experience of China has already shown that strict quarantine can reduce the 
 
 #### Discrete Variation
 
-We first work on four discrete threshold values of contact rate reduction: `100% (status quo)`, `50%`, `25%` and `0 (complete lockdown)`.
+We first work on four discrete threshold values of contact rate reduction: `100% (status quo)`, `50%`, `25%` and `0` (`complete lockdown`).
 
 <table align="center">
   <tr>
