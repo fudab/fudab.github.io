@@ -16,11 +16,8 @@ categories: github jekyll
 > - [x] [April 12, 2020](https://fudab.github.io/covid-19/us_0412)
 > - [x] [April 19, 2020](https://fudab.github.io/covid-19/us_0419) 
 > - [x] [April 26, 2020](https://fudab.github.io/covid-19/us_0426)
-> - [x] [May 3, 2020](https://fudab.github.io/covid-19/us_0503)
-> - [x] [May 10, 2020](https://fudab.github.io/covid-19/us_0510)
-> - [x] [May 17, 2020](https://fudab.github.io/covid-19/us_0517)
-> - [x] [May 24, 2020](https://fudab.github.io/covid-19/us_0524)
-> - [ ] [May 31, 2020](https://fudab.github.io/covid-19/us_0531)
+
+
 
 
 ### Abstract
