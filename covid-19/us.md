@@ -18,6 +18,7 @@ categories: github jekyll
 
 * Old results with earlier truncation dates for parameter estimation are in the following archives:  
 
+
 - [x] [April 5, 2020](https://fudab.github.io/covid-19/us_0405)
 - [x] [April 12, 2020](https://fudab.github.io/covid-19/us_0412)
 - [x] [April 19, 2020](https://fudab.github.io/covid-19/us_0419) 
