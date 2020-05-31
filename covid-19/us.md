@@ -22,7 +22,10 @@ categories: github jekyll
 - [x]  [April 19, 2020](https://fudab.github.io/covid-19/us_0419) 
 - [x]  [April 26, 2020](https://fudab.github.io/covid-19/us_0426)
 - [x]  [May 3, 2020](https://fudab.github.io/covid-19/us_0503)
-- [ ]  [May 10, 2020](https://fudab.github.io/covid-19/us_0510)
+- [x]  [May 10, 2020](https://fudab.github.io/covid-19/us_0510)
+- [ ]  [May 17, 2020](https://fudab.github.io/covid-19/us_0517)
+- [ ]  [May 24, 2020](https://fudab.github.io/covid-19/us_0524)
+- [ ]  [May 31, 2020](https://fudab.github.io/covid-19/us_0531)
 
 ### Abstract
 > The COVID-19 pandemic has upended everyone’s normal life, health crisis, lockdowns, and economic percussions in an unprecedented pace and scale. We will get over this pandemic but at what prices? Here we estimate the burden of COVID-19 in the United States, peak time, and total number of infections, in coming months.
@@ -97,15 +100,15 @@ We consider an SEIR model in a population structure for every state. The systems
 
 Here, the subscript $i$ refers to the $i$th compartment on the state level (in other words, the $i$th state) and $N_i(t) = S_i(t) + E_i(t) + I_i(t) + R_i(t)$ is the population size of compartment $i$. 
 
-In general, all three parameters can be time dependent, due to containment efforts (social distancing). Since time $t$ is discrete in practice, we treat these parameters as piecewise functions, of which every piece is a constant. To simplify the problem, we pick three important dates as breaking points of the piecewise functions: `March 15` (since when quarantine was executed), `March 29` (2 weeks after March 15 and since when more severe actions were taken), and `April 19` (3 weeks after March 29 and since when states started to reopen business and public places). As a result, the function $\beta_i(t)$ is split into at most four pieces, same for $\sigma_i(t)$ and $\gamma_i(t)$:
+In general, all three parameters can be time dependent, due to containment efforts (social distancing). Since time $t$ is discrete in practice, we treat these parameters as piecewise functions, of which every piece is a constant. To simplify the problem, we pick three important dates as breaking points of the piecewise functions: `March 15` (since when quarantine was executed), `March 29` (2 weeks after March 15 and since when more severe actions were taken), and `May 17` (7 weeks after March 29 and since when states started to reopen business and public places). As a result, the function $\beta_i(t)$ is split into at most four pieces, same for $\sigma_i(t)$ and $\gamma_i(t)$:
 
 <div class="math">
 \begin{equation}
   \begin{cases}
   \displaystyle \beta_{i1}, & \text{before and on March 15} \\
   \displaystyle \beta_{i2}, & \text{from March 16 to March 29} \\
-  \displaystyle \beta_{i3}, &  \text{from March 30 to April 19} \\
- \displaystyle \beta_{i4}. &  \text{after and on April 20} \\
+  \displaystyle \beta_{i3}, &  \text{from March 30 to May 17} \\
+ \displaystyle \beta_{i4}. &  \text{after and on May 18} \\
 \end{cases}
 \end{equation}
 </div>
@@ -123,7 +126,7 @@ More concretely, we assume that the general expressions are:
 
 ### Parameter Estimation
 
-We turncate the date to `May 10`, which is three weeks after `April 19`.
+We turncate the date to `May 24`, which is one week after `May 17`.
 
 To obtain a satisfactory estimation of the epidemic parameters for the $i$th state, we apply the `dual annealing` algorithm to perform a nonlinear least square fitting of the variable $R_i(t)$ and find the global minimum value of the residual. The table below shows an ordered dictionary of all the parameter objects required.
 
