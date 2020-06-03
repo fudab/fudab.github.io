@@ -284,7 +284,7 @@ A detailed result for every state is given below.
     <th><img width="800" src="./figures_us/0531/US_SEIR_I_0531.png"></th>
   </tr>
   <tr>
-    <td>Figure 7: Flatten the curve under contact rate reductions for different compliance levels of social distancing. In the ﬁgure legend, we show when the outbreak of COVID-19 in each state will peak under different scenarios. Without any strong and effective measure of contact reduction, the peak time in most states will peak before fall but ﬂatten the curve would delay the peak in each state with huge variance.</td>
+    <td>Figure 7: Flatten the curve under contact rate reductions for different compliance levels of social distancing. In the ﬁgure legend, we show when the outbreak of COVID-19 in each state will peak under different scenarios.</td>
   </tr>
 </table>
  
@@ -295,13 +295,13 @@ To what extend the contact rate was suppressed in China with three different sca
     <th><img width="700" src="./figures_us/0531/US_total_reference_0531.png"></th>
   </tr>
   <tr>
-    <td>(a) Number of people infected in the end. If we let the outbreaks continue its current trajectory without any effective measures, the total infections can reach around 185 million. With 50% reduction rate, 142 million infection, and with 75% reductions, 109 million people would get infected. Even for the zero contact rate, almost 3 and a half million cases.</td>
+    <td>(a) Number of people infected in the end. If we let the outbreaks continue its current trajectory without any effective measures, the total infections can reach around 145 million. With 50% reduction rate, 55 million infection, and with 75% reductions, 30 million people would get infected. Even for the zero contact rate, almost 2 and a half million cases.</td>
   </tr>
   <tr>
     <td align="center"><img width="700" src="./figures_us/0531/US_dead_total_reference_0531.png"></td>
   </tr>
   <tr>
-    <td>(b) Number of people dead in the end. If we let the outbreaks continue its current trajectory without any effective measures, the total deaths can reach more than 9 million. With 50% reduction rate, 7 and a half million deaths, and with 75% reductions, 6 million people would be dead. Even for the zero contact rate, 200 thousand deaths.</td>
+    <td>(b) Number of people dead in the end. If we let the outbreaks continue its current trajectory without any effective measures, the total deaths can reach more than 6 and a half million. With 50% reduction rate, 3 million deaths, and with 75% reductions, 2 million people would be dead. Even for the zero contact rate, 140 thousand deaths. </td>
   </tr>
   <tr>
     <td align="center">Figure 8: Mitigation effects by the numbers. </td>
