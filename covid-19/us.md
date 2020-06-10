@@ -9,7 +9,7 @@ categories: github jekyll
 ## [COVID-19](https://fudab.github.io/covid-19)
 ## When and how will the COVID-19 pandemic end in the United States?
 ### Xingru Chen and Feng Fu  
- `Last updated: June 9, 2020`
+ `Last updated: June 10, 2020`
 > This report provides preliminary results and is work in progress. More detailed results and figures are in the [Bag End](https://fudab.github.io/covid-19/bag_end_us). Original code and data are in the [Github Repository](https://github.com/fudab/US-COVID-19-Impact-Assesements). Old results with earlier truncation dates for parameter estimation are in the following archives:
 - [x] [April 5, 2020](https://fudab.github.io/covid-19/us_0405)
 - [x] [April 12, 2020](https://fudab.github.io/covid-19/us_0412)
@@ -20,7 +20,8 @@ categories: github jekyll
 - [x] [May 17, 2020](https://fudab.github.io/covid-19/us_0517)
 - [x] [May 24, 2020](https://fudab.github.io/covid-19/us_0524)
 - [x] [May 31, 2020](https://fudab.github.io/covid-19/us_0531)
-- [ ] [June 7, 2020](https://fudab.github.io/covid-19/us_0607)
+- [x] [June 7, 2020](https://fudab.github.io/covid-19/us_0607)
+- [ ] [June 14, 2020](https://fudab.github.io/covid-19/us_0614)
 
 ### Abstract
 > The COVID-19 pandemic has upended everyone’s normal life, health crisis, lockdowns, and economic percussions in an unprecedented pace and scale. We will get over this pandemic but at what prices? Here we estimate the burden of COVID-19 in the United States, peak time, and total number of infections, in coming months.
@@ -57,7 +58,7 @@ categories: github jekyll
     <td>(c) The state level growth of confirmed cases.</td>
   </tr>
   <tr>
-    <td colspan="2">Figure 1: Summary of the COVID-19 information as of June 8, 2020. For (c), the curve in a panel represents the number of cumulative infected people in the state and the histogram indicates the number of new infected people everyday. The color code in (a) and (c) corresponds to the partisan voting index (PVI) by each state.</td>
+    <td colspan="2">Figure 1: Summary of the COVID-19 information as of June 9, 2020. For (c), the curve in a panel represents the number of cumulative infected people in the state and the histogram indicates the number of new infected people everyday. The color code in (a) and (c) corresponds to the partisan voting index (PVI) by each state.</td>
   </tr>
 </table>
 
