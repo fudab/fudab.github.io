@@ -122,7 +122,7 @@ More concretely, we assume that the general expressions are:
 
 ### Parameter Estimation
 
-We turncate the date to `May 31`, which is two weeks after `May 17`. Old results with earlier truncation dates for parameter estimation are in the archives.
+We turncate the date to `June 7`, which is three weeks after `May 17`. Old results with earlier truncation dates for parameter estimation are in the archives.
 
 To obtain a satisfactory estimation of the epidemic parameters for the $i$th state, we apply the `dual annealing` algorithm to perform a nonlinear least square fitting of the variable $R_i(t)$ and find the global minimum value of the residual. The table below shows an ordered dictionary of all the parameter objects required.
 
