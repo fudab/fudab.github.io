@@ -103,16 +103,16 @@ categories: github jekyll
 
 <table align = "center">
   <tr>
-    <th><iframe src="https://fudab.github.io/covid-19/figures_us_be/US_mobility.html" width="450px" height="300px" scrolling="no" frameBorder="0"></iframe></th>
-    <th><iframe src="https://fudab.github.io/covid-19/figures_us_be/US_mobility_index.html" width="450px" height="300px" scrolling="no" frameBorder="0"></iframe></th>
+    <th><iframe src="https://fudab.github.io/covid-19/figures_us_be/US_map_mobility.html" width="450px" height="300px" scrolling="no" frameBorder="0"></iframe></th>
+    <th><iframe src="https://fudab.github.io/covid-19/figures_us_be/US_map_mobility_index.html" width="450px" height="300px" scrolling="no" frameBorder="0"></iframe></th>
   </tr>
   <tr>
     <td>(a) State level mobility.</td>
     <td>(b) State level mobility index.</td>
   </tr>
   <tr>
-    <td align = "center"><iframe src="https://fudab.github.io/covid-19/figures_us_be/US_state_mobility.html" width="450px" height="300px" scrolling="no" frameBorder="0"></iframe></td>
-    <td align = "center"><iframe src="https://fudab.github.io/covid-19/figures_us_be/US_state_mobility_index.html" width="450px" height="300px" scrolling="no" frameBorder="0"></iframe></td>
+    <td align = "center"><iframe src="https://fudab.github.io/covid-19/figures_us_be/US_map_state_mobility.html" width="450px" height="300px" scrolling="no" frameBorder="0"></iframe></td>
+    <td align = "center"><iframe src="https://fudab.github.io/covid-19/figures_us_be/US_map_state_mobility_index.html" width="450px" height="300px" scrolling="no" frameBorder="0"></iframe></td>
   </tr>
   <tr>
     <td>(c) County level mobility.</td>
