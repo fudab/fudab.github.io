@@ -26,7 +26,7 @@ categories: github jekyll
     <th align="center"><img width="800px" src="./figures_us/US_conf_rolling.png" ></th>
   </tr>
   <tr>
-    <td>Figure 1: Daily new cases. We consider both the original data and the 7-day averages. The latest number of daily new cases in the state is given in the title of every panel. The color code in (a) and (c) corresponds to the partisan voting index (PVI) by each state.</td>
+    <td>Figure 1: Daily new cases. We consider both the original data and the 7-day averages. The latest number of daily new cases in a state is given in the title of every panel. The color code corresponds to the partisan voting index (PVI) by each state.</td>
   </tr>
 </table>  
   
@@ -129,18 +129,40 @@ categories: github jekyll
     <td>(d) County level mobility index.</td>
   </tr>
   <tr>
-    <td colspan="2">Figure 6: Geographical distribution of mobility (real value) and mobility index (ratio to the base line). We use log scale for panel (c) and (d). </td>
+    <td colspan="2">Figure 7: Geographical distribution of mobility (real value) and mobility index (ratio to the base line). We use log scale for panel (c) and (d). </td>
   </tr>
 </table>
+
+<table align="center">
+  <tr>
+    <th align="center"><img width="600px" src="./figures_us_be/US_mobility.png" ></th>
+  </tr>
+  <tr>
+    <td>(a) State level mobility.</td>
+  </tr>
+  <tr>
+    <td align="center"><img width="600px" src="./figures_us_be/US_mobility_index.png" ></td>
+  </tr>
+  <tr>
+    <td>(b) State level mobility index.</td>
+  </tr>
+  <tr>
+    <td>Figure 8: State level mobility information. We consider both the original data and the 7-day averages. The latest value or ratio of a state is given in the title of every panel. The color code corresponds to the partisan voting index (PVI) by each state.</td>
+  </tr>
+</table>  
 
 <table align="center">
   <tr>
     <th align="center"><img width="800" src="./figures_us_be/US_county_mobility.png"></th>
   </tr>
   <tr>
-    <td>Figure 7: Mobility in New Hampshire and the three states near it. We only show the top 6 counties which have the highest confirmed numbers for every state. </td>
+    <td>Figure 9: Mobility in New Hampshire and the three states near it. We only show the top 6 counties which have the highest confirmed numbers for every state. </td>
   </tr>
 </table>
+
+### Correlation Between the Epidemic and Mobility
+
+
 
 ### Correlation Between the Epidemic and the Stock Market
 
@@ -151,7 +173,7 @@ categories: github jekyll
     <th align="center"><img width="600" src="./figures_us_be/US_correlation.png"></th>
   </tr>
   <tr>
-    <td>Figure 8: Number of people infected and the S & P 500 index. To aviod compressing of the curve due to different magnitudes, we use twin axis for the index.</td>
+    <td>Figure 11: Number of people infected and the S & P 500 index. To aviod compressing of the curve due to different magnitudes, we use twin axis for the index.</td>
   </tr>
 </table>
 
@@ -162,7 +184,7 @@ categories: github jekyll
     <th align="center"><img width="800" src="./figures_us_be/US_correlation_sm.png"></th>
   </tr>
   <tr>
-    <td>Figure 9: Number of people infected and the stock prices. We consider the Top 15 companies in the Fortune 500 list and also this most popular cloud-based videotelephony service.</td>
+    <td>Figure 12: Number of people infected and the stock prices. We consider the Top 15 companies in the Fortune 500 list and also this most popular cloud-based videotelephony service.</td>
   </tr>
 </table>
 
@@ -175,7 +197,7 @@ categories: github jekyll
     <th align="center"><img width="600" src="./figures_us_be/US_mcorrelation.png"></th>
   </tr>
   <tr>
-    <td>Figure 10: Mobility and the S & P 500 index. Here we use the mobility index, which is a normalized value of the mobility. And we regard the sum of these values of all 50 states as the national mobility index. </td>
+    <td>Figure 13: Mobility and the S & P 500 index. Here we use the mobility index, which is a normalized value of the mobility. And we regard the sum of these values of all 50 states as the national mobility index. </td>
   </tr>
 </table>
 
@@ -186,7 +208,7 @@ categories: github jekyll
     <th align="center"><img width="800" src="./figures_us_be/US_mcorrelation_sm.png"></th>
   </tr>
   <tr>
-    <td>Figure 11: Mobility and the stock prices. We consider the Top 15 companies in the Fortune 500 list and also this most popular cloud-based videotelephony service. It seems that e-commerce (e.g Amazon) and pharmaceutical giants (e.g. UnitedHealth Group) are those least harmed by, or even benefit from the travel restriction. The stock price of Zoom surged to a record high at the very start, which may due to the warming up of online activities (e.g. online meeting and online school). However, this pattern did not last for very long given that more and more security issues of the software have been disclosed. </td>
+    <td>Figure 14: Mobility and the stock prices. We consider the Top 15 companies in the Fortune 500 list and also this most popular cloud-based videotelephony service. It seems that e-commerce (e.g Amazon) and pharmaceutical giants (e.g. UnitedHealth Group) are those least harmed by, or even benefit from the travel restriction. The stock price of Zoom surged to a record high at the very start, which may due to the warming up of online activities (e.g. online meeting and online school). However, this pattern did not last for very long given that more and more security issues of the software have been disclosed. </td>
   </tr>
 </table>
 
