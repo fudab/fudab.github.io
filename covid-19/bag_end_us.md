@@ -41,6 +41,15 @@ categories: github jekyll
   </tr>
 </table>
 
+<table align="center">
+  <tr>
+    <th align="center"><img width="800px" src="./figures_us/US_conf_rolling.png" ></th>
+  </tr>
+  <tr>
+    <td>Figure 2:  The color code in (a) and (c) corresponds to the partisan voting index (PVI) by each state.</td>
+  </tr>
+  
+
 `Counties`
   
 <table align="center">
