@@ -40,7 +40,6 @@ categories: github jekyll
     <td colspan="2">Figure 1: Summary of the COVID-19 death information as of June 10, 2020. For (c), the curve in a panel represents the number of cumulative deaths in the state and the histogram indicates the number of new deaths everyday. The color code in (a) and (c) corresponds to the partisan voting index (PVI) by each state.</td>
   </tr>
 </table>
-
 <table align="center">
   <tr>
     <th align="center"><img width="800px" src="./figures_us/US_conf_rolling.png" ></th>
