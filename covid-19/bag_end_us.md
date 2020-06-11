@@ -20,6 +20,15 @@ categories: github jekyll
 * #### States and Counties
 
 `States`
+
+<table align="center">
+  <tr>
+    <th align="center"><img width="800px" src="./figures_us/US_conf_rolling.png" ></th>
+  </tr>
+  <tr>
+    <td>Figure 1: Daily new cases. We consider both the original data and the 7-day averages. The latest number of daily new cases in the state is given in the title of every panel. The color code in (a) and (c) corresponds to the partisan voting index (PVI) by each state.</td>
+  </tr>
+</table>  
   
 <table>
   <tr align="center">
@@ -37,17 +46,10 @@ categories: github jekyll
     <td>(c) The state level growth of confirmed deaths.</td>
   </tr>
   <tr>
-    <td colspan="2">Figure 1: Summary of the COVID-19 death information as of June 10, 2020. For (c), the curve in a panel represents the number of cumulative deaths in the state and the histogram indicates the number of new deaths everyday. The color code in (a) and (c) corresponds to the partisan voting index (PVI) by each state.</td>
+    <td colspan="2">Figure 2: Summary of the COVID-19 death information as of June 10, 2020. For (c), the curve in a panel represents the number of cumulative deaths in the state and the histogram indicates the number of new deaths everyday. The color code in (a) and (c) corresponds to the partisan voting index (PVI) by each state.</td>
   </tr>
 </table>
-<table align="center">
-  <tr>
-    <th align="center"><img width="800px" src="./figures_us/US_conf_rolling.png" ></th>
-  </tr>
-  <tr>
-    <td>Figure 2: Daily new cases. We consider both the original data and the 7-day averages. The latest number of daily new cases in the state is given in the title of every panel. The color code in (a) and (c) corresponds to the partisan voting index (PVI) by each state.</td>
-  </tr>
-  
+
 
 `Counties`
   
@@ -65,7 +67,7 @@ categories: github jekyll
     <td>(b) The county level deaths in the United States. </td>
   </tr>
   <tr>
-    <td>Figure 2: The country level spacial spread of COVID-19. We only include the 50 states as well as D.C. And those reported cases or deaths marked as from 'unknown' areas are not shown here.</td>
+    <td>Figure 3: The country level spacial spread of COVID-19. We only include the 50 states as well as D.C. And those reported cases or deaths marked as from 'unknown' areas are not shown here.</td>
   </tr>
 </table>
 
@@ -81,7 +83,7 @@ categories: github jekyll
     <td>(b) Percentage of people infected.</td>
   </tr>
   <tr>
-    <td colspan="2">Figure 3: Comparing the risk of being infected in urban and rural areas. The definitions of an urbanized area, an urban cluster and a rural area are given by the Department of Aagriculture.</td>
+    <td colspan="2">Figure 4: Comparing the risk of being infected in urban and rural areas. The definitions of an urbanized area, an urban cluster and a rural area are given by the Department of Aagriculture.</td>
   </tr>
 </table>
 
@@ -92,7 +94,7 @@ categories: github jekyll
     <th align="center"><img width="800" src="./figures_us_be/US_new_england_conf.png"></th>
   </tr>
   <tr>
-    <td>Figure 4: Number of people infected in the six states of New England. The number given in the title of every panel indicates the total number of confirmed cases in that state by the time we update the data. We only show the top 6 counties which have the highest confirmed numbers for every state. </td>
+    <td>Figure 5: Number of people infected in the six states of New England. The number given in the title of every panel indicates the total number of confirmed cases in that state by the time we update the data. We only show the top 6 counties which have the highest confirmed numbers for every state. </td>
   </tr>
 </table>
 
@@ -103,7 +105,7 @@ categories: github jekyll
     <th align="center"><img width="800" src="./figures_us_be/US_New_Hampshire_conf.png"></th>
   </tr>
   <tr>
-    <td>Figure 5: Number of people infected in the counties of New Hampshire. The number given in the title of every panel is the number of confirmed cases in that county by the time we update the data. Both the cumulatived confirmed number and the new confirmed number are presented. </td>
+    <td>Figure 6: Number of people infected in the counties of New Hampshire. The number given in the title of every panel is the number of confirmed cases in that county by the time we update the data. Both the cumulatived confirmed number and the new confirmed number are presented. </td>
   </tr>
 </table>
 
