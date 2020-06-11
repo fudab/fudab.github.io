@@ -46,7 +46,7 @@ categories: github jekyll
     <th align="center"><img width="800px" src="./figures_us/US_conf_rolling.png" ></th>
   </tr>
   <tr>
-    <td>Figure 2:  The color code in (a) and (c) corresponds to the partisan voting index (PVI) by each state.</td>
+    <td>Figure 2: Daily new cases. We consider both the original data and the 7-day averages. The latest number of daily new cases in the state is given in the title of every panel. The color code in (a) and (c) corresponds to the partisan voting index (PVI) by each state.</td>
   </tr>
   
 
