@@ -162,7 +162,14 @@ categories: github jekyll
 
 ### Correlation Between the Epidemic and Mobility
 
-
+<table align="center">
+  <tr>
+    <th align="center"><img width="800px" src="./figures_us_be/US_correlation_m_index.png" ></th>
+  </tr>
+  <tr>
+    <td>Figure 10: 7-day average of the number of daily new cases and the mobility index. The color code corresponds to the partisan voting index (PVI) by each state.</td>
+  </tr>
+</table> 
 
 ### Correlation Between the Epidemic and the Stock Market
 
