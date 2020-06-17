@@ -266,7 +266,7 @@ We first work on four discrete threshold values of contact rate reduction: `100%
     <td>(f) When will the curves be flattened?</td>
   </tr>
   <tr>
-    <td colspan="2">Figure 5: (a) to (d) present the spatiotemporal spread of predicted COVID-19 on July 1 with different scenarios of contact reductions due to control measures instituted in each State and by the federal government. (e) and (f) show the growth patterns of the number of infected people. </td>
+    <td colspan="2">Figure 5: (a) to (d) present the spatiotemporal spread of predicted COVID-19 on September 1 with different scenarios of contact reductions due to control measures instituted in each State and by the federal government. (e) and (f) show the growth patterns of the number of infected people. </td>
   </tr>
  </table>
  
