@@ -51,7 +51,7 @@ categories: github jekyll
     <td colspan="2" align = "center"><iframe src="https://fudab.github.io/covid-19/figures_china/China_heatmap.html" width="750px" height="500px" scrolling="no" frameBorder="0"></iframe></td>
   </tr>
   <tr>
-    <td colspan="2">(d) The spacial spread of COVID-19. The five provinces with the highest number of infections are marked on the map.</td>
+    <td colspan="2">(d) The spatial spread of COVID-19. The five provinces with the highest number of infections are marked on the map.</td>
   </tr>
   <tr>
     <td colspan="2">Figure 1: Summary of the COVID-19 information as of May 10, 2020. To reduce errors, we have removed all imported cases from other countries. The color code in (c) corresponds to the severity of the epidemic.</td>
