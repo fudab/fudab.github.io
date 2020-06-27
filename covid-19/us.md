@@ -9,7 +9,7 @@ categories: github jekyll
 ## [COVID-19](https://fudab.github.io/covid-19)
 ## When and how will the COVID-19 pandemic end in the United States?
 ### Xingru Chen and Feng Fu  
- `Last updated: June 26, 2020`
+ `Last updated: June 27, 2020`
 > This report provides preliminary results and is work in progress. More detailed results and figures are in the [Bag End](https://fudab.github.io/covid-19/bag_end_us). Original code and data are in the [Github Repository](https://github.com/fudab/US-COVID-19-Impact-Assesements). Old results with earlier truncation dates for parameter estimation are in the following archives:
 - [x] [April 5, 2020](https://fudab.github.io/covid-19/us_0405)
 - [x] [April 12, 2020](https://fudab.github.io/covid-19/us_0412)
@@ -50,7 +50,7 @@ categories: github jekyll
     <th><iframe src="https://fudab.github.io/covid-19/figures_us/US_map.html" width="450px" height="300px" scrolling="no" frameBorder="0"></iframe></th>
   </tr>
   <tr>
-    <td>(b) The spacial spread of COVID-19. The number of infected is displayed on a logarithmic scale.</td>
+    <td>(b) The spatial spread of COVID-19. The number of infected is displayed on a logarithmic scale.</td>
   </tr>
   <tr>
     <td align="center"><img width="450px" src="./figures_us/US_conf.png" ></td>
@@ -60,7 +60,7 @@ categories: github jekyll
     <td>(c) The state level growth of confirmed cases.</td>
   </tr>
   <tr>
-    <td colspan="2">Figure 1: Summary of the COVID-19 information as of June 25, 2020. For (c), the curve in a panel represents the number of cumulative infected people in the state and the histogram indicates the number of new infected people everyday. The color code in (a) and (c) corresponds to the partisan voting index (PVI) by each state.</td>
+    <td colspan="2">Figure 1: Summary of the COVID-19 information as of June 26, 2020. For (c), the curve in a panel represents the number of cumulative infected people in the state and the histogram indicates the number of new infected people everyday. The color code in (a) and (c) corresponds to the partisan voting index (PVI) by each state.</td>
   </tr>
 </table>
 
