@@ -10,20 +10,8 @@ categories: github jekyll
 ## When and how will the COVID-19 pandemic end in the United States?
 ### Xingru Chen and Feng Fu  
  `Last updated: July 1, 2020`
-> This report provides preliminary results and is work in progress. More detailed results and figures are in the [Bag End](https://fudab.github.io/covid-19/bag_end_us). Original code and data are in the [Github Repository](https://github.com/fudab/US-COVID-19-Impact-Assesements). Old results with earlier truncation dates for parameter estimation are in the following archives:
-- [x] [April 5, 2020](https://fudab.github.io/covid-19/us_0405)
-- [x] [April 12, 2020](https://fudab.github.io/covid-19/us_0412)
-- [x] [April 19, 2020](https://fudab.github.io/covid-19/us_0419) 
-- [x] [April 26, 2020](https://fudab.github.io/covid-19/us_0426)
-- [x] [May 3, 2020](https://fudab.github.io/covid-19/us_0503)
-- [x] [May 10, 2020](https://fudab.github.io/covid-19/us_0510)
-- [x] [May 17, 2020](https://fudab.github.io/covid-19/us_0517)
-- [x] [May 24, 2020](https://fudab.github.io/covid-19/us_0524)
-- [x] [May 31, 2020](https://fudab.github.io/covid-19/us_0531)
-- [x] [June 7, 2020](https://fudab.github.io/covid-19/us_0607)
-- [x] [June 14, 2020](https://fudab.github.io/covid-19/us_0614)
-- [X] [June 21, 2020](https://fudab.github.io/covid-19/us_0621)
-- [ ] [June 28, 2020](https://fudab.github.io/covid-19/us_0628)
+> This report provides preliminary results and is work in progress. More detailed results and figures are in the [Bag End](https://fudab.github.io/covid-19/bag_end_us). Original code and data are in the [Github Repository](https://github.com/fudab/US-COVID-19-Impact-Assesements). Old results with earlier truncation dates for parameter estimation are in the archives (see bottom of the page).
+
 
 ### Abstract
 > The COVID-19 pandemic has upended everyone’s normal life, health crisis, lockdowns, and economic percussions in an unprecedented pace and scale. We will get over this pandemic but at what prices? Here we estimate the burden of COVID-19 in the United States, peak time, and total number of infections, in coming months.
@@ -325,5 +313,20 @@ We can even consider any contact rate measured on a $[0, 1]$ scale. Here, $0$ st
 </table>
 
 
+### Old Results 
 
+- [x] [April 5, 2020](https://fudab.github.io/covid-19/us_0405)
+- [x] [April 12, 2020](https://fudab.github.io/covid-19/us_0412)
+- [x] [April 19, 2020](https://fudab.github.io/covid-19/us_0419) 
+- [x] [April 26, 2020](https://fudab.github.io/covid-19/us_0426)
+- [x] [May 3, 2020](https://fudab.github.io/covid-19/us_0503)
+- [x] [May 10, 2020](https://fudab.github.io/covid-19/us_0510)
+- [x] [May 17, 2020](https://fudab.github.io/covid-19/us_0517)
+- [x] [May 24, 2020](https://fudab.github.io/covid-19/us_0524)
+- [x] [May 31, 2020](https://fudab.github.io/covid-19/us_0531)
+- [x] [June 7, 2020](https://fudab.github.io/covid-19/us_0607)
+- [x] [June 14, 2020](https://fudab.github.io/covid-19/us_0614)
+- [x] [June 21, 2020](https://fudab.github.io/covid-19/us_0621)
+- [x] [June 28, 2020](https://fudab.github.io/covid-19/us_0628)
+- [ ] [July 05, 2020](https://fudab.github.io/covid-19/us_0705)
 
