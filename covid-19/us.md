@@ -283,16 +283,16 @@ To what extend the contact rate was suppressed in China with three different sca
 
 <table align="center">
   <tr>
-    <th><img width="700" src="./figures_us/0621/US_total_reference_0621.png"></th>
+    <th><img width="700" src="./figures_us/0628/US_total_reference_0628.png"></th>
   </tr>
   <tr>
-    <td>(a) Number of people infected in the end. If we let the outbreaks continue its current trajectory without any effective measures, the total infections can reach around 96 million. With 50% reduction rate, 29 million infection, and with 75% reductions, over 7 million people would get infected. Even for the zero contact rate, almost 3 million cases.</td>
+    <td>(a) Number of people infected in the end. If we let the outbreaks continue its current trajectory without any effective measures, the total infections can reach 101 and a half million. With 50% reduction rate, 31 million infection, and with 75% reductions, 6 and a half million people would get infected. Even for the zero contact rate, more than 3 million cases.</td>
   </tr>
   <tr>
-    <td align="center"><img width="700" src="./figures_us/0621/US_dead_total_reference_0621.png"></td>
+    <td align="center"><img width="700" src="./figures_us/0628/US_dead_total_reference_0628.png"></td>
   </tr>
   <tr>
-    <td>(b) Number of people dead in the end. If we let the outbreaks continue its current trajectory without any effective measures, the total deaths can reach around 3 million. With 50% reduction rate, 930 thousand deaths, and with 75% reductions, 260 thousand people would be dead. Even for the zero contact rate, 140 thousand deaths. </td>
+    <td>(b) Number of people dead in the end. If we let the outbreaks continue its current trajectory without any effective measures, the total deaths can reach around 2 and a half million. With 50% reduction rate, 790 thousand deaths, and with 75% reductions, 220 thousand people would be dead. Even for the zero contact rate, 140 thousand deaths. </td>
   </tr>
   <tr>
     <td align="center">Figure 8: Mitigation effects by the numbers. </td>
