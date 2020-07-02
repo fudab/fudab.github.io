@@ -133,6 +133,8 @@ figure_exp_dist(job = 'cdf', fsize = (8, 6), fs = 18)
 
 ## Progress
 
+The dates are consistent with the class.
+
 - [x] 0629
 - [x] 0701
 - [ ] 0706
