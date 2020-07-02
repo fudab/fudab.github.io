@@ -63,6 +63,8 @@ us_map_png(dict_state, target, title = None, country = 'US', cmap = tealrose)
 ```python
 figure_discrete_hist(job = 'dice', fsize = (8, 6), fs = 20)
 ```
+  * fundamental distributions
+  
 <table align = "center">
 <thead>
   <tr>
@@ -77,6 +79,23 @@ figure_discrete_hist(job = 'dice', fsize = (8, 6), fs = 20)
   </tr>
 </tbody>
 </table>
+
+  * refinement of $d\omega$
+  
+<table align = "center">
+<thead>
+  <tr>
+    <th><img width="475" src="./math20/figures/hist_bino_1.png" ></th>
+    <th><img width="475" src="./math20/figures/hist_bino_2.png" ></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td align = "center"><img width="475" src="./math20/figures/hist_bino_5.png" ></td>
+    <td align = "center"><img width="475" src="./math20/figures/hist_bino_10.png" ></td>
+  </tr>
+</tbody>
+</table>  
 
 * #### Riemann sum of a function
 ```python
