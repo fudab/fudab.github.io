@@ -33,14 +33,14 @@ figure_hershey_dist(n, fsize, fs)
 <table align = "center">
 <thead>
   <tr>
-    <th><img width="450" src="./math20/figures/hershey_distribution_1k.png" ></th>
-    <th><img width="450" src="./math20/figures/hershey_distribution_10k.png" ></th>
+    <th><img width="475" src="./math20/figures/hershey_distribution_1k.png" ></th>
+    <th><img width="475" src="./math20/figures/hershey_distribution_10k.png" ></th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td align = "center"><img width="450" src="./math20/figures/hershey_distribution_100k.png" ></td>
-    <td align = "center"><img width="450" src="./math20/figures/hershey_distribution_1m.png" ></td>
+    <td align = "center"><img width="475" src="./math20/figures/hershey_distribution_100k.png" ></td>
+    <td align = "center"><img width="475" src="./math20/figures/hershey_distribution_1m.png" ></td>
   </tr>
 </tbody>
 </table>
