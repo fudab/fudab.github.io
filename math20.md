@@ -4,21 +4,19 @@
 ## About
 
 > ### probability distributions
-
 > ### python graph gallery
-
 > ### reproducible python code
-
 > ### 4 main data analysis and math tools: 
 > * Numpy
 > * Pandas
 > * Math
 > * Scipy
-
 > ### 3 main ploting tools: 
 > * Matplotlib
 > * Seaborn
 > * Plotly
+
+Original code and data are in the [Github Repository](https://github.com/fudab/Math-20). 
 
 ## Progress
 
