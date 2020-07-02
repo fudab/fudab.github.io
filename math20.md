@@ -6,11 +6,13 @@
 > ### probability distributions
 > ### python graph gallery
 > ### reproducible python code
+
 > ### main data analysis and math tools: 
 > * Numpy
 > * Pandas
 > * Math
 > * Scipy
+
 > ### main ploting tools: 
 > * Matplotlib
 > * Seaborn
