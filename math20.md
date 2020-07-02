@@ -24,9 +24,9 @@ Original code and data are in the [Github Repository](https://github.com/fudab/M
 - [x] 0701
 - [ ] 0706
 
-### Slides 0629
+## Slides 0629
 
-* #### How Much Does a Hershey Kiss Weight?
+* ### How Much Does a Hershey Kiss Weight?
 ```python
 figure_hershey_dist(n, fsize, fs)
 ```
@@ -45,9 +45,9 @@ figure_hershey_dist(n, fsize, fs)
 </tbody>
 </table>
 
-### Slides 0629
+## Slides 0629
 
-* #### US states 
+* ### US states 
 ```python
 us_map_html(dict_state, target, title = None, country = 'US', cmap = tealrose)
 us_map_png(dict_state, target, title = None, country = 'US', cmap = tealrose)
@@ -59,11 +59,11 @@ us_map_png(dict_state, target, title = None, country = 'US', cmap = tealrose)
   </tr>
  </table>
   
-* #### Histograms of discrete probability distributions
+* ### Histograms of discrete probability distributions
 ```python
 figure_discrete_hist(job = 'dice', fsize = (8, 6), fs = 20)
 ```
->   * fundamental distributions
+>   * #### fundamental distributions
   
 <table align = "center">
 <thead>
@@ -80,7 +80,7 @@ figure_discrete_hist(job = 'dice', fsize = (8, 6), fs = 20)
 </tbody>
 </table>
 
->   * refinement of $d\omega$
+>   * #### refinement of $d\omega$
   
 <table align = "center">
 <thead>
@@ -97,7 +97,7 @@ figure_discrete_hist(job = 'dice', fsize = (8, 6), fs = 20)
 </tbody>
 </table>  
 
-* #### Riemann sum of a function
+* ### Riemann sum of a function
 ```python
 figure_riemann_sum(job = 'power', fsize = (8, 6), fs = 20)
 ```
