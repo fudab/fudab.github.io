@@ -60,10 +60,14 @@ us_map_png(dict_state, target, title = None, country = 'US', cmap = tealrose)
  </table>
   
 * ### Histograms of discrete probability distributions
-```python
-figure_discrete_hist(job = 'dice', fsize = (8, 6), fs = 20)
-```
+
 >   * #### fundamental distributions
+```python
+figure_discrete_hist(job = 'coin', fsize = (8, 6), fs = 20)
+figure_discrete_hist(job = 'dice', fsize = (8, 6), fs = 20)
+figure_discrete_hist(job = 'bino', fsize = (8, 6), fs = 20)
+figure_discrete_hist(job = 'poisson', fsize = (8, 6), fs = 20)
+```
   
 <table align = "center">
 <thead>
@@ -81,6 +85,12 @@ figure_discrete_hist(job = 'dice', fsize = (8, 6), fs = 20)
 </table>
 
 >   * #### refinement of $d\omega$
+```python
+figure_discrete_hist(job = 'bino_1', fsize = (8, 6), fs = 20)
+figure_discrete_hist(job = 'bino_2', fsize = (8, 6), fs = 20)
+figure_discrete_hist(job = 'bino_5', fsize = (8, 6), fs = 20)
+figure_discrete_hist(job = 'bino_10', fsize = (8, 6), fs = 20)
+```
   
 <table align = "center">
 <thead>
@@ -100,6 +110,7 @@ figure_discrete_hist(job = 'dice', fsize = (8, 6), fs = 20)
 * ### Riemann sum of a function
 ```python
 figure_riemann_sum(job = 'power', fsize = (8, 6), fs = 20)
+figure_riemann_sum(job = 'sin', fsize = (8, 6), fs = 20)
 ```
 <table align = "center">
 <thead>
@@ -109,3 +120,18 @@ figure_riemann_sum(job = 'power', fsize = (8, 6), fs = 20)
   </tr>
 </thead>
 </table>  
+
+* ### Exponential distribution: density function and cumulative distribution function
+```python
+figure_exp_dist(job = 'pdf', fsize = (8, 6), fs = 18)
+figure_exp_dist(job = 'cdf', fsize = (8, 6), fs = 18)
+```
+<table align = "center">
+<thead>
+  <tr>
+    <th><img width="475" src="./math20/figures/exp_pdf.png" ></th>
+    <th><img width="475" src="./math20/figures/exp_cdf.png" ></th>
+  </tr>
+</thead>
+</table>
+
