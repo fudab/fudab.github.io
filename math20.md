@@ -52,10 +52,32 @@ figure_hershey_dist(n, fsize, fs)
 us_map_html(dict_state, target, title = None, country = 'US', cmap = tealrose)
 us_map_png(dict_state, target, title = None, country = 'US', cmap = tealrose)
 ```
+<table align="center">
+  <tr>
+    <th><iframe src="https://fudab.github.io/math20/figures/US_map_population.html" width="450px" height="300px" scrolling="no" frameBorder="0"></iframe></th>
+    <th><iframe src="https://fudab.github.io/math20/figures/US_map_area.html" width="450px" height="300px" scrolling="no" frameBorder="0"></iframe></th>
+  </tr>
+ </table>
+  
 * #### Histograms of discrete probability distributions
 ```python
 figure_discrete_hist(job = 'dice', fsize = (8, 6), fs = 20)
 ```
+<table align = "center">
+<thead>
+  <tr>
+    <th><img width="475" src="./math20/figures/hist_coin.png" ></th>
+    <th><img width="475" src="./math20/figures/hist_dice.png" ></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td align = "center"><img width="475" src="./math20/figures/hist_bino.png" ></td>
+    <td align = "center"><img width="475" src="./math20/figures/hist_poisson.png" ></td>
+  </tr>
+</tbody>
+</table>
+
 * #### Riemann sum of a function
 ```python
 figure_riemann_sum(job = 'power', fsize = (8, 6), fs = 20)
