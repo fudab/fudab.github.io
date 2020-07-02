@@ -13,3 +13,5 @@
 
 ### [COVID-19 projects](https://fudab.github.io/covid-19)
 
+### [Math 20: Probability](https://fudab.github.io/math20)
+
