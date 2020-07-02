@@ -101,3 +101,11 @@ figure_discrete_hist(job = 'dice', fsize = (8, 6), fs = 20)
 ```python
 figure_riemann_sum(job = 'power', fsize = (8, 6), fs = 20)
 ```
+<table align = "center">
+<thead>
+  <tr>
+    <th><img width="475" src="./math20/figures/riemann_sum_power.png" ></th>
+    <th><img width="475" src="./math20/figures/riemann_sum_sin.png" ></th>
+  </tr>
+</thead>
+</table>  
