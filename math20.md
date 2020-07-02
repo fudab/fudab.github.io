@@ -18,12 +18,6 @@
 
 Original code and data are in the [Github Repository](https://github.com/fudab/Math-20). 
 
-## Progress
-
-- [x] 0629
-- [x] 0701
-- [ ] 0706
-
 ## Slides 0629
 
 * ### How Much Does a Hershey Kiss Weight?
@@ -135,3 +129,8 @@ figure_exp_dist(job = 'cdf', fsize = (8, 6), fs = 18)
 </thead>
 </table>
 
+## Progress
+
+- [x] 0629
+- [x] 0701
+- [ ] 0706
