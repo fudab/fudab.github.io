@@ -63,7 +63,7 @@ us_map_png(dict_state, target, title = None, country = 'US', cmap = tealrose)
 ```python
 figure_discrete_hist(job = 'dice', fsize = (8, 6), fs = 20)
 ```
-  * fundamental distributions
+>   * fundamental distributions
   
 <table align = "center">
 <thead>
@@ -80,7 +80,7 @@ figure_discrete_hist(job = 'dice', fsize = (8, 6), fs = 20)
 </tbody>
 </table>
 
-  * refinement of $d\omega$
+>   * refinement of $d\omega$
   
 <table align = "center">
 <thead>
