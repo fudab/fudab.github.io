@@ -179,13 +179,13 @@ path_rw_2D(n = 10, p = 0.6, fsize = (8, 6), fs = 18, index = 1)
 <thead>
   <tr>
     <th><img width="475" src="./math20/figures/random_walk_path_1.png" ></th>
-    <th><img width="475" src="./math20/figures/random_walk_path_1.png" ></th>
+    <th><img width="475" src="./math20/figures/random_walk_path_2.png" ></th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td align = "center"><img width="475" src="./math20/figures/random_walk_path_1.png" ></td>
-    <td align = "center"><img width="475" src="./math20/figures/random_walk_path_1.png" ></td>
+    <td align = "center"><img width="475" src="./math20/figures/random_walk_path_3.png" ></td>
+    <td align = "center"><img width="475" src="./math20/figures/random_walk_path_4.png" ></td>
   </tr>
 </tbody>
 </table> 
