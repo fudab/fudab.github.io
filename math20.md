@@ -41,9 +41,9 @@ figure_hershey_dist(n, fsize, fs)
 </tbody>
 </table>
 
-## Slides 0629
+## Slides 0701
 
-* ### US states 
+* ### US States 
 ```python
 us_map_html(dict_state, target, title = None, country = 'US', cmap = tealrose)
 us_map_png(dict_state, target, title = None, country = 'US', cmap = tealrose)
@@ -55,7 +55,7 @@ us_map_png(dict_state, target, title = None, country = 'US', cmap = tealrose)
   </tr>
  </table>
   
-* ### Histograms of discrete probability distributions
+* ### Histograms of Discrete Probability Distributions
 
 >   * #### fundamental distributions
 ```python
@@ -103,7 +103,7 @@ figure_discrete_hist(job = 'bino_10', fsize = (8, 6), fs = 20)
 </tbody>
 </table>  
 
-* ### Riemann sum of a function
+* ### Riemann Sum of a Function
 ```python
 figure_riemann_sum(job = 'power', fsize = (8, 6), fs = 20)
 figure_riemann_sum(job = 'sin', fsize = (8, 6), fs = 20)
@@ -117,7 +117,7 @@ figure_riemann_sum(job = 'sin', fsize = (8, 6), fs = 20)
 </thead>
 </table>  
 
-* ### Exponential distribution: density function and cumulative distribution function
+* ### Exponential Distribution: Density Function and Cumulative Distribution Function
 ```python
 figure_exp_dist(job = 'pdf', fsize = (8, 6), fs = 18)
 figure_exp_dist(job = 'cdf', fsize = (8, 6), fs = 18)
@@ -131,10 +131,28 @@ figure_exp_dist(job = 'cdf', fsize = (8, 6), fs = 18)
 </thead>
 </table>
 
+## Slides 0706
+
+* ### $n!$ and Stirling's Formula
+```python
+stirling(n = 10)
+figure_stirling(n = 5, fsize = (8, 6), fs = 18)
+```
+<table align = "center">
+<thead>
+  <tr>
+    <th><img width="475" src="./math20/figures/stirling.png" ></th>
+    <th><img width="475" src="./math20/figures/stirling_ratio.png" ></th>
+  </tr>
+</thead>
+</table>
+
+
 ## Progress
 
 The dates are consistent with the class.
 
 - [x] 0629
 - [x] 0701
-- [ ] 0706
+- [x] 0706
+- [ ] 0710
