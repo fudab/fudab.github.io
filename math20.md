@@ -133,7 +133,7 @@ figure_exp_dist(job = 'cdf', fsize = (8, 6), fs = 18)
 
 ## Slides 0706
 
-* ### $n!$ and Stirling's Formula
+* ### Factorial and Stirling's Formula
 ```python
 stirling(n = 10)
 figure_stirling(n = 5, fsize = (8, 6), fs = 18)
@@ -147,7 +147,7 @@ figure_stirling(n = 5, fsize = (8, 6), fs = 18)
 </thead>
 </table>
 
-* #### Hat Check Problem (Fixed Point)
+* ### Hat Check Problem (Fixed Point)
 ```python
 hat_check(n = 10)
 figure_hat_check(n = 15, fsize = (12, 6), fs = 20)
