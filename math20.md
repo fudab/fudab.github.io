@@ -147,6 +147,19 @@ figure_stirling(n = 5, fsize = (8, 6), fs = 18)
 </thead>
 </table>
 
+* #### Hat Check Problem (Fixed Point)
+```python
+hat_check(n = 10)
+figure_hat_check(n = 15, fsize = (12, 6), fs = 20)
+```
+<table align = "center">
+<thead>
+  <tr>
+    <th><img width="950" src="./math20/figures/hat_check.png" ></th>
+  </tr>
+</thead>
+</table>
+
 
 ## Progress
 
