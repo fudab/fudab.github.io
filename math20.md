@@ -160,6 +160,38 @@ figure_hat_check(n = 15, fsize = (12, 6), fs = 20)
 </thead>
 </table>
 
+## Slides 0708
+
+* ### Pascal's Triangle
+```python
+from scipy.special import comb
+pascal(n = 10, j = 5)
+```
+
+## Slides 0710
+
+* ### One Dimensional Random Walk
+```python
+random_walk_1D(n = 10, p = 0.6)
+path_rw_2D(n = 10, p = 0.6, fsize = (8, 6), fs = 18, index = 1)
+```
+<table align = "center">
+<thead>
+  <tr>
+    <th><img width="475" src="./math20/figures/random_walk_path_1.png" ></th>
+    <th><img width="475" src="./math20/figures/random_walk_path_1.png" ></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td align = "center"><img width="475" src="./math20/figures/random_walk_path_1.png" ></td>
+    <td align = "center"><img width="475" src="./math20/figures/random_walk_path_1.png" ></td>
+  </tr>
+</tbody>
+</table> 
+
+* ### Two Dimensional Random Walk: A Homework Problem
+
 
 ## Progress
 
