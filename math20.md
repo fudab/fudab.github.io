@@ -168,6 +168,22 @@ from scipy.special import comb
 pascal(n = 10, j = 5)
 ```
 
+### Quiz 4
+
+* #### Fixed Points
+```python
+fixed_points(n = 6, printing = True)
+figure_fixed_points(n = 6, fsize = (8, 6), fs = 18)
+```
+<table align = "center">
+<thead>
+  <tr>
+    <th><img width="475" src="./math20/figures/fixed_points_5.png" ></th>
+    <th><img width="475" src="./math20/figures/fixed_points_6.png" ></th>
+  </tr>
+</thead>
+</table>
+
 ## Slides 0710
 
 * ### One Dimensional Random Walk
@@ -200,4 +216,6 @@ The dates are consistent with the class.
 - [x] 0629
 - [x] 0701
 - [x] 0706
+- [x] 0708
+- [x] quiz 4
 - [ ] 0710
