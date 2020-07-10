@@ -236,6 +236,19 @@ figure_stock_price(company_index = 'AMZN', date_initial = datetime.date(int(2020
 </tbody>
 </table> 
 
+* #### Two Dimensional Random Walk (Take-Home Problem)
+```python
+random_walk_2D(n = 500, p_x = 0.5, p_y = 0.5)
+path_rw_2D(n = 500, p_x = 0.5, p_y = 0.5, fsize = (8, 8), fs = 18, index = 1)
+```
+<table align = "center">
+<thead>
+  <tr>
+    <th><img width="475" src="./math20/figures/random_walk_2D_path_1.png" ></th>
+    <th><img width="475" src="./math20/figures/random_walk_2D_path_1.png" ></th>
+  </tr>
+</thead>
+</table>
 
 ## Progress
 
