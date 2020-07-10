@@ -19,6 +19,7 @@
 > * Plotly
 
 Original code and data are in the [Github Repository](https://github.com/fudab/Math-20). Both the web page and the code will be updated irregularly.
+
 `Last updated: July 10`
 
 ## Slides 0629
