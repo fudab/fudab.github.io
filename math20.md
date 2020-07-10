@@ -214,8 +214,7 @@ path_rw_2D(n = 10, p = 0.6, fsize = (8, 6), fs = 18, index = 1)
 ```python
 import yfinance as yf
 load_STOCK_raw(company_index = 'AAPL')
-figure_stock_price(company_index = 'AMZN', date_initial = datetime.date(int(2020),int(6),int(1)), 
-                   fsize = (12, 6), fs = 20)
+figure_stock_price(company_index = 'AMZN', date_initial = datetime.date(int(2020),int(6),int(1)), fsize = (12, 6), fs = 20)
 ```
 <table align = "center">
 <thead>
