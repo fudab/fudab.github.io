@@ -19,6 +19,7 @@
 > * Plotly
 
 Original code and data are in the [Github Repository](https://github.com/fudab/Math-20). Both the web page and the code will be updated irregularly.
+`Last updated: July 10`
 
 ## Slides 0629
 
@@ -168,9 +169,9 @@ from scipy.special import comb
 pascal(n = 10, j = 5)
 ```
 
-### Quiz 4
+## Quiz 4
 
-* #### Fixed Points
+* ### Fixed Points
 ```python
 fixed_points(n = 6, printing = True)
 figure_fixed_points(n = 6, fsize = (8, 6), fs = 18)
@@ -208,6 +209,32 @@ path_rw_2D(n = 10, p = 0.6, fsize = (8, 6), fs = 18, index = 1)
 
 * ### Two Dimensional Random Walk: A Homework Problem
 
+* ### Stock Market
+```python
+import yfinance as yf
+load_STOCK_raw(company_index = 'AAPL')
+figure_stock_price(company_index = 'AMZN', date_initial = datetime.date(int(2020),int(6),int(1)), 
+                   fsize = (12, 6), fs = 20)
+```
+<table align = "center">
+<thead>
+  <tr>
+    <th><img width="475" src="./math20/figures/stock_price_WMT.png" ></th>
+    <th><img width="475" src="./math20/figures/stock_price_XOM.png" ></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td align = "center"><img width="475" src="./math20/figures/stock_price_AAPL.png" ></td>
+    <td align = "center"><img width="475" src="./math20/figures/stock_price_BRK-A.png" ></td>
+  </tr>
+  <tr>
+    <td align = "center"><img width="475" src="./math20/figures/stock_price_AMZN.png" ></td>
+    <td align = "center"><img width="475" src="./math20/figures/stock_price_ZM.png" ></td>
+  </tr>
+</tbody>
+</table> 
+
 
 ## Progress
 
@@ -218,4 +245,5 @@ The dates are consistent with the class.
 - [x] 0706
 - [x] 0708
 - [x] quiz 4
-- [ ] 0710
+- [x] 0710
+- [ ] 0713
