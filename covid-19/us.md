@@ -34,7 +34,7 @@ categories: github jekyll
 #### Data Processing
 <table>
   <tr align="center">
-    <th rowspan="3"><iframe src="https://fudab.github.io/covid-19/figures_us/US_rose.html" width="470px" height="850px" scrolling="no" frameBorder="0"></iframe></th>
+    <th rowspan="3"><iframe src="https://fudab.github.io/covid-19/figures_us/US_rose.html" width="470px" height="800px" scrolling="no" frameBorder="0"></iframe></th>
     <th><iframe src="https://fudab.github.io/covid-19/figures_us/US_map.html" width="450px" height="300px" scrolling="no" frameBorder="0"></iframe></th>
   </tr>
   <tr>
