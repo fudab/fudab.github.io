@@ -250,6 +250,23 @@ path_rw_2D(n = 500, p_x = 0.5, p_y = 0.5, fsize = (8, 8), fs = 18, index = 1)
 </thead>
 </table>
 
+## Midterm 1
+* ### Random Walk Model for Stock Price
+```python
+random_walk_sp(n = 30, p = 0.6, c = 100, u = 1.1, d = 0.9)
+path_rw_sp(company_index = 'DIS', date_initial = datetime.date(int(2020),int(6),int(1)), 
+           p = 0.6, u = 1.1, d = 0.9, fsize = (12, 6), fs = 20, index = 1)
+```
+<table align = "center">
+<thead>
+  <tr>
+    <th><img width="475" src="./math20/figures/stock_price_DIS.png" ></th>
+    <th><img width="475" src="./math20/figures/random_walk_sp_path_1.png" ></th>
+  </tr>
+</thead>
+</table>
+
+
 ## Progress
 
 The dates are consistent with the class.
@@ -260,4 +277,4 @@ The dates are consistent with the class.
 - [x] 0708
 - [x] quiz 4
 - [x] 0710
-- [ ] 0713
+- [x] Midterm 1
