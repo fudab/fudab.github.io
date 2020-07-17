@@ -250,7 +250,36 @@ path_rw_2D(n = 500, p_x = 0.5, p_y = 0.5, fsize = (8, 8), fs = 18, index = 1)
 </thead>
 </table>
 
+
+## Slides 0717
+
+* ### Two Dimensional Normal Distribution: Density Function and Contour curve
+```python
+figure_normal_2d(ind = True, fsize = (10, 6), fs = 20)
+figure_contour_normal_2d(ind = True, fsize = (10, 6), fs = 20)
+```
+<table align = "center">
+<thead>
+  <tr>
+    <th><img width="475" src="./math20/figures/normal_2d_ind_pdf.png" ></th>
+    <th><img width="475" src="./math20/figures/normal_2d_pdf.png" ></th>
+  </tr>
+</thead>
+</table>
+
+<table align = "center">
+<thead>
+  <tr>
+    <th><img width="475" src="./math20/figures/normal_2d_ind_contour.png" ></th>
+    <th><img width="475" src="./math20/figures/normal_2d_contour.png" ></th>
+  </tr>
+</thead>
+</table>
+
+
+
 ## Midterm 1
+
 * ### Random Walk Model for Stock Price
 ```python
 random_walk_sp(n = 30, p = 0.6, c = 100, u = 1.1, d = 0.9)
