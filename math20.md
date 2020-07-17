@@ -306,4 +306,5 @@ The dates are consistent with the class.
 - [x] 0708
 - [x] quiz 4
 - [x] 0710
+- [x] 0717
 - [x] Midterm 1
