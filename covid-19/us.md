@@ -33,30 +33,6 @@ categories: github jekyll
   
 #### Data Processing
 
-<table align="center">
-<thead>
-  <tr>
-    <th colspan="2"><iframe src="https://fudab.github.io/covid-19/figures_us/US_rose.html" width="600px" height="800px" scrolling="no" frameBorder="0"></iframe></th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td colspan="2">(a) The state level of reported cases since the ﬁrst reported case in United States in Jan 21, 2020.</td>
-  </tr>
-  <tr>
-    <td><iframe src="https://fudab.github.io/covid-19/figures_us/US_map.html" width="450px" height="300px" scrolling="no" frameBorder="0"></iframe></td>
-    <td><img width="450px" src="./figures_us/US_conf.png" ></td>
-  </tr>
-  <tr>
-    <td>(b) The spatial spread of COVID-19. The number of infected is displayed on a logarithmic scale.</td>
-    <td>(c) The state level growth of confirmed cases.</td>
-  </tr>
-  <tr>
-    <td colspan="2">Figure 1: Summary of the COVID-19 information as of July 18, 2020. For (c), the curve in a panel represents the number of cumulative infected people in the state and the histogram indicates the number of new infected people everyday. The color code in (a) and (c) corresponds to the partisan voting index (PVI) by each state.</td>
-  </tr>
-</tbody>
-</table>
-
 
 
 <table align="center">
