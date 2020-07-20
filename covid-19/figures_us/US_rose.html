@@ -7,11 +7,11 @@
 
 </head>
 <body>
-    <div id="71750d2c395f4c0cb8de9e8726a54672" class="chart-container" style="width:600px; height:800px;"></div>
+    <div id="97f6aa0d436645f58eaf15d7841a56c2" class="chart-container" style="width:450px; height:550px;"></div>
     <script>
-        var chart_71750d2c395f4c0cb8de9e8726a54672 = echarts.init(
-            document.getElementById('71750d2c395f4c0cb8de9e8726a54672'), 'white', {renderer: 'canvas'});
-        var option_71750d2c395f4c0cb8de9e8726a54672 = {
+        var chart_97f6aa0d436645f58eaf15d7841a56c2 = echarts.init(
+            document.getElementById('97f6aa0d436645f58eaf15d7841a56c2'), 'white', {renderer: 'canvas'});
+        var option_97f6aa0d436645f58eaf15d7841a56c2 = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -96,18 +96,18 @@
                 }
             ],
             "radius": [
-                "35%",
-                "45%"
+                "30%",
+                "40%"
             ],
             "center": [
-                "58%",
+                "60%",
                 "70%"
             ],
             "label": {
                 "show": true,
                 "position": "center",
                 "margin": 8,
-                "fontSize": 12,
+                "fontSize": 10,
                 "fontWeight": "bold",
                 "verticalAlign": "top",
                 "formatter":         function(params) {            if(params.name.includes('Republican'))                return '\n\n\n' + params.name.substring(0, 10) + ' : ' + params.value + '%';            if(params.name.includes('Even'))                return '\n\n\n\n\n\n' + params.name.substring(0, 4) + ' : ' + params.value + '%';            if(params.name.includes('None'))                return '\n\n\n\n\n\n\n\n\n' + params.name.substring(0, 4) + ' : ' + params.value + '%';            return params.name.substring(0, 10) + ' : ' + params.value + '%';        }        
@@ -324,11 +324,11 @@
                 }
             ],
             "radius": [
-                "55%",
-                "160%"
+                "50%",
+                "155%"
             ],
             "center": [
-                "58%",
+                "60%",
                 "70%"
             ],
             "roseType": "area",
@@ -336,7 +336,7 @@
                 "show": true,
                 "position": "inside",
                 "margin": 8,
-                "fontSize": 10,
+                "fontSize": 8,
                 "fontWeight": "bold",
                 "verticalAlign": "bottom",
                 "formatter":         function(params) {            return params.name.substring(0, 2);        }        
@@ -404,15 +404,15 @@
             "selected": {},
             "type": "plain",
             "show": true,
-            "left": "1%",
+            "left": "0.5%",
             "top": "8%",
             "orient": "vertical",
             "padding": 5,
             "itemGap": 10,
-            "itemWidth": 20,
-            "itemHeight": 10,
+            "itemWidth": 12,
+            "itemHeight": 6,
             "textStyle": {
-                "fontSize": 10
+                "fontSize": 6
             }
         }
     ],
@@ -436,15 +436,15 @@
             "padding": 5,
             "itemGap": 10,
             "textStyle": {
-                "fontSize": 20
+                "fontSize": 12
             },
             "subtextStyle": {
-                "fontSize": 18
+                "fontSize": 10
             }
         }
     ]
 };
-        chart_71750d2c395f4c0cb8de9e8726a54672.setOption(option_71750d2c395f4c0cb8de9e8726a54672);
+        chart_97f6aa0d436645f58eaf15d7841a56c2.setOption(option_97f6aa0d436645f58eaf15d7841a56c2);
     </script>
 </body>
 </html>
