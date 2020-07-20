@@ -33,7 +33,29 @@ categories: github jekyll
   
 #### Data Processing
 
-
+<table align="center">
+<thead>
+  <tr>
+    <th></th>
+    <th rowspan="3"></th>
+  </tr>
+  <tr>
+    <td>(a) The state level of reported cases since the ﬁrst reported case in United States in Jan 21, 2020.</td>
+  </tr>
+  <tr>
+    <td></td>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>(b) The spatial spread of COVID-19. The number of infected is displayed on a logarithmic scale.</td>
+    <td>(c)</td>
+  </tr>
+  <tr>
+    <td colspan="2">Figure 1: Summary of the COVID-19 information as of July 18, 2020. For (c), the curve in a panel represents the number of cumulative infected people in the state and the histogram indicates the number of new infected people everyday. The color code in (a) and (c) corresponds to the partisan voting index (PVI) by each state.</td>
+  </tr>
+</tbody>
+</table>
 
 <table align="center">
   <tr>
