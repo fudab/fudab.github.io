@@ -37,7 +37,7 @@ categories: github jekyll
 <thead>
   <tr>
     <th><iframe src="https://fudab.github.io/covid-19/figures_us/US_rose.html" width="450px" height="550px" scrolling="no" frameBorder="0"></iframe></th>
-    <th rowspan="3"><img width="450px" src="./figures_us/US_conf.png" ></th>
+    <th rowspan="3"><img width="500px" src="./figures_us/US_conf.png" ></th>
   </tr>
   <tr>
     <td>(a) The state level of reported cases since the ﬁrst reported case in United States in Jan 21, 2020.</td>
