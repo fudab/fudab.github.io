@@ -138,13 +138,14 @@ figure_exp_dist(job = 'cdf', fsize = (8, 6), fs = 18)
 * ### Factorial and Stirling's Formula
 ```python
 stirling(n = 10)
-figure_stirling(n = 5, fsize = (8, 6), fs = 18)
+figure_stirling(n = 8, fsize = (8, 6), fs = 18)
 ```
 <table align = "center">
 <thead>
   <tr>
-    <th><img width="475" src="./math20/figures/stirling.png" ></th>
-    <th><img width="475" src="./math20/figures/stirling_ratio.png" ></th>
+    <th><img width="305" src="./math20/figures/stirling.png" ></th>
+    <th><img width="305" src="./math20/figures/stirling_ratio.png" ></th>
+    <th><img width="305" src="./math20/figures/stirling_difference.png" ></th>
   </tr>
 </thead>
 </table>
