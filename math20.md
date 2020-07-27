@@ -297,6 +297,34 @@ path_rw_sp(company_index = 'DIS', date_initial = datetime.date(int(2020),int(6),
 </table>
 
 
+## Slides 0727
+* ### Binomial distribution versus Poisson distribution
+```python
+binomial_poisson_figure(n = 10, p = 0.2, fsize = (8, 6), fs = 18, tag = 1)
+```
+<table align = "center">
+<thead>
+  <tr>
+    <th><img width="305" src="./math20/figures/binomial_poisson_1.png" ></th>
+    <th><img width="305" src="./math20/figures/binomial_poisson_2.png" ></th>
+    <th><img width="305" src="./math20/figures/binomial_poisson_3.png" ></th>
+  </tr>
+</thead>
+</table>
+
+* ### Sample with or without replacement 
+```python
+scatters(n = 3, k = 5, fsize = (10, 10), fs = 20)
+```
+<table align = "center">
+<thead>
+  <tr>
+    <th><img width="475" src="./math20/figures/scatter_9.png" ></th>
+    <th><img width="475" src="./math20/figures/scatter_25.png" ></th>
+  </tr>
+</thead>
+</table>
+
 ## Progress
 
 The dates are consistent with the class.
@@ -309,3 +337,4 @@ The dates are consistent with the class.
 - [x] 0710
 - [x] 0717
 - [x] Midterm 1
+- [x] 0727
