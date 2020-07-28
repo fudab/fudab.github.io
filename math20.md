@@ -298,7 +298,7 @@ path_rw_sp(company_index = 'DIS', date_initial = datetime.date(int(2020),int(6),
 
 
 ## Slides 0727
-* ### Binomial distribution versus Poisson distribution
+* ### Binomial Distribution Versus Poisson Distribution
 ```python
 binomial_poisson_figure(n = 10, p = 0.2, fsize = (8, 6), fs = 18, tag = 1)
 ```
@@ -312,7 +312,7 @@ binomial_poisson_figure(n = 10, p = 0.2, fsize = (8, 6), fs = 18, tag = 1)
 </thead>
 </table>
 
-* ### Sample with or without replacement 
+* ### Sample With or Without Replacement 
 ```python
 scatters(n = 3, k = 5, fsize = (10, 10), fs = 20)
 ```
@@ -324,6 +324,59 @@ scatters(n = 3, k = 5, fsize = (10, 10), fs = 20)
   </tr>
 </thead>
 </table>
+
+## Slides 0729
+
+* ### Continuous Uniform Distribution
+```python
+figure_continuous_uniform(fsize = (10, 6), fs = 20)
+```
+* ### Exponential Distribution 
+```python
+figure_exponential(fsize = (10, 6), fs = 20)
+```
+* ### Normal Distribution 
+```python
+figure_normal(fsize = (10, 6), fs = 20)
+```
+<table align = "center">
+<thead>
+  <tr>
+    <th><img width="305" src="./math20/figures/c_uniform_pdf.png" ></th>
+    <th><img width="305" src="./math20/figures/exponential_pdf.png" ></th>
+    <th><img width="305" src="./math20/figures/normal_pdf.png" ></th>
+  </tr>
+</thead>
+</table>
+
+* ### 3-$\sigma$ Principle
+```python
+figure_normal_sd(mu = 0, sigma = 1, c = 1, fsize = (10, 6), fs = 20)
+```
+<table align = "center">
+<thead>
+  <tr>
+    <th><img width="305" src="./math20/figures/normal_sigma_1.png" ></th>
+    <th><img width="305" src="./math20/figures/normal_sigma_2.png" ></th>
+    <th><img width="305" src="./math20/figures/normal_sigma_3.png" ></th>
+  </tr>
+</thead>
+</table>
+
+* ### Binomial Distribution Versus Normal Distribution
+```python
+binomial_normal_figure(n = 10, p = 0.2, fsize = (10, 8), fs = 20, tag = 1)
+```
+<table align = "center">
+<thead>
+  <tr>
+    <th><img width="305" src="./math20/figures/binomial_normal_1.png" ></th>
+    <th><img width="305" src="./math20/figures/binomial_normal_2.png" ></th>
+    <th><img width="305" src="./math20/figures/binomial_normal_3.png" ></th>
+  </tr>
+</thead>
+</table>
+
 
 ## Progress
 
