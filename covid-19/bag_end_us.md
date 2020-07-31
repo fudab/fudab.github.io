@@ -11,7 +11,7 @@ categories: github jekyll
 
 ## How the pandemic is influencing our life from every aspect
 ### Xingru Chen and Feng Fu
-##### `Last updated: July 30, 2020`
+##### `Last updated: July 31, 2020`
 
 
 
@@ -32,7 +32,7 @@ categories: github jekyll
   
 <table>
   <tr align="center">
-    <th rowspan="3"><iframe src="https://fudab.github.io/covid-19/figures_us/US_rose_death.html" width="460px" height="850px" scrolling="no" frameBorder="0"></iframe></th>
+    <th rowspan="3"><iframe src="https://fudab.github.io/covid-19/figures_us/US_rose_death.html" width="460px" height="800px" scrolling="no" frameBorder="0"></iframe></th>
     <th><iframe src="https://fudab.github.io/covid-19/figures_us/US_map_death.html" width="450px" height="300px" scrolling="no" frameBorder="0"></iframe></th>
   </tr>
   <tr>
@@ -46,7 +46,7 @@ categories: github jekyll
     <td>(c) The state level growth of confirmed deaths.</td>
   </tr>
   <tr>
-    <td colspan="2">Figure 2: Summary of the COVID-19 death information as of July 29, 2020. For (c), the curve in a panel represents the number of cumulative deaths in the state and the histogram indicates the number of new deaths everyday. The color code in (a) and (c) corresponds to the partisan voting index (PVI) by each state.</td>
+    <td colspan="2">Figure 2: Summary of the COVID-19 death information as of July 30, 2020. For (c), the curve in a panel represents the number of cumulative deaths in the state and the histogram indicates the number of new deaths everyday. The color code in (a) and (c) corresponds to the partisan voting index (PVI) by each state.</td>
   </tr>
 </table>
 
