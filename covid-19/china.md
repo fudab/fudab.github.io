@@ -112,7 +112,7 @@ categories: github jekyll
 ### Method
 
 #### SEIR Model
-We consider an SEIR model in a meta population structure with migration. The systems of ODEs describe the dynamics in continuous time $t$, that is, days since the outbreak of the disease:
+We consider an SEIR model in a meta population structure with migration. The systems of ODEs describe the dynamics in continuous time t, that is, days since the outbreak of the disease:
 
 <div class="math">
  \begin{equation}
@@ -162,7 +162,8 @@ We further estimate $\alpha_{ij}(t)$ by $\frac{\theta m_{ij}(t)}{N_i(t)}$.  A si
 \end{equation}
 </div>
 
-In general, all three parameters can be time dependent, due to containment efforts (social distancing). Since time $t$ is discrete in practice, we treat these parameters as piecewise functions, of which every piece is a constant. To simplify the problem, we unify the timeline for all provinces. As mentioned above, the record of the COVID-19 information starts from `January 15` and is truncated to `March 10`. Accordingly, the domain of $t$ in the ODE system can be considered to be $t \in [0, 55]$. In our study, we focus more on the infection rate. After weighing degrees of freedom and flexibility, we assume the following expression where $\beta_i(t)$ is split into twelve pieces, $\sigma_i(t)$ three pieces and the same for $\gamma$:
+For convenience, we unify the timeline for all provinces. Since we are using the COVID-19 data from January 15 to March 10, the domain of $t$ in the ODE system can be considered to be $t \in [0, 55]$. In general, all three parameters $\beta_i$, $\sigma_i$ and $\gamma_i$ are functions of $t$. Since $t$ is discrete in practice, we consider these parameters as piecewise functions of which every piece is a constant. In our study, we focus more on the infection rate. After weighing degrees of freedom and ﬂexibility, we assume the following expression where $\beta_i(t)$ is split into twelve pieces, $\sigma_i(t)$ three pieces and the same for $\gamma$:
+
 <div class="math">
 \begin{equation}
 \beta_i(t) = 
@@ -187,7 +188,7 @@ In general, all three parameters can be time dependent, due to containment effor
 ### Parameter Estimation
 
 #### Prior
-Before we include the migration from one compartment to another, we first consider the original SEIR model for every province:
+Before we include the migration from one compartment to another, we ﬁrst consider the original SEIR model for every province:
 
 <div class="math">
  \begin{equation}
@@ -200,7 +201,7 @@ Before we include the migration from one compartment to another, we first consid
  \end{equation}
 </div>
 
-To obtain a prior estimation of the epidemic parameters for the $i$th province, we apply the `dual annealing` algorithm to perform a nonlinear `least square` fitting of the variable $R_i(t)$ and find the global minimum value of the residual. Table 1 shows an ordered dictionary of all the parameter objects required.
+To obtain a prior estimation of the epidemic parameters for the ith province, we apply the `dual annealing algorithm` to perform a nonlinear `least square` ﬁtting of the variable $R_i(t)$ and ﬁnd the global minimum value of the residual. Table 1 shows an ordered dictionary of all the parameter objects required.
 
 
 <table align="center">
@@ -297,8 +298,7 @@ It can be seen from the above calculations that $\text{cov}(\hat{x})$ is a $p\ti
 \end{equation}
 </div>
 
-In our model, we have $n = 56$, $p = 21$ and $n - p = 35$ (notice that $N_i$ and $S_i(0)$ are not free parameters). By letting $\alpha = 0.005$, we obtain the $99.99$% confidence interval of every parameter and for every province. Still, we would like to guarantee that the lower and upper bounds of the epidemic parameters are consistent with the sampling of estimations and also the lower bounds of $E_i(0)$, $I_i(0)$ as well as $R_i(0)$ should be non-negative. Combining the above restrictions, we get the updated bounds for the parameters. 
-
+In our model, we have $n = 56$, $p = 21$ and $n - p = 35$ (notice that $N_i$ and $S_i(0)$ are not free parameters). By letting $\alpha = 0.005$, we obtain the $99.99$% confidence interval of every parameter and for every province. The lower and upper bounds of the epidemic parameters should also be consistent with the sampling of estimations and the lower bounds of $E_i(0)$, $I_i(0)$ as well as $R_i(0)$ should be non-negative. We then get the updated bounds for the parameters:
 <table align="center">
   <tr>
     <th>name</th>
@@ -368,7 +368,7 @@ In our model, we have $n = 56$, $p = 21$ and $n - p = 35$ (notice that $N_i$ and
   </tr>
 </table>
 
-Given that even local optimization methods will be rather time consuming under the current situation where we need to solve a giant system of equations, not to mention any global optimization methods, we repeatedly apply the `Levenberg-Marquardt` algorithm, performing the same nonlinear `least square` fitting of the variable $R_i(t)$ and finding the local minimum value of the residual. Every time we select a different province and only allow its parameters to be changeable until we iterate through all provinces. To improve the accuracy of results, we run this process multiple times.
+Even local optimization methods will be rather time costly under the current situation where we need to solve a giant system of equations, not to mention any global optimization methods. We decide to repeatedly apply the `Levenberg-Marquardt` algorithm, performing the same nonlinear `least square` fitting of the variable $R_i(t)$ and finding the local minimum value of the residual. Every time we select a different province and only allow its parameters to be changeable until we iterate through all provinces. To improve the accuracy, we run this iteration process multiple times.
 
 <table align="center">
   <tr>
@@ -381,21 +381,19 @@ Given that even local optimization methods will be rather time consuming under t
 
 ### Discussion on Parameters
 
-Now we have the COVID-19 information as well as the migration informa- tion in one pocket and the estimated parameters in the other pocket. It’s time for us to hold both hands out and try answering the cause-effect relationship between population movements and the spread of the virus.
-
-Before we begin our discussion, we would like to emphasize again that there are two aspects of migration: intra-provincial population movements and inter- provincial traffic. For the former, we look into the migration matrix. As to the latter, we refer to the normalized internal-flow ratio of a province. We will see soon enough that the intra-provincial migration is closely related to the numbers of initial asymptomatic carriers in provinces other than Hubei. On the other hand, the inter-provincial traffic is highly relevant to the contact rate of a province.
+Before we begin our discussion, we would like to emphasize again that there are two aspects of migration: intra-provincial population movements and inter- provincial traffic. For the former, We will see that the intra-provincial migration is closely related to the numbers of initial asymptomatic carriers in provinces other than Hubei. On the other hand, the inter-provincial traffic is highly relevant to the contact rate of a province.
 
 
 #### Incubation Seed
 
-We first consider the incubation seed $E(0)$. Here we calculate the cumulative migration index from the epicenter Hubei to any other province between January 1, 2020 (the earliest date for which migration data are accessible from \textbf{Baidu Qianxi}) and January 14 (right before the official record of confirmed cases became available).
+We first consider the incubation seed $E(0)$. Here we calculate the cumulative migration index from the epicenter Hubei to any other province between January 1, 2020 (the earliest date for which migration data are accessible from `Baidu Qianxi`) and January 14 (right before the official record of confirmed cases became available).
 
 <table align="center">
   <tr>
     <th><img width="800" src="./figures_china/China_E_0.png"></th>
   </tr>
   <tr>
-    <td>Figure 5: How the incubation seed $E(0)$ changes before and after we include migration in the simulation. The provinces in the $y$-axis are ranked according to the severity of the epidemic by March 10, 2020 (the end of our study). and the size of a data point for any province other than Hubei is linearly related to the cumulative migration index. A horizontal bar is added for the $i$th province if $E_i(0)$ shrinks. Given that the number of people should always be an integer, we round up the original values. </td>
+    <td>Figure 5: Prior and posterior estimations of the incubation seed. The provinces in the $y$-axis are ranked according to the severity of the epidemic by March 10, 2020 (the end of our study). The size of a data point for a province other than Hubei is linearly related to the cumulative migration index. A horizontal bar is added for the ith province if $E_i(0)$ shrinks. Given that the number of people should always be an integer, we round up the original values. </td>
   </tr>
 </table>
 
@@ -407,15 +405,15 @@ We first consider the incubation seed $E(0)$. Here we calculate the cumulative m
   </tr>
   <tr>
     <td>(a) Migration traces involving the top 10 provinces with the greatest cumulative migration index from the epicenter, Hubei Province.</td>
-    <td>(b) Recursive migration traces involving the top 3 provinces with the greatest cumulative migration index from the departure province.</td>
+    <td>(b) Recursive migration traces involving the top 3 provinces with the greatest cumulative migration index from the departure provinces.</td>
   </tr>
   <tr>
-    <td colspan="2">Figure 6: Migration traces derived from the migration data. As above, daily migration index from January 1 to January 14 is added to obtain the cumulative index. And we use heatmap to indicate the incubation seed $E(0)$ from the posterior estimation. How we get the places of departure and the destinations in (b) is the same as Figure 3.</td>
+    <td colspan="2">Figure 6: Migration traces based on the cumulative migration index. And we use heatmap to indicate the incubation seed $E(0)$ from the posterior estimation. How we get the places of departure and the destinations in (b) is the same as Figure 3.</td>
   </tr>
 </table>
 
 
-#### Transmission Rate
+#### Contact Rate
 
 We then inspect the contact rate $\beta(t)$.
 
