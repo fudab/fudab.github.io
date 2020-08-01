@@ -38,23 +38,23 @@ categories: github jekyll
     <th align="center" rowspan="3"><img width="500" src="./figures_china/China_conf.png" ></th>
   </tr>
   <tr>
-    <td class="tg-cly1">(a) The national level of reported cases since the ﬁrst 41 reported cases in Hubei Province on Jan 15, 2020.</td>
+    <td class="tg-cly1">(a) A national overview of the epidemic in China. </td>
   </tr>
   <tr>
     <td align="center"><img width="400" src="./figures_china/China_bar_confirmed_top.png" ></td>
   </tr>
   <tr>
     <td class="tg-cly1">(b) The provincial confirmed cases of COVID-19 by March 10, 2020. We only show the 10 provinces or municipalities most affected by the epidemic.</td>
-    <td class="tg-cly1">(c) The provincial level growth of confirmed cases. The curve in every panel represents the number of cumulative infected people and the histogram indicates the number of daily new infected people. </td>
+    <td class="tg-cly1">(c) Growth of the epidemic on the provincial level. The curve in every panel represents the number of cumulative conﬁrmed cases in the respective province and the histogram indicates the number of new conﬁrmed cases per day. </td>
   </tr>
   <tr>
     <td colspan="2" align = "center"><iframe src="https://fudab.github.io/covid-19/figures_china/China_heatmap.html" width="750px" height="500px" scrolling="no" frameBorder="0"></iframe></td>
   </tr>
   <tr>
-    <td colspan="2">(d) The spatial spread of COVID-19. The five provinces with the highest number of infections are marked on the map.</td>
+    <td colspan="2">(d) Spatial spread of the epidemic by March 10, 2020. The ﬁve most aﬀected provinces are highlighted in the map.</td>
   </tr>
   <tr>
-    <td colspan="2">Figure 1: Summary of the COVID-19 information as of May 10, 2020. To reduce errors, we have removed all imported cases from other countries. The color code in (c) corresponds to the severity of the epidemic.</td>
+    <td colspan="2">Figure 1: Summary of the COVID-19 information as of May 10, 2020. To reduce errors, we have removed all imported cases from other countries. The color in (c) depends on the severity of the epidemic, Hubei being the darkest and Qinghai the lightest. </td>
   </tr>
  </table>
 </center>
