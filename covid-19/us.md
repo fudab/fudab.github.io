@@ -51,7 +51,7 @@ categories: github jekyll
   </tr>
   <tr>
     <td>(b) The spatial spread of COVID-19. The number of infected is displayed on a logarithmic scale.</td>
-    <td>(d)</td>
+    <td>(d) The national level of reported cases as well as deaths.</td>
   </tr>
   <tr>
     <td colspan="2">Figure 1: Summary of the COVID-19 information as of August 2, 2020. For (c), the curve in a panel represents the number of cumulative infected people in the state and the histogram indicates the number of new infected people everyday. The color code in (a) and (c) corresponds to the partisan voting index (PVI) by each state.</td>
