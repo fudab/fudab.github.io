@@ -60,30 +60,6 @@ categories: github jekyll
 </table>
 
 <table align="center">
-<thead>
-  <tr>
-    <th><iframe src="https://fudab.github.io/covid-19/figures_us/US_rose.html" width="450px" height="550px" scrolling="no" frameBorder="0"></iframe></th>
-    <th rowspan="3"><img width="500px" src="./figures_us/US_conf.png" ></th>
-  </tr>
-  <tr>
-    <td>(a) The state level of reported cases.</td>
-  </tr>
-  <tr>
-    <td><iframe src="https://fudab.github.io/covid-19/figures_us/US_map.html" width="450px" height="300px" scrolling="no" frameBorder="0"></iframe></td>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td>(b) The spatial spread of COVID-19. The number of infected is displayed on a logarithmic scale.</td>
-    <td>(c) The state level growth of confirmed cases since the ﬁrst reported case in United States in Jan 21, 2020.</td>
-  </tr>
-  <tr>
-    <td colspan="2">Figure 1: Summary of the COVID-19 information as of August 2, 2020. For (c), the curve in a panel represents the number of cumulative infected people in the state and the histogram indicates the number of new infected people everyday. The color code in (a) and (c) corresponds to the partisan voting index (PVI) by each state.</td>
-  </tr>
-</tbody>
-</table>
-
-<table align="center">
   <tr>
     <th><img width="350" src="./figures_us/China_IF.png" ></th>
     <th><img width="350" src="./figures_us/Hubei_IF.png" ></th>
