@@ -289,13 +289,13 @@ To what extend the contact rate was suppressed in China with three different sca
     <th><img width="700" src="./figures_us/0802/US_total_reference_0802.png"></th>
   </tr>
   <tr>
-    <td>(a) Number of people infected in the end. If we let the outbreaks continue its current trajectory without any effective measures, the total infections can reach 107 million. With 50% reduction rate, 12 million and 110 thousand infection, and with 75% reductions, 6 million and 210 thousand people would get infected. Even for the zero contact rate, around 5 million and 320 thousand cases.</td>
+    <td>(a) Number of people infected in the end. If we let the outbreaks continue its current trajectory without any effective measures, the total infections can reach 91 million. With 50% reduction rate, 10 million infection, and with 75% reductions, 6 million people would get infected. Even for the zero contact rate, around 5 million and 610 thousand cases.</td>
   </tr>
   <tr>
     <td align="center"><img width="700" src="./figures_us/0802/US_dead_total_reference_0802.png"></td>
   </tr>
   <tr>
-    <td>(b) Number of people dead in the end. If we let the outbreaks continue its current trajectory without any effective measures, the total deaths can reach around 2 million and 720 thousand. With 50% reduction rate, 330 thousand deaths, and with 75% reductions, 190 thousand people would be dead. Even for the zero contact rate, 170 thousand deaths. </td>
+    <td>(b) Number of people dead in the end. If we let the outbreaks continue its current trajectory without any effective measures, the total deaths can reach around 2 million and 860 thousand. With 50% reduction rate, 360 thousand deaths, and with 75% reductions, 200 thousand people would be dead. Even for the zero contact rate, 180 thousand deaths. </td>
   </tr>
   <tr>
     <td align="center">Figure 8: Mitigation effects by the numbers. </td>
