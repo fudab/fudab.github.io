@@ -378,6 +378,22 @@ binomial_normal_figure(n = 10, p = 0.2, fsize = (10, 8), fs = 20, tag = 1)
 </table>
 
 
+## Slides 0803
+* ### How to Estimate the Quality of Hershey Kisses?
+```python
+figure_hershey_var_dist(sigma = 0.001, fsize = (8, 6), fs = 18)
+```
+<table align = "center">
+<thead>
+  <tr>
+    <th><img width="305" src="./math20/figures/hershey_distribution_A.png" ></th>
+    <th><img width="305" src="./math20/figures/hershey_distribution_B.png" ></th>
+    <th><img width="305" src="./math20/figures/hershey_distribution_C.png" ></th>
+  </tr>
+</thead>
+</table>
+
+
 ## Progress
 
 The dates are consistent with the class.
