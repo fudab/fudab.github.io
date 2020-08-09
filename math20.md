@@ -431,6 +431,18 @@ figure_pokemon(df = data_pokemon, column_A = 'Attack', column_B = 'Defense', job
 ```python
 fig = figure_wine(df = data_wine, column_A = 'fixed acidity', column_B = 'density', job = 'reg', fs = 16)
 ```
+
+<table align = "center">
+<thead>
+  <tr>
+    <th><img width="235" src="./math20/figures/wine_fd_reg.png" ></th>
+    <th><img width="235" src="./math20/figures/wine_fc_reg.png" ></th>
+    <th><img width="235" src="./math20/figures/wine_fp_reg.png" ></th>
+    <th><img width="235" src="./math20/figures/wine_fa_reg.png" ></th>
+  </tr>
+</thead>
+</table>
+
 * ### Question 5 in Quiz 10
 ```python
 question_5_quiz_10(fsize = (10, 8), fs = 18)
