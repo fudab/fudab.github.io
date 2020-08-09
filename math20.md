@@ -393,6 +393,34 @@ figure_hershey_var_dist(sigma = 0.001, fsize = (8, 6), fs = 18)
 </thead>
 </table>
 
+## Slides 0807
+* ### Cauchy Distribution
+```python
+figure_cauchy(fsize = (10, 6), fs = 20)
+```
+<table align = "center">
+<thead>
+  <tr>
+    <th><img width="950" src="./math20/figures/cauchy_pdf.png" ></th>
+  </tr>
+</thead>
+</table>
+
+
+* ### Pokemon
+```python
+figure_pokemon(df = data_pokemon, column_A = 'Attack', column_B = 'Defense', job = 'scatter', fs = 16)
+figure_pokemon(df = data_pokemon, column_A = 'Attack', column_B = 'Defense', job = 'hex', fs = 16)
+figure_pokemon(df = data_pokemon, column_A = 'Attack', column_B = 'Defense', job = 'kde', fs = 16)
+```
+* ### Red Wine
+```python
+fig = figure_wine(df = data_wine, column_A = 'fixed acidity', column_B = 'density', job = 'reg', fs = 16)
+```
+* ### Question 5 in Quiz 10
+```python
+question_5_quiz_10(fsize = (10, 8), fs = 18)
+```
 
 ## Progress
 
