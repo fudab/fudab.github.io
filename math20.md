@@ -416,16 +416,12 @@ figure_pokemon(df = data_pokemon, column_A = 'Attack', column_B = 'Defense', job
 <table align = "center">
 <thead>
   <tr>
-    <th><img width="475" src="./math20/figures/pokemon_AD_scatter.png" ></th>
-    <th><img width="475" src="./math20/figures/pokemon_AS_scatter.png" ></th>
-  </tr>
-  <tr>
-    <th><img width="475" src="./math20/figures/pokemon_AD_hex.png" ></th>
-    <th><img width="475" src="./math20/figures/pokemon_AS_hex.png" ></th>
-  </tr>
-  <tr>
-    <th><img width="475" src="./math20/figures/pokemon_AD_kde.png" ></th>
-    <th><img width="475" src="./math20/figures/pokemon_AS_kde.png" ></th>
+    <th><img width="155" src="./math20/figures/pokemon_AD_scatter.png" ></th>
+    <th><img width="155" src="./math20/figures/pokemon_AS_scatter.png" ></th>
+    <th><img width="155" src="./math20/figures/pokemon_AD_hex.png" ></th>
+    <th><img width="155" src="./math20/figures/pokemon_AS_hex.png" ></th>
+    <th><img width="155" src="./math20/figures/pokemon_AD_kde.png" ></th>
+    <th><img width="155" src="./math20/figures/pokemon_AS_kde.png" ></th>
   </tr>
 </thead>
 </table>
