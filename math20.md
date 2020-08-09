@@ -470,3 +470,5 @@ The dates are consistent with the class.
 - [x] Midterm 1
 - [x] 0727
 - [x] 0729
+- [x] 0803
+- [x] 0807
