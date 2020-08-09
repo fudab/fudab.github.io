@@ -447,6 +447,14 @@ fig = figure_wine(df = data_wine, column_A = 'fixed acidity', column_B = 'densit
 ```python
 question_5_quiz_10(fsize = (10, 8), fs = 18)
 ```
+<table align = "center">
+<thead>
+  <tr>
+    <th><img width="950" src="./math20/figures/quiz_10_question_5.png" ></th>
+  </tr>
+</thead>
+</table>
+
 
 ## Progress
 
