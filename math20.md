@@ -413,6 +413,24 @@ figure_pokemon(df = data_pokemon, column_A = 'Attack', column_B = 'Defense', job
 figure_pokemon(df = data_pokemon, column_A = 'Attack', column_B = 'Defense', job = 'hex', fs = 16)
 figure_pokemon(df = data_pokemon, column_A = 'Attack', column_B = 'Defense', job = 'kde', fs = 16)
 ```
+<table align = "center">
+<thead>
+  <tr>
+    <th><img width="475" src="./math20/figures/pokemon_AD_scatter.png" ></th>
+    <th><img width="475" src="./math20/figures/pokemon_AS_scatter.png" ></th>
+  </tr>
+  <tr>
+    <th><img width="475" src="./math20/figures/pokemon_AD_hex.png" ></th>
+    <th><img width="475" src="./math20/figures/pokemon_AS_hex.png" ></th>
+  </tr>
+  <tr>
+    <th><img width="475" src="./math20/figures/pokemon_AD_kde.png" ></th>
+    <th><img width="475" src="./math20/figures/pokemon_AS_kde.png" ></th>
+  </tr>
+</thead>
+</table>
+
+
 * ### Red Wine
 ```python
 fig = figure_wine(df = data_wine, column_A = 'fixed acidity', column_B = 'density', job = 'reg', fs = 16)
