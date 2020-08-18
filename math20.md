@@ -473,6 +473,26 @@ figure_dices(n = 5, fsize = (8, 6), fs = 18)
 </thead>
 </table>
 
+* ### Sum of Independent Random Variables.
+```python
+convolution(dist_1 = 'uniform', dist_2 = 'normal', interval = [-3, 3])
+figure_convolution(dist_1 = 'uniform', dist_2 = 'uniform', interval = [-0.2, 1.1], fsize = (10, 6), fs = 20)
+```
+<table align = "center">
+<thead>
+  <tr>
+    <th><img width="305" src="./math20/figures/convolution_uniform_uniform.png" ></th>
+    <th><img width="305" src="./math20/figures/convolution_exponential_exponential.png" ></th>
+    <th><img width="305" src="./math20/figures/convolution_normal_normal.png" ></th>
+  </tr>
+  <tr>
+    <th><img width="305" src="./math20/figures/convolution_cauchy_cauchy.png" ></th>
+    <th><img width="305" src="./math20/figures/convolution_uniform_normal.png" ></th>
+    <th><img width="305" src="./math20/figures/convolution_exponential_normal.png" ></th>
+  </tr>
+</thead>
+</table>
+
 
 ## Progress
 
