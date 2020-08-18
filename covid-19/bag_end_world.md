@@ -11,7 +11,7 @@ categories: github jekyll
 
 ## ATC
 ### Xingru Chen and Feng Fu
-##### `Last updated: August 17, 2020`
+##### `Last updated: August 18, 2020`
 
 * This report provides preliminary results and is work in progress.
 * Original code and data are in the [Github Repository](https://github.com/fudab/COVID-19-ATC).
