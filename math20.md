@@ -455,6 +455,24 @@ question_5_quiz_10(fsize = (10, 8), fs = 18)
 </thead>
 </table>
 
+## Slides 0817
+* ### Roll a dice $n$ times.
+```python
+dices(n = 10)
+figure_dices(n = 5, fsize = (8, 6), fs = 18)
+```
+
+<table align = "center">
+<thead>
+  <tr>
+    <th><img width="235" src="./math20/figures/dices_2.png" ></th>
+    <th><img width="235" src="./math20/figures/dices_5.png" ></th>
+    <th><img width="235" src="./math20/figures/dices_10.png" ></th>
+    <th><img width="235" src="./math20/figures/dices_20.png" ></th>
+  </tr>
+</thead>
+</table>
+
 
 ## Progress
 
@@ -472,3 +490,4 @@ The dates are consistent with the class.
 - [x] 0729
 - [x] 0803
 - [x] 0807
+- [x] 0817
