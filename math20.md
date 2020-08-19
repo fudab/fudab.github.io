@@ -542,7 +542,9 @@ LLN_experiment_continuous(experiment = "normal")
 LLN_continuous(experiment = "normal", n = 10)
 figure_LLN_continuous(experiment = 'normal', n = 10, fsize = (8, 5), fs = 18)
 ```
+
 `Unifrom Density`
+
  <table align = "center">
 <thead>
   <tr>
@@ -553,7 +555,9 @@ figure_LLN_continuous(experiment = 'normal', n = 10, fsize = (8, 5), fs = 18)
   </tr>
 </thead>
 </table>
+
 `Normal Density`
+
  <table align = "center">
 <thead>
   <tr>
