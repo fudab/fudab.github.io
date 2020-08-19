@@ -569,6 +569,20 @@ figure_LLN_continuous(experiment = 'normal', n = 10, fsize = (8, 5), fs = 18)
 </thead>
 </table>
 
+* ### Monte Carlo Method
+```python
+monte_carlo(n = 100, fsize = (6, 6), fs = 17)
+```
+<table align = "center">
+<thead>
+  <tr>
+    <th><img width="235" src="./math20/figures/monte_carlo_0.png" ></th>
+    <th><img width="235" src="./math20/figures/monte_carlo_10.png" ></th>
+    <th><img width="235" src="./math20/figures/monte_carlo_100.png" ></th>
+    <th><img width="235" src="./math20/figures/monte_carlo_1000.png" ></th>
+  </tr>
+</thead>
+</table>
 
 
 ## Progress
@@ -588,3 +602,4 @@ The dates are consistent with the class.
 - [x] 0803
 - [x] 0807
 - [x] 0817
+- [x] 0819
