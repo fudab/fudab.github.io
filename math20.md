@@ -493,6 +493,26 @@ figure_convolution(dist_1 = 'uniform', dist_2 = 'uniform', interval = [-0.2, 1.1
 </thead>
 </table>
 
+## Slides 0819
+* ### Law of Large Numbers for a Discrete Random Variable
+```python
+LLN_experiment(experiment = "coin", n = 10, p = 0.5)
+LLN(experiment = 'coin', n = 10, p = 0.5)
+figure_LLN(experiment = 'coin', n = 10, p = 0.5, fsize = (8, 6), fs = 18)
+```
+  * #### Coin
+  <table align = "center">
+<thead>
+  <tr>
+    <th><img width="235" src="./math20/figures/LLN_coin_10.png" ></th>
+    <th><img width="235" src="./math20/figures/LLN_coin_20.png" ></th>
+    <th><img width="235" src="./math20/figures/LLN_coin_50.png" ></th>
+    <th><img width="235" src="./math20/figures/LLN_coin_100.png" ></th>
+  </tr>
+</thead>
+</table>
+
+
 
 ## Progress
 
