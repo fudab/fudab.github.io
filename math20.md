@@ -500,7 +500,7 @@ LLN_experiment(experiment = "coin", n = 10, p = 0.5)
 LLN(experiment = 'coin', n = 10, p = 0.5)
 figure_LLN(experiment = 'coin', n = 10, p = 0.5, fsize = (8, 6), fs = 18)
 ```
-`Coin`
+`Coin Tossing`
   <table align = "center">
 <thead>
   <tr>
@@ -512,7 +512,7 @@ figure_LLN(experiment = 'coin', n = 10, p = 0.5, fsize = (8, 6), fs = 18)
 </thead>
 </table>
 
-`Dice`
+`Dice Rolling`
   <table align = "center">
 <thead>
   <tr>
@@ -520,6 +520,18 @@ figure_LLN(experiment = 'coin', n = 10, p = 0.5, fsize = (8, 6), fs = 18)
     <th><img width="235" src="./math20/figures/LLN_dice_20.png" ></th>
     <th><img width="235" src="./math20/figures/LLN_dice_50.png" ></th>
     <th><img width="235" src="./math20/figures/LLN_dice_100.png" ></th>
+  </tr>
+</thead>
+</table>
+
+'A General Bernoulli Trials Process'
+  <table align = "center">
+<thead>
+  <tr>
+    <th><img width="235" src="./math20/figures/LLN_bernoulli_10.png" ></th>
+    <th><img width="235" src="./math20/figures/LLN_bernoulli_20.png" ></th>
+    <th><img width="235" src="./math20/figures/LLN_bernoulli_50.png" ></th>
+    <th><img width="235" src="./math20/figures/LLN_bernoulli_100.png" ></th>
   </tr>
 </thead>
 </table>
