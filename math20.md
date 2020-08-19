@@ -536,6 +536,35 @@ figure_LLN(experiment = 'coin', n = 10, p = 0.5, fsize = (8, 6), fs = 18)
 </thead>
 </table>
 
+* ### Law of Large Numbers for a Continuous Random Variable
+```python
+LLN_experiment_continuous(experiment = "normal")
+LLN_continuous(experiment = "normal", n = 10)
+figure_LLN_continuous(experiment = 'normal', n = 10, fsize = (8, 5), fs = 18)
+```
+`Unifrom Density`
+ <table align = "center">
+<thead>
+  <tr>
+    <th><img width="235" src="./math20/figures/LLN_uniform_1.png" ></th>
+    <th><img width="235" src="./math20/figures/LLN_uniform_2.png" ></th>
+    <th><img width="235" src="./math20/figures/LLN_uniform_10.png" ></th>
+    <th><img width="235" src="./math20/figures/LLN_uniform_100.png" ></th>
+  </tr>
+</thead>
+</table>
+`Normal Density`
+ <table align = "center">
+<thead>
+  <tr>
+    <th><img width="235" src="./math20/figures/LLN_normal_1.png" ></th>
+    <th><img width="235" src="./math20/figures/LLN_normal_2.png" ></th>
+    <th><img width="235" src="./math20/figures/LLN_normal_10.png" ></th>
+    <th><img width="235" src="./math20/figures/LLN_normal_100.png" ></th>
+  </tr>
+</thead>
+</table>
+
 
 
 ## Progress
