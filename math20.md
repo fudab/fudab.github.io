@@ -524,14 +524,14 @@ figure_LLN(experiment = 'coin', n = 10, p = 0.5, fsize = (8, 6), fs = 18)
 </thead>
 </table>
 
-'A General Bernoulli Trials Process'
+`A General Bernoulli Trials Process`
   <table align = "center">
 <thead>
   <tr>
-    <th><img width="235" src="./math20/figures/LLN_bernoulli_10.png" ></th>
-    <th><img width="235" src="./math20/figures/LLN_bernoulli_20.png" ></th>
-    <th><img width="235" src="./math20/figures/LLN_bernoulli_50.png" ></th>
-    <th><img width="235" src="./math20/figures/LLN_bernoulli_100.png" ></th>
+    <th><img width="235" src="./math20/figures/LLN_Bernoulli_10.png" ></th>
+    <th><img width="235" src="./math20/figures/LLN_Bernoulli_20.png" ></th>
+    <th><img width="235" src="./math20/figures/LLN_Bernoulli_50.png" ></th>
+    <th><img width="235" src="./math20/figures/LLN_Bernoulli_100.png" ></th>
   </tr>
 </thead>
 </table>
