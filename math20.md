@@ -584,6 +584,23 @@ monte_carlo(n = 100, fsize = (6, 6), fs = 17)
 </thead>
 </table>
 
+## Slides 0821
+* ### Central Limit Theorem for Bernoulli Trials
+```python
+figure_bino_hist(job = 'original', p = 0.5, fsize = (12, 8), fs = 20)
+figure_bino_hist(job = 'standardized', p = 0.5, fsize = (12, 8), fs = 20)
+figure_bino_hist(job = 'standardized_normal', p = 0.5, fsize = (12, 8), fs = 20)
+```
+<table align = "center">
+<thead>
+  <tr>
+    <th><img width="900" src="./math20/figures/hist_bino_original.png" ></th>
+  </tr>
+</thead>
+</table>
+
+
+
 
 ## Progress
 
@@ -603,3 +620,4 @@ The dates are consistent with the class.
 - [x] 0807
 - [x] 0817
 - [x] 0819
+- [x] 0821
