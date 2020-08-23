@@ -591,10 +591,30 @@ figure_bino_hist(job = 'original', p = 0.5, fsize = (12, 8), fs = 20)
 figure_bino_hist(job = 'standardized', p = 0.5, fsize = (12, 8), fs = 20)
 figure_bino_hist(job = 'standardized_normal', p = 0.5, fsize = (12, 8), fs = 20)
 ```
+`$k$ and $b(n, p, k)$`
 <table align = "center">
 <thead>
   <tr>
     <th><img width="900" src="./math20/figures/hist_bino_original.png" ></th>
+  </tr>
+</thead>
+</table>
+
+`$x$ and $b(n, p, k)$`
+<table align = "center">
+<thead>
+  <tr>
+    <th><img width="900" src="./math20/figures/hist_bino_standardized.png" ></th>
+  </tr>
+</thead>
+</table>
+
+
+`$x$ and $\sqrt{npq}b(n, p, k)$`
+<table align = "center">
+<thead>
+  <tr>
+    <th><img width="900" src="./math20/figures/hist_bino_standardized_normal.png" ></th>
   </tr>
 </thead>
 </table>
