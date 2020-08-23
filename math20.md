@@ -591,7 +591,7 @@ figure_bino_hist(job = 'original', p = 0.5, fsize = (12, 8), fs = 20)
 figure_bino_hist(job = 'standardized', p = 0.5, fsize = (12, 8), fs = 20)
 figure_bino_hist(job = 'standardized_normal', p = 0.5, fsize = (12, 8), fs = 20)
 ```
-`$k$ and $b(n, p, k)$`
+  * #### $k$ and $b(n, p, k)$
 <table align = "center">
 <thead>
   <tr>
@@ -600,7 +600,7 @@ figure_bino_hist(job = 'standardized_normal', p = 0.5, fsize = (12, 8), fs = 20)
 </thead>
 </table>
 
-`$x$ and $b(n, p, k)$`
+  * #### $x$ and $b(n, p, k)$
 <table align = "center">
 <thead>
   <tr>
@@ -610,7 +610,7 @@ figure_bino_hist(job = 'standardized_normal', p = 0.5, fsize = (12, 8), fs = 20)
 </table>
 
 
-`$x$ and $\sqrt{npq}b(n, p, k)$`
+  * #### $x$ and $\sqrt{npq}b(n, p, k)$
 <table align = "center">
 <thead>
   <tr>
