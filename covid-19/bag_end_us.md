@@ -11,7 +11,7 @@ categories: github jekyll
 
 ## How the pandemic is influencing our life from every aspect
 ### Xingru Chen and Feng Fu
-##### `Last updated: August 25, 2020`
+##### `Last updated: August 26, 2020`
 
 
 
@@ -46,7 +46,7 @@ categories: github jekyll
     <td>(c) The state level growth of confirmed deaths.</td>
   </tr>
   <tr>
-    <td colspan="2">Figure 2: Summary of the COVID-19 death information as of August 24, 2020. For (c), the curve in a panel represents the number of cumulative deaths in the state and the histogram indicates the number of new deaths everyday. The color code in (a) and (c) corresponds to the partisan voting index (PVI) by each state.</td>
+    <td colspan="2">Figure 2: Summary of the COVID-19 death information as of August 25, 2020. For (c), the curve in a panel represents the number of cumulative deaths in the state and the histogram indicates the number of new deaths everyday. The color code in (a) and (c) corresponds to the partisan voting index (PVI) by each state.</td>
   </tr>
 </table>
 
