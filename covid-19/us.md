@@ -9,7 +9,7 @@ categories: github jekyll
 ## [COVID-19](https://fudab.github.io/covid-19)
 ## When and how will the COVID-19 pandemic end in the United States?
 ### Xingru Chen and Feng Fu  
- `Last updated: August 29, 2020`
+ `Last updated: August 30, 2020`
 > This report provides preliminary results and is work in progress. More detailed results and figures are in the [Bag End](https://fudab.github.io/covid-19/bag_end_us). Original code and data are in the [Github Repository](https://github.com/fudab/US-COVID-19-Impact-Assesements). Old results with earlier truncation dates for parameter estimation are in the archives (see bottom of the page).
 
 
