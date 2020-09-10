@@ -59,7 +59,7 @@ us_map_png(dict_state, target, title = None, country = 'US', cmap = tealrose)
   
 * ### Histograms of Discrete Probability Distributions
 
-#### fundamental distributions
+* #### fundamental distributions
 ```python
 figure_discrete_hist(job = 'coin', fsize = (8, 6), fs = 20)
 figure_discrete_hist(job = 'dice', fsize = (8, 6), fs = 20)
@@ -82,7 +82,7 @@ figure_discrete_hist(job = 'poisson', fsize = (8, 6), fs = 20)
 </tbody>
 </table>
 
-#### refinement of $d\omega$
+* #### refinement of $d\omega$
 ```python
 figure_discrete_hist(job = 'bino_1', fsize = (8, 6), fs = 20)
 figure_discrete_hist(job = 'bino_2', fsize = (8, 6), fs = 20)
