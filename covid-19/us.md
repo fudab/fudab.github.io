@@ -115,7 +115,7 @@ More concretely, we assume that the general expressions are:
 
 ### Parameter Estimation
 
-We turncate the date to `August 9`, which is twelve weeks after `May 17`. Old results with earlier truncation dates for parameter estimation are in the archives.
+We turncate the date to `September 13`, which is twelve weeks after `May 17`. Old results with earlier truncation dates for parameter estimation are in the archives.
 
 To obtain a satisfactory estimation of the epidemic parameters for the $i$th state, we apply the `dual annealing` algorithm to perform a nonlinear least square fitting of the variable $R_i(t)$ and find the global minimum value of the residual. The table below shows an ordered dictionary of all the parameter objects required.
 
@@ -207,7 +207,7 @@ To get an error bar, we apply the Monte Carlo sampling method to generate a samp
 
 <table align="center">
   <tr>
-    <th><img width="600" src="./figures_us/0809/US_SEIR_R_0809.png"></th>
+    <th><img width="600" src="./figures_us/0913/US_SEIR_R_0913.png"></th>
   </tr>
   <tr>
     <td>Figure 3: Cumulative incidence of COVID-19 cases in every one of the 50 U.S. states (D.C. is also included) as well as projected increase and peak time based on real data. The error bar is also shown in every panel.</td>
@@ -217,7 +217,7 @@ To get an error bar, we apply the Monte Carlo sampling method to generate a samp
 We can compare the SEIR model with the least square regression methods. 
 <table align="center">
   <tr>
-    <th align="center"><img width="600" src="./figures_us/0809/US_R_fitting_0809.png"></th>
+    <th align="center"><img width="600" src="./figures_us/0913/US_R_fitting_0913.png"></th>
   </tr>
   <tr>
     <td>Figure 4: All three models: SEIR, exponential growth and power growth. The start date of the fitting is March 16, 2020. Scatters indicate the actual number of infected people and the curves are the corresponding results of least square fitting. The error bar is shown for R. </td>
@@ -234,37 +234,37 @@ We first work on four discrete threshold values of contact rate reduction: `100%
 
 <table align="center">
   <tr>
-    <th><iframe src="https://fudab.github.io/covid-19/figures_us/0809/US_map_status_quo_0809.html" width="450px" height="300px" scrolling="no" frameBorder="0"></iframe></th>
-    <th><iframe src="https://fudab.github.io/covid-19/figures_us/0809/US_map_weak_0809.html" width="450px" height="300px" scrolling="no" frameBorder="0"></iframe></th>
+    <th><iframe src="https://fudab.github.io/covid-19/figures_us/0913/US_map_status_quo_0913.html" width="450px" height="300px" scrolling="no" frameBorder="0"></iframe></th>
+    <th><iframe src="https://fudab.github.io/covid-19/figures_us/0913/US_map_weak_0913.html" width="450px" height="300px" scrolling="no" frameBorder="0"></iframe></th>
   </tr>
   <tr>
     <td>(a) Status quo contact rate as a result of social distancing.</td>
     <td>(b) 50% reduction.</td>
   </tr>
   <tr>
-    <td align="center"><iframe src="https://fudab.github.io/covid-19/figures_us/0809/US_map_moderate_0809.html" width="450px" height="300px" scrolling="no" frameBorder="0"></iframe></td>
-    <td align="center"><iframe src="https://fudab.github.io/covid-19/figures_us/0809/US_map_strong_0809.html" width="450px" height="300px" scrolling="no" frameBorder="0"></iframe></td>
+    <td align="center"><iframe src="https://fudab.github.io/covid-19/figures_us/0913/US_map_moderate_0913.html" width="450px" height="300px" scrolling="no" frameBorder="0"></iframe></td>
+    <td align="center"><iframe src="https://fudab.github.io/covid-19/figures_us/0913/US_map_strong_0913.html" width="450px" height="300px" scrolling="no" frameBorder="0"></iframe></td>
   </tr>
   <tr>
     <td>(c) 75% reduction.</td>
     <td>(d) zero contract.</td>
   </tr>
  <tr>
-    <td align="center"><img width="600" src="./figures_us/0809/US_I_0809.png"></td>
-    <td align="center"><img width="600" src="./figures_us/0809/US_R_0809.png"></td>
+    <td align="center"><img width="600" src="./figures_us/0913/US_I_0913.png"></td>
+    <td align="center"><img width="600" src="./figures_us/0913/US_R_0913.png"></td>
   </tr>
   <tr>
     <td>(e) When will the inflection points come? </td>
     <td>(f) When will the curves be flattened?</td>
   </tr>
   <tr>
-    <td colspan="2">Figure 5: (a) to (d) present the spatiotemporal spread of predicted COVID-19 on September 1 with different scenarios of contact reductions due to control measures instituted in each State and by the federal government. (e) and (f) show the growth patterns of the number of infected people. </td>
+    <td colspan="2">Figure 5: (a) to (d) present the spatiotemporal spread of predicted COVID-19 on December 1 with different scenarios of contact reductions due to control measures instituted in each State and by the federal government. (e) and (f) show the growth patterns of the number of infected people. </td>
   </tr>
  </table>
  
 <table align="center">
   <tr>
-    <th><img width="600" src="./figures_us/0809/US_transition_0809.png"></th>
+    <th><img width="600" src="./figures_us/0913/US_transition_0913.png"></th>
   </tr>
   <tr>
     <td>Figure 6: When will the inflection point come? Or it may have arrived for certain states. We consider the distribution of the date on which a state will encounter the peak value of number of new infected.</td>
@@ -275,7 +275,7 @@ A detailed result for every state is given below.
 
 <table align="center">
   <tr>
-    <th><img width="800" src="./figures_us/0809/US_SEIR_I_0809.png"></th>
+    <th><img width="800" src="./figures_us/0913/US_SEIR_I_0913.png"></th>
   </tr>
   <tr>
     <td>Figure 7: Flatten the curve under contact rate reductions for different compliance levels of social distancing. In the ﬁgure legend, we show when the outbreak of COVID-19 in each state will peak under different scenarios.</td>
@@ -286,16 +286,16 @@ To what extend the contact rate was suppressed in China with three different sca
 
 <table align="center">
   <tr>
-    <th><img width="700" src="./figures_us/0809/US_total_reference_0809.png"></th>
+    <th><img width="700" src="./figures_us/0913/US_total_reference_0913.png"></th>
   </tr>
   <tr>
-    <td>(a) Number of people infected in the end. If we let the outbreaks continue its current trajectory without any effective measures, the total infections can reach 67 million. With 50% reduction rate, 8 million and 410 thousand infection, and with 75% reductions, 6 million and 140 thousand people would get infected. Even for the zero contact rate, around 5 million and 830 thousand cases.</td>
+    <td>(a) Number of people infected in the end. If we let the outbreaks continue its current trajectory without any effective measures, the total infections can reach 40 and a half million. With 50% reduction rate, 8 million and 440 thousand infection, and with 75% reductions, 7 million and 630 thousand people would get infected. Even for the zero contact rate, around 7 million and 400 thousand cases.</td>
   </tr>
   <tr>
-    <td align="center"><img width="700" src="./figures_us/0809/US_dead_total_reference_0809.png"></td>
+    <td align="center"><img width="700" src="./figures_us/0913/US_dead_total_reference_0913.png"></td>
   </tr>
   <tr>
-    <td>(b) Number of people dead in the end. If we let the outbreaks continue its current trajectory without any effective measures, the total deaths can reach around 1 million and 870 thousand. With 50% reduction rate, 230 thousand deaths, and with 75% reductions, 190 thousand people would be dead. Even for the zero contact rate, 180 thousand deaths. </td>
+    <td>(b) Number of people dead in the end. If we let the outbreaks continue its current trajectory without any effective measures, the total deaths can reach around 1 million and 100 thousand. With 50% reduction rate, 240 thousand deaths, and with 75% reductions, 220 thousand people would be dead. Even for the zero contact rate, 210 thousand deaths. </td>
   </tr>
   <tr>
     <td align="center">Figure 8: Mitigation effects by the numbers. </td>
@@ -308,7 +308,7 @@ We can even consider any contact rate measured on a $[0, 1]$ scale. Here, $0$ st
 
 <table align="center">
   <tr>
-    <th><img width="800" src="./figures_us/0809/US_contact_rate_R_0809.png"></th>
+    <th><img width="800" src="./figures_us/0913/US_contact_rate_R_0913.png"></th>
   </tr>
   <tr>
     <td>Figure 9: How far do we need to push the quarantine? It may vary from state to state. The x axis indicates the contact rate and the y axis is the final number of infected.</td>
@@ -338,4 +338,8 @@ We can even consider any contact rate measured on a $[0, 1]$ scale. Here, $0$ st
 - [x] [August 2, 2020](https://fudab.github.io/covid-19/us_0802)
 - [x] [August 9, 2020](https://fudab.github.io/covid-19/us_0809)
 - [ ] [August 16, 2020](https://fudab.github.io/covid-19/us_0816)
+- [ ] [August 23, 2020](https://fudab.github.io/covid-19/us_0823)
+- [x] [August 30, 2020](https://fudab.github.io/covid-19/us_0830)
+- [ ] [September 6, 2020](https://fudab.github.io/covid-19/us_0906)
+- [x] [September 13, 2020](https://fudab.github.io/covid-19/us_0913)
 
