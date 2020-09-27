@@ -338,7 +338,7 @@ We can even consider any contact rate measured on a $[0, 1]$ scale. Here, $0$ st
 - [x] [August 2, 2020](https://fudab.github.io/covid-19/us_0802)
 - [x] [August 9, 2020](https://fudab.github.io/covid-19/us_0809)
 - [x] [August 16, 2020](https://fudab.github.io/covid-19/us_0816)
-- [ ] [August 23, 2020](https://fudab.github.io/covid-19/us_0823)
+- [x] [August 23, 2020](https://fudab.github.io/covid-19/us_0823)
 - [x] [August 30, 2020](https://fudab.github.io/covid-19/us_0830)
 - [ ] [September 6, 2020](https://fudab.github.io/covid-19/us_0906)
 - [x] [September 13, 2020](https://fudab.github.io/covid-19/us_0913)
