@@ -32,7 +32,7 @@ categories: github jekyll
   
 <table>
   <tr align="center">
-    <th rowspan="3"><iframe src="https://fudab.github.io/covid-19/figures_us/US_rose_death.html" width="460px" height="800px" scrolling="no" frameBorder="0"></iframe></th>
+    <th rowspan="3"><iframe src="https://fudab.github.io/covid-19/figures_us/US_rose_death.html" width="460px" height="700px" scrolling="no" frameBorder="0"></iframe></th>
     <th><iframe src="https://fudab.github.io/covid-19/figures_us/US_map_death.html" width="450px" height="300px" scrolling="no" frameBorder="0"></iframe></th>
   </tr>
   <tr>
