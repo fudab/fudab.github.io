@@ -9,7 +9,7 @@ categories: github jekyll
 ## [COVID-19](https://fudab.github.io/covid-19)
 ## When and how will the COVID-19 pandemic end in the United States?
 ### Xingru Chen and Feng Fu  
- `Last updated: December 13, 2020`
+ `Last updated: December 15, 2020`
 > This report provides preliminary results and is work in progress. More detailed results and figures are in the [Bag End](https://fudab.github.io/covid-19/bag_end_us). Original code and data are in the [Github Repository](https://github.com/fudab/US-COVID-19-Impact-Assesements). Old results with earlier truncation dates for parameter estimation are in the archives (see bottom of the page).
 
 
@@ -51,7 +51,7 @@ categories: github jekyll
     <td>(d) The national level growth of confirmed cases as well as deaths.</td>
   </tr>
   <tr>
-    <td colspan="2">Figure 1: Summary of the COVID-19 information as of December 12, 2020. For (c), the curve in a panel represents the number of cumulative infected people in the state and the histogram indicates the number of new infected people everyday. The color code in (a) and (c) corresponds to the partisan voting index (PVI) by each state.</td>
+    <td colspan="2">Figure 1: Summary of the COVID-19 information as of December 14, 2020. For (c), the curve in a panel represents the number of cumulative infected people in the state and the histogram indicates the number of new infected people everyday. The color code in (a) and (c) corresponds to the partisan voting index (PVI) by each state.</td>
   </tr>
 </table>
 
