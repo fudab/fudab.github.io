@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="edc9029e00ce4d6b81f06d8dbbada1e7" class="chart-container" style="width:450px; height:650px;"></div>
+    <script>
+        var chart_edc9029e00ce4d6b81f06d8dbbada1e7 = echarts.init(
+            document.getElementById('edc9029e00ce4d6b81f06d8dbbada1e7'), 'white', {renderer: 'canvas'});
+        var option_edc9029e00ce4d6b81f06d8dbbada1e7 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#4a98c9",
+        "#f14432",
+        "#4bb062",
+        "#87bddc",
+        "#fc8060",
+        "#87bddc",
+        "#fcab8f",
+        "#9fcae1",
+        "#9fcae1",
+        "#4bb062",
+        "#b7d4ea",
+        "#87bddc",
+        "#fc9576",
+        "#fca486",
+        "#fc9576",
+        "#fb7a5a",
+        "#fb6c4c",
+        "#fca486",
+        "#f5533b",
+        "#a3cce3",
+        "#87bddc",
+        "#fb7a5a",
+        "#fc8060",
+        "#b7d4ea",
+        "#4bb062",
+        "#b7d4ea",
+        "#b7d4ea",
+        "#fb7a5a",
+        "#f5533b",
+        "#fca486",
+        "#f34a36",
+        "#9fcae1",
+        "#b7d4ea",
+        "#f34a36",
+        "#f75b40",
+        "#dc2924",
+        "#afd1e7",
+        "#91c3de",
+        "#f5533b",
+        "#f5533b",
+        "#a8cee4",
+        "#e22e27",
+        "#ee3a2c",
+        "#dc2924",
+        "#e22e27",
+        "#fb6c4c",
+        "#a3cce3",
+        "#1764ab",
+        "#4bb062",
+        "#bc141a",
+        "#afd1e7",
+        "#6aaed6",
+        "#fb7a5a",
+        "#79b5d9"
+    ],
+    "series": [
+        {
+            "type": "pie",
+            "name": "national",
+            "clockwise": true,
+            "data": [
+                {
+                    "name": "Democratic: 155520",
+                    "value": 49.17
+                },
+                {
+                    "name": "Republican: 141402",
+                    "value": 44.71
+                },
+                {
+                    "name": "Even: 19365",
+                    "value": 6.12
+                }
+            ],
+            "radius": [
+                "30%",
+                "40%"
+            ],
+            "center": [
+                "60%",
+                "70%"
+            ],
+            "label": {
+                "show": true,
+                "position": "center",
+                "margin": 8,
+                "fontSize": 10,
+                "fontWeight": "bold",
+                "verticalAlign": "top",
+                "formatter":         function(params) {            if(params.name.includes('Republican'))                return '\n\n\n' + params.name.substring(0, 10) + ' : ' + params.value + '%';            if(params.name.includes('Even'))                return '\n\n\n\n\n\n' + params.name.substring(0, 4) + ' : ' + params.value + '%';            if(params.name.includes('None'))                return '\n\n\n\n\n\n\n\n\n' + params.name.substring(0, 4) + ' : ' + params.value + '%';            return params.name.substring(0, 10) + ' : ' + params.value + '%';        }        
+            }
+        },
+        {
+            "type": "pie",
+            "name": "state",
+            "clockwise": true,
+            "data": [
+                {
+                    "name": "NY: 36017",
+                    "value": 36017
+                },
+                {
+                    "name": "TX: 25948",
+                    "value": 25948
+                },
+                {
+                    "name": "CA: 22736",
+                    "value": 22736
+                },
+                {
+                    "name": "FL: 20567",
+                    "value": 20567
+                },
+                {
+                    "name": "NJ: 18194",
+                    "value": 18194
+                },
+                {
+                    "name": "IL: 16407",
+                    "value": 16407
+                },
+                {
+                    "name": "PA: 13964",
+                    "value": 13964
+                },
+                {
+                    "name": "MI: 12066",
+                    "value": 12066
+                },
+                {
+                    "name": "MA: 11717",
+                    "value": 11717
+                },
+                {
+                    "name": "GA: 10056",
+                    "value": 10056
+                },
+                {
+                    "name": "OH: 8047",
+                    "value": 8047
+                },
+                {
+                    "name": "AZ: 7971",
+                    "value": 7971
+                },
+                {
+                    "name": "IN: 7404",
+                    "value": 7404
+                },
+                {
+                    "name": "LA: 7042",
+                    "value": 7042
+                },
+                {
+                    "name": "NC: 6259",
+                    "value": 6259
+                },
+                {
+                    "name": "TN: 6007",
+                    "value": 6007
+                },
+                {
+                    "name": "CT: 5581",
+                    "value": 5581
+                },
+                {
+                    "name": "MD: 5448",
+                    "value": 5448
+                },
+                {
+                    "name": "MO: 5262",
+                    "value": 5262
+                },
+                {
+                    "name": "SC: 4935",
+                    "value": 4935
+                },
+                {
+                    "name": "MN: 4909",
+                    "value": 4909
+                },
+                {
+                    "name": "WI: 4745",
+                    "value": 4745
+                },
+                {
+                    "name": "VA: 4650",
+                    "value": 4650
+                },
+                {
+                    "name": "CO: 4420",
+                    "value": 4420
+                },
+                {
+                    "name": "MS: 4409",
+                    "value": 4409
+                },
+                {
+                    "name": "AL: 4389",
+                    "value": 4389
+                },
+                {
+                    "name": "IA: 3589",
+                    "value": 3589
+                },
+                {
+                    "name": "AR: 3237",
+                    "value": 3237
+                },
+                {
+                    "name": "WA: 3170",
+                    "value": 3170
+                },
+                {
+                    "name": "NV: 2786",
+                    "value": 2786
+                },
+                {
+                    "name": "KY: 2665",
+                    "value": 2665
+                },
+                {
+                    "name": "KS: 2341",
+                    "value": 2341
+                },
+                {
+                    "name": "OK: 2212",
+                    "value": 2212
+                },
+                {
+                    "name": "NM: 2171",
+                    "value": 2171
+                },
+                {
+                    "name": "RI: 1625",
+                    "value": 1625
+                },
+                {
+                    "name": "NE: 1505",
+                    "value": 1505
+                },
+                {
+                    "name": "SD: 1361",
+                    "value": 1361
+                },
+                {
+                    "name": "OR: 1341",
+                    "value": 1341
+                },
+                {
+                    "name": "ID: 1284",
+                    "value": 1284
+                },
+                {
+                    "name": "ND: 1237",
+                    "value": 1237
+                },
+                {
+                    "name": "UT: 1155",
+                    "value": 1155
+                },
+                {
+                    "name": "WV: 1128",
+                    "value": 1128
+                },
+                {
+                    "name": "MT: 865",
+                    "value": 865
+                },
+                {
+                    "name": "DE: 862",
+                    "value": 862
+                },
+                {
+                    "name": "DC: 737",
+                    "value": 737
+                },
+                {
+                    "name": "NH: 656",
+                    "value": 656
+                },
+                {
+                    "name": "WY: 351",
+                    "value": 351
+                },
+                {
+                    "name": "ME: 292",
+                    "value": 292
+                },
+                {
+                    "name": "HI: 280",
+                    "value": 280
+                },
+                {
+                    "name": "AK: 176",
+                    "value": 176
+                },
+                {
+                    "name": "VT: 111",
+                    "value": 111
+                }
+            ],
+            "radius": [
+                "50%",
+                "155%"
+            ],
+            "center": [
+                "60%",
+                "70%"
+            ],
+            "roseType": "area",
+            "label": {
+                "show": true,
+                "position": "inside",
+                "margin": 8,
+                "fontSize": 8,
+                "fontWeight": "bold",
+                "verticalAlign": "bottom",
+                "formatter":         function(params) {            return params.name.substring(0, 2);        }        
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "Democratic: 155520",
+                "Republican: 141402",
+                "Even: 19365",
+                "NY: 36017",
+                "TX: 25948",
+                "CA: 22736",
+                "FL: 20567",
+                "NJ: 18194",
+                "IL: 16407",
+                "PA: 13964",
+                "MI: 12066",
+                "MA: 11717",
+                "GA: 10056",
+                "OH: 8047",
+                "AZ: 7971",
+                "IN: 7404",
+                "LA: 7042",
+                "NC: 6259",
+                "TN: 6007",
+                "CT: 5581",
+                "MD: 5448",
+                "MO: 5262",
+                "SC: 4935",
+                "MN: 4909",
+                "WI: 4745",
+                "VA: 4650",
+                "CO: 4420",
+                "MS: 4409",
+                "AL: 4389",
+                "IA: 3589",
+                "AR: 3237",
+                "WA: 3170",
+                "NV: 2786",
+                "KY: 2665",
+                "KS: 2341",
+                "OK: 2212",
+                "NM: 2171",
+                "RI: 1625",
+                "NE: 1505",
+                "SD: 1361",
+                "OR: 1341",
+                "ID: 1284",
+                "ND: 1237",
+                "UT: 1155",
+                "WV: 1128",
+                "MT: 865",
+                "DE: 862",
+                "DC: 737",
+                "NH: 656",
+                "WY: 351",
+                "ME: 292",
+                "HI: 280",
+                "AK: 176",
+                "VT: 111"
+            ],
+            "selected": {},
+            "type": "plain",
+            "show": true,
+            "left": "0.5%",
+            "top": "8%",
+            "orient": "vertical",
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 12,
+            "itemHeight": 6,
+            "textStyle": {
+                "fontSize": 6
+            }
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "formatter": "{b}",
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "title": [
+        {
+            "text": "United States: death",
+            "subtext": "20 December, 2020",
+            "padding": 5,
+            "itemGap": 10,
+            "textStyle": {
+                "fontSize": 12
+            },
+            "subtextStyle": {
+                "fontSize": 10
+            }
+        }
+    ]
+};
+        chart_edc9029e00ce4d6b81f06d8dbbada1e7.setOption(option_edc9029e00ce4d6b81f06d8dbbada1e7);
+    </script>
+</body>
+</html>
