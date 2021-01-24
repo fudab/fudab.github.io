@@ -11,7 +11,7 @@ categories: github jekyll
 
 ## How the pandemic is influencing our life from every aspect
 ### Xingru Chen and Feng Fu
-##### `Last updated: January 22, 2021`
+##### `Last updated: January 23, 2021`
 
 
 
@@ -42,7 +42,7 @@ categories: github jekyll
     <td align="center"><img width="450px" src="./figures_us/US_death.png" ></td>
   </tr>
   <tr>
-    <td>(a) The state level of reported deaths since the ﬁrst reported death in United States in Jan 21, 2020.</td>
+    <td>(a) The state level of reported deaths since the ﬁrst reported death in United States in Jan 22, 2020.</td>
     <td>(c) The state level growth of confirmed deaths.</td>
   </tr>
   <tr>
